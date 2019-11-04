@@ -248,11 +248,21 @@ body {
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.11), 0 2px 2px rgba(0, 0, 0, 0), 0 4px 4px rgba(0, 0, 0, 0), 0 6px 8px rgba(0, 0, 0, 0), 0 2px 9px rgba(0, 0, 0, 0.17);
           box-shadow: 0 1px 1px rgba(0, 0, 0, 0.11), 0 2px 2px rgba(0, 0, 0, 0), 0 4px 4px rgba(0, 0, 0, 0), 0 6px 8px rgba(0, 0, 0, 0), 0 2px 9px rgba(0, 0, 0, 0.17);
   height: 100%;
-  width: 86%;
+  width: 65%;
   border-top-right-radius: 28px;
   border-top-left-radius: 28px;
   border-bottom-left-radius: 28px;
   border-bottom-right-radius: 70px;
+}
+
+.why_us .row .img_section img {
+  width: 100%;
+  height: 100%;
+  border-top-right-radius: 28px;
+  border-top-left-radius: 28px;
+  border-bottom-left-radius: 28px;
+  border-bottom-right-radius: 70px;
+  padding: 12px;
 }
 
 .our_secrets {
