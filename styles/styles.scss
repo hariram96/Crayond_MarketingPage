@@ -28,6 +28,10 @@ $darck-background-color: rgba(192, 152, 51, 0.05);
     src: url("../plugin/fonts/lato/Lato-Black.ttf");
 }
 @font-face {
+    font-family: "fontLatoBold";
+    src: url("../plugin/fonts/lato/Lato-Bold.ttf");
+}
+@font-face {
     font-family: "fontGraphikSemibold";
     src: url("../plugin/fonts/graphik/GraphikSemibold.otf");
 }
@@ -39,6 +43,9 @@ $darck-background-color: rgba(192, 152, 51, 0.05);
 }
 .fontGraphikSemibold{
     font-family:"fontGraphikSemibold";
+}
+.fontLatoBold{
+    font-family: "fontLatoBold";
 }
 .fontLatoRegular{
     font-family: "fontLatoRegular";
@@ -348,12 +355,66 @@ body{
 .footer{
     padding-bottom: 6%;
     padding-top: 6%;
+    .logo_address{
+        img{
+            margin-bottom: 25px;
+        }
+        p {
+            color: $text-subtext-color;
+            margin-bottom: 8px;
+        }
+    }
+    .footer_menu{
+        margin-bottom: 25px;
+    }
     ul {
         padding: 0;
         li {
-            color: $text-subtext-color;
-            list-style-type: none;
             padding-bottom: 10px;
+            list-style-type: none;
+            span{
+                color: $text-subtext-color;
+                cursor: pointer;
+                &:hover {
+                    text-decoration: underline;
+                    color: $primary-color;
+                }
+            }
+        }
+    }
+}
+
+.footer_social_media {
+    border-top: 1px solid rgba(25, 34, 79, 0.08);
+    .footer_list {
+        padding: 15px 80px 15px 0px;
+        margin: 0;
+        span {
+            font-size: 1rem;
+            color: $text-subtext-color;
+           cursor: pointer;
+           &:hover {
+               color: $primary-color;
+           }
+       }
+    }
+    .social_icon{
+        width: 39px;
+        height: 37px;
+        background-color: $color-white;
+        margin: 10px 10px 10px 0px;
+        border-radius: 5px;
+        display: flex;
+        cursor: pointer;
+        border-radius: 12px;
+        box-shadow: 0 3px 1px 0 rgba(55, 89, 93, 0.07);
+        border: solid 1px #d4e4e6;
+        &:hover {
+            background-color: rgba(29, 46, 137, 0.05);
+        }
+        i {
+            margin: auto;
+            color: $primary-color;
         }
     }
 }
