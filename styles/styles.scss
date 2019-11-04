@@ -7,10 +7,16 @@ $text-tertiary-color: #595959;
 $text-subtext-color: #43434b;
 $card-background-color: #b3efff;
 $color-white: #ffffff;
+$darck-background-color: rgba(192, 152, 51, 0.05);
+
 // font family
 @font-face {
     font-family: "fontGraphikBold";
     src: url("../plugin/fonts/graphik/GraphikBold.otf");
+}
+@font-face {
+    font-family: "fontGraphikLight";
+    src: url("../plugin/fonts/graphik/GraphikLight.otf");
 }
 
 @font-face {
@@ -24,6 +30,9 @@ $color-white: #ffffff;
 @font-face {
     font-family: "fontGraphikSemibold";
     src: url("../plugin/fonts/graphik/GraphikSemibold.otf");
+}
+.fontGraphikLight{
+    font-family: "fontGraphikLight";
 }
 .fontGraphikBold{
     font-family:"fontGraphikBold";
@@ -259,4 +268,92 @@ body{
         }
     }
 }
-// 
+
+
+.crayond_ceo{
+    background-color: $darck-background-color;
+    padding: 6% 0;
+    .about-crayond {
+        display: flex;
+        .row{
+            span{
+                color: #c7ac1f;
+            }
+            margin: auto;
+            .details_of_crayond {
+                .text_bold{
+                    color: $text-primary-color;
+                }
+                font-size: 2rem;
+                font-weight: 300;
+            }
+            .name_of_writer{
+                width: 100%;
+            }
+            img {
+                width: 65px;
+            }
+        }
+    }
+    .images_ceo {
+        display: flex;
+        img {
+            margin: 0 0 0 auto;
+            width: 400px;
+            height: auto;
+        }
+    }
+}
+
+.next_billion{
+    background-color: $primary-color;
+    padding-bottom: 6%;
+    padding-top: 6%;
+    text-align: center;
+    .titel_button {
+        padding-bottom: 30px;
+        .button{
+            padding: 15px 30px;
+            background-color: rgba(0, 0, 0, 0.08);
+            font-size: 1rem;
+            color: $color-white;
+            border: none;
+            border-radius: 5px;
+            &:focus{
+              outline:none;
+            }
+        }
+    }
+    h1 {
+        color: $color-white;
+    }
+    .button_div{
+        padding-top: 30px;
+        .banner_button{
+            cursor: pointer;
+            padding: 18px 30px;
+            background-color: $color-white;
+            font-size: 1rem;
+            color: $primary-color;
+            border: none;
+            font-weight: 700;
+            border-radius: 5px;
+            &:focus{
+              outline:none;
+            }
+        }
+    }
+}
+
+.footer{
+    padding-bottom: 6%;
+    padding-top: 6%;
+    ul {
+        padding: 0;
+        li {
+            color: $text-subtext-color;
+            list-style-type: none;
+            padding-bottom: 10px;
+        }
+    }
+}
