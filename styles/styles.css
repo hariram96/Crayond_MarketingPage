@@ -1,0 +1,207 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.first_section {
+  height: 100vh;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.banner_text_1 {
+  font-size: 4.8rem;
+  font-weight: bold;
+}
+
+.banner_text_2 {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2;
+}
+
+.banner_button {
+  padding: 18px 30px;
+  background-color: #334AC0;
+  font-size: 1rem;
+  color: white;
+  border: none;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+.banner__button_div {
+  padding-top: 30px;
+}
+
+.other_brand {
+  height: 20vh;
+  background-color: #F8F9FD;
+}
+
+.who_you_are {
+  margin-top: 6%;
+  text-align: center;
+  margin-bottom: 8%;
+}
+
+.who_you_are .banner--text {
+  font-size: 1.4rem;
+}
+
+.who_you_are .card_div {
+  text-align: left;
+}
+
+.who_you_are .card_div .card-div {
+  margin-top: 10%;
+}
+
+.who_you_are .card_div .card-- {
+  background-color: #B3EFFF;
+  padding: 58px;
+  border-radius: 9px;
+}
+
+.who_you_are .card_div .card-- .card--head {
+  font-weight: bold;
+}
+
+.who_you_are .card_div .card-- .card--text {
+  margin-top: 10%;
+  margin-bottom: 30%;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 2;
+}
+
+.who_you_are .card_div .card-- .btn {
+  color: black;
+  padding: 0px;
+  font-weight: 700;
+}
+
+.who_you_are .card_div .card-- .fa_icon {
+  font-size: 28px;
+  padding: 13px;
+  background-color: white;
+  border-radius: 35px;
+  position: absolute;
+  top: -24px;
+  left: 65px;
+  border: .5px solid #0000002e;
+  height: 60px;
+  text-align: center;
+  width: 60px;
+  vertical-align: middle;
+}
+
+.why_us {
+  background-color: #F9F9FD;
+  padding-bottom: 6%;
+}
+
+.why_us h1 {
+  font-weight: 700;
+}
+
+.why_us .text {
+  text-align: center;
+  padding-top: 6%;
+  font-size: 1.4rem;
+}
+
+.why_us .row {
+  padding-top: 6%;
+}
+
+.why_us .row .text_para {
+  line-height: 2.5;
+  font-weight: 400;
+}
+
+.why_us .row .btn {
+  color: #334AC0;
+  padding: 0px;
+  font-weight: 700;
+}
+
+.why_us .row .fa_icon {
+  font-size: 28px;
+  padding: 16px;
+  background-color: #334AC0;
+  color: white;
+  border-radius: 35px;
+  height: 60px;
+  text-align: center;
+  width: 60px;
+  vertical-align: middle;
+  margin-bottom: 6%;
+}
+
+.why_us .row .img_section {
+  background-color: white;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.11), 0 2px 2px rgba(0, 0, 0, 0), 0 4px 4px rgba(0, 0, 0, 0), 0 6px 8px rgba(0, 0, 0, 0), 0 2px 9px rgba(0, 0, 0, 0.17);
+          box-shadow: 0 1px 1px rgba(0, 0, 0, 0.11), 0 2px 2px rgba(0, 0, 0, 0), 0 4px 4px rgba(0, 0, 0, 0), 0 6px 8px rgba(0, 0, 0, 0), 0 2px 9px rgba(0, 0, 0, 0.17);
+  height: 100%;
+  width: 86%;
+  border-top-right-radius: 28px;
+  border-top-left-radius: 28px;
+  border-bottom-left-radius: 28px;
+  border-bottom-right-radius: 70px;
+}
+
+.our_secrets {
+  background-color: #F9F9FD;
+  padding-bottom: 6%;
+}
+
+.our_secrets h1 {
+  font-weight: 700;
+}
+
+.our_secrets .text {
+  text-align: center;
+  padding-top: 6%;
+  font-size: 1.4rem;
+  padding-bottom: 6%;
+}
+
+.our_secrets .card__body_div {
+  padding: 24px 20px;
+}
+
+.our_secrets .card__body_div .card {
+  height: 112%;
+  border-bottom-right-radius: 28px;
+  border: none;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.11), 0 2px 2px rgba(0, 0, 0, 0), 0 4px 4px rgba(0, 0, 0, 0), 0 6px 8px rgba(0, 0, 0, 0), 0 2px 9px rgba(0, 0, 0, 0.17);
+          box-shadow: 0 1px 1px rgba(0, 0, 0, 0.11), 0 2px 2px rgba(0, 0, 0, 0), 0 4px 4px rgba(0, 0, 0, 0), 0 6px 8px rgba(0, 0, 0, 0), 0 2px 9px rgba(0, 0, 0, 0.17);
+}
+
+.our_secrets .card__body_div .card-title {
+  margin-bottom: 1.58rem;
+}
+
+.our_secrets .card__body_div .card__body {
+  padding: 20px 40px;
+}
+
+.our_secrets .card__body_div h5 {
+  font-weight: 700;
+}
+/*# sourceMappingURL=styles.css.map */
