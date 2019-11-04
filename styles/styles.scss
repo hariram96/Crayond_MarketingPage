@@ -1,7 +1,12 @@
 $primary-color: #334ac0;
 $primary-background-color: #ffffff;
 $secondary-background-color: rgba(51, 74, 192, 0.03);
-
+$text-primary-color: #2b2a35;
+$text-secondary-color: #878787;
+$text-tertiary-color: #595959;
+$text-subtext-color: #43434b;
+$card-background-color: #b3efff;
+$color-white: #ffffff;
 // font family
 @font-face {
     font-family: "fontGraphikBold";
@@ -35,22 +40,32 @@ $secondary-background-color: rgba(51, 74, 192, 0.03);
 html{
     height: 100%;
     width: 100%;
+    font-family: "fontLatoRegular";
 }
 body{
     height: 100%;
     width: 100%;
+    font-family: "fontLatoRegular";
 }
 .first_section{
     height: 100vh;
-    background-color: white;
+    // background-color: white;
     display:flex;
     align-items:center;
     justify-content:center;
     text-align: center;
 }
+.header_text{
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
 .banner_text_1{
     font-size: 4.8rem;
     font-weight: bold;
+    p {
+        color: $text-primary-color;
+    }
 }
 .banner_text_2{
     font-weight: 400;
@@ -83,8 +98,14 @@ body{
     margin-top: 6%;
     text-align: center;
     margin-bottom: 8%;
+    .text{
+        h1 {
+            color: $text-primary-color;
+        }
+    }
     .banner--text{
         font-size: 1.4rem;
+        color: $text-secondary-color;
     }
     .card_div{
         .card-div{
@@ -95,8 +116,10 @@ body{
             background-color: #B3EFFF;
             padding: 58px;
             border-radius: 9px;
+            background-color: $card-background-color;
             .card--head{
                 font-weight: bold;
+                color: $text-primary-color;
             }
             .card--text{
                 margin-top: 10%;
@@ -104,6 +127,7 @@ body{
                 font-size: 1rem;
                 font-weight: 400;
                 line-height: 2;
+                color: $text-subtext-color;
             }
             .btn{
                 color: black;
@@ -147,6 +171,10 @@ body{
     .container_bg_section2{
         background-color: $primary-background-color;
 
+    }
+    .banner--text{
+        font-size: 1.4rem;
+        color: $text-secondary-color;
     }
     .row{
         padding-top: 6%;
@@ -200,6 +228,10 @@ body{
         font-size: 1.4rem;
         padding-bottom: 6%;
     }
+    .banner--text{
+        font-size: 1.4rem;
+        color: $text-secondary-color;
+    }
     .card__body_div{
         .card{
             height: 112%;
@@ -207,11 +239,19 @@ body{
             border: none;
             box-shadow: 0 1px 1px rgba(0, 0, 0, 0.11), 0 2px 2px rgba(0, 0, 0, 0), 0 4px 4px rgba(0, 0, 0, 0), 0 6px 8px rgba(0, 0, 0, 0), 0 2px 9px rgba(0, 0, 0, 0.17);
         }
+        .card_primary{
+            background-color: $primary-color;
+            a {
+                color: $color-white;
+                text-decoration: none;
+            }
+        }
         padding: 24px 20px;
         .card-title {
             margin-bottom: 1.58rem;
         }
         .card__body{
+            margin: auto;
             padding: 20px 40px;
         }
         h5{

@@ -37,16 +37,17 @@
 html {
   height: 100%;
   width: 100%;
+  font-family: "fontLatoRegular";
 }
 
 body {
   height: 100%;
   width: 100%;
+  font-family: "fontLatoRegular";
 }
 
 .first_section {
   height: 100vh;
-  background-color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -59,9 +60,19 @@ body {
   text-align: center;
 }
 
+.header_text {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
 .banner_text_1 {
   font-size: 4.8rem;
   font-weight: bold;
+}
+
+.banner_text_1 p {
+  color: #2b2a35;
 }
 
 .banner_text_2 {
@@ -99,8 +110,13 @@ body {
   margin-bottom: 8%;
 }
 
+.who_you_are .text h1 {
+  color: #2b2a35;
+}
+
 .who_you_are .banner--text {
   font-size: 1.4rem;
+  color: #878787;
 }
 
 .who_you_are .card_div {
@@ -115,10 +131,12 @@ body {
   background-color: #B3EFFF;
   padding: 58px;
   border-radius: 9px;
+  background-color: #b3efff;
 }
 
 .who_you_are .card_div .card-- .card--head {
   font-weight: bold;
+  color: #2b2a35;
 }
 
 .who_you_are .card_div .card-- .card--text {
@@ -127,6 +145,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 2;
+  color: #43434b;
 }
 
 .who_you_are .card_div .card-- .btn {
@@ -170,6 +189,11 @@ body {
 
 .why_us .container_bg_section2 {
   background-color: #ffffff;
+}
+
+.why_us .banner--text {
+  font-size: 1.4rem;
+  color: #878787;
 }
 
 .why_us .row {
@@ -229,6 +253,11 @@ body {
   padding-bottom: 6%;
 }
 
+.our_secrets .banner--text {
+  font-size: 1.4rem;
+  color: #878787;
+}
+
 .our_secrets .card__body_div {
   padding: 24px 20px;
 }
@@ -241,11 +270,21 @@ body {
           box-shadow: 0 1px 1px rgba(0, 0, 0, 0.11), 0 2px 2px rgba(0, 0, 0, 0), 0 4px 4px rgba(0, 0, 0, 0), 0 6px 8px rgba(0, 0, 0, 0), 0 2px 9px rgba(0, 0, 0, 0.17);
 }
 
+.our_secrets .card__body_div .card_primary {
+  background-color: #334ac0;
+}
+
+.our_secrets .card__body_div .card_primary a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
 .our_secrets .card__body_div .card-title {
   margin-bottom: 1.58rem;
 }
 
 .our_secrets .card__body_div .card__body {
+  margin: auto;
   padding: 20px 40px;
 }
 
