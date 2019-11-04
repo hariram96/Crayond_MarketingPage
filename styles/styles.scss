@@ -1,3 +1,37 @@
+$primary-color: #334ac0;
+$primary-background-color: #ffffff;
+$secondary-background-color: rgba(51, 74, 192, 0.03);
+
+// font family
+@font-face {
+    font-family: "fontGraphikBold";
+    src: url("../plugin/fonts/graphik/GraphikBold.otf");
+}
+
+@font-face {
+    font-family: "fontLatoRegular";
+    src: url("../plugin/fonts/lato/Lato-Regular.ttf");
+}
+@font-face {
+    font-family: "fontLatoBlack";
+    src: url("../plugin/fonts/lato/Lato-Black.ttf");
+}
+@font-face {
+    font-family: "fontGraphikSemibold";
+    src: url("../plugin/fonts/graphik/GraphikSemibold.otf");
+}
+.fontGraphikBold{
+    font-family:"fontGraphikBold";
+}
+.fontGraphikSemibold{
+    font-family:"fontGraphikSemibold";
+}
+.fontLatoRegular{
+    font-family: "fontLatoRegular";
+}
+.fontLatoBlack{
+    font-family: "fontLatoBlack";
+}
 html{
     height: 100%;
     width: 100%;
@@ -26,20 +60,25 @@ body{
 
 .banner_button{
     padding: 18px 30px;
-    background-color: #334AC0;
+    background-color: $primary-color;
     font-size: 1rem;
     color: white;
     border: none;
     font-weight: 700;
     border-radius: 5px;
+    &:focus{
+      outline:none;
+    }
 }
 .banner__button_div{
     padding-top: 30px;
 }
 .other_brand{
     height: 20vh;
-    background-color: #F8F9FD;
+    background-color: $secondary-background-color;
 }
+
+
 .who_you_are{
     margin-top: 6%;
     text-align: center;
@@ -88,8 +127,11 @@ body{
         }
     }
 }
+
+
+
 .why_us{
-    background-color: #F9F9FD;
+    // background-color: $secondary-background-color;
     padding-bottom: 6%;
     h1{
         font-weight: 700;
@@ -99,8 +141,16 @@ body{
         padding-top: 6%;
         font-size: 1.4rem;
     }
+    .container_bg_section1{
+        background-color: $secondary-background-color;
+    }
+    .container_bg_section2{
+        background-color: $primary-background-color;
+
+    }
     .row{
         padding-top: 6%;
+        padding-bottom: 6%;
         .text_para{
             line-height: 2.5;
             // padding-right: 54px;
@@ -135,6 +185,9 @@ body{
         }
     }
 }
+
+
+
 .our_secrets{
     background-color: #F9F9FD;
     padding-bottom: 6%;
