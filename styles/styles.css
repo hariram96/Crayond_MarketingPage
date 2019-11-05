@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: "fontGraphikBold";
   src: url("../plugin/fonts/graphik/GraphikBold.otf");
@@ -52,6 +53,116 @@
   font-family: "fontLatoBlack";
 }
 
+.floatingNav {
+  background: #ffffff;
+  border-radius: 2px;
+  -webkit-box-shadow: 0px 1px 10px #999 !important;
+          box-shadow: 0px 1px 10px #999 !important;
+  padding: 5px 10px 0px 10px !important;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+.floatingNav button {
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  height: 36px !important;
+  margin-bottom: 6px;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #ffffff;
+  padding: 20px 10px 20px 10px;
+  position: fixed;
+  width: 100%;
+  z-index: 12;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header .logo_area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .logo_area .logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header .logo_area .logo img {
+  width: 132px;
+}
+
+.header .header_menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header .header_menu span {
+  color: #43434b;
+  font-size: 1rem;
+  margin: auto;
+  padding: 15px 0px;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+}
+
+.header .header_menu span:hover {
+  border-bottom: 2px solid #334ac0;
+}
+
+.header .header_menu .active {
+  font-weight: bold;
+  color: #334ac0;
+  border-bottom: 2px solid #334ac0;
+}
+
+.header .sign_btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .sign_btn button {
+  width: 148px;
+  height: 51px;
+  -webkit-box-shadow: 0 7px 12px 0 rgba(16, 31, 108, 0.07);
+          box-shadow: 0 7px 12px 0 rgba(16, 31, 108, 0.07);
+  font-size: 1rem;
+  border-color: #334ac0;
+  color: #334ac0;
+}
+
+.header .sign_btn button:hover {
+  color: #ffffff;
+  background-color: #334ac0;
+}
+
+.header .sign_btn button:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
 html {
   height: 100%;
   width: 100%;
@@ -80,7 +191,7 @@ body {
 
 .header_text {
   position: absolute;
-  top: 0;
+  top: 50px;
   width: 100%;
 }
 
@@ -95,8 +206,16 @@ body {
 
 .banner_text_2 {
   font-weight: 400;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   line-height: 2;
+}
+
+.Line-2 {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(33%, black), color-stop(0%, rgba(255, 255, 255, 0)));
+  background-image: linear-gradient(black 33%, rgba(255, 255, 255, 0) 0%);
+  background-position: right;
+  background-size: 1px 3px;
+  background-repeat: repeat-y;
 }
 
 .banner_button {
@@ -120,6 +239,17 @@ body {
 .other_brand {
   height: 20vh;
   background-color: rgba(51, 74, 192, 0.03);
+}
+
+.other_brand .brands {
+  height: 20vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.other_brand .brands img {
+  margin: auto;
 }
 
 .who_you_are {
@@ -166,10 +296,24 @@ body {
   color: #43434b;
 }
 
-.who_you_are .card_div .card-- .btn {
+.who_you_are .card_div .card-- .btnn {
   color: black;
   padding: 0px;
   font-weight: 700;
+  outline: none;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.who_you_are .card_div .card-- .btnn:hover {
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.075);
+  border-radius: 4px;
+}
+
+.who_you_are .card_div .card-- .btnn i {
+  font-size: 1.4rem;
+  font-weight: 500;
 }
 
 .who_you_are .card_div .card-- .fa_icon {
@@ -220,14 +364,21 @@ body {
 }
 
 .why_us .row .text_para {
-  line-height: 2.5;
+  line-height: 2.1;
   font-weight: 400;
+  font-size: 1.25rem;
 }
 
-.why_us .row .btn {
+.why_us .row .btnn {
   color: #334AC0;
   padding: 0px;
   font-weight: 700;
+  text-decoration: none;
+}
+
+.why_us .row .btnn i {
+  font-size: 1.2rem;
+  font-weight: 800;
 }
 
 .why_us .row .fa_icon {
@@ -262,7 +413,13 @@ body {
   border-top-left-radius: 28px;
   border-bottom-left-radius: 28px;
   border-bottom-right-radius: 70px;
-  padding: 12px;
+  padding: 6px;
+}
+
+.why_us .row .Mascot_img {
+  background-image: url("../images//Mascot.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
 .our_secrets {
@@ -288,6 +445,7 @@ body {
 
 .our_secrets .card__body_div {
   padding: 24px 20px;
+  margin-bottom: 50px;
 }
 
 .our_secrets .card__body_div .card {
@@ -313,7 +471,35 @@ body {
 
 .our_secrets .card__body_div .card__body {
   margin: auto;
-  padding: 20px 40px;
+  padding: 40px 40px;
+}
+
+.our_secrets .card__body_div .card__body .fa_icon {
+  -webkit-box-shadow: 0 3px 1px 0 rgba(55, 89, 93, 0.07);
+          box-shadow: 0 3px 1px 0 rgba(55, 89, 93, 0.07);
+  box-shadow: 0 3px 1px 0 rgba(55, 89, 93, 0.07);
+  font-size: 28px;
+  padding: 26px 23px;
+  background-color: white;
+  border-radius: 60px;
+  position: absolute;
+  top: -40px;
+  left: 40px;
+  border: 0.5px solid rgba(51, 74, 192, 0.15);
+  height: 81px;
+  text-align: center;
+  width: 81px;
+  vertical-align: middle;
+}
+
+.our_secrets .card__body_div .card__body .fa_icon img {
+  width: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .our_secrets .card__body_div h5 {
@@ -333,6 +519,7 @@ body {
 
 .crayond_ceo .about-crayond .row {
   margin: auto;
+  position: relative;
 }
 
 .crayond_ceo .about-crayond .row span {
@@ -346,6 +533,16 @@ body {
 
 .crayond_ceo .about-crayond .row .details_of_crayond .text_bold {
   color: #2b2a35;
+}
+
+.crayond_ceo .about-crayond .row .details_of_crayond:before {
+  content: '“';
+  left: -15px;
+  top: -15px;
+  position: absolute;
+  color: #c7ac1f;
+  font-weight: 600;
+  font-size: 2.5rem;
 }
 
 .crayond_ceo .about-crayond .row .name_of_writer {
@@ -370,16 +567,31 @@ body {
 
 .next_billion {
   background-color: #334ac0;
-  padding-bottom: 6%;
-  padding-top: 6%;
   text-align: center;
+  position: relative;
 }
 
-.next_billion .titel_button {
+.next_billion .ovel {
+  position: absolute;
+  right: 15.9%;
+}
+
+.next_billion .ovel-6 {
+  position: absolute;
+  top: 9.3%;
+  right: 20.9%;
+}
+
+.next_billion .billion {
+  padding-top: 6%;
+  padding-bottom: 6%;
+}
+
+.next_billion .billion .titel_button {
   padding-bottom: 30px;
 }
 
-.next_billion .titel_button .button {
+.next_billion .billion .titel_button .button {
   padding: 15px 30px;
   background-color: rgba(0, 0, 0, 0.08);
   font-size: 1rem;
@@ -388,19 +600,19 @@ body {
   border-radius: 5px;
 }
 
-.next_billion .titel_button .button:focus {
+.next_billion .billion .titel_button .button:focus {
   outline: none;
 }
 
-.next_billion h1 {
+.next_billion .billion h1 {
   color: #ffffff;
 }
 
-.next_billion .button_div {
+.next_billion .billion .button_div {
   padding-top: 30px;
 }
 
-.next_billion .button_div .banner_button {
+.next_billion .billion .button_div .banner_button {
   cursor: pointer;
   padding: 18px 30px;
   background-color: #ffffff;
@@ -411,8 +623,20 @@ body {
   border-radius: 5px;
 }
 
-.next_billion .button_div .banner_button:focus {
+.next_billion .billion .button_div .banner_button:focus {
   outline: none;
+}
+
+.next_billion .path-3 {
+  position: absolute;
+  bottom: 15.5%;
+  right: 28.5%;
+}
+
+.next_billion .path {
+  position: absolute;
+  left: 19.6%;
+  bottom: 0;
 }
 
 .footer {
