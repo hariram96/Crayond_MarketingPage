@@ -204,9 +204,13 @@ background-repeat: repeat-y;
     background-color: $secondary-background-color;
     .brands {
         height: 20vh;
-        display: flex;
-        img {
-            margin: auto;
+        marquee{
+            height: 20vh;
+            align-items: center;
+            display: flex;
+            .brands_logos {
+                margin: 0px 40px;
+            }
         }
     }
 }
