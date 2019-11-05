@@ -20,6 +20,8 @@
     <link rel="stylesheet" href="plugin/css/font-awesome.css">
     <link rel="stylesheet" href="plugin/css/font-awesome.min.css">
 
+    <link href="./plugin/aos.css" rel="stylesheet">
+
     <!-- css  -->
     <link rel="stylesheet" href="styles/styles.css">
 
@@ -74,7 +76,7 @@
             </div>
             <div class="card_div">
                 <div class="row">
-                    <div class="col-md-4 card-div">
+                    <div data-aos="zoom-in" class="col-md-4 card-div">
                         <div class="card--">
                             <div class="card--body">
                                 <i class="fa fa_icon fa-lightbulb-o" aria-hidden="true"></i>
@@ -87,7 +89,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 card-div">
+                    <div  data-aos="zoom-out" class="col-md-4 card-div">
                         <div class="card--">
                             <div class="card--body">
                                 <i class="fa fa_icon fa-archive" aria-hidden="true"></i>
@@ -100,7 +102,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 card-div">
+                    <div   data-aos="zoom-in" class="col-md-4 card-div">
                         <div class="card--">
                             <div class="card--body">
                                 <i class="fa fa_icon fa-cubes" aria-hidden="true"></i>
@@ -432,4 +434,9 @@
 <script src="./plugin/jquery.min.js"></script>
 
 <script src="./plugin/bootstrap.min.js"></script>
+
+<script src="./plugin/aos.js"></script>
+<script type="text/javascript">
+    AOS.init();
+</script>
 </html>
