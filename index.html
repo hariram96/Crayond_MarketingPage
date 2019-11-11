@@ -394,8 +394,8 @@
     <!-- end -->
     <!-- next_billion -->
     <section class="next_billion">
-        <img src="./images/oval.png" class="ovel" />
-        <img src="./images/oval-copy-6.png" class="ovel-6" />
+        <img data-aos="zoom-out-left" data-aos-duration="3000" src="./images/oval.png" class="ovel" />
+        <img data-aos="zoom-out-left" data-aos-duration="5000" src="./images/oval-copy-6.png" class="ovel-6" />
         <div class="container billion">
             <div class="col-12 col-xs-12 col-ms-12 col-md-12 col-lg-12 col-xl-12 titel_button">
                 <button class="button fontLatoRegular">Let's get serious &nbsp <span>  </span></button>
@@ -407,8 +407,8 @@
                 <button class="banner_button fontLatoBlack">SCREW IT, LET'S DO IT! &nbsp <span>  </span></button>
             </div>
         </div>
-        <img src="./images/path-3-copy.png" class="path-3" />
-        <img src="./images/path-3.png" class="path" />
+        <img data-aos="zoom-in-up" data-aos-duration="5000" src="./images/path-3-copy.png" class="path-3" />
+        <img data-aos="zoom-out-right" data-aos-duration="3000" src="./images/path-3.png" class="path" />
     </section>
     <!-- end -->
     <!-- main footer -->
@@ -504,12 +504,52 @@
 <script src="./plugin/aos.js"></script>
 <script type="text/javascript">
     AOS.init();
-    $(window).scroll(function() {
-    if ($(window).scrollTop() > 10) {
-        $('#navBar').addClass('floatingNav');
-    } else {
-        $('#navBar').removeClass('floatingNav');
-    }
+    debugger
+    // $(window).scroll(function() {
+    // if ($(window).scrollTop() > 10) {
+    //     $('#navBar').addClass('floatingNav');
+    // } else {
+    //     $('#navBar').removeClass('floatingNav');
+    // }
+    // });
+    
+    // Hide Header on on scroll down
+    var didScroll;
+    var lastScrollTop = 0;
+    var delta = 5;
+    var navbarHeight = $('header').outerHeight();
+
+    $(window).scroll(function(event){
+        didScroll = true;
     });
+
+    setInterval(function() {
+        if (didScroll) {
+            hasScrolled();
+            didScroll = false;
+        }
+    }, 250);
+
+    function hasScrolled() {
+        var st = $(this).scrollTop();
+        
+        // Make sure they scroll more than delta
+        if(Math.abs(lastScrollTop - st) <= delta)
+            return;
+        
+        // If they scrolled down and are past the navbar, add class .nav-up.
+        // This is necessary so you never see what is "behind" the navbar.
+        if (st > lastScrollTop && st > navbarHeight){
+            // Scroll Down
+            $('header').removeClass('nav-down').addClass('nav-up');
+        } else {
+            // Scroll Up
+            if(st + $(window).height() < $(document).height()) {
+                $('header').removeClass('nav-up').addClass('nav-down');
+            }
+        }
+        
+        lastScrollTop = st;
+    }
 </script>
 </html>
