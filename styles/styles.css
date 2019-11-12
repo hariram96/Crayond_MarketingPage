@@ -879,6 +879,9 @@ body {
   .sign_btn {
     display: none !important;
   }
+  .first_section {
+    height: calc(100vh - 85px);
+  }
   .video_player {
     display: none;
   }
