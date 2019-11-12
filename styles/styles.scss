@@ -771,10 +771,12 @@ body{
   }
   .other_brand{
       height: auto;
-  }
-  .branding_list{
-      display: none;
-  }
+      .brands{
+          .branding_list{
+              display: none;
+            }
+        }
+    }
 
 
   .who_you_are {

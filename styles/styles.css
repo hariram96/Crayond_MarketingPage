@@ -898,7 +898,7 @@ body {
   .other_brand {
     height: auto;
   }
-  .branding_list {
+  .other_brand .brands .branding_list {
     display: none;
   }
   .who_you_are {
