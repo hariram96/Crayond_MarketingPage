@@ -744,6 +744,9 @@ body{
 }
 // Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  body{
+    overflow-x: hidden !important; 
+  }
   .header{
     position: sticky;
     top: 0;
@@ -755,7 +758,8 @@ body{
       display: none !important;
   }
   .first_section{
-      height: calc(100vh - 85px);
+    //   height: calc(100vh - 85px);
+      height: 100% !important;
   }
   .video_player{
       display: none;
