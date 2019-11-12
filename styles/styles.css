@@ -901,7 +901,10 @@ body {
     display: block !important;
   }
   .other_brand {
-    height: auto;
+    height: auto !important;
+  }
+  .other_brand .brands {
+    height: auto !important;
   }
   .other_brand .brands .branding_list {
     display: none;

@@ -777,8 +777,9 @@ body{
       display: block !important;
   }
   .other_brand{
-      height: auto;
+      height: auto !important;
       .brands{
+          height: auto !important;
           .branding_list{
               display: none;
             }
