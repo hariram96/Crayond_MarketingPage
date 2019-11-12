@@ -214,6 +214,8 @@ body{
             }
         }
         .branding_list{
+            width: 100%;
+            display: flex;
             .brands_logos {
                 margin: auto;
                 width: 124px;

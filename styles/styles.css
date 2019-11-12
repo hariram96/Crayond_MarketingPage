@@ -267,6 +267,13 @@ body {
   margin: 30px;
 }
 
+.other_brand .brands .branding_list {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .other_brand .brands .branding_list .brands_logos {
   margin: auto;
   width: 124px;
