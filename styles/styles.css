@@ -526,14 +526,20 @@ body {
   font-size: 1.4rem;
 }
 
+.our_secrets .row {
+  background-image: url(../images/path-4.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .our_secrets .banner--text {
   font-size: 1.5rem;
   color: #878787;
 }
 
 .our_secrets .card__body_div {
-  padding: 24px 20px;
-  margin-top: 50px;
+  padding: 14px 12px;
+  margin-top: 66px;
 }
 
 .our_secrets .card__body_div .card {
@@ -555,13 +561,17 @@ body {
 }
 
 .our_secrets .card__body_div .card-title {
-  margin-bottom: 1rem;
-  margin-top: 1rem;
+  margin-top: 14%;
+  margin-bottom: 6%;
 }
 
 .our_secrets .card__body_div .card__body {
   margin: auto;
-  padding: 40px 40px;
+  padding: 14px 30px 16px 30px;
+}
+
+.our_secrets .card__body_div .card__body p {
+  font-size: 1.3rem;
 }
 
 .our_secrets .card__body_div .card__body .Oval_code {
@@ -867,13 +877,12 @@ body {
   }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 600px) {
   body {
     overflow-x: hidden !important;
   }
   .header {
-    position: -webkit-sticky;
-    position: sticky;
+    position: fixed;
     top: 0;
   }
   .header_menu {
@@ -890,6 +899,8 @@ body {
   }
   .header_text {
     position: unset !important;
+    display: block;
+    margin-top: 24%;
   }
   .banner_text_1 {
     font-size: 3.25rem;
@@ -910,7 +921,8 @@ body {
     display: none;
   }
   .who_you_are {
-    margin-top: 10%;
+    margin-top: 15%;
+    margin-bottom: 10%;
   }
   .who_you_are .text h1 {
     font-size: 2.3rem;
@@ -930,7 +942,7 @@ body {
     font-size: 1.5rem;
   }
   .why_us .text {
-    padding-top: 10%;
+    padding-top: 15%;
   }
   .why_us .text h1 {
     font-size: 2.3rem;
@@ -941,19 +953,17 @@ body {
   }
   .why_us .text .banner--text {
     font-size: 1.1rem;
+    margin-bottom: 0;
   }
   .why_us h1 {
     font-size: 1.5rem;
   }
   .why_us .row {
-    padding-top: 10%;
-    padding-bottom: 10%;
+    padding-top: 15%;
+    padding-bottom: 15%;
   }
   .why_us .row .text_para {
     font-size: 1.1rem;
-  }
-  .why_us .row .fa_icon {
-    margin: auto auto 16px;
   }
   .why_us .row .img_section {
     height: 355px;
@@ -965,10 +975,10 @@ body {
     display: none;
   }
   .our_secrets {
-    padding-bottom: 10%;
+    padding-bottom: 15%;
   }
   .our_secrets .text {
-    padding-top: 10%;
+    padding-top: 15%;
   }
   .our_secrets .text h1 {
     font-size: 2.3rem;
@@ -980,6 +990,9 @@ body {
   .our_secrets .text .banner--text {
     font-size: 1.1rem;
     margin-bottom: 0;
+  }
+  .crayond_ceo {
+    padding: 10% 0;
   }
   .crayond_ceo .about-crayond {
     padding: 20px;
@@ -1000,6 +1013,10 @@ body {
   .crayond_ceo .images_ceo {
     display: none;
   }
+  .next_billion .billion {
+    padding-top: 12%;
+    padding-bottom: 12%;
+  }
   .next_billion .billion h1 {
     font-size: 2.5rem;
   }
@@ -1008,9 +1025,6 @@ body {
   }
   .next_billion .path {
     left: 10.6%;
-  }
-  .footer .logo_address {
-    text-align: center;
   }
   .footer_social_media .tp .footer_list {
     padding: 15px 0px;

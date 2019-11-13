@@ -441,6 +441,11 @@ body{
         font-size: 1.4rem;
         // padding-bottom: 6%;
     }
+    .row{
+        background-image: url(../images/path-4.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
     .banner--text{
         font-size: 1.5rem;
         color: $text-secondary-color;
@@ -463,15 +468,20 @@ body{
                 text-decoration: none;
             }
         }
-        padding: 24px 20px;
-        margin-top: 50px;
+        padding: 14px 12px;
+        margin-top: 66px;
         .card-title {
-            margin-bottom: 1rem;
-            margin-top: 1rem;
+            // margin-bottom: 1rem;
+            // margin-top: 1rem;
+            margin-top: 14%;
+            margin-bottom: 6%;
         }
         .card__body{
             margin: auto;
-            padding: 40px 40px;
+            padding: 14px 30px 16px 30px;
+            p{
+                font-size: 1.3rem;
+            }
             .Oval_code{
                 box-shadow: 0 3px 1px 0 rgba(55, 89, 93, 0.07);
                 border: solid 1px rgba(51, 74, 192, 0.15);
@@ -743,12 +753,12 @@ body{
     }
 }
 // Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 600px) {
   body{
     overflow-x: hidden !important; 
   }
   .header{
-    position: sticky;
+    position: fixed;
     top: 0;
   }
   .header_menu {
@@ -766,6 +776,8 @@ body{
   }
   .header_text {
       position: unset !important;
+      display: block;
+      margin-top: 24%;
   }
   .banner_text_1 {
     font-size: 3.25rem;
@@ -788,7 +800,8 @@ body{
 
 
   .who_you_are {
-    margin-top: 10%;
+    margin-top: 15%;
+    margin-bottom: 10%;
       .text{
           h1 {
             font-size: 2.3rem;
@@ -815,7 +828,7 @@ body{
 
   .why_us{
       .text{
-        padding-top: 10%;
+        padding-top: 15%;
         h1 {
             font-size: 2.3rem;
             margin-bottom: 0;
@@ -825,19 +838,20 @@ body{
         }
         .banner--text{
             font-size: 1.1rem;
+            margin-bottom: 0;
         }
       }
       h1 {
           font-size: 1.5rem;
       }
       .row {
-        padding-top: 10%;
-        padding-bottom: 10%;
+        padding-top: 15%;
+        padding-bottom: 15%;
         .text_para{
             font-size: 1.1rem;
         }
         .fa_icon{
-            margin: auto auto 16px;
+            // margin: auto auto 16px;
         }
         .img_section{
             height: 355px;
@@ -852,9 +866,9 @@ body{
   }
 
   .our_secrets {
-    padding-bottom: 10%;
+    padding-bottom: 15%;
       .text{
-        padding-top: 10%;
+        padding-top: 15%;
           h1{
             font-size: 2.3rem;
             margin-bottom: 0;
@@ -870,6 +884,7 @@ body{
   }
 
   .crayond_ceo{
+    padding: 10% 0;
       .about-crayond{
           padding: 20px;
           .row{
@@ -895,6 +910,8 @@ body{
 
   .next_billion{
       .billion{
+        padding-top: 12%;
+        padding-bottom: 12%;
           h1 {
             font-size: 2.5rem;
           }
@@ -909,7 +926,7 @@ body{
 
   .footer{
       .logo_address{
-          text-align: center;
+        //   text-align: center;
       }
   }
 
