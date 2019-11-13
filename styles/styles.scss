@@ -742,6 +742,36 @@ body{
     .sign_btn {
         display: none !important;
     }
+    .header_text{
+        .banner_text_1{
+            font-size: 3.25rem;
+        }
+        .banner_text_2{
+            font-size: 1.2rem;
+        }
+    }
+
+    .other_brand{
+        .brands{
+            .branding_list{
+                .img1{
+                    width: 120px !important;
+                }
+                .img2{
+                    width: 100px !important;
+                }
+                .img3{
+                    width: 75px !important;
+                }
+                .img4{
+                    width: 120px !important;
+                }
+                .img5{
+                    width: 110px !important;
+                }
+            }
+        }
+    }
 }
 // Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
@@ -749,7 +779,14 @@ body{
         display: none !important;
     }
     .sign_btn {
-        display: none !important;
+        // display: none !important;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .header_text{
+        .banner_text_1{
+            font-size: 2.25rem !important;
+        }
     }
 }
 // Extra small devices (phones, 600px and down) */
