@@ -877,6 +877,36 @@ body{
             }
         }
     }
+
+    .crayond_ceo{
+        .row{
+            .about-crayond{
+                .details_of_crayond{
+                    font-size: 1.7rem;
+                }
+            }
+            .images_ceo{
+                img{
+                    width: 100%;
+
+                }
+            }
+        }
+    }
+    .next_billion{
+        .billion{
+            h1{
+                font-size: 2.5rem;
+            }
+        }
+    }
+    .footer_social_media{
+        .row{
+            .footer_list{
+                padding: 15px 20px 15px 0px;
+            }
+        }
+    }
 }
 // Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
@@ -895,7 +925,7 @@ body{
     }
 }
 // Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   body{
     overflow-x: hidden !important; 
   }

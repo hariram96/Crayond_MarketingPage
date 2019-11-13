@@ -973,6 +973,18 @@ body {
   .our_secrets .row .card__body_div .card .card__body .card-text {
     font-size: 1rem;
   }
+  .crayond_ceo .row .about-crayond .details_of_crayond {
+    font-size: 1.7rem;
+  }
+  .crayond_ceo .row .images_ceo img {
+    width: 100%;
+  }
+  .next_billion .billion h1 {
+    font-size: 2.5rem;
+  }
+  .footer_social_media .row .footer_list {
+    padding: 15px 20px 15px 0px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -981,7 +993,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   body {
     overflow-x: hidden !important;
   }
