@@ -752,8 +752,13 @@ body{
     }
 
     .other_brand{
+        height: auto;
         .brands{
+            height: auto;
             .branding_list{
+                img{
+                    margin: 25px auto;
+                }
                 .img1{
                     width: 120px !important;
                 }

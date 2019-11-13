@@ -872,6 +872,15 @@ body {
   .header_text .banner_text_2 {
     font-size: 1.2rem;
   }
+  .other_brand {
+    height: auto;
+  }
+  .other_brand .brands {
+    height: auto;
+  }
+  .other_brand .brands .branding_list img {
+    margin: 25px auto;
+  }
   .other_brand .brands .branding_list .img1 {
     width: 120px !important;
   }
