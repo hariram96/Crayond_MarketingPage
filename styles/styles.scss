@@ -777,7 +777,7 @@ body{
             }
         }
     }
-    .who_you_are 
+    .who_you_are {
      .text {
         h1{
             font-size: 2rem;
@@ -809,7 +809,74 @@ body{
                 }
             }
         }
-     }
+      }
+    }
+    .why_us {
+        .text {
+           h1{
+               font-size: 2rem;
+           }
+           .banner--text{
+               font-size: 1.2rem;
+           }
+        }
+        .row{
+            .icon_div{
+                .fa_icon{
+                    background-color: green;
+                    height: 60px;
+                    width: 60px;
+                    img{
+                        width: 28px;
+                        height: 30px;
+                    }
+                }
+            }
+            h1{
+                font-size: 1.7rem;
+            }
+            .text_para{
+                font-size: 1rem;
+            }
+        }
+    }
+
+    .our_secrets{
+        .text{
+            h1{
+                font-size: 2rem;
+            }
+        }
+        .banner--text{
+            font-size: 1.2rem;
+        }
+        .row{
+            .card__body_div{
+                .card{
+                    .card__body{
+                        padding: 14px 20px 16px 20px;
+                        .fa_icon{
+                            top: -32px;
+                            padding: 0;
+                            height: 60px;
+                            width: 60px;
+                            display: flex;
+                            img{
+                                width: 25px;
+                                margin: auto;
+                            }
+                        }
+                        .card-title{
+                            margin-top: 8%
+                        }
+                        .card-text{
+                            font-size: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 // Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
@@ -820,7 +887,7 @@ body{
         // display: none !important;
     }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 768px) {
     .header_text{
         .banner_text_1{
             font-size: 2.25rem !important;
@@ -828,7 +895,7 @@ body{
     }
 }
 // Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   body{
     overflow-x: hidden !important; 
   }

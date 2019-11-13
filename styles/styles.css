@@ -896,45 +896,92 @@ body {
   .other_brand .brands .branding_list .img5 {
     width: 110px !important;
   }
-  .who_you_are
-.text h1 {
+  .who_you_are .text h1 {
     font-size: 2rem;
   }
-  .who_you_are
-.text .banner--text {
+  .who_you_are .text .banner--text {
     font-size: 1.2rem;
   }
-  .card_div .card-div {
+  .who_you_are .card_div .card-div {
     margin-top: 8% !important;
   }
-  .card_div .card-div .card-- {
+  .who_you_are .card_div .card-div .card-- {
     padding: 25px;
   }
-  .card_div .card-div .card-- .card--head {
+  .who_you_are .card_div .card-div .card-- .card--head {
     font-size: 1.2rem;
   }
-  .card_div .card-div .card-- .card--text {
+  .who_you_are .card_div .card-div .card-- .card--text {
     font-size: 1rem;
   }
-  .card_div .card-div .card-- .fa_icons {
+  .who_you_are .card_div .card-div .card-- .fa_icons {
     top: -30px;
     left: 44px;
     height: 60px;
     width: 60px;
   }
-  .card_div .card-div .card-- .fa_icons img {
+  .who_you_are .card_div .card-div .card-- .fa_icons img {
     width: 25px;
     height: 30px;
   }
+  .why_us .text h1 {
+    font-size: 2rem;
+  }
+  .why_us .text .banner--text {
+    font-size: 1.2rem;
+  }
+  .why_us .row .icon_div .fa_icon {
+    background-color: green;
+    height: 60px;
+    width: 60px;
+  }
+  .why_us .row .icon_div .fa_icon img {
+    width: 28px;
+    height: 30px;
+  }
+  .why_us .row h1 {
+    font-size: 1.7rem;
+  }
+  .why_us .row .text_para {
+    font-size: 1rem;
+  }
+  .our_secrets .text h1 {
+    font-size: 2rem;
+  }
+  .our_secrets .banner--text {
+    font-size: 1.2rem;
+  }
+  .our_secrets .row .card__body_div .card .card__body {
+    padding: 14px 20px 16px 20px;
+  }
+  .our_secrets .row .card__body_div .card .card__body .fa_icon {
+    top: -32px;
+    padding: 0;
+    height: 60px;
+    width: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .our_secrets .row .card__body_div .card .card__body .fa_icon img {
+    width: 25px;
+    margin: auto;
+  }
+  .our_secrets .row .card__body_div .card .card__body .card-title {
+    margin-top: 8%;
+  }
+  .our_secrets .row .card__body_div .card .card__body .card-text {
+    font-size: 1rem;
+  }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 768px) {
   .header_text .banner_text_1 {
     font-size: 2.25rem !important;
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   body {
     overflow-x: hidden !important;
   }
