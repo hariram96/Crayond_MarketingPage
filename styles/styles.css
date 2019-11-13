@@ -859,7 +859,7 @@ body {
   color: #334ac0;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
   .header_menu {
     display: none !important;
   }
@@ -895,12 +895,6 @@ body {
   }
   .other_brand .brands .branding_list .img5 {
     width: 110px !important;
-  }
-}
-
-@media only screen and (min-width: 600px) {
-  .header_menu {
-    display: none !important;
   }
 }
 
