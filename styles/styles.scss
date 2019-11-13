@@ -775,9 +775,13 @@ body{
       display: none;
   }
   .header_text {
-      position: unset !important;
+    //   position: unset !important;
+    //   display: block;
+    //   margin-top: 24%;
+
+      position: relative !important;
       display: block;
-      margin-top: 24%;
+      margin-top: 15%;
   }
   .banner_text_1 {
     font-size: 3.25rem;
