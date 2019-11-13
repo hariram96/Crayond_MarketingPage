@@ -896,6 +896,36 @@ body {
   .other_brand .brands .branding_list .img5 {
     width: 110px !important;
   }
+  .who_you_are
+.text h1 {
+    font-size: 2rem;
+  }
+  .who_you_are
+.text .banner--text {
+    font-size: 1.2rem;
+  }
+  .card_div .card-div {
+    margin-top: 8% !important;
+  }
+  .card_div .card-div .card-- {
+    padding: 25px;
+  }
+  .card_div .card-div .card-- .card--head {
+    font-size: 1.2rem;
+  }
+  .card_div .card-div .card-- .card--text {
+    font-size: 1rem;
+  }
+  .card_div .card-div .card-- .fa_icons {
+    top: -30px;
+    left: 44px;
+    height: 60px;
+    width: 60px;
+  }
+  .card_div .card-div .card-- .fa_icons img {
+    width: 25px;
+    height: 30px;
+  }
 }
 
 @media only screen and (max-width: 320px) {

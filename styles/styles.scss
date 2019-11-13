@@ -777,6 +777,39 @@ body{
             }
         }
     }
+    .who_you_are 
+     .text {
+        h1{
+            font-size: 2rem;
+        }
+        .banner--text{
+            font-size: 1.2rem;
+        }
+     }
+     .card_div{
+        .card-div {
+            margin-top: 8% !important;
+            .card--{
+                padding: 25px;
+                .card--head {
+                    font-size: 1.2rem;
+                }
+                .card--text{
+                    font-size: 1rem;
+                }
+                .fa_icons{
+                    top: -30px;
+                    left: 44px;
+                    height: 60px;
+                    width: 60px;
+                    img{
+                        width: 25px;
+                        height: 30px;
+                    }
+                }
+            }
+        }
+     }
 }
 // Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
