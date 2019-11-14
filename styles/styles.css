@@ -1072,9 +1072,6 @@ body {
   .why_us .row .text_para {
     font-size: 1.1rem;
   }
-  .why_us .row .img_section {
-    height: 355px;
-  }
   .why_us .row .mobile_responce_img {
     display: block !important;
   }
