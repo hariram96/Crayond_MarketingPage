@@ -103,6 +103,7 @@
 }
 
 .header .logo_area .logo {
+  cursor: pointer;
   font-size: 25px;
   font-weight: bold;
 }
@@ -198,7 +199,7 @@ body {
 
 .header_text {
   position: absolute;
-  top: 50px;
+  top: 110px;
   width: 100%;
 }
 
@@ -484,9 +485,6 @@ body {
 
 .why_us .row .img_section {
   background-color: white;
-  -webkit-box-shadow: 0 7px 12px 0 rgba(16, 31, 108, 0.07);
-          box-shadow: 0 7px 12px 0 rgba(16, 31, 108, 0.07);
-  border: solid 1px rgba(51, 74, 192, 0.17);
   height: 479px;
   border-top-right-radius: 28px;
   border-top-left-radius: 28px;
