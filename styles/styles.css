@@ -865,11 +865,24 @@ body {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  .header {
+    position: fixed;
+    top: 0;
+    border-bottom: 1px solid #f1f1f1;
+    padding: 10px;
+  }
   .header_menu {
     display: none !important;
   }
   .sign_btn {
     display: none !important;
+  }
+  .video_player {
+    height: 50vh;
+    margin-bottom: 60vh;
+  }
+  .header_text {
+    top: 65px;
   }
   .header_text .banner_text_1 {
     font-size: 3.25rem;
@@ -1010,6 +1023,8 @@ body {
   .header {
     position: fixed;
     top: 0;
+    border-bottom: 1px solid #f1f1f1;
+    padding: 10px;
   }
   .header_menu {
     display: none !important;
