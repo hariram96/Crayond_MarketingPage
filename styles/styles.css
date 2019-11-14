@@ -29,6 +29,15 @@
   src: url("../plugin/fonts/graphik/GraphikSemibold.otf");
 }
 
+@font-face {
+  font-family: "fontGraphikRegular";
+  src: url("../plugin/fonts/graphik/GraphikRegular.otf");
+}
+
+.fontGraphikRegular {
+  font-family: "fontGraphikRegular";
+}
+
 .fontGraphikLight {
   font-family: "fontGraphikLight";
 }
@@ -110,7 +119,7 @@
 }
 
 .header .logo_area .logo img {
-  width: 132px;
+  width: 134px;
 }
 
 .header .header_menu {
@@ -129,15 +138,15 @@
 }
 
 .header .header_menu span:hover {
-  border-bottom: 2px solid #334ac0;
+  border-bottom: 2px solid #002ee5;
 }
 
 .header .header_menu .active {
-  border-bottom: 2px solid #334ac0;
+  border-bottom: 2px solid #002ee5;
 }
 
 .header .header_menu .active a {
-  color: #334ac0;
+  color: #002ee5;
   font-family: "fontLatoBold";
 }
 
@@ -156,14 +165,14 @@
   -webkit-box-shadow: 0 7px 12px 0 rgba(16, 31, 108, 0.07);
           box-shadow: 0 7px 12px 0 rgba(16, 31, 108, 0.07);
   font-size: 1rem;
-  border-color: #334ac0;
-  color: #334ac0;
+  border-color: #002ee5;
+  color: #002ee5;
   border-radius: 4px;
 }
 
 .header .sign_btn button:hover {
   color: #ffffff;
-  background-color: #334ac0;
+  background-color: #002ee5;
 }
 
 .header .sign_btn button:focus {
@@ -227,12 +236,14 @@ body {
 .banner_button {
   cursor: pointer;
   padding: 18px 30px;
-  background-color: #334ac0;
+  background-color: #002ee5;
   font-size: 1rem;
   color: white;
   border: none;
   font-weight: 700;
   border-radius: 5px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
 }
 
 .banner_button:focus {
@@ -286,6 +297,10 @@ body {
   margin-bottom: 8%;
 }
 
+.who_you_are .text {
+  margin-bottom: 1%;
+}
+
 .who_you_are .text h1 {
   color: #2b2a35;
   font-size: 2.6rem;
@@ -305,14 +320,22 @@ body {
 }
 
 .who_you_are .card_div .card-div {
-  margin-top: 5%;
+  margin-top: 7%;
+  -webkit-transition: all 1.5s;
+  transition: all 1.5s;
+}
+
+.who_you_are .card_div .card-div:hover {
+  margin-top: 3%;
 }
 
 .who_you_are .card_div .card-- {
-  background-color: #B3EFFF;
+  cursor: pointer;
+  background-color: #69fdef;
   padding: 54px;
   border-radius: 9px;
-  background-color: #b3efff;
+  -webkit-box-shadow: 0 20px 25px 0 rgba(51, 74, 192, 0.06);
+          box-shadow: 0 20px 25px 0 rgba(51, 74, 192, 0.06);
 }
 
 .who_you_are .card_div .card-- .card--head {
@@ -349,32 +372,14 @@ body {
   font-weight: 500;
 }
 
-.who_you_are .card_div .card-- .Oval_idea {
-  -webkit-box-shadow: 0 3px 1px 0 rgba(55, 89, 93, 0.07);
-          box-shadow: 0 3px 1px 0 rgba(55, 89, 93, 0.07);
-  border: solid 1px #d4e4e6;
-}
-
 .who_you_are .card_div .card-- .Oval_idea img {
   width: 33px;
   height: 42px;
 }
 
-.who_you_are .card_div .card-- .Oval_product {
-  -webkit-box-shadow: 0 3px 1px 0 rgba(51, 74, 192, 0.17);
-          box-shadow: 0 3px 1px 0 rgba(51, 74, 192, 0.17);
-  border: solid 1px #dddfec;
-}
-
 .who_you_are .card_div .card-- .Oval_product img {
   width: 42px;
   height: 31px;
-}
-
-.who_you_are .card_div .card-- .Oval_build {
-  -webkit-box-shadow: 0 3px 1px 0 rgba(141, 99, 29, 0.1);
-          box-shadow: 0 3px 1px 0 rgba(141, 99, 29, 0.1);
-  border: solid 1px #e9dcc7;
 }
 
 .who_you_are .card_div .card-- .Oval_build img {
@@ -394,6 +399,8 @@ body {
   top: -45px;
   left: 65px;
   border: .5px solid #0000002e;
+  -webkit-box-shadow: 0 3px 1px 0 rgba(141, 99, 29, 0.1);
+          box-shadow: 0 3px 1px 0 rgba(141, 99, 29, 0.1);
   height: 88px;
   text-align: center;
   width: 88px;
@@ -408,10 +415,6 @@ body {
   width: 43px;
   height: 43px;
   margin: auto;
-}
-
-.why_us {
-  padding-bottom: 6%;
 }
 
 .why_us h1 {
@@ -439,8 +442,8 @@ body {
 }
 
 .why_us .row {
-  padding-top: 6%;
-  padding-bottom: 6%;
+  padding-top: 8%;
+  padding-bottom: 8%;
 }
 
 .why_us .row .text_para {
@@ -451,7 +454,7 @@ body {
 }
 
 .why_us .row .btnn {
-  color: #334AC0;
+  color: #002ee5;
   padding: 0px;
   font-weight: 700;
   text-decoration: none;
@@ -465,7 +468,7 @@ body {
 .why_us .row .fa_icon {
   font-size: 28px;
   padding: 16px;
-  background-color: #16a1b1;
+  background-color: #ff8f00;
   color: white;
   border-radius: 50px;
   height: 74px;
@@ -503,7 +506,7 @@ body {
 
 .our_secrets {
   background-color: #F9F9FD;
-  padding-bottom: 6%;
+  padding-bottom: 8%;
 }
 
 .our_secrets h1 {
@@ -537,13 +540,13 @@ body {
   height: 112%;
   border-bottom-right-radius: 28px;
   border: none;
-  -webkit-box-shadow: 0 20px 25px 0 rgba(51, 74, 192, 0.06);
-          box-shadow: 0 20px 25px 0 rgba(51, 74, 192, 0.06);
+  -webkit-box-shadow: 0 0.3px 1px 0 rgba(51, 74, 192, 0.12), 0 10px 20px 0 rgba(51, 74, 192, 0.12);
+          box-shadow: 0 0.3px 1px 0 rgba(51, 74, 192, 0.12), 0 10px 20px 0 rgba(51, 74, 192, 0.12);
   border: solid 1px rgba(51, 74, 192, 0.12);
 }
 
 .our_secrets .card__body_div .card_primary {
-  background-color: #334ac0;
+  background-color: #002ee5;
 }
 
 .our_secrets .card__body_div .card_primary a {
@@ -571,33 +574,9 @@ body {
   border: solid 1px rgba(51, 74, 192, 0.15);
 }
 
-.our_secrets .card__body_div .card__body .Oval_pro {
-  -webkit-box-shadow: 0 3px 1px 0 rgba(51, 74, 192, 0.17);
-          box-shadow: 0 3px 1px 0 rgba(51, 74, 192, 0.17);
-  border: solid 1px rgba(22, 161, 177, 0.22);
-}
-
-.our_secrets .card__body_div .card__body .Oval_flash {
-  -webkit-box-shadow: 0 3px 1px 0 rgba(141, 99, 29, 0.1);
-          box-shadow: 0 3px 1px 0 rgba(141, 99, 29, 0.1);
-  border: solid 1px #e9dcc7;
-}
-
 .our_secrets .card__body_div .card__body .Oval_flash img {
   width: 22px;
   height: 33px;
-}
-
-.our_secrets .card__body_div .card__body .Oval_crown {
-  -webkit-box-shadow: 0 3px 1px 0 rgba(55, 89, 93, 0.07);
-          box-shadow: 0 3px 1px 0 rgba(55, 89, 93, 0.07);
-  border: solid 1px #d4e4e6;
-}
-
-.our_secrets .card__body_div .card__body .Oval_group_join {
-  -webkit-box-shadow: 0 3px 1px 0 rgba(51, 74, 192, 0.17);
-          box-shadow: 0 3px 1px 0 rgba(51, 74, 192, 0.17);
-  border: solid 1px #dddfec;
 }
 
 .our_secrets .card__body_div .card__body .card-text {
@@ -607,8 +586,13 @@ body {
 }
 
 .our_secrets .card__body_div .card__body .fa_icon {
+  -webkit-box-shadow: 0 3px 1px 0 rgba(0, 0, 0, 0.07);
+          box-shadow: 0 3px 1px 0 rgba(0, 0, 0, 0.07);
+  border: solid 1px rgba(0, 0, 0, 0.09);
   font-size: 28px;
-  padding: 26px 23px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   background-color: white;
   border-radius: 60px;
   position: absolute;
@@ -621,6 +605,7 @@ body {
 }
 
 .our_secrets .card__body_div .card__body .fa_icon img {
+  margin: auto;
   width: 35px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -636,7 +621,7 @@ body {
 
 .crayond_ceo {
   background-color: rgba(192, 152, 51, 0.05);
-  padding: 6% 0;
+  padding: 8% 0;
 }
 
 .crayond_ceo .about-crayond {
@@ -695,7 +680,7 @@ body {
 }
 
 .next_billion {
-  background-color: #334ac0;
+  background-color: #002ee5;
   text-align: center;
   position: relative;
 }
@@ -747,7 +732,7 @@ body {
   padding: 18px 30px;
   background-color: #ffffff;
   font-size: 1rem;
-  color: #334ac0;
+  color: #002ee5;
   border: none;
   font-weight: 700;
   border-radius: 5px;
@@ -770,8 +755,8 @@ body {
 }
 
 .footer {
-  padding-bottom: 6%;
-  padding-top: 6%;
+  padding-bottom: 4%;
+  padding-top: 4%;
 }
 
 .footer .logo_address img {
@@ -781,10 +766,11 @@ body {
 .footer .logo_address p {
   color: #43434b;
   margin-bottom: 8px;
+  font-size: 16px;
 }
 
 .footer .footer_menu {
-  margin-bottom: 25px;
+  margin: 0;
 }
 
 .footer ul {
@@ -822,7 +808,7 @@ body {
 }
 
 .footer_social_media .footer_list span:hover {
-  color: #334ac0;
+  color: #002ee5;
 }
 
 .footer_social_media .social_icon {
@@ -847,7 +833,25 @@ body {
 
 .footer_social_media .social_icon i {
   margin: auto;
-  color: #334ac0;
+  color: #002ee5;
+}
+
+.footer_social_media .footer_address {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-right: 0;
+}
+
+.footer_social_media .footer_address p {
+  margin: auto 0;
+  width: 100%;
+  border-right: 1px solid rgba(25, 34, 79, 0.08);
+  font-size: 14px;
+  color: #43434b;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
