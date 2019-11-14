@@ -80,6 +80,7 @@
   padding: 20px 10px 20px 10px;
   width: 100%;
   z-index: 12;
+  position: relative;
 }
 
 .header a {
@@ -483,14 +484,6 @@ body {
   margin: auto;
 }
 
-.why_us .row .img_section {
-  background-color: white;
-  border-top-right-radius: 28px;
-  border-top-left-radius: 28px;
-  border-bottom-left-radius: 28px;
-  border-bottom-right-radius: 70px;
-}
-
 .why_us .row .img_section img {
   width: 100%;
   height: 100%;
@@ -505,6 +498,7 @@ body {
   background-image: url("../images/Mascot.jpg");
   background-position: center;
   background-size: cover;
+  height: 479px;
 }
 
 .our_secrets {
