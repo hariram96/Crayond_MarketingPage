@@ -1153,14 +1153,37 @@ body {
   .next_billion .path {
     left: 10.6%;
   }
+  .footer {
+    padding-bottom: 10%;
+    padding-top: 10%;
+  }
+  .footer .logo_address {
+    padding-bottom: 16px;
+  }
+  .footer .logo_address img {
+    margin-bottom: 6px;
+  }
+  .footer_social_media {
+    padding: 25px 0px;
+  }
   .footer_social_media .tp .footer_list {
     padding: 15px 0px;
     margin: auto;
   }
   .footer_social_media .social_icon_link {
-    -webkit-box-pack: center !important;
-        -ms-flex-pack: center !important;
-            justify-content: center !important;
+    display: none !important;
+  }
+  .footer_social_media .mobile_social_links {
+    margin-bottom: 30px;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+  .footer_social_media .footer_address {
+    padding-bottom: 5px;
+  }
+  .footer_social_media .footer_address p {
+    margin-top: 0 !important;
   }
 }
 /*# sourceMappingURL=styles.css.map */
