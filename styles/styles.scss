@@ -719,6 +719,7 @@ body{
 
 .footer_social_media {
     border-top: 1px solid rgba(25, 34, 79, 0.08);
+    padding: 6px 0px;
     .footer_list {
         padding: 15px 80px 15px 0px;
         margin: 0;
@@ -831,7 +832,11 @@ body{
      }
      .card_div{
         .card-div {
+            transition: none;
             margin-top: 8% !important;
+            &:hover{
+                margin-top: 8% !important;
+            }
             .card--{
                 padding: 25px;
                 .card--head {
@@ -1035,8 +1040,12 @@ body{
       }
       .card_div {
           .card-div {
+              transition: none;
               margin-top: 15%;
               margin-bottom: 4%;
+              &:hover{
+                margin-top: 15%;
+              }
             }
             h2 {
                 font-size: 1.5rem;
