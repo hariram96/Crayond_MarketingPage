@@ -1050,11 +1050,18 @@ body{
       }
       .card_div {
           .card-div {
+              padding: 15px 30px;
               transition: none;
               margin-top: 15%;
               margin-bottom: 4%;
               &:hover{
                 margin-top: 15%;
+              }
+              .card--{
+                  padding: 54px 30px;
+                  .fa_icons{
+                      top: -35px;
+                  }
               }
             }
             h2 {
@@ -1106,19 +1113,26 @@ body{
   .our_secrets {
     padding-bottom: 15%;
       .text{
-        padding-top: 15%;
+          padding-top: 15%;
           h1{
-            font-size: 2.3rem;
-            margin-bottom: 0;
-          }
-          img{
-              width: 255px;
-          }
-          .banner--text{
-              font-size: 1.1rem;
+              font-size: 2.3rem;
               margin-bottom: 0;
-          }
-      }
+            }
+            img{
+                width: 255px;
+            }
+            .banner--text{
+                font-size: 1.1rem;
+                margin-bottom: 0;
+            }
+        }
+        .row{
+
+            .card__body_div{
+                padding: 14px 30px;
+            }
+        }
+
   }
 
   .crayond_ceo{

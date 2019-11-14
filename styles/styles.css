@@ -1060,6 +1060,7 @@ body {
     font-size: 1.1rem;
   }
   .who_you_are .card_div .card-div {
+    padding: 15px 30px;
     -webkit-transition: none;
     transition: none;
     margin-top: 15%;
@@ -1067,6 +1068,12 @@ body {
   }
   .who_you_are .card_div .card-div:hover {
     margin-top: 15%;
+  }
+  .who_you_are .card_div .card-div .card-- {
+    padding: 54px 30px;
+  }
+  .who_you_are .card_div .card-div .card-- .fa_icons {
+    top: -35px;
   }
   .who_you_are .card_div h2 {
     font-size: 1.5rem;
@@ -1117,6 +1124,9 @@ body {
   .our_secrets .text .banner--text {
     font-size: 1.1rem;
     margin-bottom: 0;
+  }
+  .our_secrets .row .card__body_div {
+    padding: 14px 30px;
   }
   .crayond_ceo {
     padding: 10% 0;
