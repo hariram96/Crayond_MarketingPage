@@ -62,7 +62,7 @@
     </div>
     <!-- end -->
     <!-- background video -->
-    <section class="first_section video_player" style="height: 50vh;margin-bottom: 50vh;">
+    <section class="first_section video_player" >
         <div class="container-fluid" style="padding: 0px;">
             <video autoplay loop style="max-width: 100%;height:100%;">
                 <source src="http://videos.ctfassets.net/xny2w179f4ki/624R5hsLvnQ36lRNjssvOB/5e49f2cc809333610c32f8b941761ce2/Homepage_Airplane_Guy_Working_1.mp4" type="video/mp4">
@@ -78,7 +78,7 @@
                 <p style="margin-bottom: 0;">Bring your <br /> Product Idea to Life</p>
             </div>
             <div class="col-12 col-xs-12 col-ms-12 col-md-12 col-lg-12 col-xl-12">
-                    <img src="./images/Border-02.svg" class="Line-1" />
+                <img src="./images/Border-02.svg" class="Line-1" />
             </div>
             <div class="col-12 col-xs-12 col-ms-12 col-md-12 col-lg-12 col-xl-12 banner_text_2 fontLatoRegular">
                 <p>
@@ -86,7 +86,11 @@
                 </p>
             </div>
             <div class="col-12 col-xs-12 col-ms-12 col-md-12 col-lg-12 col-xl-12 banner__button_div">
-                <button class="banner_button fontLatoBlack">SCREW IT, LET'S DO IT! &nbsp <span><i class="fa fa-chevron-right" aria-hidden="true"></i></span></button>
+                <button class="banner_button fontLatoBlack">
+                    <span>
+                            SCREW IT, LET'S DO IT! &nbsp 
+                    <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                </span></button>
             </div>
         </div>
     </section>
@@ -134,7 +138,7 @@
                                     <!-- <i class="fa fa_icon fa-lightbulb-o" aria-hidden="true"></i> -->
                                     <img src="./images/light-bulb.svg"/>
                                 </span>
-                                <h2 class="card--head fontGraphikSemibold">An aspiring<br/> entrepreneur?</h2>
+                                <h2 class="card--head fontGraphikSemibold" style="color: #000000;">An aspiring<br/> entrepreneur?</h2>
                                 <p class="card--text fontLatoRegular">
                                     If you have an awesome product idea, we can build you a world-class product guaranteed to fit your dream.
                                 </p>
@@ -149,7 +153,7 @@
                                     <!-- <i class="fa fa_icon fa-lightbulb-o" aria-hidden="true"></i> -->
                                     <img src="./images/send-mail.svg"/>
                                 </span>
-                                <h2 class="card--head fontGraphikSemibold">A startup<br/> owner?</h2>
+                                <h2 class="card--head fontGraphikSemibold" style="color: #000000;">A startup<br/> owner?</h2>
                                 <p class="card--text fontLatoRegular">
                                     If you’re looking for ways to improve an existing product, our cutting edge technology can set you apart.
                                 </p>
@@ -164,7 +168,7 @@
                                     <!-- <i class="fa fa_icon fa-lightbulb-o" aria-hidden="true"></i> -->
                                     <img src="./images/building-front.svg"/>
                                 </span>
-                                <h2 class="card--head fontGraphikSemibold">An established<br/> enterprise?</h2>
+                                <h2 class="card--head fontGraphikSemibold" style="color: #000000;">An established<br/> enterprise?</h2>
                                 <p class="card--text fontLatoRegular">
                                         Want to focus on improving existing products and reaching unexplored markets? Leave your next product to us!
                                 </p>
@@ -446,8 +450,14 @@
         <div class="container-fluid">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xl-6 images_ceo_mobile" style="display: none;">
-                        <img src="./images/ceo.png" />
+                    <div class="col-12 col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xl-6 images_ceo_mobile" style="display: none;padding: 0;">
+                        <div class="row row_mobile" style="margin: 0px 0px 0px auto;">
+                            <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12" style="padding: 0;">
+                                <img src="./images/path-6.svg" style="position: absolute;width: 175px;top: 0;" />
+                                <img src="./images/ceo.png" data-aos="zoom-in" data-aos-duration="10000" data-aos-easing="linear" style="padding: 10px;"/>
+                                <img src="./images/path-6-copy.svg" style="position: absolute; width: 76px; bottom: 0; right: 0;"/>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-12 col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xl-6 about-crayond">
                         <div class="row">
@@ -463,8 +473,14 @@
                             <img src="./images/circle.png" />
                         </div>
                     </div>
-                    <div class="col-12 col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xl-6 images_ceo">
-                        <img src="./images/ceo.png" />
+                    <div class="col-12 col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xl-6 images_ceo" style="padding: 0;display: flex;">
+                        <div class="row" style="margin: 0px 0px 0px auto;">
+                            <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12" style="padding: 0;">
+                                <img src="./images/path-6.svg" style="position: absolute;width: 175px;top: 0;" />
+                                <img src="./images/ceo.png" data-aos="zoom-in" data-aos-duration="10000" data-aos-easing="linear" style="padding: 10px;"/>
+                                <img src="./images/path-6-copy.svg" style="position: absolute; width: 76px; bottom: 0; right: 0;"/>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -483,7 +499,11 @@
                 <h1 class="fontGraphikSemibold">What’s your next billion-<br />dollar idea?</h1>
             </div>
             <div class="col-12 col-xs-12 col-ms-12 col-md-12 col-lg-12 col-xl-12 button_div">
-                <button class="banner_button fontLatoBlack">SCREW IT, LET'S DO IT! &nbsp <span> </span></button>
+                <button class="banner_button fontLatoBlack">
+                    <span> 
+                            SCREW IT, LET'S DO IT! &nbsp
+                            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                    </span></button>
             </div>
         </div>
         <img data-aos="zoom-in-up" data-aos-duration="5000" src="./images/path-3-copy.png" class="path-3" />
@@ -500,7 +520,7 @@
                     <p class="fontGraphikRegular">All rights reserved</p>
                 </div>
                 <div class="col-6 col-sm-12 col-xs-6 col-md-2 col-lg-2 col-xl-2" style="margin: auto;">
-                    <p class="fontGraphikSemibold footer_menu">
+                    <p class="fontLatoBold footer_menu">
                         Company
                     </p>
                     <!-- <ul>
@@ -511,7 +531,7 @@
                     </ul> -->
                 </div>
                 <div class="col-6 col-sm-12 col-xs-6 col-md-2 col-lg-2 col-xl-2" style="margin: auto;">
-                    <p class="fontGraphikSemibold  footer_menu">
+                    <p class="fontLatoBold  footer_menu">
                         Solutions
                     </p>
                     <!-- <ul>
@@ -522,7 +542,7 @@
                     </ul> -->
                 </div>
                 <div class="col-6 col-sm-12 col-xs-6 col-md-2 col-lg-2 col-xl-2" style="margin: auto;">
-                    <p class="fontGraphikSemibold footer_menu">
+                    <p class="fontLatoBold footer_menu">
                         Resources
                     </p>
                     <!-- <ul>
@@ -532,7 +552,7 @@
                     </ul> -->
                 </div>
                 <div class="col-6 col-sm-12 col-xs-6 col-md-2 col-lg-2 col-xl-2" style="margin: auto;">
-                    <p class="fontGraphikSemibold footer_menu">
+                    <p class="fontLatoBold footer_menu">
                         Products
                     </p>
                     <!-- <ul>
@@ -605,7 +625,7 @@
 <script src="./plugin/jquery.min.js"></script>
 
 <script src="./plugin/bootstrap.min.js"></script>
-
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="./plugin/aos.js"></script>
 <script type="text/javascript">
     AOS.init();
@@ -616,6 +636,45 @@
             // $('#navBar').removeClass('floatingNav');
         }
     });
+
+    // Hide Header on on scroll down
+    var didScroll;
+    var lastScrollTop = 0;
+    var delta = 5;
+    var navbarHeight = $('header').outerHeight();
+
+    $(window).scroll(function(event){
+        didScroll = true;
+    });
+
+    setInterval(function() {
+        if (didScroll) {
+            hasScrolled();
+            didScroll = false;
+        }
+    }, 250);
+
+    function hasScrolled() {
+        var st = $(this).scrollTop();
+        
+        // Make sure they scroll more than delta
+        if(Math.abs(lastScrollTop - st) <= delta)
+            return;
+        
+        // If they scrolled down and are past the navbar, add class .nav-up.
+        // This is necessary so you never see what is "behind" the navbar.
+        if (st > lastScrollTop && st > navbarHeight){
+            // Scroll Down
+            $('.header').removeClass('nav-down').addClass('nav-up');
+        } else {
+            // Scroll Up
+            if(st + $(window).height() < $(document).height()) {
+                $('.header').removeClass('nav-up').addClass('nav-down');
+            }
+        }
+        
+        lastScrollTop = st;
+    }
 </script>
 
 </html>

@@ -1,4 +1,4 @@
-// $primary-color: #334ac0;
+$primary-color_1: #334ac0;
 $primary-color: #002ee5;
 $primary-background-color: #ffffff;
 $secondary-background-color: rgba(51, 74, 192, 0.03);
@@ -10,10 +10,17 @@ $card-background-color: #b3efff;
 $color-white: #ffffff;
 $darck-background-color: rgba(192, 152, 51, 0.05);
 
+body{
+    overflow-x: hidden !important;
+}
 // font family
 @font-face {
     font-family: "fontGraphikBold";
     src: url("../plugin/fonts/graphik/GraphikBold.otf");
+}
+@font-face {
+    font-family: "fontGraphikMedium";
+    src: url("../plugin/fonts/graphik/GraphikMedium.otf");
 }
 @font-face {
     font-family: "fontGraphikLight";
@@ -39,6 +46,9 @@ $darck-background-color: rgba(192, 152, 51, 0.05);
 @font-face {
     font-family: "fontGraphikRegular";
     src: url("../plugin/fonts/graphik/GraphikRegular.otf");
+}
+.fontGraphikMedium{
+    font-family: "fontGraphikMedium";
 }
 .fontGraphikRegular{
     font-family: "fontGraphikRegular";
@@ -77,6 +87,11 @@ $darck-background-color: rgba(192, 152, 51, 0.05);
  .fixed {
 background-color: red !important;
  }
+
+.nav-up {
+    top: -107px !important;
+}
+
 .header {
     overflow: hidden;
     background-color: #ffffff;
@@ -84,7 +99,15 @@ background-color: red !important;
     // position: fixed;
     width: 100%; 
     z-index: 12;
-    position: relative;
+    // position: relative;
+
+    // background: #f5b335;
+    // height: 40px;
+    position: fixed;
+    top: 0;
+    transition: top 0.5s ease-in-out;
+    width: 100%;
+
     a {
         float: left;
         color: $text-subtext-color;
@@ -171,10 +194,19 @@ body{
     justify-content:center;
     text-align: center;
 }
-.header_text{
+.video_player{
     position: absolute;
-    top: 110px;
+    top: 0;
+//   display: none !important;
+//   height: 50vh;
+//   margin-bottom: 50vh;
+}
+.header_text{
+    // position: absolute;
+    padding-top: 110px;
     width: 100%;
+    height: fit-content;
+    padding-bottom: 6%;
 }
 .banner_text_1{
     // font-size: 4.8rem;
@@ -195,6 +227,7 @@ body{
 }
 
 .banner_button{
+    width: 285px;
     cursor: pointer;
     padding: 18px 30px;
     background-color: $primary-color;
@@ -203,10 +236,39 @@ body{
     border: none;
     font-weight: 700;
     border-radius: 5px;
-    transition: all 1s;
-    &:hover{
-        // padding: 22px 34px;
-        // box-shadow: 0 3px 1px 0 rgba(51, 74, 192, 0.17);
+    transition: 0.5s;
+    // box-shadow: 0 20px 25px 0 rgba(51, 74, 192, 0.06);
+    position: relative;
+    bottom: 0px;
+    span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+        // &:after {
+            i{
+                // content: '\003E';
+                position: absolute;
+                opacity: 0;
+                top: 4px;
+                right: -20px;
+                transition: 0.5s;
+            }
+        //   }
+      }
+    &:hover {
+        background-color: $primary-color;
+            // box-shadow: 0px 17px 31px 0px rgba(51, 74, 192, 0.41);
+            // bottom: 4px;
+        span {
+            padding-right: 25px;
+            // &:after {
+                i{
+                    opacity: 1;
+                    right: 0;
+                }
+            // }
+        }
     }
     &:focus{
       outline:none;
@@ -262,9 +324,9 @@ body{
     .card_div{
         .card-div{
             margin-top: 7%;
-            transition: all 1.5s;
+            transition: all 0.6s;
             &:hover{
-                margin-top: 3%;
+                margin-top: 5.8%;
             }
         }
         text-align: left;
@@ -275,7 +337,7 @@ body{
             padding: 54px;
             border-radius: 9px;
             // background-color: $card-background-color;
-            box-shadow: 0 20px 25px 0 rgba(51, 74, 192, 0.06);
+            // box-shadow: 0 20px 25px 0 rgba(51, 74, 192, 0.06);
             .card--head{
                 margin-top: 16px;
                 font-weight: bold;
@@ -574,8 +636,10 @@ body{
 
 
 .crayond_ceo{
-    background-color: $darck-background-color;
-    padding: 8% 0;
+    // background-color: $darck-background-color;
+    background-color: #69fdef;
+    padding: 6% 0;
+    margin: 6% 0px;
     .about-crayond {
         display: flex;
         .row{
@@ -698,6 +762,7 @@ body{
     .footer_menu{
         // margin-bottom: 25px;
         margin: 0;
+        font-size: 16px;
     }
     ul {
         padding: 0;
@@ -719,7 +784,7 @@ body{
 
 .footer_social_media {
     border-top: 1px solid rgba(25, 34, 79, 0.08);
-    padding: 6px 0px;
+    padding: 12px 0px;
     .footer_list {
         padding: 15px 80px 15px 0px;
         margin: 0;
@@ -766,6 +831,78 @@ body{
 }
 
 
+
+// opportunities page
+
+.our_mission_section{
+    padding: 75px 15px;
+    .our_mission_title{ 
+        text-align: center;
+        .title_mobile{
+            
+        }
+        h5{
+            font-size: 16px;
+            color: $primary-color;
+            font-weight: 500;
+        }
+        h2{
+            font-size: 4.2rem;
+            font-weight: 700;
+            color: $text-primary-color;
+        }
+        p{
+            color: $text-tertiary-color;
+            font-size: 24px;
+            font-weight: normal;
+        }
+    }
+    .carousel_menu{
+        margin-top: 25px;
+        li{
+            border-radius: 26.5px !important;
+            box-shadow: 0 3px 0 0 rgba(51, 74, 192, 0.04);
+            border: solid 1px rgba(42, 52, 105, 0.1) !important;
+            background-color: #ffffff;
+            padding: 10px 20px;
+            color: $text-subtext-color;
+            // font-weight: 500;
+        }
+        .active{
+            color: $color-white;
+            background-color: $primary-color;
+        }
+    }
+    .carousel-inner{
+        .slider_img{
+            padding-right: 10%;
+        }
+        h5{
+            margin-top: 16px;
+            font-size: 16px;
+            color: $primary-color;
+            font-weight: 500;
+            margin-bottom: 15px;
+
+        }
+        h1{
+            font-size: 4.2rem;
+            font-weight: 700;
+            color: $text-primary-color;
+            margin-bottom: 15px;
+        }
+        p{
+            color: $text-tertiary-color;
+            font-size: 20px;
+            font-weight: normal;
+            text-align: inherit;
+            margin-top: 15px;
+        }
+    }
+}
+
+
+// All media qurys
 
 // Extra large devices (large laptops and desktops, 1200px and up)
 @media only screen and (min-width: 1440px) {
@@ -1015,7 +1152,7 @@ body{
   }
   .first_section{
     //   height: calc(100vh - 85px);
-      height: 100% !important;
+    //   height: 100% !important;
   }
   .video_player{
       display: none;
@@ -1025,6 +1162,8 @@ body{
     //   display: block;
       position: unset !important;
       margin-top: 15%;
+      padding-bottom: 90px;
+    //   padding-top: 16px !important;
   }
   .banner_text_1 {
     font-size: 3.25rem;
@@ -1150,6 +1289,8 @@ body{
 
   .crayond_ceo{
     padding: 10% 0;
+    // padding: 6% 0;
+    margin: 8% 0px;
       .about-crayond{
           padding: 20px;
           .row{
@@ -1162,14 +1303,17 @@ body{
           }
       }
       .images_ceo_mobile{
-          display: block !important;
           padding: 15px;
-          img{
-              width: calc(100vw - 60px);
-          }
+          display: flex !important;
+          .row_mobile{
+              margin: auto !important;
+              img{
+                  width: calc(100vw - 60px);
+                }
+            }
       }
       .images_ceo{
-          display: none;
+          display: none !important;
       }
   }
 
