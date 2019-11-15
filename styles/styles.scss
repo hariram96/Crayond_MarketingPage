@@ -197,10 +197,13 @@ body{
 .video_player{
     position: absolute;
     top: 0;
+    height: 100vh;
+    // max-height: calc(100vh - 374px);
     video{
         width: 100%;
-        min-height:100%;
-        max-height: calc(100vh - 285px);
+        display: block;
+        // min-height:100%;
+        // max-height: calc(100vh - 374px);
     }
 //   display: none !important;
 //   height: 50vh;
@@ -1169,6 +1172,9 @@ body{
       position: unset !important;
       margin-top: 15%;
       padding-bottom: 90px;
+      padding-top: 20%;
+      display: flex;
+      height: calc(100vh - 95px);
     //   padding-top: 16px !important;
   }
   .banner_text_1 {

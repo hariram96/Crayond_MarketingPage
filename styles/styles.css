@@ -231,12 +231,12 @@ body {
 .video_player {
   position: absolute;
   top: 0;
+  height: 100vh;
 }
 
 .video_player video {
   width: 100%;
-  min-height: 100%;
-  max-height: calc(100vh - 285px);
+  display: block;
 }
 
 .header_text {
@@ -1179,6 +1179,11 @@ body {
     position: unset !important;
     margin-top: 15%;
     padding-bottom: 90px;
+    padding-top: 20%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: calc(100vh - 95px);
   }
   .banner_text_1 {
     font-size: 3.25rem;

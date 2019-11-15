@@ -4,6 +4,9 @@
     margin-right: 10px !important;
     padding-top: 10px;
 }
+body{
+  overflow-x: hidden !important;
+}
 .explore{
   width: 150px;
   border-radius: 4px;
