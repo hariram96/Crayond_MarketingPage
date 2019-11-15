@@ -233,6 +233,12 @@ body {
   top: 0;
 }
 
+.video_player video {
+  width: 100%;
+  min-height: 100%;
+  max-height: calc(100vh - 285px);
+}
+
 .header_text {
   padding-top: 10%;
   width: 100%;

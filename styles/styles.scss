@@ -197,6 +197,11 @@ body{
 .video_player{
     position: absolute;
     top: 0;
+    video{
+        width: 100%;
+        min-height:100%;
+        max-height: calc(100vh - 285px);
+    }
 //   display: none !important;
 //   height: 50vh;
 //   margin-bottom: 50vh;
