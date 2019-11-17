@@ -628,13 +628,13 @@
 <script src="./plugin/aos.js"></script>
 <script type="text/javascript">
     AOS.init();
-    $(window).scroll(function () {
-        if ($(window).scrollTop() > 10) {
-            // $('#navBar').addClass('floatingNav');
-        } else {
-            // $('#navBar').removeClass('floatingNav');
-        }
-    });
+    ;(function ($) {
+        var options = {};
+        window.sr = ScrollReveal(options);
+
+        sr.reveal('.sr-item', { viewFactor: 0.6, duration: 500 });
+        sr.reveal('.sr-item--seq', { viewFactor: 0.6, duration: 500 }, 50);
+    })(jQuery);
 
     // Hide Header on on scroll down
     var didScroll;
