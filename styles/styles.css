@@ -120,7 +120,15 @@ body {
   width: 100%;
 }
 
-.header a {
+.header .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.header .row a {
   float: left;
   color: #43434b;
   text-align: center;
@@ -131,7 +139,7 @@ body {
   border-radius: 4px;
 }
 
-.header .logo_area {
+.header .row .logo_area {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -140,23 +148,23 @@ body {
           align-items: center;
 }
 
-.header .logo_area .logo {
+.header .row .logo_area .logo {
   cursor: pointer;
   font-size: 25px;
   font-weight: bold;
 }
 
-.header .logo_area .logo img {
+.header .row .logo_area .logo img {
   width: 134px;
 }
 
-.header .header_menu {
+.header .row .header_menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.header .header_menu span {
+.header .row .header_menu span {
   color: #43434b;
   font-size: 1rem;
   margin: auto;
@@ -165,20 +173,20 @@ body {
   border-bottom: 2px solid transparent;
 }
 
-.header .header_menu span:hover {
+.header .row .header_menu span:hover {
   border-bottom: 2px solid #FF5722;
 }
 
-.header .header_menu .active {
+.header .row .header_menu .active {
   border-bottom: 2px solid #FF5722;
 }
 
-.header .header_menu .active a {
+.header .row .header_menu .active a {
   color: #FF5722;
   font-family: "fontLatoBold";
 }
 
-.header .sign_btn {
+.header .row .sign_btn {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -187,23 +195,24 @@ body {
           align-items: center;
 }
 
-.header .sign_btn button {
+.header .row .sign_btn button {
   width: 148px;
   height: 51px;
   -webkit-box-shadow: 0 7px 12px 0 rgba(16, 31, 108, 0.07);
           box-shadow: 0 7px 12px 0 rgba(16, 31, 108, 0.07);
-  font-size: 1rem;
+  font-size: 16px;
   border-color: #FF5722;
   color: #FF5722;
   border-radius: 4px;
+  background-color: #ffffff;
 }
 
-.header .sign_btn button:hover {
+.header .row .sign_btn button:hover {
   color: #ffffff;
   background-color: #FF5722;
 }
 
-.header .sign_btn button:focus {
+.header .row .sign_btn button:focus {
   outline: none;
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -284,7 +293,7 @@ body {
   cursor: pointer;
   padding: 18px 30px;
   background-color: #FF5722;
-  font-size: 1rem;
+  font-size: 16px;
   color: white;
   border: none;
   font-weight: 700;
@@ -839,42 +848,50 @@ body {
   padding-top: 4%;
 }
 
-.footer .logo_address img {
+.footer .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.footer .row .logo_address img {
   margin-bottom: 20px;
 }
 
-.footer .logo_address p {
+.footer .row .logo_address p {
   color: #43434b;
   margin-bottom: 3px;
   font-size: 16px;
 }
 
-.footer .footer_menu {
+.footer .row .footer_menu {
   cursor: pointer;
   margin: 0;
   font-size: 16px;
   color: #43434b;
 }
 
-.footer .footer_menu:hover {
+.footer .row .footer_menu:hover {
   color: #000;
 }
 
-.footer ul {
+.footer .row ul {
   padding: 0;
 }
 
-.footer ul li {
+.footer .row ul li {
   padding-bottom: 10px;
   list-style-type: none;
 }
 
-.footer ul li span {
+.footer .row ul li span {
   color: #43434b;
   cursor: pointer;
 }
 
-.footer ul li span:hover {
+.footer .row ul li span:hover {
   text-decoration: underline;
   font-weight: 500;
 }
@@ -884,22 +901,30 @@ body {
   padding: 12px 0px;
 }
 
-.footer_social_media .footer_list {
+.footer_social_media .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.footer_social_media .row .footer_list {
   padding: 15px 80px 15px 0px;
   margin: 0;
 }
 
-.footer_social_media .footer_list span {
+.footer_social_media .row .footer_list span {
   font-size: 1rem;
   color: #43434b;
   cursor: pointer;
 }
 
-.footer_social_media .footer_list span:hover {
+.footer_social_media .row .footer_list span:hover {
   color: #FF5722;
 }
 
-.footer_social_media .social_icon {
+.footer_social_media .row .social_icon {
   width: 39px;
   height: 37px;
   margin: 10px 10px 10px 0px;
@@ -912,19 +937,19 @@ body {
   background-color: rgba(29, 46, 137, 0.05);
 }
 
-.footer_social_media .social_icon:hover {
+.footer_social_media .row .social_icon:hover {
   border: solid 1px #d4e4e6;
   -webkit-box-shadow: 0 3px 1px 0 rgba(55, 89, 93, 0.07);
           box-shadow: 0 3px 1px 0 rgba(55, 89, 93, 0.07);
   background-color: #ffffff;
 }
 
-.footer_social_media .social_icon i {
+.footer_social_media .row .social_icon i {
   margin: auto;
   color: #FF5722;
 }
 
-.footer_social_media .footer_address {
+.footer_social_media .row .footer_address {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -934,7 +959,7 @@ body {
   padding-right: 0;
 }
 
-.footer_social_media .footer_address p {
+.footer_social_media .row .footer_address p {
   margin: auto 0;
   width: 100%;
   border-right: 1px solid rgba(25, 34, 79, 0.08);
@@ -1091,6 +1116,198 @@ body {
   font-family: fontLatoBlack;
 }
 
+.our_team {
+  background-color: #F9F9FD;
+  padding-bottom: 8%;
+}
+
+.our_team h1 {
+  font-weight: 700;
+  font-size: 4.2rem;
+}
+
+.our_team .text {
+  text-align: center;
+  padding-top: 6%;
+  font-size: 1.4rem;
+}
+
+.our_team .row {
+  background-image: url(../images/path-4.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.our_team .banner--text {
+  font-size: 1.5rem;
+  color: #383838;
+}
+
+.our_team .card__body_div {
+  padding: 14px 12px;
+  margin-top: 66px;
+}
+
+.our_team .card__body_div .card {
+  height: 112%;
+  border-bottom-right-radius: 28px;
+  border: none;
+  -webkit-box-shadow: 0 0.3px 1px 0 rgba(51, 74, 192, 0.12), 0 10px 20px 0 rgba(51, 74, 192, 0.12);
+          box-shadow: 0 0.3px 1px 0 rgba(51, 74, 192, 0.12), 0 10px 20px 0 rgba(51, 74, 192, 0.12);
+  border: solid 1px rgba(51, 74, 192, 0.12);
+}
+
+.our_team .card__body_div .card_primary {
+  background-color: #FF5722;
+}
+
+.our_team .card__body_div .card_primary a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.our_team .card__body_div .card-title {
+  margin-top: 14%;
+  margin-bottom: 6%;
+}
+
+.our_team .card__body_div .card__body {
+  margin: auto;
+  padding: 14px 30px 16px 30px;
+  height: 280px;
+}
+
+.our_team .card__body_div .card__body p {
+  font-size: 21px;
+}
+
+.our_team .card__body_div .card__body .Oval_code {
+  -webkit-box-shadow: 0 3px 1px 0 rgba(55, 89, 93, 0.07);
+          box-shadow: 0 3px 1px 0 rgba(55, 89, 93, 0.07);
+  border: solid 1px rgba(51, 74, 192, 0.15);
+}
+
+.our_team .card__body_div .card__body .Oval_flash img {
+  width: 22px;
+  height: 33px;
+}
+
+.our_team .card__body_div .card__body .card-text {
+  color: #595959;
+  font-size: 18px;
+  line-height: 33px;
+  height: 134px;
+}
+
+.our_team .card__body_div .card__body .fa_icon {
+  -webkit-box-shadow: 0 3px 1px 0 rgba(0, 0, 0, 0.07);
+          box-shadow: 0 3px 1px 0 rgba(0, 0, 0, 0.07);
+  border: solid 1px rgba(0, 0, 0, 0.09);
+  font-size: 28px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  border-radius: 60px;
+  position: absolute;
+  top: -30px;
+  left: 40px;
+  height: 81px;
+  text-align: center;
+  width: 81px;
+  vertical-align: middle;
+}
+
+.our_team .card__body_div .card__body .fa_icon img {
+  margin: auto;
+  width: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.our_team .card__body_div h5 {
+  font-weight: 700;
+}
+
+.join_team {
+  background-color: #2d3e50;
+  text-align: center;
+  position: relative;
+}
+
+.join_team .ovel {
+  position: absolute;
+  right: 15.9%;
+}
+
+.join_team .ovel-6 {
+  position: absolute;
+  top: 9.3%;
+  right: 20.9%;
+}
+
+.join_team .billion {
+  padding-top: 6%;
+  padding-bottom: 6%;
+}
+
+.join_team .billion .titel_button {
+  padding-bottom: 30px;
+}
+
+.join_team .billion .titel_button .button {
+  padding: 15px 30px;
+  background-color: rgba(0, 0, 0, 0.08);
+  font-size: 16px;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+}
+
+.join_team .billion .titel_button .button:focus {
+  outline: none;
+}
+
+.join_team .billion h1 {
+  color: #ffffff;
+  font-size: 60px;
+}
+
+.join_team .billion .button_div {
+  padding-top: 30px;
+}
+
+.join_team .billion .button_div .banner_button {
+  cursor: pointer;
+  padding: 18px 30px;
+  background-color: #ffffff;
+  font-size: 16px;
+  color: #FF5722;
+  border: none;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+.join_team .billion .button_div .banner_button:focus {
+  outline: none;
+}
+
+.join_team .path-3 {
+  position: absolute;
+  bottom: 15.5%;
+  right: 28.5%;
+}
+
+.join_team .path {
+  position: absolute;
+  left: 19.6%;
+  bottom: 0;
+}
+
 @media only screen and (min-width: 1440px) {
   .header_text {
     background-size: cover;
@@ -1107,14 +1324,7 @@ body {
   }
 }
 
-@media only screen and (min-width: 1300px) {
-  .header_text {
-    padding-top: 10%;
-    padding-bottom: 10%;
-  }
-}
-
-@media only screen and (min-width: 1200px) and (max-width: 1299px) {
+@media only screen and (min-width: 1200px) {
   .header_text {
     padding-top: 10%;
     padding-bottom: 10%;
@@ -1132,6 +1342,18 @@ body {
   }
   .who_you_are .card_div .card-div .card-- .card--text {
     font-size: 1.15rem;
+  }
+  .our_mission_section .carousel-inner p {
+    font-size: 16px;
+  }
+  .epic_works .epic_title p {
+    font-size: 20px;
+  }
+  .current_opening .opening_section .positions_card {
+    padding: 0px 15px;
+  }
+  .current_opening .opening_section .positions_card button {
+    width: 150px;
   }
 }
 
@@ -1278,6 +1500,65 @@ body {
   }
   .footer_social_media .row .footer_list {
     padding: 15px 20px 15px 0px;
+  }
+  .our_mission_section {
+    padding: 45px 15px 0px 15px;
+  }
+  .our_mission_section .our_mission_title .title_mobile {
+    margin-bottom: 60px !important;
+  }
+  .our_mission_section .our_mission_title h2 {
+    font-size: 32px;
+  }
+  .our_mission_section .our_mission_title .mission_discription {
+    font-size: 19px;
+  }
+  .our_mission_section .slide .carousel-inner .slider_img {
+    padding-right: 15px;
+  }
+  .our_mission_section .slide .carousel-inner h5 {
+    margin-bottom: 4px;
+    margin-top: 4px;
+  }
+  .our_mission_section .slide .carousel-inner h1 {
+    margin-top: 6px;
+    font-size: 22px;
+    margin-bottom: 4px;
+  }
+  .our_mission_section .slide .carousel-inner p {
+    font-size: 16px;
+    margin-top: 7px;
+    line-height: 1.6;
+  }
+  .our_mission_section .carousel-indicators li {
+    margin-right: 8px !important;
+  }
+  .epic_works .container {
+    padding: 60px 15px !important;
+  }
+  .epic_works .container .epic_title h2 {
+    font-size: 32px;
+  }
+  .epic_works .container .epic_title p {
+    font-size: 19px;
+  }
+  .fun_gallery .ambience_card_mobile img {
+    padding: 60px 0px 60px 0px !important;
+  }
+  .our_team h1 {
+    font-size: 32px;
+  }
+  .our_team .card__body_div {
+    height: 320px;
+  }
+  .our_team .card__body_div .card__body .card-text {
+    font-size: 16px;
+  }
+  .current_opening h1 {
+    font-size: 32px;
+  }
+  .join_team .billion h1 {
+    font-size: 40px;
   }
 }
 
@@ -1490,6 +1771,66 @@ body {
   }
   .footer_social_media .footer_address p {
     margin-top: 0 !important;
+  }
+  .our_mission_section {
+    padding: 46px 15px;
+  }
+  .our_mission_section .our_mission_title .title_mobile {
+    margin-bottom: 60px !important;
+  }
+  .our_mission_section .our_mission_title .title_mobile h1 {
+    font-size: 32px;
+    line-height: 1.4;
+  }
+  .our_mission_section .our_mission_title h2 {
+    font-size: 34px;
+  }
+  .our_mission_section .our_mission_title .mission_discription {
+    font-size: 18px;
+  }
+  .our_mission_section .carousel-inner .slider_img {
+    padding-right: 15px;
+  }
+  .our_mission_section .carousel-inner h5 {
+    margin-top: 45px;
+  }
+  .our_mission_section .carousel-inner h1 {
+    font-size: 24px;
+  }
+  .our_mission_section .carousel-inner p {
+    font-size: 17px;
+  }
+  .epic_works .container {
+    padding: 65px 15px !important;
+  }
+  .epic_works .container .epic_title h2 {
+    font-size: 31px;
+  }
+  .epic_works .container .epic_title p {
+    font-size: 18px;
+  }
+  .fun_gallery .ambience_card_mobile img {
+    padding: 55px 0px 55px 0px !important;
+  }
+  .our_team {
+    padding: 6% 30px;
+    margin-bottom: 40px;
+  }
+  .our_team h1 {
+    font-size: 31px;
+  }
+  .current_opening h1 {
+    font-size: 31px;
+  }
+  .join_team .billion {
+    padding-top: 16%;
+    padding-bottom: 16%;
+  }
+  .join_team .billion h1 {
+    font-size: 40px;
+  }
+  .join_team .button_div .banner_button {
+    width: 250px !important;
   }
 }
 /*# sourceMappingURL=styles.css.map */
