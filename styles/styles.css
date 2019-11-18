@@ -159,15 +159,15 @@ body {
 }
 
 .header .header_menu span:hover {
-  border-bottom: 2px solid #002ee5;
+  border-bottom: 2px solid #FF5722;
 }
 
 .header .header_menu .active {
-  border-bottom: 2px solid #002ee5;
+  border-bottom: 2px solid #FF5722;
 }
 
 .header .header_menu .active a {
-  color: #002ee5;
+  color: #FF5722;
   font-family: "fontLatoBold";
 }
 
@@ -186,14 +186,14 @@ body {
   -webkit-box-shadow: 0 7px 12px 0 rgba(16, 31, 108, 0.07);
           box-shadow: 0 7px 12px 0 rgba(16, 31, 108, 0.07);
   font-size: 1rem;
-  border-color: #002ee5;
-  color: #002ee5;
+  border-color: #FF5722;
+  color: #FF5722;
   border-radius: 4px;
 }
 
 .header .sign_btn button:hover {
   color: #ffffff;
-  background-color: #002ee5;
+  background-color: #FF5722;
 }
 
 .header .sign_btn button:focus {
@@ -276,7 +276,7 @@ body {
   width: 300px;
   cursor: pointer;
   padding: 18px 30px;
-  background-color: #002ee5;
+  background-color: #FF5722;
   font-size: 1rem;
   color: white;
   border: none;
@@ -306,7 +306,7 @@ body {
 }
 
 .banner_button:hover {
-  background-color: #002ee5;
+  background-color: #FF5722;
 }
 
 .banner_button:hover span {
@@ -403,7 +403,7 @@ body {
 
 .who_you_are .card_div .card-- {
   cursor: pointer;
-  background-color: #69fdef;
+  background-color: #fddd75;
   padding: 54px;
   border-radius: 9px;
 }
@@ -616,7 +616,7 @@ body {
 }
 
 .our_secrets .card__body_div .card_primary {
-  background-color: #002ee5;
+  background-color: #FF5722;
 }
 
 .our_secrets .card__body_div .card_primary a {
@@ -690,7 +690,7 @@ body {
 }
 
 .crayond_ceo {
-  background-color: #69fdef;
+  background-color: #fddd75;
   padding: 6% 0;
   margin: 6% 0px;
 }
@@ -751,7 +751,7 @@ body {
 }
 
 .next_billion {
-  background-color: #002ee5;
+  background-color: #2d3e50;
   text-align: center;
   position: relative;
 }
@@ -803,7 +803,7 @@ body {
   padding: 18px 30px;
   background-color: #ffffff;
   font-size: 1rem;
-  color: #002ee5;
+  color: #FF5722;
   border: none;
   font-weight: 700;
   border-radius: 5px;
@@ -881,7 +881,7 @@ body {
 }
 
 .footer_social_media .footer_list span:hover {
-  color: #002ee5;
+  color: #FF5722;
 }
 
 .footer_social_media .social_icon {
@@ -906,7 +906,7 @@ body {
 
 .footer_social_media .social_icon i {
   margin: auto;
-  color: #002ee5;
+  color: #FF5722;
 }
 
 .footer_social_media .footer_address {
@@ -947,14 +947,14 @@ body {
 }
 
 .our_mission_section .our_mission_title .title_mobile .explore {
-  background-color: #002ee5;
+  background-color: #FF5722;
   color: #ffffff;
   margin-top: 26px;
 }
 
 .our_mission_section .our_mission_title h5 {
   font-size: 16px;
-  color: #002ee5;
+  color: #FF5722;
   font-weight: 500;
 }
 
@@ -990,7 +990,7 @@ body {
 
 .our_mission_section .carousel_menu .active {
   color: #ffffff;
-  background-color: #002ee5;
+  background-color: #FF5722;
 }
 
 .our_mission_section .carousel-inner .slider_img {
@@ -1000,7 +1000,7 @@ body {
 .our_mission_section .carousel-inner h5 {
   margin-top: 16px;
   font-size: 16px;
-  color: #002ee5;
+  color: #FF5722;
   font-weight: 500;
   margin-bottom: 15px;
 }
@@ -1027,7 +1027,7 @@ body {
 
 .epic_works .epic_title h5 {
   font-size: 16px;
-  color: #002ee5;
+  color: #FF5722;
   font-weight: 500;
 }
 
@@ -1071,7 +1071,7 @@ body {
 }
 
 .current_opening .opening_section .positions_card button {
-  background-color: #002ee5;
+  background-color: #FF5722;
   color: #ffffff;
   font-family: fontLatoBlack;
 }
@@ -1092,10 +1092,17 @@ body {
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1300px) {
   .header_text {
-    margin-bottom: 6%;
-    padding-top: 12%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1299px) {
+  .header_text {
+    padding-top: 10%;
+    padding-bottom: 10%;
   }
 }
 
