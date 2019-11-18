@@ -245,7 +245,7 @@ body {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  margin-bottom: 6%;
+  padding-bottom: 6%;
   background-image: url("../images/Website-Animation-Final-GIF.gif");
   background-position: center;
   background-repeat: no-repeat;
@@ -1078,11 +1078,33 @@ body {
 
 @media only screen and (min-width: 1440px) {
   .header_text {
+    background-size: cover;
+    margin-bottom: 4%;
+    padding-bottom: 6%;
+  }
+}
+
+@media only screen and (min-width: 2240px) {
+  .header_text {
     background-size: contain;
+    margin-bottom: 4%;
+    padding-bottom: 6%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .header_text {
+    margin-bottom: 4%;
+    padding-bottom: 2%;
   }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .header_text {
+    background-size: contain;
+    margin-bottom: 4%;
+    padding-bottom: 6%;
+  }
   .who_you_are .card_div .card-div .card-- .card--head {
     font-size: 1.4rem;
   }

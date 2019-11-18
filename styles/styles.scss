@@ -215,8 +215,8 @@ body{
     padding-top: 10%;
     width: 100%;
     height: fit-content;
-    // padding-bottom: 6%;
-    margin-bottom: 6%;
+    padding-bottom: 6%;
+    // margin-bottom: 6%;
     background-image: url("../images/Website-Animation-Final-GIF.gif");
     background-position: center;
     background-repeat: no-repeat;
@@ -1004,15 +1004,35 @@ body{
 // Extra large devices (large laptops and desktops, 1200px and up)
 @media only screen and (min-width: 1440px) {
     .header_text{
+        background-size: cover;
+        margin-bottom: 4%;
+        padding-bottom: 6%;
+    }
+
+ }
+ @media only screen and (min-width: 2240px) {
+    .header_text{
         background-size: contain;
+        margin-bottom: 4%;
+        padding-bottom: 6%;
     }
 
  }
 @media only screen and (min-width: 1200px) {
-
+    .header_text{
+        // background-size: contain;
+        margin-bottom: 4%;
+        padding-bottom: 2%;
+        // background-color: red;
+    }
 }
 // Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .header_text{
+        background-size: contain;
+        margin-bottom: 4%;
+        padding-bottom: 6%;
+    }
     .who_you_are {
         .card_div{
            .card-div {
