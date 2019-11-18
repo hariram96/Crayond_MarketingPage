@@ -7,6 +7,10 @@
 body{
   overflow-x: hidden !important;
 }
+p{
+  opacity: 1 !important;
+  font-weight: 400 !important;
+}
 .explore{
   width: 150px;
   border-radius: 4px;

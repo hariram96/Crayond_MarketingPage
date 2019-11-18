@@ -931,6 +931,16 @@ body {
   text-align: center;
 }
 
+.our_mission_section .our_mission_title .title_mobile h1 {
+  color: #2b2a35;
+}
+
+.our_mission_section .our_mission_title .title_mobile .explore {
+  background-color: #002ee5;
+  color: #ffffff;
+  margin-top: 26px;
+}
+
 .our_mission_section .our_mission_title h5 {
   font-size: 16px;
   color: #002ee5;
@@ -945,7 +955,8 @@ body {
 
 .our_mission_section .our_mission_title p {
   color: #595959;
-  font-size: 24px;
+  font-size: 22px;
+  line-height: 2;
   font-weight: normal;
 }
 
@@ -961,6 +972,9 @@ body {
   background-color: #ffffff;
   padding: 10px 20px;
   color: #43434b;
+  font-family: fontGraphikMedium !important;
+  font-size: 13px;
+  font-weight: normal !important;
 }
 
 .our_mission_section .carousel_menu .active {
@@ -993,6 +1007,62 @@ body {
   font-weight: normal;
   text-align: inherit;
   margin-top: 15px;
+  line-height: 2;
+}
+
+.epic_works .epic_title {
+  text-align: center;
+}
+
+.epic_works .epic_title h5 {
+  font-size: 16px;
+  color: #002ee5;
+  font-weight: 500;
+}
+
+.epic_works .epic_title h2 {
+  font-size: 4.2rem;
+  font-weight: 700;
+  color: #2b2a35;
+}
+
+.epic_works .epic_title p {
+  color: #595959;
+  font-size: 22px;
+  font-weight: normal;
+  line-height: 2;
+}
+
+.epic_works .event_section p {
+  color: #595959;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.fun_gallery h5 {
+  font-size: 18px;
+}
+
+.current_opening h1 {
+  font-size: 4.2rem;
+  font-weight: 700;
+  color: #2b2a35;
+  margin-bottom: 15px;
+}
+
+.current_opening .opening_section {
+  padding: 6%;
+}
+
+.current_opening .opening_section .positions_card .opening_titles {
+  font-size: 17px;
+  color: #595959;
+}
+
+.current_opening .opening_section .positions_card button {
+  background-color: #002ee5;
+  color: #ffffff;
+  font-family: fontLatoBlack;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
