@@ -90,6 +90,10 @@ background-color: red !important;
 
 .nav-up {
     top: -107px !important;
+    box-shadow: 0 7px 12px 0 rgba(16, 31, 108, 0.07);
+}
+.nav-down{
+    box-shadow: 0 7px 12px 0 rgba(16, 31, 108, 0.07);
 }
 
 .header {
@@ -354,6 +358,7 @@ body{
             border-radius: 9px;
             // background-color: $card-background-color;
             // box-shadow: 0 20px 25px 0 rgba(51, 74, 192, 0.06);
+            height: 366px;
             .card--head{
                 margin-top: 16px;
                 font-weight: bold;
@@ -665,6 +670,7 @@ body{
             margin: auto;
             position: relative;
             .details_of_crayond {
+                margin-bottom: 30px;
                 .text_bold{
                     color: $text-primary-color;
                 }
@@ -767,18 +773,23 @@ body{
     padding-top: 4%;
     .logo_address{
         img{
-            margin-bottom: 25px;
+            margin-bottom: 20px;
         }
         p {
             color: $text-subtext-color;
-            margin-bottom: 8px;
+            margin-bottom: 3px;
             font-size: 16px;
         }
     }
     .footer_menu{
         // margin-bottom: 25px;
+        cursor: pointer;
         margin: 0;
         font-size: 16px;
+        color: $text-subtext-color;
+        &:hover{
+            color: #000;
+        }
     }
     ul {
         padding: 0;
@@ -1468,7 +1479,7 @@ body{
         padding-bottom: 16px;
         //   text-align: center;
         img{
-            margin-bottom: 6px;
+            margin-bottom: 16px;
         }
       }
   }

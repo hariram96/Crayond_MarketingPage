@@ -98,6 +98,13 @@ body {
 
 .nav-up {
   top: -107px !important;
+  -webkit-box-shadow: 0 7px 12px 0 rgba(16, 31, 108, 0.07);
+          box-shadow: 0 7px 12px 0 rgba(16, 31, 108, 0.07);
+}
+
+.nav-down {
+  -webkit-box-shadow: 0 7px 12px 0 rgba(16, 31, 108, 0.07);
+          box-shadow: 0 7px 12px 0 rgba(16, 31, 108, 0.07);
 }
 
 .header {
@@ -406,6 +413,7 @@ body {
   background-color: #fddd75;
   padding: 54px;
   border-radius: 9px;
+  height: 366px;
 }
 
 .who_you_are .card_div .card-- .card--head {
@@ -711,6 +719,7 @@ body {
 }
 
 .crayond_ceo .about-crayond .row .details_of_crayond {
+  margin-bottom: 30px;
   font-size: 2.3rem;
   font-weight: 300;
 }
@@ -831,18 +840,24 @@ body {
 }
 
 .footer .logo_address img {
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 .footer .logo_address p {
   color: #43434b;
-  margin-bottom: 8px;
+  margin-bottom: 3px;
   font-size: 16px;
 }
 
 .footer .footer_menu {
+  cursor: pointer;
   margin: 0;
   font-size: 16px;
+  color: #43434b;
+}
+
+.footer .footer_menu:hover {
+  color: #000;
 }
 
 .footer ul {
@@ -1452,7 +1467,7 @@ body {
     padding-bottom: 16px;
   }
   .footer .logo_address img {
-    margin-bottom: 6px;
+    margin-bottom: 16px;
   }
   .footer_social_media {
     padding: 25px 0px;
