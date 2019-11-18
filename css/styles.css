@@ -150,8 +150,9 @@ p{
 
 
   @media only screen and (min-width: 1799px){
-    .title {
-      top: 10.5% !important;
+    .title_of_careers {
+      /* top: 10.5% !important; */
+      bottom: 110px;
     }
     .stretch{
       margin-top: 40% !important;
@@ -167,8 +168,9 @@ p{
     .stretch{
     margin-top: 40% !important;
    }
-   .title {
-    top: 6.5% !important;
+   .title_of_careers {
+    /* top: 6.5% !important; */
+    bottom: 110px;
   }
   .explore{
     box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 3px 1px -2px rgba(0,0,0,0.12)
@@ -181,8 +183,9 @@ p{
     .stretch{
     margin-top: 55% !important;
    }
-   .title {
-    top: 7.5% !important;
+   .title_of_careers {
+    /* top: 7.5% !important; */
+    bottom: 110px;
   }
   .explore{
     box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 3px 1px -2px rgba(0,0,0,0.12)
@@ -192,7 +195,7 @@ p{
   }
   }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .title {
+    .title_of_careers {
    display: none;
   }
   .desktop_arrow{
@@ -228,7 +231,7 @@ p{
     }
   }
   @media only screen and (max-width: 767px) {
-     .title {
+     .title_of_careers {
    display: none;
   }
   .title_mobile{
@@ -240,14 +243,14 @@ p{
 .brandname_footer a img{
   display: block;
 }
-  .title{
+  .title_of_careers{
     bottom: unset !important;
     top: 10%;
   }
-  .title h1{
+  .title_of_careers h1{
     font-size: 25px !important;
   }
-  .title button{
+  .title_of_careers button{
     width: 118px !important;
     padding: 5px !important;
   }
@@ -373,10 +376,10 @@ video{
   min-width: 100%;
   z-index: -9999;
 }
-.title{
+.title_of_careers{
     position: absolute;
     text-align: center;
-    top: 9%;
+    /* top: 9%; */
 }
 .menu{
    position: absolute;
