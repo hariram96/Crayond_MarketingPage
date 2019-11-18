@@ -1530,6 +1530,9 @@ body {
     margin-top: 7px;
     line-height: 1.6;
   }
+  .our_mission_section .slide .carousel_menu {
+    margin-bottom: 40px;
+  }
   .our_mission_section .carousel-indicators li {
     margin-right: 8px !important;
   }
@@ -1821,6 +1824,20 @@ body {
   }
   .current_opening h1 {
     font-size: 31px;
+  }
+  .current_opening .opening_section {
+    padding: 6% 0px;
+  }
+  .current_opening .opening_section .positions_card button {
+    width: 120px !important;
+    padding: 8px !important;
+    font-size: 13px;
+  }
+  .current_opening .opening_section .positions_card button:hover span {
+    padding-right: 13px !important;
+  }
+  .current_opening .opening_section .positions_card button span i {
+    top: 6px !important;
   }
   .join_team .billion {
     padding-top: 16%;

@@ -1487,6 +1487,9 @@ body{
                 }
 
             }
+            .carousel_menu{
+                margin-bottom: 40px;
+            }
         }
         .carousel-indicators{
             li{
@@ -1861,6 +1864,26 @@ body{
 .current_opening{
     h1{
         font-size: 31px;
+    }
+    .opening_section {
+        padding: 6% 0px;
+        .positions_card {
+            button{
+                width: 120px !important;
+                padding: 8px !important;
+                font-size: 13px;
+                &:hover{
+                    span{
+                        padding-right: 13px !important;
+                    }
+                }
+                span{
+                    i{
+                        top:6px !important;
+                    }
+                }
+            }
+        }
     }
 }
 .join_team{
