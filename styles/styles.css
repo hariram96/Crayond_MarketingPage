@@ -245,7 +245,7 @@ body {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  padding-bottom: 6%;
+  margin-bottom: 6%;
   background-image: url("../images/Website-Animation-Final-GIF.gif");
   background-position: center;
   background-repeat: no-repeat;
@@ -273,7 +273,7 @@ body {
 }
 
 .banner_button {
-  width: 285px;
+  width: 300px;
   cursor: pointer;
   padding: 18px 30px;
   background-color: #002ee5;
@@ -894,13 +894,13 @@ body {
   display: flex;
   cursor: pointer;
   border-radius: 12px;
-  -webkit-box-shadow: 0 3px 1px 0 rgba(55, 89, 93, 0.07);
-          box-shadow: 0 3px 1px 0 rgba(55, 89, 93, 0.07);
-  border: solid 1px #d4e4e6;
   background-color: rgba(29, 46, 137, 0.05);
 }
 
 .footer_social_media .social_icon:hover {
+  border: solid 1px #d4e4e6;
+  -webkit-box-shadow: 0 3px 1px 0 rgba(55, 89, 93, 0.07);
+          box-shadow: 0 3px 1px 0 rgba(55, 89, 93, 0.07);
   background-color: #ffffff;
 }
 
@@ -1076,12 +1076,18 @@ body {
   font-family: fontLatoBlack;
 }
 
+@media only screen and (min-width: 1440px) {
+  .header_text {
+    background-size: contain;
+  }
+}
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .who_you_are .card_div .card-div .card-- .card--head {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
   .who_you_are .card_div .card-div .card-- .card--text {
-    font-size: 1.2rem;
+    font-size: 1.15rem;
   }
 }
 
@@ -1265,6 +1271,7 @@ body {
     display: -ms-flexbox;
     display: flex;
     height: calc(100vh - 95px);
+    background-size: contain;
   }
   .banner_text_1 {
     font-size: 3.25rem;
