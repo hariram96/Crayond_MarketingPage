@@ -1094,7 +1094,8 @@ body {
 
 @media only screen and (min-width: 1200px) {
   .header_text {
-    margin-bottom: 7%;
+    margin-bottom: 6%;
+    padding-top: 12%;
   }
 }
 
