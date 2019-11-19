@@ -245,9 +245,14 @@ body {
 }
 
 .video_player {
-  position: absolute;
-  top: 0;
-  height: 100vh;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  height: auto;
+  width: auto;
+  min-height: 100%;
+  min-width: 100%;
+  z-index: -9999;
 }
 
 .video_player video {
@@ -380,6 +385,7 @@ body {
 }
 
 .who_you_are {
+  background-color: #ffffff;
   margin-top: 6%;
   text-align: center;
   margin-bottom: 8%;
@@ -1362,6 +1368,156 @@ body {
   bottom: 0;
 }
 
+.title_section {
+  height: 99vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
+.title_section .container {
+  margin: auto auto 80px auto;
+}
+
+.title_section .container .who_you_are_title p {
+  margin-bottom: 0;
+  color: white;
+  text-shadow: 2px 2px 5px #00000078;
+  font-size: 4rem;
+}
+
+.our_vis_mis {
+  padding: 6% 0px;
+}
+
+.our_vis_mis .mobile_title {
+  font-size: 2rem !important;
+}
+
+.our_vis_mis .vission {
+  padding: 30px;
+}
+
+.our_vis_mis .vission .card {
+  border-radius: 10px;
+}
+
+.our_vis_mis .vission .card .card_body {
+  height: 550px;
+  padding: 12% 22% 12% 12%;
+}
+
+.our_vis_mis .vission .card .card_body h1 {
+  font-size: 2.6rem;
+  font-weight: 700;
+  color: #2b2a35;
+  margin-bottom: 36px;
+}
+
+.our_vis_mis .vission .card .card_body p {
+  font-size: 1.5rem;
+  color: #595959;
+}
+
+.our_vis_mis .mission {
+  padding: 30px;
+}
+
+.our_vis_mis .mission .card {
+  border-radius: 10px;
+}
+
+.our_vis_mis .mission .card .card_body {
+  height: 550px;
+  background-color: #665CD7;
+  padding: 12% 22% 12% 12%;
+  border-radius: 10px;
+}
+
+.our_vis_mis .mission .card .card_body h1 {
+  font-size: 2.6rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 36px;
+}
+
+.our_vis_mis .mission .card .card_body p {
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+.about_crayond {
+  padding: 6% 0px;
+}
+
+.about_crayond .text {
+  text-align: center;
+}
+
+.our_culture {
+  padding: 6% 0px;
+}
+
+.our_culture h1 {
+  font-weight: 700;
+  font-size: 2.85rem;
+  margin-bottom: 0;
+}
+
+.our_culture .text {
+  text-align: center;
+  padding-top: 6%;
+  font-size: 1.4rem;
+}
+
+.our_culture .card_div img {
+  width: 80%;
+  margin: auto;
+}
+
+.our_team_who_we_are {
+  padding: 6% 0px;
+}
+
+.our_team_who_we_are h1 {
+  font-weight: 700;
+  font-size: 2.85rem;
+  margin-bottom: 0;
+}
+
+.our_team_who_we_are .text {
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.our_team_who_we_are .gallery_list {
+  margin-top: 4%;
+}
+
+.our_team_who_we_are .gallery_list .musics {
+  width: 100%;
+  height: 100%;
+}
+
+.our_team_who_we_are .gallery_list .team1 {
+  width: 100%;
+  height: 260px;
+  padding-bottom: 8px;
+}
+
+.our_team_who_we_are .gallery_list .team2 {
+  padding-top: 8px;
+  width: 100%;
+  height: 260px;
+}
+
+.our_team_who_we_are .gallery_list .team3 {
+  padding-top: 16px;
+  width: 100%;
+  height: 360px;
+}
+
 @media only screen and (min-width: 1440px) {
   .header_text {
     background-size: cover;
@@ -1375,6 +1531,15 @@ body {
     background-size: contain;
     margin-bottom: 4%;
     padding-bottom: 6%;
+  }
+  .title_section .container {
+    margin: auto auto 200px auto;
+  }
+  .title_section .container .who_you_are_title p {
+    margin-bottom: 0;
+    color: white;
+    text-shadow: 2px 2px 5px #00000078;
+    font-size: 4.8rem;
   }
 }
 
@@ -1409,6 +1574,12 @@ body {
   .current_opening .opening_section .positions_card button {
     width: 150px;
   }
+  .our_vis_mis .vission .card .card_body {
+    padding: 12% 15% 12% 12%;
+  }
+  .our_vis_mis .mission .card .card_body {
+    padding: 12% 15% 12% 12%;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1423,10 +1594,6 @@ body {
   }
   .sign_btn {
     display: none !important;
-  }
-  .video_player {
-    height: 50vh;
-    margin-bottom: 60vh;
   }
   .header_text {
     top: 65px;
@@ -1626,6 +1793,44 @@ body {
   .join_team .billion p {
     font-size: 19px;
   }
+  .title_section .container .who_you_are_title p {
+    font-size: 3rem;
+  }
+  .our_vis_mis .vission .card .card_body {
+    padding: 12% 12% 12% 12%;
+    height: 460px;
+  }
+  .our_vis_mis .vission .card .card_body h1 {
+    font-size: 2rem;
+  }
+  .our_vis_mis .vission .card .card_body p {
+    font-size: 1.2rem;
+  }
+  .our_vis_mis .mission .card .card_body {
+    padding: 12% 12% 12% 12%;
+    height: 460px;
+  }
+  .our_vis_mis .mission .card .card_body h1 {
+    font-size: 2rem;
+  }
+  .our_vis_mis .mission .card .card_body p {
+    font-size: 1.2rem;
+  }
+  .our_culture .text h1 {
+    font-size: 2rem;
+  }
+  .our_culture p {
+    font-size: 1.2rem;
+  }
+  .about_crayond .text h1 {
+    font-size: 2rem;
+  }
+  .about_crayond .text p {
+    font-size: 1.2rem;
+  }
+  .our_team_who_we_are .text h1 {
+    font-size: 2rem;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -1650,7 +1855,17 @@ body {
   .sign_btn {
     display: none !important;
   }
-  .video_player {
+  .video_player video {
+    position: absolute;
+    top: 68px;
+  }
+  .title_section {
+    height: 50%;
+  }
+  .mobile_title {
+    display: block;
+  }
+  .who_you_are_title {
     display: none;
   }
   .header_text {
@@ -1923,6 +2138,38 @@ body {
   }
   .join_team .button_div .banner_button {
     width: 250px !important;
+  }
+  .our_vis_mis .mobile_title {
+    display: block !important;
+  }
+  .our_vis_mis .vission .card .card_body {
+    height: 500px;
+    padding: 12% 12% 12% 12%;
+  }
+  .our_vis_mis .vission .card .card_body h1 {
+    font-size: 2.1rem;
+  }
+  .our_vis_mis .vission .card .card_body p {
+    font-size: 1.2rem;
+  }
+  .our_vis_mis .mission .card .card_body {
+    height: 500px;
+    padding: 12% 12% 12% 12%;
+  }
+  .our_vis_mis .mission .card .card_body h1 {
+    font-size: 2.1rem;
+  }
+  .our_vis_mis .mission .card .card_body p {
+    font-size: 1.2rem;
+  }
+  .about_crayond .text h1 {
+    font-size: 2.1rem;
+  }
+  .our_culture .text h1 {
+    font-size: 2.1rem;
+  }
+  .our_culture .text p {
+    font-size: 1.2rem;
   }
 }
 /*# sourceMappingURL=styles.css.map */

@@ -228,10 +228,18 @@ body{
     text-align: center;
 }
 .video_player{
-    position: absolute;
-    top: 0;
-    height: 100vh;
+    // position: absolute;
+    // top: 0;
+    // height: 100vh;
     // max-height: calc(100vh - 374px);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: auto;
+    width: auto;
+    min-height: 100%;
+    min-width: 100%;
+    z-index: -9999;
     video{
         width: 100%;
         display: block;
@@ -353,6 +361,7 @@ body{
 
 
 .who_you_are{
+    background-color: $color-white;
     margin-top: 6%;
     text-align: center;
     margin-bottom: 8%;
@@ -1257,6 +1266,136 @@ body{
   }
 }
 
+// who_you_are page
+.title_section{
+    height: 99vh;
+    display: flex;
+    text-align: center;
+    .container{
+        margin: auto auto 80px auto;
+        .who_you_are_title{
+            p{
+                margin-bottom: 0;
+                color: white;
+                text-shadow: 2px 2px 5px #00000078;
+                font-size: 4rem;
+            }
+        }
+    }
+}
+.our_vis_mis{
+    padding: 6% 0px;
+    .mobile_title{
+        font-size: 2rem !important;
+    }
+    .vission{
+        padding: 30px;
+        .card{
+            border-radius: 10px;
+            .card_body{
+                height: 550px;
+                // padding: 50px 82px 100px 45px;
+                padding: 12% 22% 12% 12%;
+                h1{
+                    font-size: 2.6rem;
+                    font-weight: 700;
+                    color: $text-primary-color;
+                    margin-bottom: 36px;
+                }
+                p{
+                    font-size: 1.5rem;
+                    color: $text-tertiary-color;
+                }
+            }
+        }
+    }
+    .mission{
+        padding: 30px;
+        .card{
+            border-radius: 10px;
+            .card_body{
+                height: 550px;
+                background-color: $primary-color;
+                // padding: 50px 82px 100px 45px;
+                padding: 12% 22% 12% 12%;
+                border-radius: 10px;
+                h1{
+                    font-size: 2.6rem;
+                    font-weight: 700;
+                    color: $color-white;
+                    margin-bottom: 36px;
+                }
+                p{
+                    font-size: 1.5rem;
+                    color: $color-white;
+                }
+            }
+        }
+    }
+}
+.about_crayond{
+    padding: 6% 0px;
+   .text{
+       text-align: center;
+   }
+}
+.our_culture{
+    padding: 6% 0px;
+    h1{
+        font-weight: 700;
+        font-size: 2.85rem;
+        margin-bottom: 0;
+    }
+    .text{
+        text-align: center;
+        padding-top: 6%;
+        font-size: 1.4rem;
+        // padding-bottom: 6%;
+    }
+    .card_div{
+        img{
+            width: 80%;
+            margin: auto;
+        }
+    }
+}
+
+.our_team_who_we_are{
+    padding: 6% 0px;
+    h1{
+        font-weight: 700;
+        font-size: 2.85rem;
+        margin-bottom: 0;
+    }
+    .text{
+        text-align: center;
+        // padding-top: 6%;
+        font-size: 1.4rem;
+        // padding-bottom: 6%;
+    }
+    .gallery_list{
+        margin-top: 4%;
+        .musics{
+            width: 100%;
+            height: 100%;
+        }
+        .team1{
+            width: 100%;
+            height: 260px;
+            padding-bottom: 8px;
+        }
+        .team2{
+            padding-top: 8px;
+            width: 100%;
+            height: 260px;
+        }
+        .team3{
+            padding-top: 16px;
+            width: 100%;
+            height: 360px;
+        }
+    }
+}
 
 // All media qurys
 
@@ -1274,6 +1413,19 @@ body{
         background-size: contain;
         margin-bottom: 4%;
         padding-bottom: 6%;
+    }
+    .title_section{
+        .container{
+            margin: auto auto 200px auto;
+            .who_you_are_title{
+                p{
+                    margin-bottom: 0;
+                    color: white;
+                    text-shadow: 2px 2px 5px #00000078;
+                    font-size: 4.8rem;
+                }
+            }
+        }
     }
 
  }
@@ -1338,8 +1490,25 @@ body{
        }
     }
         
-}
+    }
 
+    // .who_you_are
+    .our_vis_mis{
+        .vission {
+            .card {
+                .card_body{
+                    padding: 12% 15% 12% 12%;
+                }
+            }
+        }
+        .mission {
+            .card {
+                .card_body{
+                    padding: 12% 15% 12% 12%;
+                }
+            }
+        }
+    } 
 
 }
 // Medium devices (landscape tablets, 768px and up) */
@@ -1357,8 +1526,8 @@ body{
         display: none !important;
     }
     .video_player{
-        height: 50vh;
-        margin-bottom: 60vh;
+        // height: 50vh;
+        // margin-bottom: 60vh;
     }
     .header_text{
         top: 65px;
@@ -1635,6 +1804,76 @@ body{
             }
         } 
     } 
+
+
+    // who_we_are
+    .title_section {
+        .container {
+            .who_you_are_title {
+                p{
+                    font-size: 3rem;
+                }
+            }
+        }
+    }
+    .our_vis_mis{
+        .vission{
+            .card {
+                .card_body{
+                    padding: 12% 12% 12% 12%;
+                    height: 460px;
+                    h1{
+                        font-size: 2rem;
+                    }
+                    p{
+                        font-size: 1.2rem;
+                    }
+                } 
+            }
+        }
+        .mission{
+            .card {
+                .card_body{
+                    padding: 12% 12% 12% 12%;
+                    height: 460px;
+                    h1{
+                        font-size: 2rem;
+                    }
+                    p{
+                        font-size: 1.2rem;
+                    }
+                } 
+            }
+        } 
+    } 
+    .our_culture{
+        .text{
+            h1{
+                font-size: 2rem;
+            }
+        }
+        p{
+            font-size: 1.2rem;
+        }
+    }
+    .about_crayond{
+        .text{
+            h1{
+                font-size: 2rem;
+            }
+            p{
+                font-size: 1.2rem;
+            }
+        }
+    }
+    .our_team_who_we_are{
+        .text{
+            h1{
+                font-size: 2rem;
+            }
+        }
+    }
+
 }
 // Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
@@ -1674,6 +1913,19 @@ body{
     //   height: 100% !important;
   }
   .video_player{
+    //   display: none;
+    video{
+        position: absolute;
+        top: 68px;
+    }
+  }
+  .title_section{
+      height: 50%;
+  }
+  .mobile_title{
+      display: block;
+  }
+  .who_you_are_title{
       display: none;
   }
   .header_text {
@@ -1706,6 +1958,7 @@ body{
             }
         }
     }
+
 
 
   .who_you_are {
@@ -2006,6 +2259,59 @@ body{
     .button_div {
         .banner_button{
             width: 250px !important;
+        }
+    }
+}
+
+// .who_you_are
+.our_vis_mis{
+    .mobile_title{
+        display: block !important;
+    }
+    .vission{
+        .card{
+            .card_body{
+                height: 500px;
+    padding: 12% 12% 12% 12%;
+                h1{
+                    font-size: 2.1rem;
+                }
+                p{
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+    .mission{
+        .card{
+            .card_body{
+                height: 500px;
+                 padding: 12% 12% 12% 12%;
+                h1{
+                    font-size: 2.1rem;
+                }
+                p{
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+}
+.about_crayond{
+    .text{
+        h1{
+            font-size: 2.1rem;
+        }
+
+    }
+}
+.our_culture{
+    .text{
+        h1{
+            font-size: 2.1rem;
+        }
+        p{
+            font-size: 1.2rem;
         }
     }
 }
