@@ -300,21 +300,28 @@ p{
       padding: 0px 15px !important;
     }
  .mobile_arrow .left{
-    /* position: absolute; */
-    top: 360px;
-    /* background-color: aquamarine; */
-    padding: 5px 7px;
+    position: relative;
+    top: 1px;
+    padding: 7px 7px;
     border-radius: 50px;
-    right: 96px;
-
+    /* right: 96px; */
+    right: 36px;
+    z-index: 12;
+    
+  }
+  .mobile_arrow .left:hover{
+    background-color: #59595924;
   }
   .mobile_arrow .right {
-    /* position: absolute; */
-    top: 360px;
-    right: 30px;
-    /* background-color: aquamarine; */
-    padding: 5px 7px;
+    position: relative;
+    top: 1px;
+    /* right: 30px; */
+    padding: 7px 7px;
     border-radius: 50px;
+    z-index: 12;
+  }
+  .mobile_arrow .right:hover{
+    background-color: #59595924;
   }
   .mobile_arrow{
     position: absolute;
