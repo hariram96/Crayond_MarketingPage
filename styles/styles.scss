@@ -10,7 +10,9 @@ $primary-color: #665CD7;
 // v1
 // $tertiary-background-color: #334AC0;
 // v3
-$tertiary-background-color: #665CD7;
+// $tertiary-background-color: #665CD7;
+// new
+$tertiary-background-color: #242438;
 
 $primary-background-color: #ffffff;
 $secondary-background-color: rgba(51, 74, 192, 0.03);
@@ -771,7 +773,7 @@ body{
             padding: 18px 30px;
             background-color: $color-white;
             font-size: 1rem;
-            color: $primary-color;
+            color: $tertiary-background-color;
             border: none;
             font-weight: 700;
             border-radius: 5px;
