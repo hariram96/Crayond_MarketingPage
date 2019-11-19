@@ -300,12 +300,12 @@ p{
       padding: 0px 15px !important;
     }
  .mobile_arrow .left{
-    position: relative;
+    position: inherit;
     top: 1px;
-    padding: 7px 7px;
+    padding: 7px 9px;
     border-radius: 50px;
     /* right: 96px; */
-    right: 36px;
+    right: 70px;
     z-index: 12;
     
   }
@@ -313,9 +313,9 @@ p{
     background-color: #59595924;
   }
   .mobile_arrow .right {
-    position: relative;
+    position: inherit;
     top: 1px;
-    /* right: 30px; */
+    right: 0px;
     padding: 7px 7px;
     border-radius: 50px;
     z-index: 12;
