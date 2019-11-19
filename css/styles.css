@@ -25,18 +25,17 @@ p{
   background-color: #fff !important;
 }
  .contact{
-    margin-bottom: 30px;
+    /* margin-bottom: 30px;
     background-image: url(../images/envelope.png);
-    /* background: no-repeat; */
-    /* background-position: left; */
-    /* background-size: 70px; */
     background-position: 10px 5px;
     background-repeat: no-repeat;
     background-size: contain;
     background-size: 5%;
     padding-left: 9%;
     margin-top: 30px;
-    padding-top: 0;
+    padding-top: 0; */
+    border-top: 1px solid #f0f0f0;
+    padding: 30px;
  }
  .navbar{
       box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
@@ -316,7 +315,7 @@ p{
     position: inherit;
     top: 1px;
     right: 0px;
-    padding: 7px 7px;
+    padding: 7px 9px;
     border-radius: 50px;
     z-index: 12;
   }
