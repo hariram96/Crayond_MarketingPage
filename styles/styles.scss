@@ -1057,6 +1057,43 @@ body{
             }
         }
     }
+    .contact{
+        border-top: 1px solid #f0f0f0;
+        padding: 35px;
+        .box_info{
+            text-align: left;
+            display: flex;
+            .image_box{
+                margin: auto;
+        .life_icon{
+            position: absolute;
+            top: 14px;
+            // box-shadow: 1px 1px 1px 1px #000;
+            border: solid 1px rgba(223, 25, 25, 0.16);
+            padding: 15px 10px;
+            border-radius: 50px;
+        }
+        .life_text{
+            padding-left: 78px;
+            margin-bottom: 12px;
+            .discription_life{
+                margin-bottom: 15px;
+                color: $text-primary-color;
+                font-size: 20px;
+            }
+            span{
+                a{
+                    color: $primary-color !important;
+                    font-size: 18px;
+                    padding: 10px 16px;
+                    border: 1px solid rgba(0,0,0,.075);
+                    border-radius: 4px;
+                }
+            }
+        }
+       }
+     }
+    }
 }
 
 .our_team{
@@ -1300,6 +1337,7 @@ body{
             }
        }
     }
+        
 }
 
 
@@ -1576,6 +1614,15 @@ body{
     .current_opening{
         h1{
             font-size: 32px;
+        }
+        .contact .box_info {
+            .image_box {
+                .life_text{
+                    .discription_life{
+                        font-size: 17px;
+                    }
+                } 
+            }
         }
     }
     .join_team{
@@ -1931,6 +1978,18 @@ body{
                 }
             }
         }
+    }
+    .contact{
+        padding: 35px 16px;
+        .box_info{
+            .image_box{
+                .life_text {
+                    .discription_life{
+                        font-size: 16px;
+                    }
+             } 
+         } 
+      } 
     }
 }
 .join_team{

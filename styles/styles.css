@@ -1122,6 +1122,49 @@ body {
   font-family: fontLatoBlack;
 }
 
+.current_opening .contact {
+  border-top: 1px solid #f0f0f0;
+  padding: 35px;
+}
+
+.current_opening .contact .box_info {
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.current_opening .contact .box_info .image_box {
+  margin: auto;
+}
+
+.current_opening .contact .box_info .image_box .life_icon {
+  position: absolute;
+  top: 14px;
+  border: solid 1px rgba(223, 25, 25, 0.16);
+  padding: 15px 10px;
+  border-radius: 50px;
+}
+
+.current_opening .contact .box_info .image_box .life_text {
+  padding-left: 78px;
+  margin-bottom: 12px;
+}
+
+.current_opening .contact .box_info .image_box .life_text .discription_life {
+  margin-bottom: 15px;
+  color: #2b2a35;
+  font-size: 20px;
+}
+
+.current_opening .contact .box_info .image_box .life_text span a {
+  color: #665CD7 !important;
+  font-size: 18px;
+  padding: 10px 16px;
+  border: 1px solid rgba(0, 0, 0, 0.075);
+  border-radius: 4px;
+}
+
 .our_team {
   background-color: #F9F9FD;
   padding-bottom: 8%;
@@ -1574,6 +1617,9 @@ body {
   .current_opening h1 {
     font-size: 32px;
   }
+  .current_opening .contact .box_info .image_box .life_text .discription_life {
+    font-size: 17px;
+  }
   .join_team .billion h1 {
     font-size: 40px;
   }
@@ -1858,6 +1904,12 @@ body {
   }
   .current_opening .opening_section .positions_card button span i {
     top: 6px !important;
+  }
+  .current_opening .contact {
+    padding: 35px 16px;
+  }
+  .current_opening .contact .box_info .image_box .life_text .discription_life {
+    font-size: 16px;
   }
   .join_team .billion {
     padding-top: 16%;
