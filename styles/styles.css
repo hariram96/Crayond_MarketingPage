@@ -422,7 +422,7 @@ body {
   background-color: #FFE593;
   padding: 54px;
   border-radius: 9px;
-  height: 366px;
+  height: 404px;
 }
 
 .who_you_are .card_div .card-- .card--head {
@@ -432,6 +432,7 @@ body {
 }
 
 .who_you_are .card_div .card-- .card--text {
+  margin-bottom: 33px;
   margin-top: 10%;
   font-size: 1.13rem;
   font-weight: 400;
@@ -440,22 +441,27 @@ body {
 }
 
 .who_you_are .card_div .card-- .btnn {
-  color: black;
-  padding: 0px;
+  background-color: #000000;
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 12px 24px;
   font-weight: 700;
   outline: none;
   text-decoration: none;
-  padding: 10px;
+  border: 1.5px solid #000000;
 }
 
 .who_you_are .card_div .card-- .btnn:hover {
   outline: none;
-  background-color: rgba(0, 0, 0, 0.075);
+  background-color: #ffffff;
   border-radius: 4px;
+  color: #000000;
+  border: 1.5px solid #000000;
 }
 
 .who_you_are .card_div .card-- .btnn i {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: 500;
 }
 
@@ -819,9 +825,9 @@ body {
 .next_billion .billion .button_div .banner_button {
   cursor: pointer;
   padding: 18px 30px;
-  background-color: #ffffff;
+  background-color: #665CD7;
   font-size: 1rem;
-  color: #242438;
+  color: #ffffff;
   border: none;
   font-weight: 700;
   border-radius: 5px;
