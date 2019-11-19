@@ -802,7 +802,7 @@ body {
 
 .next_billion .billion .titel_button .button {
   padding: 15px 30px;
-  background-color: rgba(0, 0, 0, 0.08);
+  background-color: rgba(255, 255, 255, 0.1);
   font-size: 1rem;
   color: #ffffff;
   border: none;
@@ -1040,11 +1040,11 @@ body {
 }
 
 .our_mission_section .carousel-inner .slider_img {
-  padding-right: 10%;
+  padding-right: 5%;
 }
 
 .our_mission_section .carousel-inner h5 {
-  margin-top: 16px;
+  margin-top: 30px;
   font-size: 16px;
   color: #665CD7;
   font-weight: 500;

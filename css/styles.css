@@ -301,7 +301,7 @@ p{
     }
  .mobile_arrow .left{
     position: absolute;
-    top: 390px;
+    top: 404px;
     /* background-color: aquamarine; */
     padding: 5px 7px;
     border-radius: 50px;
@@ -310,7 +310,7 @@ p{
   }
   .mobile_arrow .right {
     position: absolute;
-    top: 390px;
+    top: 404px;
     right: 30px;
     /* background-color: aquamarine; */
     padding: 5px 7px;
