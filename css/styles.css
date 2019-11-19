@@ -300,7 +300,7 @@ p{
       padding: 0px 15px !important;
     }
  .mobile_arrow .left{
-    position: absolute;
+    /* position: absolute; */
     top: 360px;
     /* background-color: aquamarine; */
     padding: 5px 7px;
@@ -309,7 +309,7 @@ p{
 
   }
   .mobile_arrow .right {
-    position: absolute;
+    /* position: absolute; */
     top: 360px;
     right: 30px;
     /* background-color: aquamarine; */
@@ -317,6 +317,9 @@ p{
     border-radius: 50px;
   }
   .mobile_arrow{
+    position: absolute;
+    right: 30px;
+    top: 396px;
     display: block;
   }
   .desktop_arrow{
