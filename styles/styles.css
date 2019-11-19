@@ -174,15 +174,15 @@ body {
 }
 
 .header .row .header_menu span:hover {
-  border-bottom: 2px solid #665CD7;
+  border-bottom: 2px solid #334AC0;
 }
 
 .header .row .header_menu .active {
-  border-bottom: 2px solid #665CD7;
+  border-bottom: 2px solid #334AC0;
 }
 
 .header .row .header_menu .active a {
-  color: #665CD7;
+  color: #334AC0;
   font-family: "fontLatoBold";
 }
 
@@ -201,15 +201,15 @@ body {
   -webkit-box-shadow: 0 7px 12px 0 rgba(16, 31, 108, 0.07);
           box-shadow: 0 7px 12px 0 rgba(16, 31, 108, 0.07);
   font-size: 16px;
-  border-color: #665CD7;
-  color: #665CD7;
+  border-color: #334AC0;
+  color: #334AC0;
   border-radius: 4px;
   background-color: #ffffff;
 }
 
 .header .row .sign_btn button:hover {
   color: #ffffff;
-  background-color: #665CD7;
+  background-color: #334AC0;
 }
 
 .header .row .sign_btn button:focus {
@@ -292,7 +292,7 @@ body {
   width: 300px;
   cursor: pointer;
   padding: 18px 30px;
-  background-color: #665CD7;
+  background-color: #334AC0;
   font-size: 16px;
   color: white;
   border: none;
@@ -322,7 +322,7 @@ body {
 }
 
 .banner_button:hover {
-  background-color: #665CD7;
+  background-color: #334AC0;
 }
 
 .banner_button:hover span {
@@ -419,7 +419,7 @@ body {
 
 .who_you_are .card_div .card-- {
   cursor: pointer;
-  background-color: #A0FDDC;
+  background-color: #91FAFF;
   padding: 54px;
   border-radius: 9px;
   height: 366px;
@@ -633,7 +633,7 @@ body {
 }
 
 .our_secrets .card__body_div .card_primary {
-  background-color: #665CD7;
+  background-color: #334AC0;
 }
 
 .our_secrets .card__body_div .card_primary a {
@@ -707,7 +707,7 @@ body {
 }
 
 .crayond_ceo {
-  background-color: #A0FDDC;
+  background-color: #91FAFF;
   padding: 6% 0;
   margin: 6% 0px;
 }
@@ -769,7 +769,7 @@ body {
 }
 
 .next_billion {
-  background-color: #242438;
+  background-color: #665CD7;
   text-align: center;
   position: relative;
 }
@@ -821,7 +821,7 @@ body {
   padding: 18px 30px;
   background-color: #ffffff;
   font-size: 1rem;
-  color: #665CD7;
+  color: #334AC0;
   border: none;
   font-weight: 700;
   border-radius: 5px;
@@ -921,7 +921,7 @@ body {
 }
 
 .footer_social_media .row .footer_list span:hover {
-  color: #665CD7;
+  color: #334AC0;
 }
 
 .footer_social_media .row .social_icon {
@@ -946,7 +946,7 @@ body {
 
 .footer_social_media .row .social_icon i {
   margin: auto;
-  color: #665CD7;
+  color: #334AC0;
 }
 
 .footer_social_media .row .footer_address {
@@ -987,14 +987,14 @@ body {
 }
 
 .our_mission_section .our_mission_title .title_mobile .explore {
-  background-color: #665CD7;
+  background-color: #334AC0;
   color: #ffffff;
   margin-top: 26px;
 }
 
 .our_mission_section .our_mission_title h5 {
   font-size: 16px;
-  color: #665CD7;
+  color: #334AC0;
   font-weight: 500;
 }
 
@@ -1030,7 +1030,7 @@ body {
 
 .our_mission_section .carousel_menu .active {
   color: #ffffff;
-  background-color: #665CD7;
+  background-color: #334AC0;
 }
 
 .our_mission_section .carousel-inner .slider_img {
@@ -1040,7 +1040,7 @@ body {
 .our_mission_section .carousel-inner h5 {
   margin-top: 16px;
   font-size: 16px;
-  color: #665CD7;
+  color: #334AC0;
   font-weight: 500;
   margin-bottom: -10px;
 }
@@ -1067,7 +1067,7 @@ body {
 
 .epic_works .epic_title h5 {
   font-size: 16px;
-  color: #665CD7;
+  color: #334AC0;
   font-weight: 500;
 }
 
@@ -1111,7 +1111,7 @@ body {
 }
 
 .current_opening .opening_section .positions_card button {
-  background-color: #665CD7;
+  background-color: #334AC0;
   color: #ffffff;
   font-family: fontLatoBlack;
 }
@@ -1158,7 +1158,7 @@ body {
 }
 
 .our_team .card__body_div .card_primary {
-  background-color: #665CD7;
+  background-color: #334AC0;
 }
 
 .our_team .card__body_div .card_primary a {
@@ -1291,7 +1291,7 @@ body {
   padding: 18px 30px;
   background-color: #ffffff;
   font-size: 16px;
-  color: #665CD7;
+  color: #334AC0;
   border: none;
   font-weight: 700;
   border-radius: 5px;

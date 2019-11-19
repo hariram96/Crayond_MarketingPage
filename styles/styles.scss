@@ -1,15 +1,31 @@
 $primary-color_1: #334ac0;
-$primary-color: #665CD7;
+// v1
+$primary-color: #334AC0;
+// v2
+// $primary-color: #665CD7;
+// v3
+// $primary-color: #665CD7;
+
+// background colors
+$tertiary-background-color: #665CD7;
 $primary-background-color: #ffffff;
 $secondary-background-color: rgba(51, 74, 192, 0.03);
-$tertiary-background-color: #242438;
+$darck-background-color: rgba(192, 152, 51, 0.05);
+// text colors
 $text-primary-color: #2b2a35;
 $text-secondary-color: #383838;
 $text-tertiary-color: #595959;
 $text-subtext-color: #43434b;
-$card-background-color: #A0FDDC;
+// colors
 $color-white: #ffffff;
-$darck-background-color: rgba(192, 152, 51, 0.05);
+$color-black: #000000;
+// cardbackground colors
+// v1
+$card-background-color: #91FAFF;
+// v2
+// $card-background-color: #91FAFF;
+// v3
+// $card-background-color: #FFE593;
 
 body{
     overflow-x: hidden !important;
