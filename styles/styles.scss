@@ -1,14 +1,16 @@
 $primary-color_1: #334ac0;
 // v1
-$primary-color: #334AC0;
+// $primary-color: #334AC0;
 // v2
 // $primary-color: #665CD7;
 // v3
-// $primary-color: #665CD7;
+$primary-color: #665CD7;
 
 // background colors
 // v1
-$tertiary-background-color: #334AC0;
+// $tertiary-background-color: #334AC0;
+// v3
+$tertiary-background-color: #665CD7;
 
 $primary-background-color: #ffffff;
 $secondary-background-color: rgba(51, 74, 192, 0.03);
@@ -23,11 +25,11 @@ $color-white: #ffffff;
 $color-black: #000000;
 // cardbackground colors
 // v1
-$card-background-color: #91FAFF;
+// $card-background-color: #91FAFF;
 // v2
 // $card-background-color: #91FAFF;
 // v3
-// $card-background-color: #FFE593;
+$card-background-color: #FFE593;
 
 body{
     overflow-x: hidden !important;
