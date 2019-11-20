@@ -1417,6 +1417,54 @@ body{
         background-color: rgba(0, 0, 0, 0.02);
         // height: 500px;
         padding: 6% 16px;
+        .slide{
+            .carousel-inner{
+                .arrows{
+                    position: absolute;
+                    bottom: 20px;
+                    width: 100%;
+                    z-index: 12;
+                    a{
+                        padding: 10px 12px;
+                        margin-right: 52px;
+                        // background-color: aquamarine;
+                        border-radius: 20px;
+
+                        box-shadow: 0 3px 1px 0 rgba(51, 74, 192, 0.05);
+                        border: solid 1px #e3e3e3;
+                        background-color: #ffffff;
+                        i{
+                            color: $text-secondary-color;
+                        }
+                    }
+                    .right{
+                        padding: 10px 14px;
+                    }
+                }
+                .carousel-item{
+                    .slider_img{
+                        padding-right: 100px;
+                    }
+                    .slider_discription{
+                        .date{
+                            font-size: 20px;
+                            // color: $text-tertiary-color;
+                            color: #878787;
+                        }
+                        .h1{
+                            font-size: 48px;
+                            // color: $text-subtext-color;
+                            color: #2b2a35;
+                        }
+                        .diccription{
+                            color: #595959;
+                            font-size: 20px;
+                            line-height: 46px;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -1531,7 +1579,19 @@ body{
                 }
             }
         }
-    } 
+    }
+
+    .time_contantes{
+        .slide{
+            .carousel-inner{
+                .carousel-item{
+                    .slider_img{
+                        padding-right: 26px !important;
+                    }
+                }
+            }
+        }
+    }
 
 }
 // Medium devices (landscape tablets, 768px and up) */
@@ -1893,6 +1953,30 @@ body{
         .text{
             h1{
                 font-size: 2rem;
+            }
+        }
+    }
+
+    .time_contantes{
+        .slide{
+            .carousel-inner{
+                .carousel-item{
+                    .slider_img{
+                        padding-right: 20px !important;
+                    }
+                    .slider_discription{
+                        .date{
+                            font-size: 14px !important;
+                        }
+                        .titel{
+                            font-size: 22px !important;
+                        }
+                        .diccription{
+                            font-size: 16px !important;
+                            line-height: 1.5 !important;
+                        }
+                    }
+                }
             }
         }
     }
@@ -2338,4 +2422,54 @@ body{
         }
     }
 }
+
+.time_contantes{
+    .slide{
+        .carousel-inner{
+            .arrows{
+                position: absolute;
+                // bottom: 20px;
+                top: 420px;
+                width: 100%;
+                z-index: 12;
+                a{
+                    padding: 10px 12px;
+                    margin-right: 52px;
+                    // background-color: aquamarine;
+                    border-radius: 20px;
+
+                    box-shadow: 0 3px 1px 0 rgba(51, 74, 192, 0.05);
+                    border: solid 1px #e3e3e3;
+                    background-color: #ffffff;
+                    i{
+                        color: $text-secondary-color;
+                    }
+                }
+                .right{
+                    padding: 10px 14px;
+                    margin-right: 0 !important;
+                }
+            }
+            .carousel-item{
+                .slider_img{
+                    padding-right: 16px !important;
+                    margin-bottom: 20px;
+                }
+                .slider_discription{
+                    .date{
+                        font-size: 14px !important;
+                    }
+                    .titel{
+                        font-size: 26px !important;
+                    }
+                    .diccription{
+                        font-size: 16px !important;
+                        line-height: 2 !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
 }
