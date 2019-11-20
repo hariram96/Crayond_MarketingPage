@@ -1518,6 +1518,30 @@ body {
   height: 360px;
 }
 
+.sliders_time_line .time_line_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1.5px solid  #e9ecef;
+}
+
+.sliders_time_line .time_line_list .active {
+  color: #665CD7;
+  border-bottom: 1.5px solid #665CD7 !important;
+}
+
+.sliders_time_line .time_line_list .time_line_years {
+  cursor: pointer;
+  padding: 10px 5px;
+  margin: auto;
+  border-bottom: 1.5px solid transparent;
+}
+
+.sliders_time_line .time_contantes {
+  background-color: rgba(0, 0, 0, 0.02);
+  padding: 6% 16px;
+}
+
 @media only screen and (min-width: 1440px) {
   .header_text {
     background-size: cover;

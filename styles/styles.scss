@@ -1397,6 +1397,29 @@ body{
     }
 }
 
+// time lines
+.sliders_time_line{
+    .time_line_list{
+        display: flex;
+        border-bottom: 1.5px solid  #e9ecef;
+        .active{
+            color: $primary-color;
+            border-bottom: 1.5px solid $primary-color !important;
+        }
+        .time_line_years{
+            cursor: pointer;
+            padding: 10px 5px;
+            margin: auto;
+            border-bottom: 1.5px solid transparent;
+        }
+    }
+    .time_contantes{
+        background-color: rgba(0, 0, 0, 0.02);
+        // height: 500px;
+        padding: 6% 16px;
+    }
+}
+
 // All media qurys
 
 // Extra large devices (large laptops and desktops, 1200px and up)
