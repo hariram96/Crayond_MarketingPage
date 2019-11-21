@@ -65,6 +65,7 @@
     <![endif]-->
 </head>
 
+
 <body>
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N5454VZ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -92,6 +93,46 @@
             </div>
         </div>
     </div>
+    <div class="header_mobile" style="display: none;">
+        <!-- <div class="container"> -->
+            <!-- <div class="col-12 col-xs-12 col-ms-12 col-md-12 col-lg-12 col-xl-12">
+                <div class="row">
+                    <div class="col-6 col-xs-6 col-ms-6 col-md-6 col-lg-6 col-xl-6 logo_mobile">
+                        <a href="/" class="logo"><img alt="logo-crayond" src="./images/logo-crayond@2x.jpg"/>&nbsp;</a>
+                    </div>
+                    <div class="col-6 col-xs-6 col-ms-6 col-md-6 col-lg-6 col-xl-6 header_mobile_menu">
+                        <span><i class="fa fa-bars" aria-hidden="true"></i></span>
+                    </div>
+                </div>
+            </div> -->
+            <div class="crayond_logo_mobile">
+                <a href="/" class="logo" style="margin: auto;"><img width="134px" alt="logo-crayond" src="./images/logo-crayond@2x.jpg"/>&nbsp;</a>
+            </div>
+            <div class="icon-container">
+                <div id="menuicon">
+                <div class="bar bar1"></div>
+                <div class="bar bar2"></div>
+                </div>
+            </div>
+            <div class="mobile-menu">
+                <ul class="menu">
+                <li class="menu-item"><a href="./who-we-are">Who we are</a>
+                </li>
+                <li class="menu-item"><a href="./opportunities">Opportunities</a>
+                </li>
+                <li class="menu-item"><a href="https://medium.com/crayond" target="_blank">Blogs</a>
+                </li>
+                <li class="menu-item"><a href="./contact">Contact</a>
+                </li>
+                <li class="menu-item" style="border: none;text-align: center;margin-top: 30px;">
+                    <!-- <a href="#">Contact</a> -->
+                    <button style="padding: 10px 30px;" class="btn btn-outline-primary fontLatoBlack contact_btn" onclick="window.location.href='/contact'" >SIGN IN</button>
+                </li>
+                </ul>
+            </div>
+        <!-- </div> -->
+    </div>
+
     <!-- end -->
     <!-- background video -->
     <section class="first_section video_player" >
@@ -166,29 +207,29 @@
 <!-- slider timeline-->
     <section class="sliders_time_line">
         <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 time_line_list">
-            <span class="time_line_years active">2012</span>
-            <span class="time_line_years">2013</span>
-            <span class="time_line_years">2014</span>
+            <span class="time_line_years active" id="2012_timeline" data-title="2012" >2012</span>
+            <span class="time_line_years" id="2013_timeline" data-title="2013">2013</span>
+            <span class="time_line_years" id="2014_timeline" data-title="2014">2014</span>
             <!-- <span class="time_line_years">2015</span> -->
-            <span class="time_line_years">2016</span>
-            <span class="time_line_years">2017</span>
-            <span class="time_line_years">2018</span>
-            <span class="time_line_years">2019</span>
+            <span class="time_line_years" id="2016_timeline" data-title="2016">2016</span>
+            <span class="time_line_years" id="2017_timeline" data-title="2017">2017</span>
+            <span class="time_line_years" id="2018_timeline" data-title="2018">2018</span>
+            <span class="time_line_years" id="2019_timeline" data-title="2019">2019</span>
         </div>
         <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 time_contantes">
-            <div class="container">
+            <div class="container" data-interval="0.001">
                 <div id="demo" class="carousel slide" data-ride="carousel">
 
                 <!-- Indicators -->
-                <ul class="carousel-indicators">
+                <!-- <ul class="carousel-indicators">
                     <li data-target="#demo" data-slide-to="0" class="active"></li>
                     <li data-target="#demo" data-slide-to="1"></li>
                     <li data-target="#demo" data-slide-to="2"></li>
-                </ul>
+                </ul> -->
                 
                 <!-- The slideshow -->
                 <div class="carousel-inner">
-                    <div class="row arrows">
+                    <!-- <div class="row arrows">
                         <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                         </div>
                         <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
@@ -203,21 +244,51 @@
                                 </span>
                             </a>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="carousel-item active">
-                        <!-- <div class="row"> -->
-                            <!-- <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 slider_img">
-                                <img src="./images/01_clarity.png" alt="Los Angeles" width="1100" height="500" style="width: 100%;height: 100%;">
-                            </div> -->
-                            <div class="col-12 col-xs-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 slider_discription">
-                                <p class="fontGraphikRegular date">AUG 29, 2012</p>
-                                <h1 class="fontGraphikSemibold titel" >Tagline</h1>
-                                <img alt="line 2" src="./images/line-left.png" />
-                                <p class="fontLatoRegular diccription" >Where there is a will, there is a way! We decided to bootstrap. We couldn't afford an office so we shared a space with a kind enough friend. Crayon'd started its journey with 3 of us at the helm. The excitement and emotion is hard to explain.</p>   
-                            </div>
-                        <!-- </div> -->
+                        <div class="col-12 col-xs-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 slider_discription">
+                            <p class="fontGraphikRegular date" style="margin: 0;color: #2b2a35;">AUG 2012</p>
+                            <!-- <h1 class="fontGraphikSemibold titel" >Tagline</h1> -->
+                            <img alt="line 2" src="./images/line-left.png" />
+                            <p class="fontLatoRegular diccription" >Our quest began over 100 lines of chat. We dreamt big starting from creating a unique brand, strong culture, wonderful people. We even planned our outfits, looked around for space and zeroed in on SP Info City. We envisioned our ambience and had it covered as well all at a budget not leaving out bean bags. We were raring to give it a shot.</p>   
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-12 col-xs-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 slider_discription">
+                            <p class="fontGraphikRegular date" style="margin: 0;color: #2b2a35;">SEP 2012</p>
+                            <img alt="line 2" src="./images/line-left.png" />
+                            <p class="fontLatoRegular diccription" >Reality struck as our heart was full but our pockets were empty. And, we were all about product and sweating on investors. We were so unsure about how to proceed. We bought a cafe moments card to atleast gain some miles for all the coffee.</p>   
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-12 col-xs-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 slider_discription">
+                            <p class="fontGraphikRegular date" style="margin: 0;color: #2b2a35;">SEP 17 2012</p>
+                            <img alt="line 2" src="./images/line-left.png" />
+                            <p class="fontLatoRegular diccription" >Where there is a will, there is a way! We decided to bootstrap. We couldn't afford an office so we shared a space with a kind enough friend. Crayon'd started its journey with 3 of us at the helm. The excitement and emotion is hard to explain.</p>   
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-12 col-xs-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 slider_discription">
+                            <p class="fontGraphikRegular date" style="margin: 0;color: #2b2a35;">SEP 2012</p>
+                            <img alt="line 2" src="./images/line-left.png" />
+                            <p class="fontLatoRegular diccription" >Our 1st Client arrived. Thanks to our well-wisher who passed on a reference to us.</p>   
+                        </div>
                     </div>
                     
+                </div>
+                <div class="row arrows">
+                    <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 arrowslist">
+                        <a class="left" href="#demo" data-slide="prev">
+                            <span>
+                                <i class="fa fa-chevron-left" aria-hidden="true" ></i>
+                            </span>
+                        </a>
+                        <a class="right" href="#demo" data-slide="next">
+                            <span>
+                                <i class="fa fa-chevron-right" aria-hidden="true" ></i>
+                            </span>
+                        </a>
+                    </div>
                 </div>
                 
                 <!-- Left and right controls -->
@@ -327,9 +398,9 @@
                     <p class="fontGraphikRegular">All rights reserved</p>
                 </div>
                 <div class="col-6 col-sm-12 col-xs-6 col-md-2 col-lg-2 col-xl-2" style="margin: auto;">
-                    <a href="./careers.html"  alt="Company" style="color: unset;">
+                    <a href="/who-we-are.html"  alt="Company" style="color: unset;">
                         <span class="fontLatoBold footer_menu">
-                            Company
+                                Who we are
                         </span>
                     </a>
                     <!-- <ul>
@@ -340,9 +411,9 @@
                     </ul> -->
                 </div>
                 <div class="col-6 col-sm-12 col-xs-6 col-md-2 col-lg-2 col-xl-2" style="margin: auto;">
-                    <a href="./careers.html"  alt="Company" style="color: unset;">
+                    <a href="/opportunities"  alt="Opportunities" style="color: unset;">
                      <span class="fontLatoBold  footer_menu">
-                        Solutions
+                            Opportunities
                      </span>
                     </a>
                     <!-- <ul>
@@ -353,9 +424,9 @@
                     </ul> -->
                 </div>
                 <div class="col-6 col-sm-12 col-xs-6 col-md-2 col-lg-2 col-xl-2" style="margin: auto;">
-                    <a href="./careers.html"  alt="Company" style="color: unset;">
+                    <a href="https://medium.com/crayond" target="_blank" alt="Blogs" style="color: unset;">
                      <span class="fontLatoBold footer_menu">
-                        Resources
+                        Blogs
                      </span>
                      </a>
                     <!-- <ul>
@@ -365,9 +436,9 @@
                     </ul> -->
                 </div>
                 <div class="col-6 col-sm-12 col-xs-6 col-md-2 col-lg-2 col-xl-2" style="margin: auto;">
-                    <a href="./careers.html"  alt="Company" style="color: unset;">
+                    <a href="/contact"  alt="contact" style="color: unset;">
                      <span class="fontLatoBold footer_menu">
-                        Products
+                            Contact
                     </span>
                     </a>
                     <!-- <ul>
@@ -483,7 +554,106 @@
         
         lastScrollTop = st;
     }
+
+    (function () {
+  const header = document.querySelector('.header_mobile');
+	const icon = document.querySelector('.icon-container');
+	icon.onclick = function () {
+		header.classList.toggle('menu-open');
+	}
+}());
     
+    // $("#2013_timeline").onclick()
+    $(document).on("click", ".time_line_years", function () {
+        $(".carousel-inner").empty();
+        $(this).addClass("active");
+        // $("#2012_timeline").removeClass("active");
+        // $("#2014_timeline").removeClass("active");
+        // $("#2016_timeline").removeClass("active");
+        // $("#2017_timeline").removeClass("active");
+        // $("#2018_timeline").removeClass("active");
+        // $("#2019_timeline").removeClass("active");
+        var data = { 
+                    "2012": [
+                        {
+                        "date": "AUG 2012",
+                        "dis": "Our quest began over 100 lines of chat. We dreamt big starting from creating a unique brand, strong culture, wonderful people. We even planned our outfits, looked around for space and zeroed in on SP Info City. We envisioned our ambience and had it covered as well all at a budget not leaving out bean bags. We were raring to give it a shot."
+                        },
+                        {
+                            "date":"SEP 2012",
+                            "dis":"Reality struck as our heart was full but our pockets were empty. And, we were all about product and sweating on investors. We were so unsure about how to proceed. We bought a cafe moments card to atleast gain some miles for all the coffee."
+                        },
+                        {
+                            "date":"SEP 17 2012",
+                            "dis":"Where there is a will, there is a way! We decided to bootstrap. We couldn't afford an office so we shared a space with a kind enough friend. Crayon'd started its journey with 3 of us at the helm. The excitement and emotion is hard to explain."
+                        },
+                        {
+                            "date":"SEP 2012",
+                            "dis":"Our 1st Client arrived. Thanks to our well-wisher who passed on a reference to us."
+                        },
+                        {
+                            "date":"NOV 2012",
+                            "dis":"We were now 6 and hunted for another shared space. Guess What? We found something pretty. We grew to 9 member team here."
+                        }
+                    ],
+                    "2013": [
+                        {
+                        "date": "MAY 2013",
+                        "dis": "An unprecedented shift to a place where we belong now."
+                        },
+                        {
+                        "date": "SEP 2013",
+                        "dis": "We sank in joy as we lived 1 year as a boot-strapped startup. No fancy parties, but we did celebrate hard."
+                        }
+                    ],
+                    "2014": [
+                        {
+                            "date": "AUG 2014",
+                            "dis": "The business continued to grow, so did the team. All was well, at least that's what it seemed to be."
+                        },
+                        {
+                            "date": "NOV 2014",
+                            "dis": "Every startup has twist and turns, you uncover so much in the journey. The moment of truth arrived that our culture had a hole and it was just human for people to breach the trust barriers."
+                        }
+                    ],
+                    "2016": [
+                        {
+                            "date": "JAN 2016",
+                            "dis": "We inducted few more fresh minds with the hope of a shoot at our great ambitions. We seemed to have gained pace more than what we did earlier. The grand plans were back to the drawing board, trying to align everyone."
+                        }
+                    ]
+                    }
+        debugger
+        var date = $(this).data("title");
+        if(data[date].length == 1){
+            $(".arrows").css("display", "none");
+        }else{
+            $(".arrows").css("display", "block");
+        }
+        jQuery.each(data[date], function (index, value) {
+            // alert(JSON.stringify(value))
+        if (index == 0) {
+            var html4 = '<div class="carousel-item active">'+
+                        '<div class="col-12 col-xs-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 slider_discription">'+
+                            '<p class="fontGraphikRegular date" style="margin: 0;color: #2b2a35;">'+value.date+'</p>'+
+                            '<img alt="line 2" src="./images/line-left.png" />'+
+                            '<p class="fontLatoRegular diccription" >'+value.dis+'</p>'+
+                        '</div>'+
+                    '</div>';
+                $(".carousel-inner").append(html4);
+        }else{
+        var html4 = '<div class="carousel-item">'+
+                        '<div class="col-12 col-xs-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 slider_discription">'+
+                            '<p class="fontGraphikRegular date" style="margin: 0;color: #2b2a35;">'+value.date+'</p>'+
+                            '<img alt="line 2" src="./images/line-left.png" />'+
+                            '<p class="fontLatoRegular diccription" >'+value.dis+'</p>'+
+                        '</div>'+
+                    '</div>';
+                $(".carousel-inner").append(html4);
+        }
+            });
+
+    });
 </script>
 
 </html>
