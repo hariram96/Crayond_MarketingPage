@@ -267,7 +267,7 @@ body {
   height: -moz-fit-content;
   height: fit-content;
   padding-bottom: 6%;
-  background-image: url("../images/Website-GIF.gif");
+  background-image: url("https://www.crayond.com/crayond2020assets/Website-GIF.gif");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1569,6 +1569,16 @@ body {
 
 .sliders_time_line .time_contantes .slide .carousel-inner .carousel-item .slider_img {
   padding-right: 100px;
+}
+
+.sliders_time_line .time_contantes .slide .carousel-inner .carousel-item .slider_discription {
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  padding: 30px 46px;
+  border-radius: 25px;
+  border-bottom-right-radius: 110px;
+  border-top-left-radius: 85px;
+  margin: auto;
 }
 
 .sliders_time_line .time_contantes .slide .carousel-inner .carousel-item .slider_discription .date {
