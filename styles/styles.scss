@@ -97,6 +97,11 @@ body{
     font-family: "fontLatoBlack";
 }
 
+.carousel-innerr >.carousel-item {
+    -webkit-transition: -webkit-transform 1.2s ease-in-out !important;
+    -o-transition: -o-transform 1.2s ease-in-out !important;
+    transition: transform 1.2s ease-in-out !important;
+}
 
 // moile menu style
 /* Menu Header */
@@ -1474,8 +1479,9 @@ body{
     height: 99vh;
     display: flex;
     text-align: center;
+    padding-top: 106px;
     .container{
-        margin: auto auto 80px auto;
+        margin: auto;
         .who_you_are_title{
             p{
                 margin-bottom: 0;
@@ -1537,13 +1543,14 @@ body{
     }
 }
 .about_crayond{
-    padding: 0px 0px 6% 0px;
+    padding: 6% 0px 0px 0px;
+    background-color: #fafafa;
    .text{
        text-align: center;
    }
 }
 .our_culture{
-    padding: 6% 0px;
+    padding: 6% 0px 3% 0px;
     h1{
         font-weight: 700;
         font-size: 2.85rem;
@@ -1551,7 +1558,7 @@ body{
     }
     .text{
         text-align: center;
-        padding-top: 6%;
+        padding-top: 3%;
         font-size: 1.4rem;
         // padding-bottom: 6%;
     }
@@ -1564,7 +1571,7 @@ body{
 }
 
 .our_team_who_we_are{
-    padding: 6% 0px;
+    padding: 0px 0px 6% 0px;
     h1{
         font-weight: 700;
         font-size: 2.85rem;
@@ -1604,12 +1611,14 @@ body{
 .sliders_time_line{
     .time_line_list{
         display: flex;
-        border-bottom: 1.5px solid  #e9ecef;
+        border-top: 1.5px solid  #e9ecef;
         .active{
-            color: $primary-color;
-            border-bottom: 1.5px solid $primary-color !important;
+            color: $primary-color !important;
+            font-weight: 600;
+            border-top: 1.5px solid $primary-color !important;
         }
         .time_line_years{
+            color: #878787;
             cursor: pointer;
             padding: 10px 5px;
             margin: auto;
@@ -1619,7 +1628,7 @@ body{
     .time_contantes{
         background-color: rgba(0, 0, 0, 0.02);
         // height: 500px;
-        padding: 6% 16px;
+        padding: 2% 16px 6% 16px;
         .slide{
             .carousel-inner{
                 margin-bottom: 40px;
@@ -1635,6 +1644,7 @@ body{
                         border-bottom-right-radius: 110px;
                         border-top-left-radius: 65px;
                         margin: auto;
+                        height: 340px;
                         .date{
                             font-size: 20px;
                             // color: $text-tertiary-color;
@@ -1700,7 +1710,7 @@ body{
     }
     .title_section{
         .container{
-            margin: auto auto 200px auto;
+            margin: auto;
             .who_you_are_title{
                 p{
                     margin-bottom: 0;
@@ -2113,6 +2123,7 @@ body{
 
     // who_we_are
     .title_section {
+        padding-top: 0;
         .container {
             .who_you_are_title {
                 p{
@@ -2599,13 +2610,17 @@ body{
 // .who_you_are
 .our_vis_mis{
     .mobile_title{
+        text-align: center;
         display: block !important;
     }
     .vission{
         .card{
+            img{
+                width: 8%;
+            }
             .card_body{
-                height: 500px;
-    padding: 12% 12% 12% 12%;
+                height: 472px;
+                padding: 12% 12% 12% 12%;
                 h1{
                     font-size: 2.1rem;
                 }
@@ -2618,7 +2633,7 @@ body{
     .mission{
         .card{
             .card_body{
-                height: 500px;
+                height: 472px;
                  padding: 12% 12% 12% 12%;
                 h1{
                     font-size: 2.1rem;
@@ -2631,6 +2646,7 @@ body{
     }
 }
 .about_crayond{
+    padding: 8% 0px 0px 0px !important;
     .text{
         h1{
             font-size: 2.1rem;
@@ -2647,10 +2663,15 @@ body{
             font-size: 1.2rem;
         }
     }
+    .card_div{
+        img{
+            width: 100%;
+        }
+    }
 }
 
 .time_contantes{
-    padding: 15% 16px !important;
+    padding: 5% 16px 15% 16px !important;
     .arrowslist{
         position: absolute;
         bottom: 15px;
@@ -2702,7 +2723,12 @@ body{
         }
     }
 }
-
-
-
+.our_team_who_we_are{
+    padding: 0px 0px 10% 0px;
+    .text{
+        h1{
+            font-size: 2.1rem;
+        }
+    }
+}
 }

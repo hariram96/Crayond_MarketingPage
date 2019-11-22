@@ -162,12 +162,17 @@
             <div class="row">
                 <div class="col-12 col-xs-12 col-ms-12 col-md-6 col-lg-6 col-xl-6 vission">
                     <div class="card">
+                        <img data-aos="zoom-in-down" data-aos-easing="linear" data-aos-duration="1500" src="./images/path-rip.svg" alt="vision" style="position: absolute;top: 0px;right: 18%;"/>
                         <div class="card_body">
                             <h1 class="fontGraphikSemibold">Our Vision</h1>
                             <p>
                                 To be renowned as a brand that constantly innovates, strives for excellence, transforms people into influential leaders, makes customers fall in love, inspires a generation to come and innovate in this competitive world of commerce.
                             </p>
                         </div>
+                        <img data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" src="./images/oval-copy.svg" alt="vision" style="position: absolute;bottom: 70px;"/>
+                        <img data-aos="zoom-in" data-aos-duration="3000" src="./images/oval-copy-7.svg" alt="vision" style="position: absolute;bottom: 50px;left: 50px;"/>
+                        <img data-aos="zoom-in" data-aos-duration="3000" src="./images/path-3-copy-2.svg" alt="vision" style="position: absolute;bottom: 0px;left: 40%;"/>
+                        <img data-aos="zoom-in-up" data-aos-duration="3000" src="./images/path-14-copy.svg" alt="vision" style="position: absolute;bottom: 20px;right: 10%;"/>
                     </div>
                 </div>
                 <div class="col-12 col-xs-12 col-ms-12 col-md-6 col-lg-6 col-xl-6 mission">
@@ -206,19 +211,10 @@
     <!-- end -->
 <!-- slider timeline-->
     <section class="sliders_time_line">
-        <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 time_line_list">
-            <span class="time_line_years active" id="2012_timeline" data-title="2012" >2012</span>
-            <span class="time_line_years" id="2013_timeline" data-title="2013">2013</span>
-            <span class="time_line_years" id="2014_timeline" data-title="2014">2014</span>
-            <!-- <span class="time_line_years">2015</span> -->
-            <span class="time_line_years" id="2016_timeline" data-title="2016">2016</span>
-            <span class="time_line_years" id="2017_timeline" data-title="2017">2017</span>
-            <span class="time_line_years" id="2018_timeline" data-title="2018">2018</span>
-            <span class="time_line_years" id="2019_timeline" data-title="2019">2019</span>
-        </div>
+        
         <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 time_contantes">
-            <div class="container" data-interval="0.001">
-                <div id="demo" class="carousel slide" data-ride="carousel">
+            <div class="container">
+                <div id="demo" class="carousel slide" data-ride="carousel" data-interval="15000" >
 
                 <!-- Indicators -->
                 <!-- <ul class="carousel-indicators">
@@ -307,7 +303,16 @@
                 </div>     
             </div>
         </div>
-            
+        <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 time_line_list">
+            <span class="time_line_years active" id="2012_timeline" data-title="2012" >2012</span>
+            <span class="time_line_years" id="2013_timeline" data-title="2013">2013</span>
+            <span class="time_line_years" id="2014_timeline" data-title="2014">2014</span>
+            <!-- <span class="time_line_years">2015</span> -->
+            <span class="time_line_years" id="2016_timeline" data-title="2016">2016</span>
+            <span class="time_line_years" id="2017_timeline" data-title="2017">2017</span>
+            <span class="time_line_years" id="2018_timeline" data-title="2018">2018</span>
+            <span class="time_line_years" id="2019_timeline" data-title="2019">2019</span>
+        </div>    
     </section>
     <!-- end -->
 
@@ -562,22 +567,10 @@
 		header.classList.toggle('menu-open');
 	}
 }());
-    
-    // $("#2013_timeline").onclick()
-    $(document).on("click", ".time_line_years", function () {
-        $(".carousel-inner").empty();
-        $(this).addClass("active");
-        // $("#2012_timeline").removeClass("active");
-        // $("#2014_timeline").removeClass("active");
-        // $("#2016_timeline").removeClass("active");
-        // $("#2017_timeline").removeClass("active");
-        // $("#2018_timeline").removeClass("active");
-        // $("#2019_timeline").removeClass("active");
-        var data = { 
-                    "2012": [
+    var data = { "2012": [
                         {
                         "date": "AUG 2012",
-                        "dis": "Our quest began over 100 lines of chat. We dreamt big starting from creating a unique brand, strong culture, wonderful people. We even planned our outfits, looked around for space and zeroed in on SP Info City. We envisioned our ambience and had it covered as well all at a budget not leaving out bean bags. We were raring to give it a shot."
+                        "dis": "Our quest began over 100 lines of chat. We dreamt big starting from creating a unique brand, strong culture, wonderful people. We even planned our outfits, looked around for space and zeroed in on SP Info City. We envisioned our ambience and had it covered as well all at a budget not leaving out bean bags."
                         },
                         {
                             "date":"SEP 2012",
@@ -653,7 +646,45 @@
                         }
                     ]
                     }
-        debugger
+    $(document).ready(function() {
+        $(".carousel-inner").empty();
+        $(".time_line_years").removeClass("active");
+        var date = "2012"
+        $("#2012_timeline").addClass("active");
+        if(data[date].length == 1){
+            $(".arrows").css("display", "none");
+        }else{
+            $(".arrows").css("display", "block");
+        }
+        jQuery.each(data[date], function (index, value) {
+            // alert(JSON.stringify(value))
+        if (index == 0) {
+            var html4 = '<div class="carousel-item active">'+
+                        '<div class="col-12 col-xs-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 slider_discription">'+
+                            '<p class="fontGraphikRegular date" style="margin: 0;color: #2b2a35;">'+value.date+'</p>'+
+                            '<img alt="line 2" src="./images/line-left.png" />'+
+                            '<p class="fontLatoRegular diccription" >'+value.dis+'</p>'+
+                        '</div>'+
+                    '</div>';
+                $(".carousel-inner").append(html4);
+        }else{
+        var html4 = '<div class="carousel-item">'+
+                        '<div class="col-12 col-xs-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 slider_discription">'+
+                            '<p class="fontGraphikRegular date" style="margin: 0;color: #2b2a35;">'+value.date+'</p>'+
+                            '<img alt="line 2" src="./images/line-left.png" />'+
+                            '<p class="fontLatoRegular diccription" >'+value.dis+'</p>'+
+                        '</div>'+
+                    '</div>';
+                $(".carousel-inner").append(html4);
+        }
+            });
+    });
+    
+    // $("#2013_timeline").onclick()
+    $(document).on("click", ".time_line_years", function () {
+        $(".carousel-inner").empty();
+        $(".time_line_years").removeClass("active");
+        $(this).addClass("active");
         var date = $(this).data("title");
         if(data[date].length == 1){
             $(".arrows").css("display", "none");
