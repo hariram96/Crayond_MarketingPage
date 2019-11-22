@@ -71,6 +71,10 @@
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N5454VZ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
+    <!-- loader section -->
+    <section id="pre-loader">
+        <img src="./images/Crayon'd-New-Website-Loader.gif" alt="Crayon'd" srcset="./images/Crayon'd-New-Website-Loader.gif">
+    </section>
     <!-- Main header -->
     <div class="header" id="navBar">
         <div class="container">
@@ -120,10 +124,8 @@
             </div>
             <div class="col-12 col-xs-12 col-ms-12 col-md-12 col-lg-12 col-xl-12 banner__button_div">
                 <button class="banner_button fontLatoBlack">
-                    <span>
-                            SCREW IT, LET'S DO IT! &nbsp 
-                    <i class="fa fa-chevron-right" aria-hidden="true"></i>
-                </span></button>
+                    <span>SCREW IT, LET'S DO IT! &nbsp<i class="fa fa-chevron-right" aria-hidden="true"></i></span>
+                </button>
             </div>
         </div>
     </section>
@@ -677,7 +679,9 @@
 <script src="./plugin/aos.js"></script>
 <script type="text/javascript">
     AOS.init();
-
+    window.addEventListener("load",function(){
+        $('#pre-loader').fadeOut("500");
+    });
     // Hide Header on on scroll down
     var didScroll;
     var lastScrollTop = 0;

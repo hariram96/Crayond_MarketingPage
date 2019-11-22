@@ -82,6 +82,26 @@ body {
   transition: transform 1.2s ease-in-out, -webkit-transform 1.2s ease-in-out !important;
 }
 
+#pre-loader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-size: 150% 150%;
+  position: fixed;
+  top: 0;
+  background-color: #ffffff;
+  z-index: 99999999;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-content: center;
+}
+
 /* Menu Header */
 .header_mobile {
   border: solid 1px rgba(25, 34, 79, 0.08);
@@ -569,8 +589,6 @@ body {
   border: none;
   font-weight: 700;
   border-radius: 5px;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
   position: relative;
   bottom: 0px;
 }
@@ -2240,7 +2258,7 @@ body {
     top: 60px;
   }
   .title_section {
-    height: 50%;
+    height: 240px;
   }
   .mobile_title {
     display: block;
@@ -2564,13 +2582,22 @@ body {
   .time_contantes {
     padding: 5% 16px 15% 16px !important;
   }
+  .time_contantes .container {
+    padding: 0;
+  }
   .time_contantes .arrowslist {
     position: absolute;
     bottom: 15px;
   }
+  .time_contantes .slide .carousel-inner .carousel-item {
+    padding: 0px 15px;
+  }
   .time_contantes .slide .carousel-inner .carousel-item .slider_img {
     padding-right: 16px !important;
     margin-bottom: 20px;
+  }
+  .time_contantes .slide .carousel-inner .carousel-item .slider_discription {
+    padding: 30px !important;
   }
   .time_contantes .slide .carousel-inner .carousel-item .slider_discription .date {
     font-size: 16px !important;
@@ -2612,6 +2639,9 @@ body {
   }
   .divider_line {
     width: 255px;
+  }
+  .banner_button {
+    width: 255px !important;
   }
 }
 /*# sourceMappingURL=styles.css.map */
