@@ -343,7 +343,7 @@ body{
 .header {
     overflow: hidden;
     background-color: #ffffff;
-    padding: 20px 10px 20px 10px;
+    padding: 8px 10px 8px 10px;
     // position: fixed;
     width: 100%; 
     z-index: 12;
@@ -387,7 +387,7 @@ body{
             color: $text-subtext-color;
             font-size: 1rem;
             margin: auto;
-            padding: 15px 0px;
+            padding: 10px 0px;
             cursor: pointer;
             border-bottom: 2px solid transparent;
             &:hover {
@@ -407,7 +407,7 @@ body{
        align-items: center;
        button{
            width: 148px;
-           height: 51px;
+           height: 46px;
            box-shadow: 0 7px 12px 0 rgba(16, 31, 108, 0.07);
            font-size: 16px;
            border-color: $primary-color;
@@ -2288,12 +2288,14 @@ body{
   .header_text {
     //   position: relative !important;
     //   display: block;
+      background-image: none;
       position: unset !important;
       margin-top: 15%;
       padding-bottom: 90px;
       padding-top: 20%;
       display: flex;
-      height: calc(100vh - 95px);
+    //   height: calc(100vh - 95px);
+      height: unset;
       background-size: contain;
     //   padding-top: 16px !important;
   }
@@ -2694,6 +2696,7 @@ body{
     }
     .slide{
         .carousel-inner{
+            margin-bottom: 0px !important;
             .carousel-item{
                 padding: 0px 15px;
                 .slider_img{
@@ -2701,7 +2704,9 @@ body{
                     margin-bottom: 20px;
                 }
                 .slider_discription{
+                    min-height: 340px !important;
                     padding: 30px !important;
+                    height: unset !important;
                     .date{
                         font-size: 16px !important;
                     }
@@ -2716,6 +2721,7 @@ body{
             }
         }
         .arrows{
+            display: none !important;
             position: absolute;
             // bottom: 20px;
             top: 420px;
@@ -2754,5 +2760,34 @@ body{
 }
 .banner_button{
     width: 255px !important;
+}
+
+.carousel-control-prev{
+    display: flex !important;
+}
+.carousel-control-next{
+    display: flex !important;
+}
+.mobile_arrow_right{
+    display: flex !important;
+    padding: 13px 13px;
+    border-radius: 50px;
+    box-shadow: 0 3px 1px 0 rgba(51, 74, 192, 0.05);
+    border: solid 1px #e3e3e3;
+    background-color: #ffffff;
+    i{
+        padding-left: 4px;
+    }
+}
+.mobile_arrow_left{
+    display: flex !important;
+    padding: 13px 13px;
+    border-radius: 50px;
+    box-shadow: 0 3px 1px 0 rgba(51, 74, 192, 0.05);
+    border: solid 1px #e3e3e3;
+    background-color: #ffffff;
+    i{
+        padding-right: 5px;
+    }
 }
 }
