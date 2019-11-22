@@ -2610,5 +2610,8 @@ body {
   .our_team_who_we_are .text h1 {
     font-size: 2.1rem;
   }
+  .divider_line {
+    width: 255px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
