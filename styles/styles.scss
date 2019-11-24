@@ -119,7 +119,7 @@ body{
 // moile menu style
 /* Menu Header */
 .header_mobile {
-    border: solid 1px rgba(25, 34, 79, 0.08);
+    border-bottom: solid 1px rgba(25, 34, 79, 0.08);
 	background: rgba(0, 0, 0, 0.9);
 	overflow: hidden;
 	height: 60px;
@@ -236,9 +236,9 @@ body{
 .crayond_logo_mobile {
 	position: relative;
     display: flex;
-    left: 16px;
+    // left: 16px;
 	z-index: 2;
-	float: left;
+	// float: left;
 	/* Simply change property to float left to switch icon side :) */
 	height: 60px;
 	// width: 55px;
@@ -249,9 +249,11 @@ body{
 	transition: all 0.3s cubic-bezier(0.4, 0.01, 0.165, 0.99);
 }
 .icon-container {
-	position: relative;
+	position: absolute;
 	display: inline-block;
-	z-index: 2;
+    z-index: 2;
+    top: 0;
+    right: 0;
 	float: right;
 	/* Simply change property to float left to switch icon side :) */
 	height: 60px;
@@ -304,10 +306,10 @@ body{
 	transform: translateY(3px) rotate(-45deg);
 }
 
-.menu-open .crayond_logo_mobile{
-    left: 0 !important;
-    float: unset !important;
-}
+// .menu-open .crayond_logo_mobile{
+//     left: 0 !important;
+//     float: unset !important;
+// }
 
 
 // Header css
@@ -369,7 +371,7 @@ body{
 .header {
     overflow: hidden;
     background-color: #ffffff;
-    padding: 8px 10px 8px 10px;
+    padding: 12px 10px 12px 10px;
     // position: fixed;
     width: 100%; 
     z-index: 12;
@@ -1670,7 +1672,7 @@ body{
         padding: 2% 16px 6% 16px;
         .slide{
             .carousel-inner{
-                margin-bottom: 40px;
+                // margin-bottom: 40px;
                 .carousel-item{
                     .slider_img{
                         padding-right: 100px;
@@ -1727,6 +1729,29 @@ body{
                 }
             }
         }
+    }
+}
+
+.mobile_arrow_right{
+    display: flex !important;
+    padding: 13px 13px;
+    border-radius: 50px;
+    box-shadow: 0 3px 1px 0 rgba(51, 74, 192, 0.05);
+    border: solid 1px #e3e3e3;
+    background-color: #ffffff;
+    i{
+        padding-left: 4px;
+    }
+}
+.mobile_arrow_left{
+    display: flex !important;
+    padding: 13px 13px;
+    border-radius: 50px;
+    box-shadow: 0 3px 1px 0 rgba(51, 74, 192, 0.05);
+    border: solid 1px #e3e3e3;
+    background-color: #ffffff;
+    i{
+        padding-right: 5px;
     }
 }
 
