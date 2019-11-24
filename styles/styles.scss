@@ -2617,7 +2617,7 @@ body{
     }
     .button_div {
         .banner_button{
-            width: 250px !important;
+            width: 265px !important;
         }
     }
 }
@@ -2759,7 +2759,7 @@ body{
     width: 255px;
 }
 .banner_button{
-    width: 255px !important;
+    width: 265px !important;
 }
 
 .carousel-control-prev{
@@ -2789,5 +2789,8 @@ body{
     i{
         padding-right: 5px;
     }
+}
+.typeform-widget{
+    height: 520px !important;
 }
 }

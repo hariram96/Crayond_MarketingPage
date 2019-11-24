@@ -2536,7 +2536,7 @@ body {
     font-size: 18px;
   }
   .join_team .button_div .banner_button {
-    width: 250px !important;
+    width: 265px !important;
   }
   .our_vis_mis .mobile_title {
     text-align: center;
@@ -2648,7 +2648,7 @@ body {
     width: 255px;
   }
   .banner_button {
-    width: 255px !important;
+    width: 265px !important;
   }
   .carousel-control-prev {
     display: -webkit-box !important;
@@ -2687,6 +2687,9 @@ body {
   }
   .mobile_arrow_left i {
     padding-right: 5px;
+  }
+  .typeform-widget {
+    height: 520px !important;
   }
 }
 /*# sourceMappingURL=styles.css.map */
