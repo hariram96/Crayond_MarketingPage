@@ -277,11 +277,11 @@ p{
         padding-top: 18px !important;
         padding-bottom: 10px !important;
   }
-  .menu{
+  .menus{
     position: unset !important; 
   display: unset !important;
   }
-  .menu a { 
+  .menus a { 
     padding: 5px 15px !important;
   }
   #myNavbar{
@@ -413,7 +413,7 @@ video{
     text-align: center;
     /* top: 9%; */
 }
-.menu{
+.menus{
    position: absolute;
    left: 0px;
    height: 40px;
