@@ -63,6 +63,10 @@
     <script src="js/vendor/respond.min.js"></script>
     <![endif]-->
 
+    <!-- Freshchat -->
+	<script src="https://wchat.freshchat.com/js/widget.js"></script>
+	<!-- Freshchat -->
+
 
 
 </head>
@@ -87,7 +91,7 @@
                         <!-- <span><a class="fontLatoRegular" href="/">Products</a></span> -->
                         <!-- <span><a class="fontLatoRegular" href="/">Pricing</a></span> -->
                         <span><a class="fontLatoRegular" href="/opportunities">Opportunities</a> </span>
-                        <span><a class="fontLatoRegular" href="/">Blogs</a></span>
+                        <span><a class="fontLatoRegular" href="https://medium.com/crayond" target="_blank">Blog</a></span>
                         <span><a class="fontLatoRegular" href="/">Contact</a></span>
                     </div>
                     <div class="col-6 col-xs-6 col-ms-6 col-md-2 col-lg-2 col-xl-2 sign_btn">
@@ -98,30 +102,25 @@
         </div>
     </div>
     <!-- end -->
-    
-    <!-- next_billion -->
-    <section class="next_billion">
-        <img data-aos="zoom-out-down" data-aos-duration="3000" alt="oval" src="./images/oval.png" class="ovel" />
-        <img data-aos="zoom-out-down" data-aos-duration="5000" alt="oval-copy" src="./images/oval-copy-6.png" class="ovel-6" />
-        <div class="container billion">
-            <div class="col-12 col-xs-12 col-ms-12 col-md-12 col-lg-12 col-xl-12 titel_button">
-                <button class="button fontLatoRegular">Let's get serious &nbsp <span> </span></button>
-            </div>
-            <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12" style="text-align: center;">
-                <h1 class="fontGraphikSemibold">What’s your next billion-<br />dollar idea?</h1>
-            </div>
-            <div class="col-12 col-xs-12 col-ms-12 col-md-12 col-lg-12 col-xl-12 button_div">
-                <button class="banner_button fontLatoBlack">
-                    <span> 
-                            SCREW IT, LET'S DO IT! &nbsp
-                            <i class="fa fa-chevron-right" aria-hidden="true"></i>
-                    </span></button>
-            </div>
-        </div>
-        <img data-aos="zoom-in-up" data-aos-duration="5000" alt="path-3-copy" src="./images/path-3-copy.png" class="path-3" />
-        <img data-aos="zoom-out-up" data-aos-duration="3000" alt="path-3" src="./images/path-3.png" class="path" />
-    </section>
-    <!-- end -->
+
+
+
+    <!-- <iframe> -->
+
+	<div class="typeform-widget" data-url="https://makesh.typeform.com/to/hAH7QU" data-transparency="50" data-hide-headers=true data-hide-footer=true 
+	style="width: 100%; height: 700px; padding-top: 73px;background-color: bisque;"></div>
+
+
+	
+	<!-- <div class="typeform-widget" data-url="https://makesh.typeform.com/to/hAH7QU" data-transparency="50" data-hide-headers=true data-hide-footer=true 
+	style="width: 100%; height: 700px; padding-top: 100px"></div> -->
+	 <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> 
+	 <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0; padding-top: 5px;"> powered by 
+	 	<a href="https://admin.typeform.com/signup?utm_campaign=hAH7QU&utm_source=typeform.com-2687475-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a>
+	  </div>
+
+	<!-- </iframe> -->
+
     <!-- main footer -->
     <section class="footer">
         <div class="container">
@@ -158,9 +157,9 @@
                     </ul> -->
                 </div>
                 <div class="col-6 col-sm-12 col-xs-6 col-md-2 col-lg-2 col-xl-2" style="margin: auto;">
-                    <a href="/"  alt="Company" style="color: unset;">
+                    <a href="https://medium.com/crayond" target="_blank"  alt="blog" style="color: unset;">
                      <span class="fontLatoBold footer_menu">
-                        Blogs
+                        Blog
                      </span>
                      </a>
                     <!-- <ul>
@@ -288,6 +287,45 @@
         
         lastScrollTop = st;
     }
+
+
+    // <!-- Freshchat -->
+		window.fcWidget.init({
+		  token: "9252e806-e958-4627-945f-57407a9a7a1a",
+		  host: "https://wchat.freshchat.com"
+		});
+
+		$( "#flash_opport" ).mouseover(function()
+        {
+            $(this).addClass("flash1");
+            $(this).removeClass("flash");
+        });
+  
+     $( "#flash_opport" ).mouseout(function()
+        {
+            $(this).removeClass("flash1");
+            $(this).addClass("flash");
+        });
+
+	// Make sure fcWidget.init is included before setting these values
+  
+	// To set unique user id in your system when it is available
+	window.fcWidget.setExternalId("john.doe1987");
+  
+	// To set user name
+	window.fcWidget.user.setFirstName("John");
+  
+	// To set user email
+	window.fcWidget.user.setEmail("john.doe@gmail.com");
+  
+	// To set user properties
+	window.fcWidget.user.setProperties({
+	  plan: "Estate",                 // meta property 1
+	  status: "Active"                // meta property 2
+	});
+
+
+	//   <!-- Freshchat -->
     
 </script>
 
