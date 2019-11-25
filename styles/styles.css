@@ -2245,6 +2245,12 @@ body {
   .title_section .container .who_you_are_title p {
     font-size: 3rem;
   }
+  .our_vis_mis {
+    padding: 0;
+  }
+  .our_vis_mis .who_you_are_title_sort {
+    margin-top: 60px;
+  }
   .our_vis_mis .vission .card img {
     width: 8% !important;
   }
@@ -2613,9 +2619,15 @@ body {
   .join_team .button_div .banner_button {
     width: 265px !important;
   }
+  .our_vis_mis {
+    padding: 0;
+  }
   .our_vis_mis .mobile_title {
     text-align: center;
     display: block !important;
+  }
+  .our_vis_mis .who_you_are_title_sort {
+    margin-top: 60px;
   }
   .our_vis_mis .vission .card img {
     width: 8%;
