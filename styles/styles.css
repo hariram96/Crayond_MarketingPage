@@ -475,15 +475,14 @@ body {
   margin: auto;
   padding: 10px 0px;
   cursor: pointer;
-  border-bottom: 2px solid transparent;
 }
 
 .header .row .header_menu span:hover {
-  border-bottom: 2px solid #665CD7;
+  color: #665CD7;
 }
 
-.header .row .header_menu .active {
-  border-bottom: 2px solid #665CD7;
+.header .row .header_menu span a:hover {
+  color: #665CD7;
 }
 
 .header .row .header_menu .active a {
@@ -573,7 +572,7 @@ body {
   height: -moz-fit-content;
   height: fit-content;
   padding-bottom: 6%;
-  background-image: url("https://www.crayond.com/crayond2020assets/Website-GIF.gif");
+  background-image: url("https://www.crayond.com/images/Website-GIF.gif");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1058,7 +1057,7 @@ body {
   left: -15px;
   top: -15px;
   position: absolute;
-  color: #c7ac1f;
+  color: #000;
   font-weight: 600;
   font-size: 2.5rem;
 }
@@ -1186,6 +1185,10 @@ body {
   font-size: 16px;
 }
 
+.footer .row .menu_list {
+  text-align: center;
+}
+
 .footer .row .footer_menu {
   cursor: pointer;
   margin: 0;
@@ -1280,6 +1283,7 @@ body {
 }
 
 .footer_social_media .row .footer_address p {
+  text-align: center;
   margin: auto 0;
   width: 100%;
   border-right: 1px solid rgba(25, 34, 79, 0.08);
@@ -1700,6 +1704,16 @@ body {
   padding: 6% 0px;
 }
 
+.our_vis_mis .who_you_are_title_sort {
+  padding: 6% 0 6% 0;
+  background-color: #665CD7;
+  text-align: center;
+}
+
+.our_vis_mis .who_you_are_title_sort p {
+  font-size: 2.8rem;
+}
+
 .our_vis_mis .mobile_title {
   font-size: 2rem !important;
 }
@@ -1713,19 +1727,20 @@ body {
 }
 
 .our_vis_mis .vission .card .card_body {
-  height: 550px;
-  padding: 12% 22% 12% 12%;
+  height: 430px;
+  padding: 12% 16% 12% 12%;
 }
 
 .our_vis_mis .vission .card .card_body h1 {
-  font-size: 2.6rem;
+  font-size: 2.5rem;
   font-weight: 700;
   color: #2b2a35;
   margin-bottom: 36px;
 }
 
 .our_vis_mis .vission .card .card_body p {
-  font-size: 1.5rem;
+  font-size: 22px;
+  line-height: 2;
   color: #595959;
 }
 
@@ -1738,21 +1753,22 @@ body {
 }
 
 .our_vis_mis .mission .card .card_body {
-  height: 550px;
+  height: 430px;
   background-color: #665CD7;
-  padding: 12% 22% 12% 12%;
+  padding: 12% 16% 12% 12%;
   border-radius: 10px;
 }
 
 .our_vis_mis .mission .card .card_body h1 {
-  font-size: 2.6rem;
+  font-size: 2.5rem;
   font-weight: 700;
   color: #ffffff;
   margin-bottom: 36px;
 }
 
 .our_vis_mis .mission .card .card_body p {
-  font-size: 1.5rem;
+  font-size: 22px;
+  line-height: 2;
   color: #ffffff;
 }
 
@@ -2229,6 +2245,9 @@ body {
   .title_section .container .who_you_are_title p {
     font-size: 3rem;
   }
+  .our_vis_mis .vission .card img {
+    width: 8% !important;
+  }
   .our_vis_mis .vission .card .card_body {
     padding: 12% 12% 12% 12%;
     height: 460px;
@@ -2482,6 +2501,9 @@ body {
   .footer .logo_address img {
     margin-bottom: 16px;
   }
+  .footer .menu_list {
+    text-align: left !important;
+  }
   .footer_social_media {
     padding: 25px 0px;
   }
@@ -2502,6 +2524,7 @@ body {
     padding-bottom: 5px;
   }
   .footer_social_media .footer_address p {
+    text-align: left !important;
     margin-top: 0 !important;
   }
   .our_mission_section {

@@ -417,13 +417,20 @@ body{
             margin: auto;
             padding: 10px 0px;
             cursor: pointer;
-            border-bottom: 2px solid transparent;
+            // border-bottom: 2px solid transparent;
             &:hover {
-                border-bottom: 2px solid $primary-color;
+                // border-bottom: 2px solid $primary-color;
+                color: $primary-color;
+            }
+            a{
+                &:hover{
+                    // font-family: "fontLatoBold";
+                    color: $primary-color;
+                }
             }
         }
         .active {
-            border-bottom: 2px solid $primary-color;
+            // border-bottom: 2px solid $primary-color;
             a {
                 color: $primary-color;
                 font-family: "fontLatoBold";
@@ -507,7 +514,7 @@ body{
     padding-bottom: 6%;
     // margin-bottom: 6%;
     // background-image: url("../images/Website-GIF.gif");
-    background-image: url("https://www.crayond.com/crayond2020assets/Website-GIF.gif");
+    background-image: url("https://www.crayond.com/images/Website-GIF.gif");
     background-position: center;
     background-repeat: no-repeat;
     // background-size: contain;
@@ -977,7 +984,7 @@ body{
                     left: -15px;
                     top: -15px;
                     position: absolute;
-                    color: #c7ac1f;
+                    color: #000;
                     font-weight: 600;
                     font-size: 2.5rem;
                 }
@@ -1088,6 +1095,9 @@ body{
             font-size: 16px;
         }
     }
+    .menu_list{
+        text-align: center;
+    }
     .footer_menu{
         // margin-bottom: 25px;
         cursor: pointer;
@@ -1160,6 +1170,7 @@ body{
         align-items: center;
         padding-right: 0;
         p{
+            text-align: center;
             margin: auto 0;
             width: 100%;
             border-right: 1px solid rgba(25, 34, 79, 0.08);
@@ -1539,6 +1550,14 @@ body{
 }
 .our_vis_mis{
     padding: 6% 0px;
+    .who_you_are_title_sort{
+        padding: 6% 0 6% 0;
+        background-color: $primary-color;
+        text-align: center;
+        p{
+            font-size: 2.8rem;
+        }
+    }
     .mobile_title{
         font-size: 2rem !important;
     }
@@ -1547,17 +1566,18 @@ body{
         .card{
             border-radius: 10px;
             .card_body{
-                height: 550px;
+                height: 430px;
                 // padding: 50px 82px 100px 45px;
-                padding: 12% 22% 12% 12%;
+                padding: 12% 16% 12% 12%;
                 h1{
-                    font-size: 2.6rem;
+                    font-size: 2.5rem;
                     font-weight: 700;
                     color: $text-primary-color;
                     margin-bottom: 36px;
                 }
                 p{
-                    font-size: 1.5rem;
+                    font-size: 22px;
+                    line-height: 2;
                     color: $text-tertiary-color;
                 }
             }
@@ -1568,19 +1588,20 @@ body{
         .card{
             border-radius: 10px;
             .card_body{
-                height: 550px;
+                height: 430px;
                 background-color: $primary-color;
                 // padding: 50px 82px 100px 45px;
-                padding: 12% 22% 12% 12%;
+                padding: 12% 16% 12% 12%;
                 border-radius: 10px;
                 h1{
-                    font-size: 2.6rem;
+                    font-size: 2.5rem;
                     font-weight: 700;
                     color: $color-white;
                     margin-bottom: 36px;
                 }
                 p{
-                    font-size: 1.5rem;
+                    font-size: 22px;
+                    line-height: 2;
                     color: $color-white;
                 }
             }
@@ -2203,6 +2224,9 @@ body{
     .our_vis_mis{
         .vission{
             .card {
+                img{
+                    width: 8% !important; 
+                }
                 .card_body{
                     padding: 12% 12% 12% 12%;
                     height: 460px;
@@ -2533,6 +2557,9 @@ body{
             margin-bottom: 16px;
         }
       }
+      .menu_list{
+        text-align: left !important;
+    }
   }
 
   .footer_social_media{
@@ -2554,6 +2581,7 @@ body{
       .footer_address{
         padding-bottom: 5px;
           p{
+              text-align: left !important;
               margin-top: 0 !important;
           }
       }
