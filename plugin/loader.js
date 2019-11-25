@@ -1,7 +1,7 @@
 window.addEventListener("load",function(){
-    setTimeout(function(){
+    // setTimeout(function(){
         $('#pre-loader').fadeOut("500");
-    }, 500);
+    // }, 500);
 });
 (function () {
     const header = document.querySelector('.header_mobile');
