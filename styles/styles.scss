@@ -434,6 +434,7 @@ body{
        display: flex;
        align-items: center;
        button{
+           margin: auto 0 auto auto;
            width: 148px;
            height: 46px;
            box-shadow: 0 7px 12px 0 rgba(16, 31, 108, 0.07);
@@ -1019,6 +1020,9 @@ body{
         padding-top: 6%;
         padding-bottom: 6%;
         .titel_button {
+            img{
+                width: 60px;
+            }
             padding-bottom: 30px;
         .button{
             padding: 15px 30px;
@@ -1449,7 +1453,7 @@ body{
 }
 
 .join_team{
-    background-color: #2d3e50;
+    background-color: $tertiary-background-color;
     text-align: center;
     position: relative;
     .ovel {
@@ -1491,9 +1495,9 @@ body{
         .banner_button{
             cursor: pointer;
             padding: 18px 30px;
-            background-color: $color-white;
+            background-color: $primary-color;
             font-size: 16px;
-            color: $primary-color;
+            color: $color-white;
             border: none;
             font-weight: 700;
             border-radius: 5px;
