@@ -1778,6 +1778,7 @@ body {
 
 .our_culture .card_div img {
   width: 80%;
+  margin: auto;
 }
 
 .our_team_who_we_are {
@@ -2625,6 +2626,7 @@ body {
   }
   .our_culture .card_div img {
     width: 100%;
+    height: 100%;
   }
   .time_contantes {
     padding: 5% 16px 15% 16px !important;
