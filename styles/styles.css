@@ -1800,6 +1800,7 @@ body {
 .our_culture .card_div img {
   width: 80%;
   margin: auto;
+  height: 100%;
 }
 
 .our_team_who_we_are {
@@ -1890,9 +1891,10 @@ body {
   color: #878787;
 }
 
-.sliders_time_line .time_contantes .slide .carousel-inner .carousel-item .slider_discription .h1 {
-  font-size: 48px;
+.sliders_time_line .time_contantes .slide .carousel-inner .carousel-item .slider_discription h1 {
+  font-size: 2rem;
   color: #2b2a35;
+  margin-bottom: 0;
 }
 
 .sliders_time_line .time_contantes .slide .carousel-inner .carousel-item .slider_discription .diccription {

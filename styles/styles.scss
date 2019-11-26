@@ -1632,6 +1632,7 @@ body{
         img{
             width: 80%;
             margin: auto;
+            height: 100%;
         }
     }
 }
@@ -1716,10 +1717,11 @@ body{
                             // color: $text-tertiary-color;
                             color: #878787;
                         }
-                        .h1{
-                            font-size: 48px;
+                        h1{
+                            font-size: 2rem;
                             // color: $text-subtext-color;
                             color: #2b2a35;
+                            margin-bottom: 0;
                         }
                         .diccription{
                             color: #595959;
