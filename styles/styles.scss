@@ -1825,6 +1825,12 @@ body{
         padding-top: 10%;
         padding-bottom: 10%;
     }
+    .contact_footer_menu{
+        width: 16% !important;
+    }
+    .sign_btn {
+        display: contents !important;
+    }
 }
 // Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
