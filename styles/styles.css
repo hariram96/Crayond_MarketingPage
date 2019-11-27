@@ -19,6 +19,11 @@ body {
 }
 
 @font-face {
+  font-family: "fontNova";
+  src: url("../plugin/fonts/HKNova-Medium.otf");
+}
+
+@font-face {
   font-family: "fontLatoRegular";
   src: url("../plugin/fonts/lato/Lato-Regular.ttf");
 }
@@ -73,6 +78,10 @@ body {
 
 .fontLatoBlack {
   font-family: "fontLatoBlack";
+}
+
+.fontNova {
+  font-family: "fontNova";
 }
 
 .carousel-innerr > .carousel-item {
