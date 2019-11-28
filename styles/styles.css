@@ -2058,6 +2058,9 @@ body {
   .sign_btn {
     display: none !important;
   }
+  .whe_we_are_video_player {
+    top: 60px !important;
+  }
   .header_text {
     top: 65px;
   }
@@ -2346,6 +2349,9 @@ body {
   }
   .sign_btn {
     display: none !important;
+  }
+  .whe_we_are_video_player {
+    top: 60px !important;
   }
   .video_player video {
     position: absolute;
