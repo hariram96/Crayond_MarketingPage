@@ -2035,6 +2035,16 @@ body {
   padding-right: 5px;
 }
 
+.coming_soon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
 @media only screen and (min-width: 1440px) {
   .header_text {
     background-size: cover;
@@ -2400,6 +2410,10 @@ body {
   .time_contantes .slide .carousel-inner .carousel-item .slider_discription .diccription {
     font-size: 16px !important;
     line-height: 1.5 !important;
+  }
+  .coming_soon {
+    padding-top: 55px;
+    height: auto !important;
   }
 }
 
@@ -2880,6 +2894,10 @@ body {
   }
   .typeform-widget {
     height: 520px !important;
+  }
+  .coming_soon {
+    padding-top: 55px;
+    height: auto !important;
   }
 }
 /*# sourceMappingURL=styles.css.map */

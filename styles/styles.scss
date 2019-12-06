@@ -1851,6 +1851,15 @@ body{
     }
 }
 
+
+// coming soon page
+
+.coming_soon{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
 // All media qurys
 
 // Extra large devices (large laptops and desktops, 1200px and up)
@@ -2398,6 +2407,11 @@ body{
                 }
             }
         }
+    }
+    // coming_soon page
+    .coming_soon{
+        padding-top: 55px;
+        height: auto !important;
     }
 
 }
@@ -2978,4 +2992,13 @@ body{
 .typeform-widget{
     height: 520px !important;
 }
+
+
+// coming_soon page
+.coming_soon{
+    padding-top: 55px;
+    height: auto !important;
+}
+
+
 }
