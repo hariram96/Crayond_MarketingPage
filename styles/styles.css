@@ -2045,6 +2045,10 @@ body {
   height: 100vh;
 }
 
+.coming_soon .row {
+  padding-top: 130px;
+}
+
 @media only screen and (min-width: 1440px) {
   .header_text {
     background-size: cover;
@@ -2414,6 +2418,9 @@ body {
   .coming_soon {
     padding-top: 55px;
     height: auto !important;
+  }
+  .coming_soon .row {
+    padding-top: 130px;
   }
 }
 
