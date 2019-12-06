@@ -494,6 +494,20 @@ body {
   color: #665CD7;
 }
 
+.header .row .header_menu span tag {
+  font-size: 10px;
+  padding: 3px 4px;
+  position: absolute;
+  right: 0px;
+  top: 4px;
+  width: 35px;
+  height: 17px;
+  border-radius: 3px;
+  background-color: #16cebc;
+  line-height: 1.1;
+  color: #fff;
+}
+
 .header .row .header_menu .active a {
   color: #665CD7;
   font-family: "fontLatoBold";
@@ -896,6 +910,59 @@ body {
   width: 37px;
   height: 32px;
   margin: auto;
+}
+
+.why_us .row .flag {
+  background-color: #ffffff;
+  margin-bottom: 6%;
+  margin-top: 6%;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 32px;
+}
+
+.why_us .row .flag img {
+  position: absolute;
+  width: 86px;
+  height: 32px;
+}
+
+.why_us .row .flag p {
+  color: #b08400;
+  margin: auto 14px;
+  z-index: 1;
+  padding-top: 2px;
+}
+
+.why_us .row .coming_soon_email {
+  margin-top: 50px;
+  padding: 10px 16px;
+  border: 2px solid;
+  border-radius: 4px;
+}
+
+.why_us .row .coming_soon_email input {
+  height: 48px;
+  border: none;
+  width: calc(100% - 156px);
+  outline: none;
+}
+
+.why_us .row .coming_soon_email button {
+  color: #fff;
+  background-color: black;
+  width: 152px;
+  height: 48px;
+  border: none;
+  outline: none;
+}
+
+.why_us .row .coming_soon_email button:focus {
+  outline: 0 !important;
+  border: 0 !important;
+  background-color: #242438;
 }
 
 .why_us .row .img_section img {
@@ -2141,6 +2208,18 @@ body {
   .why_us .row .icon_div .fa_icon img {
     width: 28px;
     height: 30px;
+  }
+  .why_us .row .icon_div .flag {
+    background-color: #ffffff;
+    margin-bottom: 6%;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .why_us .row .icon_div .flag img {
+    width: 86px;
+    height: 32px;
   }
   .why_us .row h1 {
     font-size: 1.7rem;

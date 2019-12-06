@@ -438,6 +438,19 @@ body{
                     color: $primary-color;
                 }
             }
+            tag{
+                font-size: 10px;
+                padding: 3px 4px;
+                position: absolute;
+                right: 0px;
+                top: 4px;
+                width: 35px;
+                height: 17px;
+                border-radius: 3px;
+                background-color: #16cebc;
+                line-height: 1.1;
+                color: #fff;
+            }
         }
         .active {
             // border-bottom: 2px solid $primary-color;
@@ -817,6 +830,52 @@ body{
                 width: 37px;
                 height: 32px;
                 margin: auto;
+            }
+        }
+        .flag{
+            background-color: #ffffff;
+            margin-bottom: 6%;
+            margin-top: 6%;
+            text-align: center;
+            display: flex;
+            height: 32px;
+            img{
+                position: absolute;
+                width: 86px;
+                height: 32px;
+            }
+            p{
+                color: #b08400;
+                margin: auto 14px;
+                z-index: 1;
+                padding-top: 2px;
+            }
+        }
+        .coming_soon_email{
+            margin-top: 50px;
+            // margin-left: 16px;  
+            padding: 10px 16px;
+            border: 2px solid;
+            border-radius: 4px;
+            input{
+                height: 48px;
+                border: none;
+                width: calc(100% - 156px);
+                outline: none;
+            }
+            button{
+                color: #fff;
+                background-color: black;
+                width: 152px;
+                height: 48px;
+                border: none;
+                outline: none;
+                &:focus{
+                    outline: 0 !important;
+                    border: 0 !important;
+                    background-color: $tertiary-background-color;
+
+                }
             }
         }
         .img_section{
@@ -2046,6 +2105,16 @@ body{
                     img{
                         width: 28px;
                         height: 30px;
+                    }
+                }
+                .flag{
+                    background-color: #ffffff;
+                    margin-bottom: 6%;
+                    text-align: center;
+                    display: flex;
+                    img{
+                        width: 86px;
+                        height: 32px;
                     }
                 }
             }
