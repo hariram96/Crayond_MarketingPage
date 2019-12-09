@@ -361,7 +361,7 @@
                 method:"POST",
                 url:"https://api.sendgrid.com/v3/mail/send",
                 headers:{
-                    crossDomain: true,
+                    crossDomain: false,
                     "content-type":"application/json",
                     'Authorization':"Bearer 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"
                 },
@@ -383,6 +383,36 @@
                         // alert("try again")
                         $(".email_error").css("opacity" , "1");
                         $(".error_msg").text("Try again");
+                        console.log(err);
+                    }
+            });
+
+            $.ajax({
+                method:"POST",
+                url:"https://api.sendgrid.com/v3/mail/send",
+                headers:{
+                    crossDomain: false,
+                    "content-type":"application/json",
+                    'Authorization':"Bearer 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"
+                },
+                data:
+                    JSON.stringify( {
+                        personalizations:
+                    [ { to: [{ email: "sarath@crayond.co", name:"ajkdshkl" }], subject: 'subject' } ],
+                    content:  [ { type: 'text/html', value: "<h1>Customer email id: "+email+" </h1>" } ],
+                    from: { email: 'crayond@help.com', name: "Crayond'd" },
+                    // reply_to: { email: 'sarath@crayond.co', name: 'reply to name' } 
+                    }),
+                    success:(asd) => {
+                        //  alert("mail sent")
+                        // $("#email").val("");
+                        // $('#myModal').modal('toggle');
+                        // $(".coming_soon_email").css("border-color", "#000")
+                    },
+                    error:(err) => {
+                        // // alert("try again")
+                        // $(".email_error").css("opacity" , "1");
+                        // $(".error_msg").text("Try again");
                         console.log(err);
                     }
             })
