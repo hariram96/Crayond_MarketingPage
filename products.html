@@ -147,7 +147,7 @@
                 <div class="row" style="padding-bottom: 0;">
                     <div class="col-12 col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xl-6 mobile_responce_img" style="display: none;">
                         <div class="img_section" style="margin: auto;">
-                            <img alt="Modern Engineering" src="./images/coming_soon.png" />
+                            <img alt="Modern Engineering" style="padding:0;border-radius: 0;" src="./images/coming-soon-new.png" />
                         </div>
                     </div>
                     <div class="col-12 col-sm-12 col-xs-12 col-md-5 col-lg-5 col-xl-5">
@@ -168,11 +168,17 @@
                                 To be renowned as a brand that constantly innovates, strives for excellence, transforms people into influential leaders.
                             </p>
                         </div>
-                        <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12 coming_soon_email">
-                            <form>
+                        <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                            <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12 coming_soon_email">
                                 <input type="email" class="email" id="email" value="" name="email" placeholder="Enter your email">
-                                <button class="btn btn-outline-primary fontLatoBlack"  >NOTIFY ME</button>
-                            </form>
+                                <button type="button" class="notify_btn btn btn-outline-primary fontLatoBlack desktop_btn"  >NOTIFY ME</button>
+                            </div>
+                            <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12 coming_soon_email" style="border: none;padding: 0%;margin-top: 16px;">
+                                <button type="button" class="notify_btn btn btn-outline-primary fontLatoBlack mobile_btn" style="width: 100%;display: none;" >NOTIFY ME</button>
+                            </div>
+                            <div class="error_div col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12" style="padding: 0;">
+                                <div class="alert alert-danger alert-dismissible fade show email_error" id="clear_email_error" role="alert" style="top:-10px; z-index: 2; position: absolute;transition: all 0.5s;opacity: 0;padding: 8px 46px 8px 16px;width: 100%;"><span class="error_msg"></span><button type="button" class="close error_close" style="outline: none;padding: 8px 14px;"><span aria-hidden="true">&times;</span></button></div>                    
+                            </div>
                         </div>
                     </div>
                     <div class="col-12 col-sm-12 col-xs-12 col-md-7 col-lg-7 col-xl-7 desktop_responce_img" style="padding: 0;">
@@ -181,7 +187,11 @@
                         </div>
                     </div>
                 </div>
-            </div>
+                <!-- <div class="error_div col-12 col-sm-12 col-xs-12 col-md-5 col-lg-5 col-xl-5">
+                    <div class="alert alert-danger alert-dismissible fade show email_error" id="clear_email_error" role="alert" style="position: absolute;transition: all 0.5s;opacity: 0;padding: 8px 46px 8px 16px;width: 100%;"><span class="error_msg"></span><button type="button" class="close error_close" style="outline: none;padding: 8px 14px;"><span aria-hidden="true">&times;</span></button></div>                    
+                </div> -->
+
+                </div>
         <!-- </div> -->
     <!-- </section> -->
     <!-- end -->
@@ -215,25 +225,25 @@
                             </a>
                         </div>
                         <div class="col-12 col-xs-12 col-ms-12 col-md-4 col-lg-4 col-xl-4 social_icon_link mobile_social_links"
-                                style="display: flex;justify-content: flex-start; display: none;">
+                                style="display: flex;justify-content: center; display: none;">
                                 <a href="https://www.linkedin.com/company/crayond/" target="_blank" alt="crayond_linkedin" style="text-decoration: none;">
                                     <samp class="social_icon">
-                                    <i class="fa fa-linkedin " aria-hidden="true"></i>
+                                    <i class="fa fa-linkedin " aria-hidden="true" style="color: black;"></i>
                                     </samp>
                                 </a>
                                 <a href="https://www.facebook.com/CrayonDigital/" target="_blank" alt="crayond_facebook" style="text-decoration: none;">
                                 <samp class="social_icon">
-                                    <i class="fa fa-facebook " aria-hidden="true"></i>
+                                    <i class="fa fa-facebook " aria-hidden="true" style="color: black;"></i>
                                 </samp>
                                </a>
                                <a href="https://www.instagram.com/crayondofficial/" target="_blank" alt="crayond_instagram" style="text-decoration: none;" >
                                     <samp class="social_icon">
-                                        <i class="fa fa-instagram fa-lightbulb-o" aria-hidden="true"></i>
+                                        <i class="fa fa-instagram fa-lightbulb-o" aria-hidden="true" style="color: black;"></i>
                                     </samp>
                                 </a>
                                 <a href="https://twitter.com/crayondofficial" target="_blank" alt="crayond_twitter" style="text-decoration: none;">
                                     <samp class="social_icon">
-                                    <i class="fa fa-twitter " aria-hidden="true"></i>
+                                    <i class="fa fa-twitter " aria-hidden="true" style="color: black;"></i>
                                 </samp>
                             </a>
                             </div>
@@ -246,8 +256,25 @@
     </div>
     </section>
 
-
-    
+    <!-- Modal HTML -->
+    <div id="myModal" class="modal fade">
+        <div class="modal-dialog modal-confirm">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="icon-box">
+                        <!-- <i class="material-icons">&#xE876;</i> -->
+                        <i class="fa fa-check"></i>
+                    </div>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                <div class="modal-body text-center">
+                    <h4>Great!</h4>	
+                    <p>Successfully.</p>
+                    <!-- <button class="btn btn-success" data-dismiss="modal"><span>Start Exploring</span> <i class="material-icons">&#xE5C8;</i></button> -->
+                </div>
+            </div>
+        </div>
+    </div>     
     
         
 </body>
@@ -302,15 +329,64 @@
     }
 
 
-    $(document).ready(function(){
-    // $('.email').keyup(function () {
-    //    alert($(this).val())
-    // });
-    $("form").submit(function(){
-        var email = $("#email").val()
-        alert(email);
-    });
-    });
+        // email function on sendgrid
+
+        $(".error_close").click(function(){
+            $(".email_error").css("opacity" , "0");
+        })
+
+        $(".notify_btn").click(function(e){
+            var email = $("#email").val();
+            var pattern = /^\b[A-Z0-9._%-]+@[A-Z0-9.-]+\.[A-Z]{2,4}\b$/i
+            debugger
+            if(email.length == 0){
+            //    alert('Enter yor email');
+               $(".email_error").css("opacity" , "1");
+               $(".error_msg").text("Enter your email please");
+               $(".coming_soon_email").css("border-color", "#dc3545")
+               return false
+            }
+            if(!pattern.test(email))
+              {
+            //    alert('not a valid e-mail address');
+               $(".email_error").css("opacity" , "1");
+               $(".error_msg").text("not a valid e-mail address");
+               $(".coming_soon_email").css("border-color", "#dc3545")
+
+               return false
+              }
+            //    alert(email);
+            //    return false
+            $.ajax({
+                method:"POST",
+                url:"https://api.sendgrid.com/v3/mail/send",
+                headers:{
+                    crossDomain: true,
+                    "content-type":"application/json",
+                    'Authorization':"Bearer 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"
+                },
+                data:
+                    JSON.stringify( {
+                        personalizations:
+                    [ { to: [{ email: email, name:"ajkdshkl" }], subject: 'subject' } ],
+                    content:  [ { type: 'text/html', value: '<h1>Header</h1>' } ],
+                    from: { email: 'crayond@help.com', name: "Crayond'd" },
+                    // reply_to: { email: 'sarath@crayond.co', name: 'reply to name' } 
+                    }),
+                    success:(asd) => {
+                        //  alert("mail sent")
+                        $("#email").val("");
+                        $('#myModal').modal('toggle');
+                        $(".coming_soon_email").css("border-color", "#000")
+                    },
+                    error:(err) => {
+                        // alert("try again")
+                        $(".email_error").css("opacity" , "1");
+                        $(".error_msg").text("Try again");
+                        console.log(err);
+                    }
+            })
+       });
 
     
 </script>
