@@ -936,6 +936,32 @@ body {
   padding-top: 2px;
 }
 
+.why_us .row tapSection {
+  padding: 0px 30px;
+  border-right: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+.why_us .row tapSection span {
+  border-radius: 36px;
+  padding: 14px 25px;
+  cursor: pointer;
+}
+
+.why_us .row tapSection span:hover {
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 10px 1px 0 #deedf1;
+          box-shadow: 0 10px 1px 0 #deedf1;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.why_us .row tapSection .active {
+  color: #30b67b;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 10px 1px 0 #deedf1;
+          box-shadow: 0 10px 1px 0 #deedf1;
+}
+
 .why_us .row .coming_soon_email {
   margin-top: 50px;
   padding: 10px 16px;
@@ -2049,6 +2075,113 @@ body {
   padding-top: 130px;
 }
 
+.our_approach_title {
+  -webkit-filter: brightness(0.95);
+          filter: brightness(0.95);
+  background-image: url("../images/bg_wave.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  text-align: center;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.our_approach_title .banner_flag p {
+  border-radius: 4px;
+  color: #fff;
+  padding: 8px 14px;
+  width: 317px;
+  font-size: 16px;
+  margin: auto;
+  margin-bottom: 30px;
+  background-image: -webkit-gradient(linear, right top, left top, from(#9e8eff), to(#23d9de));
+  background-image: linear-gradient(to left, #9e8eff, #23d9de);
+}
+
+.our_approach_title .title p {
+  font-size: 58px;
+  color: #222c5d;
+  line-height: 1.31;
+  margin-bottom: 30px;
+}
+
+.our_approach_title .sub_text p {
+  font-size: 24px;
+  color: #595959;
+}
+
+.our_approach_title .move_next_section {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.our_approach_title .move_next_section img {
+  width: 21px;
+  cursor: pointer;
+}
+
+.our_approach_title .move_next_section .bounce {
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+            transform: translateY(-15px);
+  }
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+            transform: translateY(-15px);
+  }
+}
+
+.product_planing .list_of_team {
+  padding: 40px 0px;
+}
+
+.product_planing .list_of_team .team_icon {
+  width: 69px;
+  height: 69px;
+  border-radius: 23.5px;
+  -webkit-box-shadow: 0 12px 16px 0 #f2f7ff;
+          box-shadow: 0 12px 16px 0 #f2f7ff;
+  background-color: #ffffff;
+  margin: 10px 42px 10px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+}
+
+.product_planing .list_of_team .team_icon i {
+  font-size: 24px;
+  margin: auto;
+}
+
 @media only screen and (min-width: 1440px) {
   .header_text {
     background-size: cover;
@@ -2935,6 +3068,9 @@ body {
   }
   .email_error {
     top: 14px !important;
+  }
+  .our_approach_title {
+    height: 100vh;
   }
 }
 
