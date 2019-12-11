@@ -74,16 +74,19 @@
     <style>
        .active_cont{
            display: block !important;
-           height: 400px !important;
+           /* height: 400px !important; */
            opacity: 1 !important;
 
        }
        .inactive_cont{
            display: none !important;
-           height: 0px !important;
+           /* height: 0px !important; */
            opacity: 0 !important;
        }
-    
+       .panel {
+		height: 100%;
+		width: 100%;
+	}
     </style>
 
 
@@ -92,7 +95,7 @@
 <body>
     
     <!-- Main header -->
-    <div class="header" id="navBar">
+    <div class="header" id="navBar" style="background-color: #FDFEFE;">
         <div class="container">
             <div class="col-12 col-xs-12 col-ms-12 col-md-12 col-lg-12 col-xl-12">
                 <div class="row">
@@ -118,7 +121,7 @@
             </div>
         </div>
     </div>
-    <div class="header_mobile" style="display: none;">
+    <div class="header_mobile" style="display: none;background-color: #FDFEFE;border: none;">
         <div class="crayond_logo_mobile">
             <a href="/" class="logo" alt="crayond" style="margin: auto;"><img width="134px" alt="logo-crayond" src="./images/logo-crayond@2x.jpg"/>&nbsp;</a>
         </div>
@@ -483,290 +486,420 @@
 
 
     <!-- paralax scroll -->
-    <div class="wrapper" id="js-wrapper">
-        <div class="sections" id="js-slideContainer">
-            <!-- <section class="section"> -->
-                <section class="why_us section" id="planning_section">
-                        <div class="container-fluid container_bg_section2" style="background-color: #eff8f6;height: 100vh;">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xl-6 mobile_responce_img" style="display: none;">
-                                        <div class="img_section" style="margin: auto;">
-                                            <img alt="Modern-Engineering" src="./images/(B)-Modern-Engineering.png" />
-                                        </div>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xl-6 code code1 active_cont" style="display: none;transition: all 0.7s;opacity: 0;overflow: auto;height: 0;overflow-y: hidden">
-                                        <div class="icon_div col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
-                                            <div class="flag" style="background-color: transparent;">
-                                                <img alt="monitor" src="./images/combined-shape.svg" />
-                                                <p class="fontGraphikMedium" style="color: #fff;">NEW</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
-                                            <h1 class="fontGraphikSemibold">Planning - for products that everyone love.</h1>
-                                        </div>
-                                        <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
-                                            <img alt="line-left" class="divider_line" src="./images/line-left.png" />
-                                        </div>
-                                        <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
-                                            <p class="text_para fontLatoRegular">
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                            </p>
-                                        </div>
-                                        <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
-                                            <!-- <a href="#!" class="btnn">EXPLORE &nbsp <span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a> -->
-                                        </div>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xl-6 code code2" style="display: none;transition: all 0.7s;opacity: 0;overflow: auto;height: 0;overflow-y: hidden">
-                                            <div class="icon_div col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
-                                                <div class="flag" style="background-color: transparent;">
-                                                    <img alt="monitor" src="./images/combined-shape.svg" />
-                                                    <p class="fontGraphikMedium" style="color: #fff;">NEW2</p>
-                                                </div>
-                                            </div>
-                                            <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
-                                                <h1 class="fontGraphikSemibold">Planning - for products that everyone love.1</h1>
-                                            </div>
-                                            <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
-                                                <img alt="line-left" class="divider_line" src="./images/line-left.png" />
-                                            </div>
-                                            <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
-                                                <p class="text_para fontLatoRegular">
-                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.111111111111111
-                                                </p>
-                                            </div>
-                                            <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
-                                                <!-- <a href="#!" class="btnn">EXPLORE &nbsp <span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a> -->
-                                            </div>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xl-6 code code3" style="display: none;transition: all 0.7s;opacity: 0;overflow: auto;height: 0;overflow-y: hidden">
-                                            <div class="icon_div col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
-                                                <div class="flag" style="background-color: transparent;">
-                                                    <img alt="monitor" src="./images/combined-shape.svg" />
-                                                    <p class="fontGraphikMedium" style="color: #fff;">NEW3</p>
-                                                </div>
-                                            </div>
-                                            <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
-                                                <h1 class="fontGraphikSemibold">Planning - for products that everyone love.1</h1>
-                                            </div>
-                                            <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
-                                                <img alt="line-left" class="divider_line" src="./images/line-left.png" />
-                                            </div>
-                                            <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
-                                                <p class="text_para fontLatoRegular">
-                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.111111111111111
-                                                </p>
-                                            </div>
-                                            <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
-                                                <!-- <a href="#!" class="btnn">EXPLORE &nbsp <span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a> -->
-                                            </div>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xl-6 code code4" style="display: none;transition: all 0.7s;opacity: 0;overflow: auto;height: 0;overflow-y: hidden">
-                                            <div class="icon_div col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
-                                                <div class="flag" style="background-color: transparent;">
-                                                    <img alt="monitor" src="./images/combined-shape.svg" />
-                                                    <p class="fontGraphikMedium" style="color: #fff;">NEW4</p>
-                                                </div>
-                                            </div>
-                                            <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
-                                                <h1 class="fontGraphikSemibold">Planning - for products that everyone love.1</h1>
-                                            </div>
-                                            <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
-                                                <img alt="line-left" class="divider_line" src="./images/line-left.png" />
-                                            </div>
-                                            <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
-                                                <p class="text_para fontLatoRegular">
-                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.111111111111111
-                                                </p>
-                                            </div>
-                                            <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
-                                                <!-- <a href="#!" class="btnn">EXPLORE &nbsp <span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a> -->
-                                            </div>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xl-6 code code5" style="display: none;transition: all 0.7s;opacity: 0;overflow: auto;height: 0;overflow-y: hidden">
-                                            <div class="icon_div col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
-                                                <div class="flag" style="background-color: transparent;">
-                                                    <img alt="monitor" src="./images/combined-shape.svg" />
-                                                    <p class="fontGraphikMedium" style="color: #fff;">NEW5</p>
-                                                </div>
-                                            </div>
-                                            <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
-                                                <h1 class="fontGraphikSemibold">Planning - for products that everyone love.1</h1>
-                                            </div>
-                                            <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
-                                                <img alt="line-left" class="divider_line" src="./images/line-left.png" />
-                                            </div>
-                                            <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
-                                                <p class="text_para fontLatoRegular">
-                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.111111111111111
-                                                </p>
-                                            </div>
-                                            <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
-                                                <!-- <a href="#!" class="btnn">EXPLORE &nbsp <span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a> -->
-                                            </div>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xl-6 desktop_responce_img" >
-                                        <div class="img_section" style="margin: auto;">
-                                            <img alt="Modern Engineering" src="./images/(B)-Modern-Engineering.png" />
-                                        </div>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
-                                        <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12" style="padding: 16px;margin-top: 4%;">
-                                        <!-- <div class="img_section" style="margin: auto;"> -->
-                                            <tapSection style="padding-left: 0;"><span class="active tap" data-code="1">1.Brainstorm</span></tapSection>
-                                            <tapSection><span class="tap" data-code="2">2.Handshake</span></tapSection>
-                                            <tapSection><span class="tap" data-code="3">3.Pen down</span></tapSection>
-                                            <tapSection><span class="tap" data-code="4">4.Ambition vs Purse</span></tapSection>
-                                            <tapSection style="padding-right: 0;border: 0;"><span class="tap" data-code="5">5.Sprints & Milestones</span></tapSection>
-                                        </div>
-                                    </div>
-                                </div>
+    <section class="why_us panel" id="planning_section">
+            <div class="container-fluid container_bg_section2" style="background-color: #eff8f6;display: flex;height: 100%;">
+                <div class="container" style="margin: auto;">
+                    <div class="row"  style="padding: 0;">
+                        <div class="col-12 col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xl-6 mobile_responce_img" style="display: none;">
+                            <div class="img_section" style="margin: auto;">
+                                <img alt="Modern-Engineering" src="./images/(B)-Modern-Engineering.png" />
                             </div>
                         </div>
-                </section>
-            <!-- </section> -->
-            <!-- <section class="section"> -->
-                <section class="why_us section" id="planning_section">
-                        <div class="container-fluid container_bg_section2" style="background-color: #FFDC76;height: 100vh;">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-12 col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xl-6 mobile_responce_img" style="display: none;">
-                                        <div class="img_section" style="margin: auto;">
-                                            <img alt="Modern-Engineering" src="./images/(B)-Modern-Engineering.png" />
-                                        </div>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xl-6 sale sale1 active_cont" style="display: none;transition: all 0.7s;opacity: 0;overflow: auto;height: 0;overflow-y: hidden">
-                                        <div class="icon_div col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
-                                            <div class="flag" style="background-color: transparent;">
-                                                <img alt="monitor" src="./images/combined-shape.svg" />
-                                                <p class="fontGraphikMedium" style="color: #fff;">NEW</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
-                                            <h1 class="fontGraphikSemibold">Planning - for products that everyone love.</h1>
-                                        </div>
-                                        <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
-                                            <img alt="line-left" class="divider_line" src="./images/line-left.png" />
-                                        </div>
-                                        <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
-                                            <p class="text_para fontLatoRegular">
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                            </p>
-                                        </div>
-                                        <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
-                                            <!-- <a href="#!" class="btnn">EXPLORE &nbsp <span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a> -->
-                                        </div>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xl-6 sale sale2" style="display: none;transition: all 0.7s;opacity: 0;overflow: auto;height: 0;overflow-y: hidden">
-                                            <div class="icon_div col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
-                                                <div class="flag" style="background-color: transparent;">
-                                                    <img alt="monitor" src="./images/combined-shape.svg" />
-                                                    <p class="fontGraphikMedium" style="color: #fff;">NEW2</p>
-                                                </div>
-                                            </div>
-                                            <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
-                                                <h1 class="fontGraphikSemibold">Planning - for products that everyone love.1</h1>
-                                            </div>
-                                            <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
-                                                <img alt="line-left" class="divider_line" src="./images/line-left.png" />
-                                            </div>
-                                            <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
-                                                <p class="text_para fontLatoRegular">
-                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.111111111111111
-                                                </p>
-                                            </div>
-                                            <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
-                                                <!-- <a href="#!" class="btnn">EXPLORE &nbsp <span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a> -->
-                                            </div>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xl-6 sale sale3" style="display: none;transition: all 0.7s;opacity: 0;overflow: auto;height: 0;overflow-y: hidden">
-                                            <div class="icon_div col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
-                                                <div class="flag" style="background-color: transparent;">
-                                                    <img alt="monitor" src="./images/combined-shape.svg" />
-                                                    <p class="fontGraphikMedium" style="color: #fff;">NEW3</p>
-                                                </div>
-                                            </div>
-                                            <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
-                                                <h1 class="fontGraphikSemibold">Planning - for products that everyone love.1</h1>
-                                            </div>
-                                            <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
-                                                <img alt="line-left" class="divider_line" src="./images/line-left.png" />
-                                            </div>
-                                            <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
-                                                <p class="text_para fontLatoRegular">
-                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.111111111111111
-                                                </p>
-                                            </div>
-                                            <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
-                                                <!-- <a href="#!" class="btnn">EXPLORE &nbsp <span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a> -->
-                                            </div>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xl-6 sale sale4" style="display: none;transition: all 0.7s;opacity: 0;overflow: auto;height: 0;overflow-y: hidden">
-                                            <div class="icon_div col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
-                                                <div class="flag" style="background-color: transparent;">
-                                                    <img alt="monitor" src="./images/combined-shape.svg" />
-                                                    <p class="fontGraphikMedium" style="color: #fff;">NEW4</p>
-                                                </div>
-                                            </div>
-                                            <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
-                                                <h1 class="fontGraphikSemibold">Planning - for products that everyone love.1</h1>
-                                            </div>
-                                            <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
-                                                <img alt="line-left" class="divider_line" src="./images/line-left.png" />
-                                            </div>
-                                            <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
-                                                <p class="text_para fontLatoRegular">
-                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.111111111111111
-                                                </p>
-                                            </div>
-                                            <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
-                                                <!-- <a href="#!" class="btnn">EXPLORE &nbsp <span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a> -->
-                                            </div>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xl-6 sale sale5" style="display: none;transition: all 0.7s;opacity: 0;overflow: auto;height: 0;overflow-y: hidden">
-                                            <div class="icon_div col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
-                                                <div class="flag" style="background-color: transparent;">
-                                                    <img alt="monitor" src="./images/combined-shape.svg" />
-                                                    <p class="fontGraphikMedium" style="color: #fff;">NEW5</p>
-                                                </div>
-                                            </div>
-                                            <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
-                                                <h1 class="fontGraphikSemibold">Planning - for products that everyone love.1</h1>
-                                            </div>
-                                            <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
-                                                <img alt="line-left" class="divider_line" src="./images/line-left.png" />
-                                            </div>
-                                            <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
-                                                <p class="text_para fontLatoRegular">
-                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.111111111111111
-                                                </p>
-                                            </div>
-                                            <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
-                                                <!-- <a href="#!" class="btnn">EXPLORE &nbsp <span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a> -->
-                                            </div>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xl-6 desktop_responce_img" >
-                                        <div class="img_section" style="margin: auto;">
-                                            <img alt="Modern Engineering" src="./images/(B)-Modern-Engineering.png" />
-                                        </div>
-                                    </div>
-                                    <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
-                                        <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12" style="padding: 16px;margin-top: 4%;">
-                                        <!-- <div class="img_section" style="margin: auto;"> -->
-                                            <tapSection style="padding-left: 0;"><span class="active tap2" data-sale="1">1.Brainstorm</span></tapSection>
-                                            <tapSection><span class="tap2" data-sale="2">2.Handshake</span></tapSection>
-                                            <tapSection><span class="tap2" data-sale="3">3.Pen down</span></tapSection>
-                                            <tapSection><span class="tap2" data-sale="4">4.Ambition vs Purse</span></tapSection>
-                                            <tapSection style="padding-right: 0;border: 0;"><span class="tap2" data-sale="5">5.Sprints & Milestones</span></tapSection>
-                                        </div>
-                                    </div>
+                        <div class="col-12 col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xl-6 code code1 active_cont" style="display: none;transition: all 0.7s;opacity: 0;overflow: auto;overflow-y: hidden">
+                            <div class="icon_div col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                <div class="flag" style="background-color: transparent;">
+                                    <img alt="monitor" src="./images/combined-shape.svg" />
+                                    <p class="fontGraphikMedium" style="color: #fff;">NEW</p>
                                 </div>
                             </div>
+                            <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                <h1 class="fontGraphikSemibold">Planning - for products that everyone love.</h1>
+                            </div>
+                            <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                <img alt="line-left" class="divider_line" src="./images/line-left.png" />
+                            </div>
+                            <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                <p class="text_para fontLatoRegular">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </p>
+                            </div>
+                            <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                <!-- <a href="#!" class="btnn">EXPLORE &nbsp <span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a> -->
+                            </div>
                         </div>
-                </section>
-            <!-- </section> -->
-        </div>
-    </div>
+                        <div class="col-12 col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xl-6 code code2" style="display: none;transition: all 0.7s;opacity: 0;overflow: auto;overflow-y: hidden">
+                                <div class="icon_div col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                    <div class="flag" style="background-color: transparent;">
+                                        <img alt="monitor" src="./images/combined-shape.svg" />
+                                        <p class="fontGraphikMedium" style="color: #fff;">NEW2</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                    <h1 class="fontGraphikSemibold">Planning - for products that everyone love.1</h1>
+                                </div>
+                                <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                    <img alt="line-left" class="divider_line" src="./images/line-left.png" />
+                                </div>
+                                <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                    <p class="text_para fontLatoRegular">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.111111111111111
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                    <!-- <a href="#!" class="btnn">EXPLORE &nbsp <span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a> -->
+                                </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xl-6 code code3" style="display: none;transition: all 0.7s;opacity: 0;overflow: auto;overflow-y: hidden">
+                                <div class="icon_div col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                    <div class="flag" style="background-color: transparent;">
+                                        <img alt="monitor" src="./images/combined-shape.svg" />
+                                        <p class="fontGraphikMedium" style="color: #fff;">NEW3</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                    <h1 class="fontGraphikSemibold">Planning - for products that everyone love.1</h1>
+                                </div>
+                                <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                    <img alt="line-left" class="divider_line" src="./images/line-left.png" />
+                                </div>
+                                <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                    <p class="text_para fontLatoRegular">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.111111111111111
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                    <!-- <a href="#!" class="btnn">EXPLORE &nbsp <span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a> -->
+                                </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xl-6 code code4" style="display: none;transition: all 0.7s;opacity: 0;overflow: auto;overflow-y: hidden">
+                                <div class="icon_div col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                    <div class="flag" style="background-color: transparent;">
+                                        <img alt="monitor" src="./images/combined-shape.svg" />
+                                        <p class="fontGraphikMedium" style="color: #fff;">NEW4</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                    <h1 class="fontGraphikSemibold">Planning - for products that everyone love.1</h1>
+                                </div>
+                                <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                    <img alt="line-left" class="divider_line" src="./images/line-left.png" />
+                                </div>
+                                <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                    <p class="text_para fontLatoRegular">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.111111111111111
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                    <!-- <a href="#!" class="btnn">EXPLORE &nbsp <span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a> -->
+                                </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xl-6 code code5" style="display: none;transition: all 0.7s;opacity: 0;overflow: auto;overflow-y: hidden">
+                                <div class="icon_div col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                    <div class="flag" style="background-color: transparent;">
+                                        <img alt="monitor" src="./images/combined-shape.svg" />
+                                        <p class="fontGraphikMedium" style="color: #fff;">NEW5</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                    <h1 class="fontGraphikSemibold">Planning - for products that everyone love.1</h1>
+                                </div>
+                                <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                    <img alt="line-left" class="divider_line" src="./images/line-left.png" />
+                                </div>
+                                <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                    <p class="text_para fontLatoRegular">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.111111111111111
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                    <!-- <a href="#!" class="btnn">EXPLORE &nbsp <span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a> -->
+                                </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xl-6 desktop_responce_img" >
+                            <div class="img_section" style="margin: auto;">
+                                <img alt="Modern Engineering" src="./images/(B)-Modern-Engineering.png" />
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                            <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12" style="padding: 16px;">
+                            <!-- <div class="img_section" style="margin: auto;"> -->
+                                <tapSection style="padding-left: 0;"><span class="active tap" data-code="1">1.Brainstorm</span></tapSection>
+                                <tapSection><span class="tap" data-code="2">2.Handshake</span></tapSection>
+                                <tapSection><span class="tap" data-code="3">3.Pen down</span></tapSection>
+                                <tapSection><span class="tap" data-code="4">4.Ambition vs Purse</span></tapSection>
+                                <tapSection style="padding-right: 0;border: 0;"><span class="tap" data-code="5">5.Sprints & Milestones</span></tapSection>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="why_us panel" id="planning_section">
+            <div class="container-fluid container_bg_section2" style="background-color: #FFDC76;display: flex;height: 100%;">
+                <div class="container" style="margin: auto;">
+                    <div class="row" style="padding: 0;">
+                        <div class="col-12 col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xl-6 mobile_responce_img" style="display: none;">
+                            <div class="img_section" style="margin: auto;">
+                                <img alt="Modern-Engineering" src="./images/(B)-Modern-Engineering.png" />
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xl-6 sale sale1 active_cont" style="display: none;transition: all 0.7s;opacity: 0;overflow: auto;overflow-y: hidden">
+                            <div class="icon_div col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                <div class="flag" style="background-color: transparent;">
+                                    <img alt="monitor" src="./images/combined-shape.svg" />
+                                    <p class="fontGraphikMedium" style="color: #fff;">NEW</p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                <h1 class="fontGraphikSemibold">Planning - for products that everyone love.</h1>
+                            </div>
+                            <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                <img alt="line-left" class="divider_line" src="./images/line-left.png" />
+                            </div>
+                            <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                <p class="text_para fontLatoRegular">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </p>
+                            </div>
+                            <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                <!-- <a href="#!" class="btnn">EXPLORE &nbsp <span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a> -->
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xl-6 sale sale2" style="display: none;transition: all 0.7s;opacity: 0;overflow: auto;overflow-y: hidden">
+                                <div class="icon_div col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                    <div class="flag" style="background-color: transparent;">
+                                        <img alt="monitor" src="./images/combined-shape.svg" />
+                                        <p class="fontGraphikMedium" style="color: #fff;">NEW2</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                    <h1 class="fontGraphikSemibold">Planning - for products that everyone love.1</h1>
+                                </div>
+                                <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                    <img alt="line-left" class="divider_line" src="./images/line-left.png" />
+                                </div>
+                                <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                    <p class="text_para fontLatoRegular">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.111111111111111
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                    <!-- <a href="#!" class="btnn">EXPLORE &nbsp <span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a> -->
+                                </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xl-6 sale sale3" style="display: none;transition: all 0.7s;opacity: 0;overflow: auto;overflow-y: hidden">
+                                <div class="icon_div col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                    <div class="flag" style="background-color: transparent;">
+                                        <img alt="monitor" src="./images/combined-shape.svg" />
+                                        <p class="fontGraphikMedium" style="color: #fff;">NEW3</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                    <h1 class="fontGraphikSemibold">Planning - for products that everyone love.1</h1>
+                                </div>
+                                <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                    <img alt="line-left" class="divider_line" src="./images/line-left.png" />
+                                </div>
+                                <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                    <p class="text_para fontLatoRegular">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.111111111111111
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                    <!-- <a href="#!" class="btnn">EXPLORE &nbsp <span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a> -->
+                                </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xl-6 sale sale4" style="display: none;transition: all 0.7s;opacity: 0;overflow: auto;overflow-y: hidden">
+                                <div class="icon_div col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                    <div class="flag" style="background-color: transparent;">
+                                        <img alt="monitor" src="./images/combined-shape.svg" />
+                                        <p class="fontGraphikMedium" style="color: #fff;">NEW4</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                    <h1 class="fontGraphikSemibold">Planning - for products that everyone love.1</h1>
+                                </div>
+                                <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                    <img alt="line-left" class="divider_line" src="./images/line-left.png" />
+                                </div>
+                                <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                    <p class="text_para fontLatoRegular">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.111111111111111
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                    <!-- <a href="#!" class="btnn">EXPLORE &nbsp <span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a> -->
+                                </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xl-6 sale sale5" style="display: none;transition: all 0.7s;opacity: 0;overflow: auto;overflow-y: hidden">
+                                <div class="icon_div col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                    <div class="flag" style="background-color: transparent;">
+                                        <img alt="monitor" src="./images/combined-shape.svg" />
+                                        <p class="fontGraphikMedium" style="color: #fff;">NEW5</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                    <h1 class="fontGraphikSemibold">Planning - for products that everyone love.1</h1>
+                                </div>
+                                <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                    <img alt="line-left" class="divider_line" src="./images/line-left.png" />
+                                </div>
+                                <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                    <p class="text_para fontLatoRegular">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.111111111111111
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                    <!-- <a href="#!" class="btnn">EXPLORE &nbsp <span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a> -->
+                                </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xl-6 desktop_responce_img" >
+                            <div class="img_section" style="margin: auto;">
+                                <img alt="Modern Engineering" src="./images/(B)-Modern-Engineering.png" />
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                            <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12" style="padding: 16px;">
+                            <!-- <div class="img_section" style="margin: auto;"> -->
+                                <tapSection style="padding-left: 0;"><span class="active tap2" data-sale="1">1.Brainstorm</span></tapSection>
+                                <tapSection><span class="tap2" data-sale="2">2.Handshake</span></tapSection>
+                                <tapSection><span class="tap2" data-sale="3">3.Pen down</span></tapSection>
+                                <tapSection><span class="tap2" data-sale="4">4.Ambition vs Purse</span></tapSection>
+                                <tapSection style="padding-right: 0;border: 0;"><span class="tap2" data-sale="5">5.Sprints & Milestones</span></tapSection>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="why_us panel" id="planning_section">
+            <div class="container-fluid container_bg_section2" style="background-color: #dbd9eb;display: flex;height: 100%;">
+                <div class="container" style="margin: auto;">
+                    <div class="row" style="padding: 0;">
+                        <div class="col-12 col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xl-6 mobile_responce_img" style="display: none;">
+                            <div class="img_section" style="margin: auto;">
+                                <img alt="Modern-Engineering" src="./images/(B)-Modern-Engineering.png" />
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xl-6 sale sale1 active_cont" style="display: none;transition: all 0.7s;opacity: 0;overflow: auto;overflow-y: hidden">
+                            <div class="icon_div col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                <div class="flag" style="background-color: transparent;">
+                                    <img alt="monitor" src="./images/combined-shape.svg" />
+                                    <p class="fontGraphikMedium" style="color: #fff;">NEW</p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                <h1 class="fontGraphikSemibold">Planning - for products that everyone love.</h1>
+                            </div>
+                            <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                <img alt="line-left" class="divider_line" src="./images/line-left.png" />
+                            </div>
+                            <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                <p class="text_para fontLatoRegular">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </p>
+                            </div>
+                            <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                <!-- <a href="#!" class="btnn">EXPLORE &nbsp <span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a> -->
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xl-6 sale sale2" style="display: none;transition: all 0.7s;opacity: 0;overflow: auto;overflow-y: hidden">
+                                <div class="icon_div col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                    <div class="flag" style="background-color: transparent;">
+                                        <img alt="monitor" src="./images/combined-shape.svg" />
+                                        <p class="fontGraphikMedium" style="color: #fff;">NEW2</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                    <h1 class="fontGraphikSemibold">Planning - for products that everyone love.1</h1>
+                                </div>
+                                <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                    <img alt="line-left" class="divider_line" src="./images/line-left.png" />
+                                </div>
+                                <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                    <p class="text_para fontLatoRegular">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.111111111111111
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                    <!-- <a href="#!" class="btnn">EXPLORE &nbsp <span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a> -->
+                                </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xl-6 sale sale3" style="display: none;transition: all 0.7s;opacity: 0;overflow: auto;overflow-y: hidden">
+                                <div class="icon_div col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                    <div class="flag" style="background-color: transparent;">
+                                        <img alt="monitor" src="./images/combined-shape.svg" />
+                                        <p class="fontGraphikMedium" style="color: #fff;">NEW3</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                    <h1 class="fontGraphikSemibold">Planning - for products that everyone love.1</h1>
+                                </div>
+                                <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                    <img alt="line-left" class="divider_line" src="./images/line-left.png" />
+                                </div>
+                                <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                    <p class="text_para fontLatoRegular">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.111111111111111
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                    <!-- <a href="#!" class="btnn">EXPLORE &nbsp <span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a> -->
+                                </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xl-6 sale sale4" style="display: none;transition: all 0.7s;opacity: 0;overflow: auto;overflow-y: hidden">
+                                <div class="icon_div col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                    <div class="flag" style="background-color: transparent;">
+                                        <img alt="monitor" src="./images/combined-shape.svg" />
+                                        <p class="fontGraphikMedium" style="color: #fff;">NEW4</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                    <h1 class="fontGraphikSemibold">Planning - for products that everyone love.1</h1>
+                                </div>
+                                <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                    <img alt="line-left" class="divider_line" src="./images/line-left.png" />
+                                </div>
+                                <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                    <p class="text_para fontLatoRegular">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.111111111111111
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                    <!-- <a href="#!" class="btnn">EXPLORE &nbsp <span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a> -->
+                                </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xl-6 sale sale5" style="display: none;transition: all 0.7s;opacity: 0;overflow: auto;overflow-y: hidden">
+                                <div class="icon_div col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                    <div class="flag" style="background-color: transparent;">
+                                        <img alt="monitor" src="./images/combined-shape.svg" />
+                                        <p class="fontGraphikMedium" style="color: #fff;">NEW5</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                    <h1 class="fontGraphikSemibold">Planning - for products that everyone love.1</h1>
+                                </div>
+                                <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                    <img alt="line-left" class="divider_line" src="./images/line-left.png" />
+                                </div>
+                                <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                    <p class="text_para fontLatoRegular">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.111111111111111
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                                    <!-- <a href="#!" class="btnn">EXPLORE &nbsp <span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a> -->
+                                </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xl-6 desktop_responce_img" >
+                            <div class="img_section" style="margin: auto;">
+                                <img alt="Modern Engineering" src="./images/(B)-Modern-Engineering.png" />
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                            <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12" style="padding: 16px;">
+                            <!-- <div class="img_section" style="margin: auto;"> -->
+                                <tapSection style="padding-left: 0;"><span class="active tap2" data-sale="1">1.Brainstorm</span></tapSection>
+                                <tapSection><span class="tap2" data-sale="2">2.Handshake</span></tapSection>
+                                <tapSection><span class="tap2" data-sale="3">3.Pen down</span></tapSection>
+                                <tapSection><span class="tap2" data-sale="4">4.Ambition vs Purse</span></tapSection>
+                                <tapSection style="padding-right: 0;border: 0;"><span class="tap2" data-sale="5">5.Sprints & Milestones</span></tapSection>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
     <!-- end -->
     
     
@@ -803,7 +936,7 @@
     <!-- end -->
     <!-- main footer -->
     <!-- main footer -->
-    <section class="footer">
+    <section class="footer" style="background-color: #fff;position: relative;">
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-xs-12 col-ms-12 col-md-4 col-lg-4 col-xl-4 logo_address">
@@ -868,7 +1001,7 @@
     </section>
     <!-- end -->
     <!-- footer_social_media -->
-    <section class="footer_social_media">
+    <section class="footer_social_media" style="background-color: #fff;position: relative;">
             <footer>
                 <div class="container">
                     <div class="row">
@@ -1062,30 +1195,41 @@
 
     // scroll
 
-    $(function () { // wait for document ready
+    // Init ScrollMagic
+    var ctrl = new ScrollMagic.Controller({
+        globalSceneOptions: {
+            triggerHook: 'onLeave'
+        }
+        });
+
+    // Create scene
+    $(".panel").each(function() {
+
+        var name = $(this).attr('id');
         
-        var controller = new ScrollMagic.Controller();
-
-        var horizontalSlide = new TimelineMax()
-        // animate panels
-        .to("#js-slideContainer", 1,   {x: "-20%"})	
-        // .to("#js-slideContainer", 1,   {x: "-40%"})
-        // .to("#js-slideContainer", 1,   {x: "-60%"})
-        // .to("#js-slideContainer", 1,   {x: "-80%"})
-
-
-        // create scene to pin and link animation
         new ScrollMagic.Scene({
-            triggerElement: "#js-wrapper",
-            triggerHook: "onLeave",
-            duration: "400%"
+            triggerElement: this
         })
-            .setPin("#js-wrapper")
-            .setTween(horizontalSlide)
-            //.addIndicators() // add indicators (requires plugin)
-            .addTo(controller);
-      });
-    
+        .setPin(this)
+        // .addIndicators({
+        //     colorStart: "rgba(255,255,255,0.5)",
+        //     colorEnd: "rgba(255,255,255,0.5)", 
+        //     colorTrigger : "rgba(255,255,255,1)",
+        //     name:name
+        //     })
+        .loglevel(3)
+        .addTo(ctrl);
+        
+        });
+
+        // Get window height
+        var wh = window.innerHeight;
+        
+        new ScrollMagic.Scene({
+        offset: wh*3
+        })
+        .setClassToggle("section#four", "is-active")
+        .addTo(ctrl);
 </script>
 
 </html>

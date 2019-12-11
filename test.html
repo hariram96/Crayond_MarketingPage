@@ -72,45 +72,39 @@
 
 
     <style type="text/css">
-        
+        .panel {
+		height: 100%;
+		width: 100%;
+	}
+	.panel.green {
+		margin-bottom: 400px
+	}
     </style>
 
 
 </head>
 
 <body>
-    <section>
+    <section style="height: 100vh;">
         <h1>skjcbskcksncnscns</h1>
     </section>
     
-        <div class="wrapper" id="js-wrapper">
-                <div class="sections" id="js-slideContainer">
-                    <section class="section">
-                        <!-- <span class="section__title" id="title1">Section One</span>
-                         <span id="trigger--title1"></span> -->
-                         <h1>HHHHHHHHH  HJSJBSBS JSJ S </h1>
-                    </section>
-                    <section class="section">
-                        <span class="section__title" id="title2">Section Two</span>
-                        <span id="trigger--title2"></span>
-                    </section>
-                    <section class="section">
-                        <span class="section__title" id="title3">Section Three</span>
-                        <span id="trigger--title3"></span>
-                    </section>
-                    <section class="section">
-                        <span class="section__title" id="title4">Section Four</span>
-                        <span id="trigger--title4"></span>
-                    </section>
-                    <section class="section">
-                        <span class="section__title" id="title5">Section Five</span>
-                        <span id="trigger--title5"></span>
-                    </section>
-                </div>
-        </div>
-        <section>
-                    <h1>skjcbskcksncnscns</h1>
-                </section>
+    <section class="panel blue" style="background-color: blue;">
+        <b>ONE</b>
+    </section>
+    <section class="panel turqoise" style="background-color: royalblue;">
+        <b>TWO</b>
+    </section>
+    <section class="panel green" style="background-color: rebeccapurple;">
+        <b>THREE</b>
+    </section>
+    <section class="panel bordeaux" style="background-color: saddlebrown;">
+        <b>FOUR</b>
+    </section>
+        
+    <section style="background-color: red;height: 100vh;">
+        <h1>skjcbskcksncnscns</h1>
+    </section>
     
 </body>
     
@@ -137,32 +131,41 @@
 <!-- // Freshchat -->
 <script type="text/javascript">
 	
-    $(function () { // wait for document ready
-  
-  var controller = new ScrollMagic.Controller();
+    // Init ScrollMagic
+        var ctrl = new ScrollMagic.Controller({
+        globalSceneOptions: {
+            triggerHook: 'onLeave'
+        }
+        });
 
-  var horizontalSlide = new TimelineMax()
-  // animate panels
-  .to("#js-slideContainer", 1,   {x: "-20%"})	
-  .to("#js-slideContainer", 1,   {x: "-40%"})
-  .to("#js-slideContainer", 1,   {x: "-60%"})
-  .to("#js-slideContainer", 1,   {x: "-80%"})
+    // Create scene
+    $("section").each(function() {
 
+        var name = $(this).attr('id');
+        
+        new ScrollMagic.Scene({
+            triggerElement: this
+        })
+        .setPin(this)
+        // .addIndicators({
+        //     colorStart: "rgba(255,255,255,0.5)",
+        //     colorEnd: "rgba(255,255,255,0.5)", 
+        //     colorTrigger : "rgba(255,255,255,1)",
+        //     name:name
+        //     })
+        .loglevel(3)
+        .addTo(ctrl);
+        
+        });
 
-  // create scene to pin and link animation
-  new ScrollMagic.Scene({
-    triggerElement: "#js-wrapper",
-    triggerHook: "onLeave",
-    duration: "400%"
-  })
-    .setPin("#js-wrapper")
-    .setTween(horizontalSlide)
-    //.addIndicators() // add indicators (requires plugin)
-    .addTo(controller);
-  
-  
-  
-});
+        // Get window height
+        var wh = window.innerHeight;
+        
+        new ScrollMagic.Scene({
+        offset: wh*3
+        })
+        .setClassToggle("section#four", "is-active")
+        .addTo(ctrl);
 </script>
 
 </html>

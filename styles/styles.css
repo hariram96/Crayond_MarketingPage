@@ -2110,14 +2110,13 @@ body {
 }
 
 .our_approach_title {
-  -webkit-filter: brightness(0.95);
-          filter: brightness(0.95);
+  position: relative;
   background-image: url("../images/bg_wave.svg");
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
   text-align: center;
-  height: 100vh;
+  height: 88vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2194,7 +2193,7 @@ body {
 }
 
 .product_planing .list_of_team {
-  padding: 40px 0px;
+  padding: 2% 0px;
 }
 
 .product_planing .list_of_team .team_icon {
@@ -2204,7 +2203,7 @@ body {
   -webkit-box-shadow: 0 12px 16px 0 #f2f7ff;
           box-shadow: 0 12px 16px 0 #f2f7ff;
   background-color: #ffffff;
-  margin: 10px 42px 10px 0px;
+  margin: 10px 21px 10px 21px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2286,6 +2285,9 @@ body {
   }
   .time_contantes .slide .carousel-inner .carousel-item .slider_img {
     padding-right: 26px !important;
+  }
+  .our_approach_title {
+    height: 100vh;
   }
 }
 
@@ -2603,6 +2605,15 @@ body {
   }
   .email_error {
     top: 14px !important;
+  }
+  .our_approach_title {
+    height: 80vh;
+  }
+  .our_approach_title .title p {
+    font-size: 30px;
+  }
+  .our_approach_title .sub_text p {
+    font-size: 19px;
   }
 }
 
@@ -3104,7 +3115,30 @@ body {
     top: 14px !important;
   }
   .our_approach_title {
-    height: 100vh;
+    height: 80vh;
+  }
+  .our_approach_title .banner_flag p {
+    padding: 8px 0px;
+    width: 255px;
+    font-size: 14px;
+  }
+  .our_approach_title .title p {
+    font-size: 30px;
+  }
+  .our_approach_title .sub_text p {
+    font-size: 19px;
+  }
+  .product_planing {
+    padding: 40px 0px;
+  }
+  .product_planing .list_of_team .team_icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 16.5px;
+    margin: auto;
+  }
+  .product_planing .list_of_team .team_icon i {
+    font-size: 19px;
   }
 }
 
