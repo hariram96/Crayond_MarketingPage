@@ -906,21 +906,26 @@ body{
         }
         tapSection{
             padding: 0px 30px;
-            border-right: 1px solid rgba(0, 0, 0, 0.14);;
+            border-right: 1px solid rgba(0, 0, 0, 0.14);
             span{
-                border-radius: 36px;
+                border-radius: 6px;
                 padding: 14px 25px;
                 cursor: pointer;
+            }
+            .tap{
                 &:hover{
-                    background-color: #ffffff;
-                    box-shadow: 0 10px 1px 0 #deedf1;
-                    transition: all 0.2s;
+                    color: #52a28e;
                 }
             }
-            .active{
-                color: #30b67b;
-                background-color: #ffffff;
-                box-shadow: 0 10px 1px 0 #deedf1;
+            .active_sale{
+                color: #fff;
+                border-radius: 6px;
+                background-color: #52a28e;
+            }
+            .active_code{
+                color: #fff;
+                border-radius: 6px;
+                background-color: #52a28e;
             }
         }
         .coming_soon_email{
@@ -2004,19 +2009,44 @@ body{
 .product_planing{
     .list_of_team{
         padding: 2% 0px;
+        color: #595959;
         .team_icon{
+            z-index: 1;
             width: 69px;
             height: 69px;
-            border-radius: 23.5px;
+            border-radius: 35.5px;
             box-shadow: 0 12px 16px 0 #f2f7ff;
             background-color: #ffffff;
+
+            border: 1px solid #e6e6e7;
 
             margin: 10px 21px 10px 21px;
             display: flex;
             cursor: pointer;
-            i{
+            img{
                 font-size: 24px;
                 margin: auto;
+            }
+        }
+        .active_section_tap{
+            .team_icon{
+                border: 3px solid #fff !important;
+                background-color: #30b67b !important;
+            }
+            p{
+                color: #000 !important;
+                font-weight: 800;
+            }
+        }
+        .time_line{
+            width: 460px;
+            position: absolute;
+            top: 43%;
+            height: 2px;
+            background-color: #e6e6e7;
+            &:after{
+                background: #47c9a2;
+                width: 100px;
             }
         }
     }
@@ -3253,6 +3283,13 @@ body{
             i{
                 font-size: 19px;
             }
+        }
+        .time_line{
+            width: 285px;
+            position: absolute;
+            top: 50%;
+            height: 2px;
+            background-color: #e6e6e7;
         }
     }
 }

@@ -976,24 +976,25 @@ body {
 }
 
 .why_us .row tapSection span {
-  border-radius: 36px;
+  border-radius: 6px;
   padding: 14px 25px;
   cursor: pointer;
 }
 
-.why_us .row tapSection span:hover {
-  background-color: #ffffff;
-  -webkit-box-shadow: 0 10px 1px 0 #deedf1;
-          box-shadow: 0 10px 1px 0 #deedf1;
-  -webkit-transition: all 0.2s;
-  transition: all 0.2s;
+.why_us .row tapSection .tap:hover {
+  color: #52a28e;
 }
 
-.why_us .row tapSection .active {
-  color: #30b67b;
-  background-color: #ffffff;
-  -webkit-box-shadow: 0 10px 1px 0 #deedf1;
-          box-shadow: 0 10px 1px 0 #deedf1;
+.why_us .row tapSection .active_sale {
+  color: #fff;
+  border-radius: 6px;
+  background-color: #52a28e;
+}
+
+.why_us .row tapSection .active_code {
+  color: #fff;
+  border-radius: 6px;
+  background-color: #52a28e;
 }
 
 .why_us .row .coming_soon_email {
@@ -2194,15 +2195,18 @@ body {
 
 .product_planing .list_of_team {
   padding: 2% 0px;
+  color: #595959;
 }
 
 .product_planing .list_of_team .team_icon {
+  z-index: 1;
   width: 69px;
   height: 69px;
-  border-radius: 23.5px;
+  border-radius: 35.5px;
   -webkit-box-shadow: 0 12px 16px 0 #f2f7ff;
           box-shadow: 0 12px 16px 0 #f2f7ff;
   background-color: #ffffff;
+  border: 1px solid #e6e6e7;
   margin: 10px 21px 10px 21px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2210,9 +2214,32 @@ body {
   cursor: pointer;
 }
 
-.product_planing .list_of_team .team_icon i {
+.product_planing .list_of_team .team_icon img {
   font-size: 24px;
   margin: auto;
+}
+
+.product_planing .list_of_team .active_section_tap .team_icon {
+  border: 3px solid #fff !important;
+  background-color: #30b67b !important;
+}
+
+.product_planing .list_of_team .active_section_tap p {
+  color: #000 !important;
+  font-weight: 800;
+}
+
+.product_planing .list_of_team .time_line {
+  width: 460px;
+  position: absolute;
+  top: 43%;
+  height: 2px;
+  background-color: #e6e6e7;
+}
+
+.product_planing .list_of_team .time_line:after {
+  background: #47c9a2;
+  width: 100px;
 }
 
 @media only screen and (min-width: 1440px) {
@@ -3139,6 +3166,13 @@ body {
   }
   .product_planing .list_of_team .team_icon i {
     font-size: 19px;
+  }
+  .product_planing .list_of_team .time_line {
+    width: 285px;
+    position: absolute;
+    top: 50%;
+    height: 2px;
+    background-color: #e6e6e7;
   }
 }
 
