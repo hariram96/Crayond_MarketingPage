@@ -3206,18 +3206,27 @@ body {
   .product_planing .list_of_team .team_icon {
     width: 50px;
     height: 50px;
-    border-radius: 16.5px;
+    border-radius: 30.5px;
     margin: auto;
   }
   .product_planing .list_of_team .team_icon i {
     font-size: 19px;
   }
+  .product_planing .list_of_team .team_icon img {
+    width: 18px;
+  }
   .product_planing .list_of_team .time_line {
     width: 285px;
     position: absolute;
-    top: 50%;
+    top: 40%;
     height: 2px;
     background-color: #e6e6e7;
+  }
+  .product_planing .list_of_team p {
+    font-size: 13px;
+  }
+  .product_planing .section_tap {
+    margin: auto;
   }
   #tap-menu {
     display: none !important;
@@ -3230,7 +3239,7 @@ body {
     padding-top: 10% !important;
   }
   .why_us .project_planing .mobile_tap_section {
-    padding: 26px 16px 6px 16px !important;
+    padding: 26px 5px 6px 5px !important;
   }
   .why_us .project_planing .mobile_tap_section tapSection {
     height: 100% !important;
@@ -3239,7 +3248,7 @@ body {
     display: inline-flex;
     margin-bottom: 20px;
     padding: 0px !important;
-    padding-right: 10px !important;
+    padding: 0px 10px !important;
   }
   .why_us .project_planing .mobile_tap_section tapSection .active_code {
     border-radius: 50px;

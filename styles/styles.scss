@@ -3320,19 +3320,28 @@ body{
         .team_icon{
             width: 50px;
             height: 50px;
-            border-radius: 16.5px;
+            border-radius: 30.5px;
             margin: auto;
             i{
                 font-size: 19px;
+            }
+            img{
+                width: 18px;
             }
         }
         .time_line{
             width: 285px;
             position: absolute;
-            top: 50%;
+            top: 40%;
             height: 2px;
             background-color: #e6e6e7;
         }
+        p{
+            font-size: 13px;
+        }
+    }
+    .section_tap{
+        margin: auto;
     }
 }
 #tap-menu{
@@ -3348,13 +3357,13 @@ body{
             padding-top: 10% !important;
         }
         .mobile_tap_section{
-            padding: 26px 16px 6px 16px !important;
+            padding: 26px 5px 6px 5px !important;
             tapSection{
                 height: 100% !important;
                 display: inline-flex;
                 margin-bottom: 20px;
                 padding: 0px !important;
-                padding-right: 10px !important;
+                padding: 0px 10px !important;
                 .active_code{
                     border-radius: 50px;
                 }
