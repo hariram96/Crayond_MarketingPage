@@ -188,7 +188,7 @@
     <section class="product_planing" id="menu-center" >
         <div class="container" style="margin: auto;">
             <div class="col-12 col-xs-12 col-ms-12 col-md-12 col-lg-12 col-xl-12 list_of_team" style="display: flex;justify-content: center;">
-                <div style="z-index: 1;" class="active_section_tap">
+                <div style="z-index: 1;" class="plan_section section_tap active_section_tap">
                     <samp class="team_icon " >
                         <a href="#plan_section" alt="plan_section" style="width: 100%;display: flex;">
                             <img src="./images/plan.svg" alt="icons" />
@@ -196,7 +196,7 @@
                     </samp>
                     <p style="margin: 0;text-align: center;" class="fontGraphikRegular">Plan</p>
                 </div>
-                <div style="z-index: 1;">
+                <div style="z-index: 1;" class="design_section section_tap">
                     <samp class="team_icon">
                         <a href="#design_section" alt="design_section" style="width: 100%;display: flex;">
                             <img src="./images/design.svg" alt="icons" />
@@ -204,7 +204,7 @@
                     </samp>
                 <p style="margin: 0;text-align: center;" class="fontGraphikRegular">Design</p>
                 </div>
-                <div style="z-index: 1;">
+                <div style="z-index: 1;" class="build_section section_tap">
                     <samp class="team_icon">
                         <a href="#build_section" alt="build_section" style="width: 100%;display: flex;">
                            <img src="./images/build.svg" alt="icons" />
@@ -212,7 +212,7 @@
                     </samp>
                 <p style="margin: 0;text-align: center;" class="fontGraphikRegular">Build</p>
                 </div>
-                <div style="z-index: 1;">
+                <div style="z-index: 1;" class="section_tap">
                     <samp class="team_icon">
                       <a href="#deploy_section" alt="deploy_section" style="width: 100%;display: flex;">
                         <img src="./images/deploy.svg" alt="icons" />
@@ -220,7 +220,7 @@
                     </samp>
                 <p style="margin: 0;text-align: center;" class="fontGraphikRegular">Deploy</p>
                 </div>
-                <div style="z-index: 1;">
+                <div style="z-index: 1;" class="section_tap">
                     <samp class="team_icon">
                       <a href="#launch_section" alt="deploy_section" style="width: 100%;display: flex;">
                         <img src="./images/launch.svg" alt="icons" />
@@ -235,19 +235,19 @@
     <section class="product_planing" id="tap-menu">
         <div class="container" style="margin: auto;">
             <div class="col-12 col-xs-12 col-ms-12 col-md-12 col-lg-12 col-xl-12 list_of_team" style="display: flex;justify-content: center;">
-                <div style="z-index: 1;" class="active_section_tap nav_menu">
+                <div style="z-index: 1;" class="active_section_tap nav_menu plan_nav">
                     <p style="margin: 0;text-align: center;" class="fontGraphikRegular">Plan</p>
                 </div>
-                <div style="z-index: 1;" class="nav_menu">
+                <div style="z-index: 1;" class="nav_menu design_nav">
                     <p style="margin: 0;text-align: center;" class="fontGraphikRegular">Design</p>
                 </div>
-                <div style="z-index: 1;" class="nav_menu">
+                <div style="z-index: 1;" class="nav_menu build_nav">
                     <p style="margin: 0;text-align: center;" class="fontGraphikRegular">Build</p>
                 </div>
-                <div style="z-index: 1;" class="nav_menu">
+                <div style="z-index: 1;" class="nav_menu deploy_nav">
                    <p style="margin: 0;text-align: center;" class="fontGraphikRegular">Deploy</p>
                 </div>
-                <div style="z-index: 1;" class="nav_menu">
+                <div style="z-index: 1;" class="nav_menu launch_nav">
                    <p style="margin: 0;text-align: center;" class="fontGraphikRegular">Launch</p>
                 </div>
             </div>
@@ -1288,17 +1288,59 @@
 	} , 1000 );
     });
 
+    $.fn.isInViewport = function() {
+    var elementTop = $(this).offset().top;
+    var elementBottom = elementTop + $(this).outerHeight();
+
+    var viewportTop = $(window).scrollTop();
+    var viewportBottom = viewportTop + $(window).height();
+
+    return elementBottom > viewportTop && elementTop < viewportBottom;
+    };
+
+    $(window).on('resize scroll', function() {
+    if ($('.active_code').isInViewport()) {
+        $(".nav_menu").removeClass("active_section_tap");
+        $(".plan_nav").addClass("active_section_tap");
+    } 
+    if ($('.active_sale').isInViewport()) {
+        $(".nav_menu").removeClass("active_section_tap");
+        $(".design_nav").addClass("active_section_tap");
+    }
+    if ($('.active_build').isInViewport()) {
+        $(".nav_menu").removeClass("active_section_tap");
+        $(".build_nav").addClass("active_section_tap");
+    }
+    if ($('.active_deploy').isInViewport()) {
+        $(".nav_menu").removeClass("active_section_tap");
+        $(".deploy_nav").addClass("active_section_tap");
+    }
+    if ($('.active_launch').isInViewport()) {
+        $(".nav_menu").removeClass("active_section_tap");
+        $(".launch_nav").addClass("active_section_tap");
+    }
+
+
+
+    if($(".list_of_team").isInViewport()){
+        $("#tap-menu").removeClass("tap_fixed");
+    }else{
+        $("#tap-menu").addClass("tap_fixed");
+    }
+    });
 
     function onScroll(event){
-        debugger
     var scrollPos = $(document).scrollTop();
     $('#menu-center a').each(function () {
         var currLink = $(this);
 
         var refElement = $(currLink.attr("href"));
         if (refElement.position().top <= scrollPos+50 && refElement.position().top + refElement.height() > scrollPos) {
-            $('#menu-center ul li a').removeClass("active");
-            currLink.addClass("active");
+            // $('#menu-center ul li a').removeClass("active_section_tap");
+            $(".section_tap").removeClass("active_section_tap");
+            var currectClass = refElement.selector.replace("#","")
+            $("."+currectClass).addClass("active_section_tap")
+            // currLink.addClass("active_section_tap");
             $("#tap-menu").addClass("tap_fixed")
         }
         else{
