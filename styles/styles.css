@@ -2224,18 +2224,14 @@ body {
   display: block !important;
 }
 
-.tap_fixed .list_of_team {
-  padding: 1% 0px !important;
-}
-
 .product_planing .list_of_team {
-  padding: 2% 0px;
   color: #595959;
 }
 
 .product_planing .list_of_team .nav_menu {
   margin: 0px 21px;
   width: 69px;
+  padding: 14px;
 }
 
 .product_planing .list_of_team .team_icon {
@@ -2257,6 +2253,10 @@ body {
 .product_planing .list_of_team .team_icon img {
   font-size: 24px;
   margin: auto;
+}
+
+.product_planing .list_of_team .active_section_tap {
+  border-bottom: 2px solid;
 }
 
 .product_planing .list_of_team .active_section_tap .team_icon {
