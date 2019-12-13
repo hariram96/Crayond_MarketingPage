@@ -988,31 +988,31 @@ body {
 .why_us .row tapSection .active_sale {
   color: #fff;
   border-radius: 6px;
-  background-color: #52a28e;
+  background-color: #52a28e !important;
 }
 
 .why_us .row tapSection .active_code {
   color: #fff;
   border-radius: 6px;
-  background-color: #52a28e;
+  background-color: #52a28e !important;
 }
 
 .why_us .row tapSection .active_build {
   color: #fff;
   border-radius: 6px;
-  background-color: #52a28e;
+  background-color: #52a28e !important;
 }
 
 .why_us .row tapSection .active_deploy {
   color: #fff;
   border-radius: 6px;
-  background-color: #52a28e;
+  background-color: #52a28e !important;
 }
 
 .why_us .row tapSection .active_launch {
   color: #fff;
   border-radius: 6px;
-  background-color: #52a28e;
+  background-color: #52a28e !important;
 }
 
 .why_us .row .coming_soon_email {
@@ -3218,6 +3218,37 @@ body {
     top: 50%;
     height: 2px;
     background-color: #e6e6e7;
+  }
+  #tap-menu {
+    display: none !important;
+  }
+  .why_us .project_planing {
+    height: auto !important;
+  }
+  .why_us .project_planing .row {
+    padding-bottom: 15% !important;
+    padding-top: 10% !important;
+  }
+  .why_us .project_planing .mobile_tap_section {
+    padding: 26px 16px 6px 16px !important;
+  }
+  .why_us .project_planing .mobile_tap_section tapSection {
+    height: 100% !important;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    margin-bottom: 20px;
+    padding: 0px !important;
+    padding-right: 10px !important;
+  }
+  .why_us .project_planing .mobile_tap_section tapSection .active_code {
+    border-radius: 50px;
+  }
+  .why_us .project_planing .mobile_tap_section tapSection span {
+    font-size: 13px;
+    padding: 4px 14px;
+    background-color: rgba(0, 0, 0, 0.08);
+    border-radius: 50px;
   }
 }
 

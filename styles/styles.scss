@@ -920,27 +920,27 @@ body{
             .active_sale{
                 color: #fff;
                 border-radius: 6px;
-                background-color: #52a28e;
+                background-color: #52a28e !important;
             }
             .active_code{
                 color: #fff;
                 border-radius: 6px;
-                background-color: #52a28e;
+                background-color: #52a28e !important;
             }
             .active_build{
                 color: #fff;
                 border-radius: 6px;
-                background-color: #52a28e;
+                background-color: #52a28e !important;
             }
             .active_deploy{
                 color: #fff;
                 border-radius: 6px;
-                background-color: #52a28e;
+                background-color: #52a28e !important;
             }
             .active_launch{
                 color: #fff;
                 border-radius: 6px;
-                background-color: #52a28e;
+                background-color: #52a28e !important;
             }
         }
         .coming_soon_email{
@@ -3332,6 +3332,39 @@ body{
             top: 50%;
             height: 2px;
             background-color: #e6e6e7;
+        }
+    }
+}
+#tap-menu{
+    display: none !important;
+}
+
+
+.why_us{
+    .project_planing{
+        height: auto !important;
+        .row{
+            padding-bottom: 15% !important;
+            padding-top: 10% !important;
+        }
+        .mobile_tap_section{
+            padding: 26px 16px 6px 16px !important;
+            tapSection{
+                height: 100% !important;
+                display: inline-flex;
+                margin-bottom: 20px;
+                padding: 0px !important;
+                padding-right: 10px !important;
+                .active_code{
+                    border-radius: 50px;
+                }
+                span{
+                    font-size: 13px;
+                    padding: 4px 14px;
+                    background-color: rgba(0, 0, 0, 0.08);
+                    border-radius: 50px;
+                }
+            }
         }
     }
 }
