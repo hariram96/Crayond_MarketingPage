@@ -2006,8 +2006,28 @@ body{
     }
 }
 
+.tap_fixed{
+    position: fixed;
+    height: auto !important;
+    opacity: 1 !important;
+    width: 100%;
+    background-color: #fff;
+    z-index: 1000 !important;
+    top: 0;
+    transition: all 0.5s;
+    // padding: 1% 0px;
+    display: block !important;
+    .list_of_team{
+        padding: 1% 0px !important;
+    }
+}
+
 .product_planing{
     .list_of_team{
+        .nav_menu{
+            margin: 0px 21px;
+            width: 69px;
+        }
         padding: 2% 0px;
         color: #595959;
         .team_icon{
@@ -3271,6 +3291,8 @@ body{
         }
     }
 }
+
+
 
 .product_planing{
     padding: 40px 0px;

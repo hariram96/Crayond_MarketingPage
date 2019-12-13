@@ -83,6 +83,13 @@
            /* height: 0px !important; */
            opacity: 0 !important;
        }
+       #tap-menu{
+           /* display: none; */
+           height: 0px;
+           transition: all 0.5s;
+           opacity: 0;
+           z-index: -10000;
+       }
     
     </style>
 
@@ -178,16 +185,16 @@
     </section>
     <!-- end -->
     <!-- plan title -->
-    <section class="product_planing">
+    <section class="product_planing" id="menu-center" >
         <div class="container" style="margin: auto;">
             <div class="col-12 col-xs-12 col-ms-12 col-md-12 col-lg-12 col-xl-12 list_of_team" style="display: flex;justify-content: center;">
                 <div style="z-index: 1;" class="active_section_tap">
-                        <samp class="team_icon " >
-                                <a href="#plan_section" alt="plan_section" style="width: 100%;display: flex;">
-                                        <img src="./images/plan.svg" alt="icons" />
-                                </a>
-                        </samp>
-                        <p style="margin: 0;text-align: center;" class="fontGraphikRegular">Plan</p>
+                    <samp class="team_icon " >
+                        <a href="#plan_section" alt="plan_section" style="width: 100%;display: flex;">
+                            <img src="./images/plan.svg" alt="icons" />
+                        </a>
+                    </samp>
+                    <p style="margin: 0;text-align: center;" class="fontGraphikRegular">Plan</p>
                 </div>
                 <div style="z-index: 1;">
                     <samp class="team_icon">
@@ -219,6 +226,28 @@
             </div>
         </div>
     </section>
+    <section class="product_planing" id="tap-menu">
+        <div class="container" style="margin: auto;">
+            <div class="col-12 col-xs-12 col-ms-12 col-md-12 col-lg-12 col-xl-12 list_of_team" style="display: flex;justify-content: center;">
+                <div style="z-index: 1;" class="active_section_tap nav_menu">
+                    <p style="margin: 0;text-align: center;" class="fontGraphikRegular">Plan</p>
+                </div>
+                <div style="z-index: 1;" class="nav_menu">
+                    <p style="margin: 0;text-align: center;" class="fontGraphikRegular">Design</p>
+                </div>
+                <div style="z-index: 1;" class="nav_menu">
+                    <p style="margin: 0;text-align: center;" class="fontGraphikRegular">Build</p>
+                </div>
+                <div style="z-index: 1;" class="nav_menu">
+                   <p style="margin: 0;text-align: center;" class="fontGraphikRegular">Deploy</p>
+                </div>
+                <div style="z-index: 1;" class="nav_menu">
+                   <p style="margin: 0;text-align: center;" class="fontGraphikRegular">Launch</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- end -->
     
     <section class="why_us" id="plan_section">
@@ -698,6 +727,7 @@
     setInterval(function() {
         if (didScroll) {
             hasScrolled();
+            onScroll();
             didScroll = false;
         }
     }, 250);
@@ -779,6 +809,25 @@
 		scrollTop: position
 	} , 1000 );
     });
+
+
+    function onScroll(event){
+        debugger
+    var scrollPos = $(document).scrollTop();
+    $('#menu-center a').each(function () {
+        var currLink = $(this);
+
+        var refElement = $(currLink.attr("href"));
+        if (refElement.position().top <= scrollPos+50 && refElement.position().top + refElement.height() > scrollPos) {
+            $('#menu-center ul li a').removeClass("active");
+            currLink.addClass("active");
+            $("#tap-menu").addClass("tap_fixed")
+        }
+        else{
+            currLink.removeClass("active");
+        }
+    });
+    }
     
 </script>
 
