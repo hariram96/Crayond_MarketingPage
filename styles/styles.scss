@@ -2685,6 +2685,71 @@ body{
         }
     }
 
+    .product_planing{
+        padding: 40px 0px;
+        .list_of_team{
+            .team_icon{
+                width: 50px;
+                height: 50px;
+                border-radius: 30.5px;
+                margin: auto;
+                i{
+                    font-size: 19px;
+                }
+                img{
+                    width: 18px;
+                }
+            }
+            .time_line{
+                width: 285px;
+                position: absolute;
+                top: 40%;
+                height: 2px;
+                background-color: #e6e6e7;
+            }
+            p{
+                font-size: 13px;
+            }
+        }
+        .section_tap{
+            margin: 0px 12px;
+        }
+    }
+    #tap-menu{
+        display: none !important;
+    }
+    
+    
+    .why_us{
+        .project_planing{
+            height: auto !important;
+            .row{
+                padding-bottom: 10% !important;
+                padding-top: 10% !important;
+            }
+            .mobile_tap_section{
+                padding: 26px 5px 6px 5px !important;
+                tapSection{
+                    height: 100% !important;
+                    display: inline-flex;
+                    margin-bottom: 20px;
+                    padding: 0px !important;
+                    padding: 0px 7px !important;
+                    margin-right: -2px;
+                    .active_code{
+                        border-radius: 50px;
+                    }
+                    span{
+                        font-size: 13px;
+                        padding: 4px 14px;
+                        background-color: rgba(0, 0, 0, 0.08);
+                        border-radius: 50px;
+                    }
+                }
+            }
+        }
+    }
+
 }
 // Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
