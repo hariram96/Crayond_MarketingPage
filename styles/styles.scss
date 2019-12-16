@@ -165,6 +165,26 @@ body{
     -o-transition: -o-transform 1.2s ease-in-out !important;
     transition: transform 1.2s ease-in-out !important;
 }
+
+
+// scrolling css
+.scroll_styles::-webkit-scrollbar {
+    width: 2px;
+    height: 2px;
+}
+ 
+.scroll_styles::-webkit-scrollbar-track {
+    // -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+.scroll_styles::-webkit-scrollbar-thumb {
+//   background-color: darkgrey;
+  background-color: transparent;
+//   outline: 1px solid slategrey;
+}
+
+
+
 // loader
 #pre-loader{
     display: flex;
@@ -946,13 +966,16 @@ body{
         .coming_soon_email{
             margin-top: 50px;
             // margin-left: 16px;  
-            padding: 10px 16px;
-            border: 2px solid;
-            border-radius: 4px;
+            padding: 0px;
+
+            // border-radius: 6px;
             input{
+                background-color: rgba(102, 92, 215, 0.02);
+                border: solid 1px rgba(102, 92, 215, 0.26);
                 height: 48px;
                 border: none;
-                width: calc(100% - 156px);
+                width: 100%;
+                // width: calc(100% - 156px);
                 outline: none;
             }
             button{
@@ -2032,11 +2055,12 @@ body{
     transition: all 0.5s;
     // padding: 1% 0px;
     display: block !important;
+    box-shadow: 0px 3px 19px #0000001f;
     .list_of_team{
         padding: 0px !important;
     }
     .active_section_tap{
-        border-bottom: 2px solid;
+        border-bottom: 3px solid #52a28e;
     }
 }
 
@@ -2071,10 +2095,10 @@ body{
             // border-bottom: 2px solid;
             .team_icon{
                 border: 3px solid #fff !important;
-                background-color: #30b67b !important;
+                background-color: #52a28e !important;
             }
             p{
-                color: #000 !important;
+                color: #52a28e !important;
                 font-weight: 800;
             }
         }
@@ -2088,6 +2112,92 @@ body{
                 background: #47c9a2;
                 width: 100px;
             }
+        }
+    }
+}
+
+.sticky_tap{
+    position: fixed;
+    background-color: white;
+    z-index: 1000;
+    transition: all 0.5s;
+    top: 5vh;
+    border-radius: 70px;
+    box-shadow: 4px 1px 18px 0px #00000017;
+    // margin-left: 1%;
+    margin-left: -7%;
+    // width: 0px;
+    width: 76px;
+    padding: 0;
+    overflow: hidden;
+    &:hover{
+        opacity: 1 !important;
+    }
+    .container{
+        // opacity: 0;
+        margin: auto;
+        padding: 4px 10px 26px 10px;
+    }
+    .list_of_team{
+        display: flow-root !important;
+        justify-content: center;
+        padding: 2% 0px;
+        .nav_menu{
+            margin: 0px 21px;
+            width: 69px;
+            padding: 14px;
+        }
+        .team_icon{
+            z-index: 1;
+            width: 55px;
+            height: 55px;
+            border-radius: 35.5px;
+            box-shadow: 0 12px 16px 0 #f2f7ff;
+            background-color: #ffffff;
+            border: 1px solid #e6e6e7;
+            margin: 14px 0px 3px 0px;
+            display: flex;
+            cursor: pointer;
+            img{
+                margin: auto;
+                width: 20px;
+            }
+            svg{
+                width: 20px;
+                margin: auto;
+                path{
+                    opacity: .496;
+                }
+            }
+        }
+        .active_section_tap{
+            // border-bottom: 2px solid;
+            .team_icon{
+                border: 3px solid #fff !important;
+                background-color: #52a28e !important;
+            }
+            p{
+                color: #000 !important;
+                font-weight: 800;
+            }
+            svg{
+                width: 20px;
+                margin: auto;
+                path{
+                    fill: #fff;
+                    opacity: 1;
+                }
+            }
+        }
+        .time_line{
+            display: none;
+            position: absolute;
+            top: 40px;
+            height: 380px;
+            background-color: #e6e6e7;
+            width: 2px;
+            left: 26px;
+            z-index: -1;
         }
     }
 }
@@ -2672,7 +2782,9 @@ body{
     // Our approach
 
     .our_approach_title{
-        height: 80vh;
+        height: auto;
+        padding-top: 16vh;
+        padding-bottom: 14vh;
         .title{
             p{
                 font-size: 30px;
@@ -2728,14 +2840,20 @@ body{
                 padding-top: 10% !important;
             }
             .mobile_tap_section{
-                padding: 26px 5px 6px 5px !important;
+                padding: 0px !important;
+                overflow: auto;
+                display: flex;
+                padding: 6px 5px 6px 5px !important;
+                background-color: transparent !important;
+                border: none !important;
+                margin: 0 !important;
                 tapSection{
                     height: 100% !important;
                     display: inline-flex;
-                    margin-bottom: 20px;
+                    // margin-bottom: 20px;
+                    border: none !important;
                     padding: 0px !important;
-                    padding: 0px 7px !important;
-                    margin-right: -2px;
+                    padding: 0px 10px !important;
                     .active_code{
                         border-radius: 50px;
                     }
@@ -2748,6 +2866,9 @@ body{
                 }
             }
         }
+    }
+    .sticky_tap{
+        display: none !important;
     }
 
 }
@@ -2885,6 +3006,12 @@ body{
 
 
   .why_us{
+      .container_bg_section1{
+          text-align: center;
+      }
+      .container_bg_section2{
+        text-align: center;
+      }
       .text{
         padding-top: 15%;
         h1 {
@@ -2903,16 +3030,20 @@ body{
           font-size: 1.5rem;
       }
       .row {
-        padding-top: 15%;
+        padding-top: 18%;
         padding-bottom: 15%;
         .text_para{
             font-size: 1.1rem;
         }
         .fa_icon{
             // margin: auto auto 16px;
+            display: none;
         }
-        .img_section{
-            // height: 355px;
+        .left_line{
+            display: none;
+        }
+        .center_line{
+            display: unset !important;
         }
         .mobile_responce_img{
             display: block !important;
@@ -3416,17 +3547,27 @@ body{
 
 .why_us{
     .project_planing{
+        h1{
+            line-height: 1.5 !important;
+        }
         height: auto !important;
         .row{
             padding-bottom: 15% !important;
             padding-top: 10% !important;
         }
         .mobile_tap_section{
-            padding: 26px 5px 6px 5px !important;
+            padding: 0px !important;
+            overflow: auto;
+            display: flex;
+            padding: 6px 5px 6px 5px !important;
+            background-color: transparent !important;
+            border: none !important;
+            margin: 0 !important;
             tapSection{
                 height: 100% !important;
                 display: inline-flex;
-                margin-bottom: 20px;
+                // margin-bottom: 20px;
+                border: none !important;
                 padding: 0px !important;
                 padding: 0px 10px !important;
                 .active_code{
@@ -3440,9 +3581,26 @@ body{
                 }
             }
         }
+        .text_para{
+            line-height: 1.8 !important;
+        }
+        .flag{
+            img{
+                display: none;
+            }
+            p{
+                background-color: #52a28e;
+                padding: 4px 20px 1px 20px;
+                border-radius: 50px;
+                margin: auto;
+            }
+        }
     }
 }
 
+.sticky_tap{
+    display: none !important;
+}
 
 }
 

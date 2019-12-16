@@ -71,8 +71,29 @@
     <meta name="ahrefs-site-verification" content="11e94c2e9775fda1d13ea86dec3c2b8de72ac7d67266d640dc9d273dd3cddc4c">
 
 
-
 </head>
+<style>
+
+input:optional {
+  border-left-color: #999;
+}
+input:required:valid {
+  border-left-color: yellow;
+}
+input:invalid {
+  border-left-color: salmon;
+}
+input:required:focus:valid {
+  background: url("/images/check.svg") no-repeat 95% 50%;
+  background-size: 25px;
+}
+input:focus:invalid {
+  background: url("/images/tnt.svg") no-repeat 95% 50%;
+  background-color: red !important; 
+  background-size: 45px;
+}
+
+</style>
 
 <body>
     
@@ -171,10 +192,10 @@
                         <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
                             <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12 coming_soon_email">
                                 <input type="email" class="email" id="email" value="" name="email" placeholder="Enter your email">
-                                <button type="button" class="notify_btn btn btn-outline-primary fontLatoBlack desktop_btn"  >NOTIFY ME</button>
+                                <!-- <button type="button" class="notify_btn btn btn-outline-primary fontLatoBlack desktop_btn"  >NOTIFY ME</button> -->
                             </div>
                             <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12 coming_soon_email" style="border: none;padding: 0%;margin-top: 16px;">
-                                <button type="button" class="notify_btn btn btn-outline-primary fontLatoBlack mobile_btn" style="width: 100%;display: none;" >NOTIFY ME</button>
+                                <button type="button" class="notify_btn btn btn-outline-primary fontLatoBlack mobile_btn" style="width: 140px;" >NOTIFY ME</button>
                             </div>
                             <div class="error_div col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12" style="padding: 0;">
                                 <div class="alert alert-danger alert-dismissible fade show email_error" id="clear_email_error" role="alert" style="top:-10px; z-index: 2; position: absolute;transition: all 0.5s;opacity: 0;padding: 8px 46px 8px 16px;width: 100%;"><span class="error_msg"></span><button type="button" class="close error_close" style="outline: none;padding: 8px 14px;"><span aria-hidden="true">&times;</span></button></div>                    

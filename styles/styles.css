@@ -125,6 +125,15 @@ body {
   transition: transform 1.2s ease-in-out, -webkit-transform 1.2s ease-in-out !important;
 }
 
+.scroll_styles::-webkit-scrollbar {
+  width: 2px;
+  height: 2px;
+}
+
+.scroll_styles::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
 #pre-loader {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1017,15 +1026,15 @@ body {
 
 .why_us .row .coming_soon_email {
   margin-top: 50px;
-  padding: 10px 16px;
-  border: 2px solid;
-  border-radius: 4px;
+  padding: 0px;
 }
 
 .why_us .row .coming_soon_email input {
+  background-color: rgba(102, 92, 215, 0.02);
+  border: solid 1px rgba(102, 92, 215, 0.26);
   height: 48px;
   border: none;
-  width: calc(100% - 156px);
+  width: 100%;
   outline: none;
 }
 
@@ -2222,6 +2231,8 @@ body {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   display: block !important;
+  -webkit-box-shadow: 0px 3px 19px #0000001f;
+          box-shadow: 0px 3px 19px #0000001f;
 }
 
 .tap_fixed .list_of_team {
@@ -2229,7 +2240,7 @@ body {
 }
 
 .tap_fixed .active_section_tap {
-  border-bottom: 2px solid;
+  border-bottom: 3px solid #52a28e;
 }
 
 .product_planing .list_of_team {
@@ -2266,11 +2277,11 @@ body {
 
 .product_planing .list_of_team .active_section_tap .team_icon {
   border: 3px solid #fff !important;
-  background-color: #30b67b !important;
+  background-color: #52a28e !important;
 }
 
 .product_planing .list_of_team .active_section_tap p {
-  color: #000 !important;
+  color: #52a28e !important;
   font-weight: 800;
 }
 
@@ -2285,6 +2296,106 @@ body {
 .product_planing .list_of_team .time_line:after {
   background: #47c9a2;
   width: 100px;
+}
+
+.sticky_tap {
+  position: fixed;
+  background-color: white;
+  z-index: 1000;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  top: 5vh;
+  border-radius: 70px;
+  -webkit-box-shadow: 4px 1px 18px 0px #00000017;
+          box-shadow: 4px 1px 18px 0px #00000017;
+  margin-left: -7%;
+  width: 76px;
+  padding: 0;
+  overflow: hidden;
+}
+
+.sticky_tap:hover {
+  opacity: 1 !important;
+}
+
+.sticky_tap .container {
+  margin: auto;
+  padding: 4px 10px 26px 10px;
+}
+
+.sticky_tap .list_of_team {
+  display: flow-root !important;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 2% 0px;
+}
+
+.sticky_tap .list_of_team .nav_menu {
+  margin: 0px 21px;
+  width: 69px;
+  padding: 14px;
+}
+
+.sticky_tap .list_of_team .team_icon {
+  z-index: 1;
+  width: 55px;
+  height: 55px;
+  border-radius: 35.5px;
+  -webkit-box-shadow: 0 12px 16px 0 #f2f7ff;
+          box-shadow: 0 12px 16px 0 #f2f7ff;
+  background-color: #ffffff;
+  border: 1px solid #e6e6e7;
+  margin: 14px 0px 3px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+}
+
+.sticky_tap .list_of_team .team_icon img {
+  margin: auto;
+  width: 20px;
+}
+
+.sticky_tap .list_of_team .team_icon svg {
+  width: 20px;
+  margin: auto;
+}
+
+.sticky_tap .list_of_team .team_icon svg path {
+  opacity: .496;
+}
+
+.sticky_tap .list_of_team .active_section_tap .team_icon {
+  border: 3px solid #fff !important;
+  background-color: #52a28e !important;
+}
+
+.sticky_tap .list_of_team .active_section_tap p {
+  color: #000 !important;
+  font-weight: 800;
+}
+
+.sticky_tap .list_of_team .active_section_tap svg {
+  width: 20px;
+  margin: auto;
+}
+
+.sticky_tap .list_of_team .active_section_tap svg path {
+  fill: #fff;
+  opacity: 1;
+}
+
+.sticky_tap .list_of_team .time_line {
+  display: none;
+  position: absolute;
+  top: 40px;
+  height: 380px;
+  background-color: #e6e6e7;
+  width: 2px;
+  left: 26px;
+  z-index: -1;
 }
 
 @media only screen and (min-width: 1440px) {
@@ -2679,7 +2790,9 @@ body {
     top: 14px !important;
   }
   .our_approach_title {
-    height: 80vh;
+    height: auto;
+    padding-top: 16vh;
+    padding-bottom: 14vh;
   }
   .our_approach_title .title p {
     font-size: 30px;
@@ -2726,17 +2839,24 @@ body {
     padding-top: 10% !important;
   }
   .why_us .project_planing .mobile_tap_section {
-    padding: 26px 5px 6px 5px !important;
+    padding: 0px !important;
+    overflow: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 6px 5px 6px 5px !important;
+    background-color: transparent !important;
+    border: none !important;
+    margin: 0 !important;
   }
   .why_us .project_planing .mobile_tap_section tapSection {
     height: 100% !important;
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
-    margin-bottom: 20px;
+    border: none !important;
     padding: 0px !important;
-    padding: 0px 7px !important;
-    margin-right: -2px;
+    padding: 0px 10px !important;
   }
   .why_us .project_planing .mobile_tap_section tapSection .active_code {
     border-radius: 50px;
@@ -2746,6 +2866,9 @@ body {
     padding: 4px 14px;
     background-color: rgba(0, 0, 0, 0.08);
     border-radius: 50px;
+  }
+  .sticky_tap {
+    display: none !important;
   }
 }
 
@@ -2854,6 +2977,12 @@ body {
   .who_you_are .card_div h2 {
     font-size: 1.5rem;
   }
+  .why_us .container_bg_section1 {
+    text-align: center;
+  }
+  .why_us .container_bg_section2 {
+    text-align: center;
+  }
   .why_us .text {
     padding-top: 15%;
   }
@@ -2872,11 +3001,20 @@ body {
     font-size: 1.5rem;
   }
   .why_us .row {
-    padding-top: 15%;
+    padding-top: 18%;
     padding-bottom: 15%;
   }
   .why_us .row .text_para {
     font-size: 1.1rem;
+  }
+  .why_us .row .fa_icon {
+    display: none;
+  }
+  .why_us .row .left_line {
+    display: none;
+  }
+  .why_us .row .center_line {
+    display: unset !important;
   }
   .why_us .row .mobile_responce_img {
     display: block !important;
@@ -3294,19 +3432,30 @@ body {
   .why_us .project_planing {
     height: auto !important;
   }
+  .why_us .project_planing h1 {
+    line-height: 1.5 !important;
+  }
   .why_us .project_planing .row {
     padding-bottom: 15% !important;
     padding-top: 10% !important;
   }
   .why_us .project_planing .mobile_tap_section {
-    padding: 26px 5px 6px 5px !important;
+    padding: 0px !important;
+    overflow: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 6px 5px 6px 5px !important;
+    background-color: transparent !important;
+    border: none !important;
+    margin: 0 !important;
   }
   .why_us .project_planing .mobile_tap_section tapSection {
     height: 100% !important;
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
-    margin-bottom: 20px;
+    border: none !important;
     padding: 0px !important;
     padding: 0px 10px !important;
   }
@@ -3318,6 +3467,21 @@ body {
     padding: 4px 14px;
     background-color: rgba(0, 0, 0, 0.08);
     border-radius: 50px;
+  }
+  .why_us .project_planing .text_para {
+    line-height: 1.8 !important;
+  }
+  .why_us .project_planing .flag img {
+    display: none;
+  }
+  .why_us .project_planing .flag p {
+    background-color: #52a28e;
+    padding: 4px 20px 1px 20px;
+    border-radius: 50px;
+    margin: auto;
+  }
+  .sticky_tap {
+    display: none !important;
   }
 }
 
