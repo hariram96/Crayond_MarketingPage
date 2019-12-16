@@ -968,8 +968,8 @@ body {
 
 .why_us .row .flag img {
   position: absolute;
-  width: 86px;
-  height: 32px;
+  width: 100px;
+  height: 100%;
 }
 
 .why_us .row .flag p {
@@ -991,37 +991,37 @@ body {
 }
 
 .why_us .row tapSection .tap:hover {
-  color: #52a28e;
+  color: #665cd7;
 }
 
 .why_us .row tapSection .active_sale {
   color: #fff;
   border-radius: 6px;
-  background-color: #52a28e !important;
+  background-color: #665cd7 !important;
 }
 
 .why_us .row tapSection .active_code {
   color: #fff;
   border-radius: 6px;
-  background-color: #52a28e !important;
+  background-color: #665cd7 !important;
 }
 
 .why_us .row tapSection .active_build {
   color: #fff;
   border-radius: 6px;
-  background-color: #52a28e !important;
+  background-color: #665cd7 !important;
 }
 
 .why_us .row tapSection .active_deploy {
   color: #fff;
   border-radius: 6px;
-  background-color: #52a28e !important;
+  background-color: #665cd7 !important;
 }
 
 .why_us .row tapSection .active_launch {
   color: #fff;
   border-radius: 6px;
-  background-color: #52a28e !important;
+  background-color: #665cd7 !important;
 }
 
 .why_us .row .coming_soon_email {
@@ -1031,9 +1031,11 @@ body {
 
 .why_us .row .coming_soon_email input {
   background-color: rgba(102, 92, 215, 0.02);
-  border: solid 1px rgba(102, 92, 215, 0.26);
+  border: 2px solid;
+  border-color: #e9ecef;
+  border-radius: 6px;
   height: 48px;
-  border: none;
+  padding: 30px 16px;
   width: 100%;
   outline: none;
 }
@@ -2584,8 +2586,8 @@ body {
     display: flex;
   }
   .why_us .row .icon_div .flag img {
-    width: 86px;
-    height: 32px;
+    width: 100px;
+    height: 100%;
   }
   .why_us .row h1 {
     font-size: 1.7rem;
@@ -3475,7 +3477,7 @@ body {
     display: none;
   }
   .why_us .project_planing .flag p {
-    background-color: #52a28e;
+    background-color: rgba(102, 92, 215, 0.1);
     padding: 4px 20px 1px 20px;
     border-radius: 50px;
     margin: auto;

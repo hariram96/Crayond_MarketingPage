@@ -78,18 +78,21 @@ input:optional {
   border-left-color: #999;
 }
 input:required:valid {
-  border-left-color: yellow;
+  border-color: yellow !important;
 }
 input:invalid {
-  border-left-color: salmon;
+  border-color: salmon !important;
 }
 input:required:focus:valid {
-  background: url("/images/check.svg") no-repeat 95% 50%;
+  /* background: url("./images/shape.svg") no-repeat 95% 50%; */
   background-size: 25px;
+  border-color: green !important;
 }
 input:focus:invalid {
-  background: url("/images/tnt.svg") no-repeat 95% 50%;
-  background-color: red !important; 
+  /* background: url("./images/shape.svg") no-repeat 95% 50%; */
+
+  /* border-color: rgba(102, 92, 215, 0.26); */
+  border-color: red !important;
   background-size: 45px;
 }
 
@@ -362,17 +365,17 @@ input:focus:invalid {
             debugger
             if(email.length == 0){
             //    alert('Enter yor email');
-               $(".email_error").css("opacity" , "1");
-               $(".error_msg").text("Enter your email please");
-               $(".coming_soon_email").css("border-color", "#dc3545")
+            //    $(".email_error").css("opacity" , "1");
+            //    $(".error_msg").text("Enter your email please");
+               $(".coming_soon_email input").css("border-color", "#dc3545");
                return false
             }
             if(!pattern.test(email))
               {
             //    alert('not a valid e-mail address');
-               $(".email_error").css("opacity" , "1");
-               $(".error_msg").text("not a valid e-mail address");
-               $(".coming_soon_email").css("border-color", "#dc3545")
+            //    $(".email_error").css("opacity" , "1");
+            //    $(".error_msg").text("not a valid e-mail address");
+               $(".coming_soon_email input").css("border-color", "#dc3545");
 
                return false
               }
@@ -397,12 +400,12 @@ input:focus:invalid {
                         //  alert("mail sent")
                         $("#email").val("");
                         $('#myModal').modal('toggle');
-                        $(".coming_soon_email").css("border-color", "#000")
+                        $(".coming_soon_email input").css("border-color", "rgba(102, 92, 215, 0.26)")
                     },
                     error:(err) => {
                         // alert("try again")
-                        $(".email_error").css("opacity" , "1");
-                        $(".error_msg").text("Try again");
+                        // $(".email_error").css("opacity" , "1");
+                        // $(".error_msg").text("Try again");
                         console.log(err);
                     }
             });
