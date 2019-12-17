@@ -155,13 +155,13 @@ body{
 
 
 .fontLatoBold{
-    font-family: "PT serif";
+    font-family: "fontLatoBold";
 }
 .fontLatoRegular{
-    font-family: "PT serif";
+    font-family: "fontLatoRegular";
 }
 .fontLatoBlack{
-    font-family: "PT serif";
+    font-family: "fontLatoBlack";
 }
 
 .fontNova{
@@ -982,17 +982,22 @@ body{
         .coming_soon_email{
             margin-top: 50px;
             // margin-left: 16px;  
-            padding: 0px;
-
-            // border-radius: 6px;
+            padding: 10px 16px;
+            border: 2px solid;
+            border-radius: 4px;
             input{
-                background-color: rgba(102, 92, 215, 0.02);
-                border: 2px solid;
-                border-color: #e9ecef;
-                border-radius: 6px;
+                // background-color: rgba(102, 92, 215, 0.02);
+                // border: 2px solid;
+                // border-color: #e9ecef;
+                // border-radius: 6px;
+                // height: 48px;
+                // padding: 30px 16px;
+                // width: 100%;
+                // width: calc(100% - 156px);
+                // outline: none;
                 height: 48px;
-                padding: 30px 16px;
-                width: 100%;
+                border: none;
+                width: calc(100% - 156px);
                 outline: none;
             }
             button{

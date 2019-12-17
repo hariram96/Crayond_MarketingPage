@@ -195,10 +195,10 @@ input:focus:invalid {
                         <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
                             <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12 coming_soon_email">
                                 <input type="email" class="email" id="email" value="" name="email" placeholder="Enter your email">
-                                <!-- <button type="button" class="notify_btn btn btn-outline-primary fontLatoBlack desktop_btn"  >NOTIFY ME</button> -->
+                                <button type="button" class="notify_btn btn btn-outline-primary fontLatoBlack desktop_btn"  >NOTIFY ME</button>
                             </div>
                             <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12 coming_soon_email" style="border: none;padding: 0%;margin-top: 16px;">
-                                <button type="button" class="notify_btn btn btn-outline-primary fontLatoBlack mobile_btn" style="width: 140px;" >NOTIFY ME</button>
+                                <button type="button" class="notify_btn btn btn-outline-primary fontLatoBlack mobile_btn" style="width: 100%;display: none;" >NOTIFY ME</button>
                             </div>
                             <div class="error_div col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12" style="padding: 0;">
                                 <div class="alert alert-danger alert-dismissible fade show email_error" id="clear_email_error" role="alert" style="top:-10px; z-index: 2; position: absolute;transition: all 0.5s;opacity: 0;padding: 8px 46px 8px 16px;width: 100%;"><span class="error_msg"></span><button type="button" class="close error_close" style="outline: none;padding: 8px 14px;"><span aria-hidden="true">&times;</span></button></div>                    
@@ -365,16 +365,20 @@ input:focus:invalid {
             debugger
             if(email.length == 0){
             //    alert('Enter yor email');
-            //    $(".email_error").css("opacity" , "1");
-            //    $(".error_msg").text("Enter your email please");
+               $(".alert").addClass("alert-danger");
+               $(".alert").removeClass("alert-success");
+               $(".email_error").css("opacity" , "1");
+               $(".error_msg").text("Enter your email please");
                $(".coming_soon_email input").css("border-color", "#dc3545");
                return false
             }
             if(!pattern.test(email))
               {
             //    alert('not a valid e-mail address');
-            //    $(".email_error").css("opacity" , "1");
-            //    $(".error_msg").text("not a valid e-mail address");
+               $(".alert").addClass("alert-danger");
+               $(".alert").removeClass("alert-success");
+               $(".email_error").css("opacity" , "1");
+               $(".error_msg").text("Opps! Enter your correct email address");
                $(".coming_soon_email input").css("border-color", "#dc3545");
 
                return false
@@ -390,24 +394,30 @@ input:focus:invalid {
                 data: JSON.stringify({
                         "emails": [
                             {
-                                "to": email,
-                                "from": "sender@example.org",
-                                "subject": "Hello recipient 1",
+                                "to": "arun@crayond.com",
+                                "from": "info@crayond.com",
+                                "subject": "Products Page",
                                 "text": "Hello plain world!",
-                                "html": '<p>Hello HTML world!  Email address----------------->'+email+'</p>'
+                                "html": '<h3>Notify User Email-Id -----------------> '+email+'</h3>'
                             }
                         ]
                     }),
                     success:(asd) => {
                         //  alert("mail sent")
-                        $("#email").val("");
-                        $('#myModal').modal('toggle');
-                        $(".coming_soon_email input").css("border-color", "rgba(102, 92, 215, 0.26)")
+                        // $("#email").val("");
+                        // $('#myModal').modal('toggle');
+                        $(".coming_soon_email input").css("border-color", "rgba(102, 92, 215, 0.26)");
+                        $(".email_error").css("opacity" , "1");
+                        $(".alert").removeClass("alert-danger");
+                        $(".alert").addClass("alert-success");
+                        $(".error_msg").text("Grrreat! All that is left, is for us to email you. See you soon.");
                     },
                     error:(err) => {
                         // alert("try again")
-                        // $(".email_error").css("opacity" , "1");
-                        // $(".error_msg").text("Try again");
+                        $(".alert").addClass("alert-danger");
+                        $(".alert").removeClass("alert-success");
+                        $(".email_error").css("opacity" , "1");
+                        $(".error_msg").text("Oops! Something went wrong.");
                         console.log(err);
                     }
             });
