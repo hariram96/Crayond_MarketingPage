@@ -104,6 +104,17 @@ body{
     font-family: "fontGraphikLight";
     src: url("../plugin/fonts/graphik/GraphikLight.otf");
 }
+@font-face {
+    font-family: "fontGraphikSemibold";
+    src: url("../plugin/fonts/graphik/GraphikSemibold.otf");
+}
+@font-face {
+    font-family: "fontGraphikRegular";
+    src: url("../plugin/fonts/graphik/GraphikRegular.otf");
+}
+
+
+
 
 
 @font-face {
@@ -123,14 +134,9 @@ body{
     font-family: "fontLatoBold";
     src: url("../plugin/fonts/lato/Lato-Bold.ttf");
 }
-@font-face {
-    font-family: "fontGraphikSemibold";
-    src: url("../plugin/fonts/graphik/GraphikSemibold.otf");
-}
-@font-face {
-    font-family: "fontGraphikRegular";
-    src: url("../plugin/fonts/graphik/GraphikRegular.otf");
-}
+
+
+
 .fontGraphikMedium{
     font-family: "fontGraphikMedium";
 }
@@ -146,14 +152,16 @@ body{
 .fontGraphikSemibold{
     font-family:"fontGraphikSemibold";
 }
+
+
 .fontLatoBold{
-    font-family: "fontLatoBold";
+    font-family: "PT serif";
 }
 .fontLatoRegular{
-    font-family: "fontLatoRegular";
+    font-family: "PT serif";
 }
 .fontLatoBlack{
-    font-family: "fontLatoBlack";
+    font-family: "PT serif";
 }
 
 .fontNova{
