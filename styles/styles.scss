@@ -924,9 +924,17 @@ body{
                 padding-top: 2px;
             }
         }
+        .horizontal_line{
+            background-color: rgba(51, 74, 192, 0.25);
+            width: 1px;
+        }
+        .section_content{
+            min-height: 400px;
+        }
         tapSection{
-            padding: 0px 30px;
-            border-right: 1px solid rgba(0, 0, 0, 0.14);
+            margin: auto;
+            // padding: 0px 30px;
+            // border-right: 1px solid rgba(0, 0, 0, 0.14);
             span{
                 border-radius: 6px;
                 padding: 14px 25px;
@@ -2338,6 +2346,13 @@ body{
     .our_approach_title{
         height: 100vh;
     }
+    .why_us {
+        .project_planing{
+            h1{
+                font-size: 2.35rem;
+            }
+        }
+    }
 
 }
 // Medium devices (landscape tablets, 768px and up) */
@@ -2553,6 +2568,13 @@ body{
             h1{
                 font-size: 2.5rem;
             }
+        }
+        .path-3 {
+            right: 9.5%;
+            display: none !important;
+            }
+        .ovel-6{
+            display: none !important;
         }
     }
     .footer_social_media{
@@ -2835,13 +2857,16 @@ body{
     
     .why_us{
         .project_planing{
-            height: auto !important;
+            min-height: auto !important;
             .row{
                 padding-bottom: 10% !important;
                 padding-top: 10% !important;
                 .section_content{
-                    height: 340px;
+                    min-height: 340px;
                 }
+            }
+            .horizontal_line{
+                display: none;
             }
             .mobile_tap_section{
                 padding: 0px !important;
@@ -3136,10 +3161,15 @@ body{
       }
       .path-3 {
         right: 9.5%;
+        display: none;
+      }
+      .ovel-6{
+        display: none;
       }
       .path {
         left: 10.6%;
       }
+      
   }
 
   .footer{
@@ -3554,13 +3584,16 @@ body{
         h1{
             line-height: 1.5 !important;
         }
-        height: auto !important;
+        min-height: auto !important;
         .row{
             padding-bottom: 15% !important;
             padding-top: 10% !important;
             .section_content{
-                height: 340px;
+                min-height: 340px;
             }
+        }
+        .horizontal_line{
+            display: none;
         }
         .mobile_tap_section{
             padding: 0px !important;
@@ -3618,12 +3651,12 @@ body{
         h1{
             line-height: 1.5 !important;
         }
-        height: auto !important;
+        min-height: auto !important;
         .row{
             padding-bottom: 15% !important;
             padding-top: 10% !important;
             .section_content{
-                height: 400px;
+                min-height: 400px;
             }
         }
     }

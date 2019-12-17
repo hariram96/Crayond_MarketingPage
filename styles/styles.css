@@ -979,9 +979,17 @@ body {
   padding-top: 2px;
 }
 
+.why_us .row .horizontal_line {
+  background-color: rgba(51, 74, 192, 0.25);
+  width: 1px;
+}
+
+.why_us .row .section_content {
+  min-height: 400px;
+}
+
 .why_us .row tapSection {
-  padding: 0px 30px;
-  border-right: 1px solid rgba(0, 0, 0, 0.14);
+  margin: auto;
 }
 
 .why_us .row tapSection span {
@@ -2474,6 +2482,9 @@ body {
   .our_approach_title {
     height: 100vh;
   }
+  .why_us .project_planing h1 {
+    font-size: 2.35rem;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -2643,6 +2654,13 @@ body {
   }
   .next_billion .billion h1 {
     font-size: 2.5rem;
+  }
+  .next_billion .path-3 {
+    right: 9.5%;
+    display: none !important;
+  }
+  .next_billion .ovel-6 {
+    display: none !important;
   }
   .footer_social_media .row .footer_list {
     padding: 15px 20px 15px 0px;
@@ -2834,14 +2852,17 @@ body {
     display: none !important;
   }
   .why_us .project_planing {
-    height: auto !important;
+    min-height: auto !important;
   }
   .why_us .project_planing .row {
     padding-bottom: 10% !important;
     padding-top: 10% !important;
   }
   .why_us .project_planing .row .section_content {
-    height: 340px;
+    min-height: 340px;
+  }
+  .why_us .project_planing .horizontal_line {
+    display: none;
   }
   .why_us .project_planing .mobile_tap_section {
     padding: 0px !important;
@@ -3096,6 +3117,10 @@ body {
   }
   .next_billion .path-3 {
     right: 9.5%;
+    display: none;
+  }
+  .next_billion .ovel-6 {
+    display: none;
   }
   .next_billion .path {
     left: 10.6%;
@@ -3435,7 +3460,7 @@ body {
     display: none !important;
   }
   .why_us .project_planing {
-    height: auto !important;
+    min-height: auto !important;
   }
   .why_us .project_planing h1 {
     line-height: 1.5 !important;
@@ -3445,7 +3470,10 @@ body {
     padding-top: 10% !important;
   }
   .why_us .project_planing .row .section_content {
-    height: 340px;
+    min-height: 340px;
+  }
+  .why_us .project_planing .horizontal_line {
+    display: none;
   }
   .why_us .project_planing .mobile_tap_section {
     padding: 0px !important;
@@ -3495,7 +3523,7 @@ body {
 
 @media only screen and (max-width: 321px) {
   .why_us .project_planing {
-    height: auto !important;
+    min-height: auto !important;
   }
   .why_us .project_planing h1 {
     line-height: 1.5 !important;
@@ -3505,7 +3533,7 @@ body {
     padding-top: 10% !important;
   }
   .why_us .project_planing .row .section_content {
-    height: 400px;
+    min-height: 400px;
   }
 }
 
