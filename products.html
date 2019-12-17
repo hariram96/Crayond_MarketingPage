@@ -384,7 +384,10 @@ input:focus:invalid {
             $.ajax({
                 method:"POST",
                 url:"http://api.udhiram.com/mail",
-                data:{
+                headers:{
+                    "content-type":"application/json",
+                },
+                data: JSON.stringify({
                         "emails": [
                             {
                                 "to": email,
@@ -394,15 +397,14 @@ input:focus:invalid {
                                 "html": '<p>Hello HTML world!  Email address----------------->'+email+'</p>'
                             }
                         ]
-                    },
+                    }),
                     success:(asd) => {
-                         alert("mail sent")
+                        //  alert("mail sent")
                         $("#email").val("");
                         $('#myModal').modal('toggle');
                         $(".coming_soon_email input").css("border-color", "rgba(102, 92, 215, 0.26)")
                     },
                     error:(err) => {
-                        alert(err)
                         // alert("try again")
                         // $(".email_error").css("opacity" , "1");
                         // $(".error_msg").text("Try again");
