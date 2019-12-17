@@ -2840,6 +2840,9 @@ body {
     padding-bottom: 10% !important;
     padding-top: 10% !important;
   }
+  .why_us .project_planing .row .section_content {
+    height: 340px;
+  }
   .why_us .project_planing .mobile_tap_section {
     padding: 0px !important;
     overflow: auto;
@@ -3441,6 +3444,9 @@ body {
     padding-bottom: 15% !important;
     padding-top: 10% !important;
   }
+  .why_us .project_planing .row .section_content {
+    height: 340px;
+  }
   .why_us .project_planing .mobile_tap_section {
     padding: 0px !important;
     overflow: auto;
@@ -3484,6 +3490,22 @@ body {
   }
   .sticky_tap {
     display: none !important;
+  }
+}
+
+@media only screen and (max-width: 321px) {
+  .why_us .project_planing {
+    height: auto !important;
+  }
+  .why_us .project_planing h1 {
+    line-height: 1.5 !important;
+  }
+  .why_us .project_planing .row {
+    padding-bottom: 15% !important;
+    padding-top: 10% !important;
+  }
+  .why_us .project_planing .row .section_content {
+    height: 400px;
   }
 }
 

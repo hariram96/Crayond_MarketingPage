@@ -2839,6 +2839,9 @@ body{
             .row{
                 padding-bottom: 10% !important;
                 padding-top: 10% !important;
+                .section_content{
+                    height: 340px;
+                }
             }
             .mobile_tap_section{
                 padding: 0px !important;
@@ -3555,6 +3558,9 @@ body{
         .row{
             padding-bottom: 15% !important;
             padding-top: 10% !important;
+            .section_content{
+                height: 340px;
+            }
         }
         .mobile_tap_section{
             padding: 0px !important;
@@ -3603,6 +3609,25 @@ body{
     display: none !important;
 }
 
+}
+
+@media only screen and (max-width: 321px) {
+
+.why_us{
+    .project_planing{
+        h1{
+            line-height: 1.5 !important;
+        }
+        height: auto !important;
+        .row{
+            padding-bottom: 15% !important;
+            padding-top: 10% !important;
+            .section_content{
+                height: 400px;
+            }
+        }
+    }
+}
 }
 
 
