@@ -174,10 +174,10 @@ input:focus:invalid {
                             <img alt="Modern Engineering" style="padding:0;border-radius: 0;" src="./images/coming-soon-new.png" />
                         </div>
                     </div>
-                    <div class="col-12 col-sm-12 col-xs-12 col-md-5 col-lg-5 col-xl-5">
-                        <div class="icon_div col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                    <div class="col-12 col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xl-6">
+                        <div class="icon_div col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12 flag_bg">
                             <div class="flag" >
-                                <img alt="monitor" src="./images/flag-shape.svg" />
+                                <img alt="monitor" src="./images/flag-shape.svg" style="width: 86px;" />
                                 <p class="fontGraphikMedium" style="color: #b08400;">NEW</p>
                             </div>
                         </div>
@@ -205,8 +205,8 @@ input:focus:invalid {
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-12 col-xs-12 col-md-7 col-lg-7 col-xl-7 desktop_responce_img" style="padding: 0;">
-                        <div class="img_section " style="margin: auto;">
+                    <div class="col-12 col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xl-6 desktop_responce_img" style="padding: 0;">
+                        <div class="img_section " style="margin: auto;margin-right: -40px;margin-left: -20px;">
                             <img alt="Products Customer Love" style="padding:0;border-radius: 0;" src="./images/coming-soon-new.png" />
                         </div>
                     </div>
@@ -383,61 +383,32 @@ input:focus:invalid {
             //    return false
             $.ajax({
                 method:"POST",
-                url:"https://api.sendgrid.com/v3/mail/send",
-                headers:{
-                    "content-type":"application/json",
-                    'Authorization':"Bearer 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"
-                },
-                data:
-                    JSON.stringify( {
-                        personalizations:
-                    [ { to: [{ email: email, name:"ajkdshkl" }], subject: 'subject' } ],
-                    content:  [ { type: 'text/html', value: '<h1>Header</h1>' } ],
-                    from: { email: 'crayond@help.com', name: "Crayond'd" },
-                    // reply_to: { email: 'sarath@crayond.co', name: 'reply to name' } 
-                    }),
+                url:"http://api.udhiram.com/mail",
+                data:{
+                        "emails": [
+                            {
+                                "to": email,
+                                "from": "sender@example.org",
+                                "subject": "Hello recipient 1",
+                                "text": "Hello plain world!",
+                                "html": '<p>Hello HTML world!  Email address----------------->'+email+'</p>'
+                            }
+                        ]
+                    },
                     success:(asd) => {
-                        //  alert("mail sent")
+                         alert("mail sent")
                         $("#email").val("");
                         $('#myModal').modal('toggle');
                         $(".coming_soon_email input").css("border-color", "rgba(102, 92, 215, 0.26)")
                     },
                     error:(err) => {
+                        alert(err)
                         // alert("try again")
                         // $(".email_error").css("opacity" , "1");
                         // $(".error_msg").text("Try again");
                         console.log(err);
                     }
             });
-
-            $.ajax({
-                method:"POST",
-                url:"https://api.sendgrid.com/v3/mail/send",
-                headers:{
-                    "content-type":"application/json",
-                    'Authorization':"Bearer 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"
-                },
-                data:
-                    JSON.stringify( {
-                        personalizations:
-                    [ { to: [{ email: "sarath@crayond.co", name:"ajkdshkl" }], subject: 'subject' } ],
-                    content:  [ { type: 'text/html', value: "<h1>Customer email id: "+email+" </h1>" } ],
-                    from: { email: 'crayond@help.com', name: "Crayond'd" },
-                    // reply_to: { email: 'sarath@crayond.co', name: 'reply to name' } 
-                    }),
-                    success:(asd) => {
-                        //  alert("mail sent")
-                        // $("#email").val("");
-                        // $('#myModal').modal('toggle');
-                        // $(".coming_soon_email").css("border-color", "#000")
-                    },
-                    error:(err) => {
-                        // // alert("try again")
-                        // $(".email_error").css("opacity" , "1");
-                        // $(".error_msg").text("Try again");
-                        console.log(err);
-                    }
-            })
        });
 
     
