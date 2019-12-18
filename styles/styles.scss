@@ -1030,10 +1030,10 @@ body{
             img {
                 width: 100%;
                 height: 100%;
-                border-top-right-radius: 28px;
-                border-top-left-radius: 28px;
-                border-bottom-left-radius: 28px;
-                border-bottom-right-radius: 70px;
+                // border-top-right-radius: 28px;
+                // border-top-left-radius: 28px;
+                // border-bottom-left-radius: 28px;
+                // border-bottom-right-radius: 70px;
                 padding: 6px;
             }
         }
@@ -1724,6 +1724,7 @@ body{
         }
     }
   }
+
   .path-3 {
       position: absolute;
       bottom: 15.5%;
@@ -2701,7 +2702,14 @@ body{
             p{
                 font-size: 19px;
             }
-        } 
+        }
+        .path-3{
+            display: none;
+        }
+        .ovel-6{
+            display: none;
+        }
+
     } 
 
 
@@ -3099,7 +3107,7 @@ body{
         }
 
         .coming_soon_email{
-            // padding: 0px 15px;
+            padding: 0px 15px;
             input{
                 width: 100%;
             }
@@ -3202,6 +3210,7 @@ body{
       }
       .menu_list{
         text-align: left !important;
+        margin-bottom: 14px !important;
     }
   }
 
@@ -3340,6 +3349,12 @@ body{
         p{
             font-size: 18px;
         }
+    }
+    .ovel-6{
+        display: none;
+    }
+    .path-3{
+        display: none;
     }
     .button_div {
         .banner_button{

@@ -1064,10 +1064,6 @@ body {
 .why_us .row .img_section img {
   width: 100%;
   height: 100%;
-  border-top-right-radius: 28px;
-  border-top-left-radius: 28px;
-  border-bottom-left-radius: 28px;
-  border-bottom-right-radius: 70px;
   padding: 6px;
 }
 
@@ -2732,6 +2728,12 @@ body {
   .join_team .billion p {
     font-size: 19px;
   }
+  .join_team .path-3 {
+    display: none;
+  }
+  .join_team .ovel-6 {
+    display: none;
+  }
   .title_section {
     padding-top: 0;
   }
@@ -3047,6 +3049,9 @@ body {
   .why_us .row .desktop_responce_img {
     display: none;
   }
+  .why_us .row .coming_soon_email {
+    padding: 0px 15px;
+  }
   .why_us .row .coming_soon_email input {
     width: 100%;
   }
@@ -3134,6 +3139,7 @@ body {
   }
   .footer .menu_list {
     text-align: left !important;
+    margin-bottom: 14px !important;
   }
   .footer_social_media {
     padding: 25px 0px;
@@ -3240,6 +3246,12 @@ body {
   }
   .join_team .billion p {
     font-size: 18px;
+  }
+  .join_team .ovel-6 {
+    display: none;
+  }
+  .join_team .path-3 {
+    display: none;
   }
   .join_team .button_div .banner_button {
     width: 265px !important;
