@@ -1012,10 +1012,6 @@ body {
   cursor: pointer;
 }
 
-.why_us .row tapSection .tap:hover {
-  color: #665cd7;
-}
-
 .why_us .row tapSection .active_sale {
   color: #fff;
   border-radius: 6px;
@@ -1462,6 +1458,10 @@ body {
       -ms-flex-align: center;
           align-items: center;
   padding-right: 0;
+}
+
+.footer_social_media .row .footer_address a {
+  width: 100%;
 }
 
 .footer_social_media .row .footer_address p {

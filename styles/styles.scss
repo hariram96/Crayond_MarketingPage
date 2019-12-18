@@ -964,9 +964,9 @@ body{
                 cursor: pointer;
             }
             .tap{
-                &:hover{
-                    color: #665cd7;
-                }
+                // &:hover{
+                //     color: #665cd7;
+                // }
             }
             .active_sale{
                 color: #fff;
@@ -1390,6 +1390,9 @@ body{
         display: flex;
         align-items: center;
         padding-right: 0;
+        a{
+            width: 100%;
+        }
         p{
             text-align: center;
             margin: auto 0;
