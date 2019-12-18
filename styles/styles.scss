@@ -435,6 +435,21 @@ body{
     width: 100%;
     top: 0;
     height: 60px;
+
+    tag{
+        font-size: 10px;
+        padding: 3px 4px;
+        position: absolute;
+        top: 0px;
+        width: 35px;
+        height: 17px;
+        border-radius: 3px;
+        background-color: #16cebc;
+        line-height: 1.1;
+        color: #fff;
+        margin-left: 30px;
+      }
+
     .logo_mobile{
         display: flex;
         padding: 0;
