@@ -1002,14 +1002,6 @@ body {
   min-height: 400px;
 }
 
-.why_us .row .arrow-right {
-  display: none;
-}
-
-.why_us .row .arrow-left {
-  display: none;
-}
-
 .why_us .row tapSection {
   margin: auto;
 }
@@ -3537,29 +3529,6 @@ body {
   }
   .why_us .project_planing .horizontal_line {
     display: none;
-  }
-  .why_us .project_planing .scrolling_arrow_section {
-    padding: 0px 26px;
-  }
-  .why_us .project_planing .arrow-right {
-    display: none;
-    position: absolute;
-    left: 0;
-    top: 6px;
-    padding: 1px 8px;
-  }
-  .why_us .project_planing .arrow-right i {
-    color: gray;
-  }
-  .why_us .project_planing .arrow-left {
-    display: unset;
-    position: absolute;
-    right: 0;
-    top: 6px;
-    padding: 1px 8px;
-  }
-  .why_us .project_planing .arrow-left i {
-    color: gray;
   }
   .why_us .project_planing .mobile_tap_section {
     padding: 0px !important;
