@@ -361,7 +361,6 @@ input:focus:invalid {
         $(".notify_btn").click(function(e){
             var email = $("#email").val();
             var pattern = /^\b[A-Z0-9._%-]+@[A-Z0-9.-]+\.[A-Z]{2,4}\b$/i
-            debugger
             if(email.length == 0){
             //    alert('Enter yor email');
                $(".alert").addClass("alert-danger");

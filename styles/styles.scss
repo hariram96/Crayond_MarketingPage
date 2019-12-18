@@ -954,6 +954,12 @@ body{
         .section_content{
             min-height: 400px;
         }
+        .arrow-right{
+            display: none;
+        }
+        .arrow-left{
+            display: none;
+        }
         tapSection{
             margin: auto;
             // padding: 0px 30px;
@@ -3672,6 +3678,29 @@ body{
         }
         .horizontal_line{
             display: none;
+        }
+        .scrolling_arrow_section{
+            padding: 0px 26px;
+        }
+        .arrow-right{
+            display: none;
+            i{
+                color: gray;
+            }
+            position: absolute;
+            left: 0;
+            top: 6px;
+            padding: 1px 8px;
+        }
+        .arrow-left{
+            display: unset;
+            i{
+                color: gray;
+            }
+            position: absolute;
+            right: 0;
+            top: 6px;
+            padding: 1px 8px;
         }
         .mobile_tap_section{
             padding: 0px !important;
