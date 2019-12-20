@@ -1,5 +1,5 @@
 .floating_section {
-  margin-top: -116px;
+  margin-top: -70px;
   z-index: 1;
   position: relative;
 }
@@ -208,5 +208,76 @@
 .look_ambience .image_div img {
   height: 100%;
   width: 100%;
+}
+
+.opportunities_section {
+  padding-top: 8%;
+  padding-bottom: 8%;
+  background-color: #fafafa;
+}
+
+.opportunities_section .text {
+  text-align: center;
+}
+
+.opportunities_section .text h1 {
+  margin-bottom: 16px;
+}
+
+.opportunities_section .text .banner--des {
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.3;
+  letter-spacing: normal;
+  color: #e90101;
+  margin-bottom: 46px;
+}
+
+.opportunities_section .data_row {
+  border-radius: 15px;
+  border: solid 1px #e6e5e5;
+  background-color: #ffffff;
+  padding: 46px;
+}
+
+.opportunities_section .data_row .list {
+  padding: 14px 0px;
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(33%, #e6e5e5), color-stop(0%, rgba(17, 7, 7, 0)));
+  background-image: linear-gradient(to right, #e6e5e5 33%, rgba(17, 7, 7, 0) 0%);
+  background-position: bottom;
+  background-size: 15px 1.6px;
+  background-repeat: repeat-x;
+}
+
+.opportunities_section .data_row .list button {
+  border-radius: 6px;
+  border: solid 1px #dddddd;
+  padding: 12px 30px;
+  background-color: transparent;
+  cursor: pointer;
+  margin: auto;
+  margin-right: 0;
+}
+
+.opportunities_section .data_row .list h4 {
+  font-size: 24px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #272727;
+}
+
+.opportunities_section .data_row .list p {
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #878787;
 }
 /*# sourceMappingURL=opportunities.css.map */
