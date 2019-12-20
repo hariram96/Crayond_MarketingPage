@@ -6,6 +6,8 @@
 
 .floating_section .floatr_card {
   background-color: #fff;
+  -webkit-box-shadow: 0 100px 100px 0 rgba(0, 0, 0, 0.03);
+          box-shadow: 0 100px 100px 0 rgba(0, 0, 0, 0.03);
   padding: 5% 30px;
   text-align: center;
 }
@@ -49,6 +51,7 @@
 
 .life_craoyond .row {
   background-color: #f4f9f9;
+  padding-bottom: 6%;
 }
 
 .life_craoyond .row .container {

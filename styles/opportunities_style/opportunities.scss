@@ -6,6 +6,7 @@
     .floatr_card{
         // background-color: rosybrown;
         background-color: #fff;
+        box-shadow: 0 100px 100px 0 rgba(0, 0, 0, 0.03);
         padding: 5% 30px;
         text-align: center;
         .banner--des{
@@ -49,6 +50,7 @@
     }
     .row{
         background-color: #f4f9f9;
+        padding-bottom: 6%;
         .container{
             margin-top: -110px;
             flex-wrap: nowrap;
