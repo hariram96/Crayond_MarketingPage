@@ -63,6 +63,83 @@
   display: flex;
 }
 
+.life_craoyond .row .culture:hover {
+  -webkit-box-shadow: 0 34px 24px 0 rgba(26, 26, 175, 0.03);
+          box-shadow: 0 34px 24px 0 rgba(26, 26, 175, 0.03);
+}
+
+.life_craoyond .row .culture:hover .card_icon {
+  background-color: #1EAB8C !important;
+}
+
+.life_craoyond .row .culture:hover .card_icon svg path {
+  stroke: #fff !important;
+}
+
+.life_craoyond .row .learning:hover {
+  -webkit-box-shadow: 0 34px 24px 0 rgba(26, 26, 175, 0.03);
+          box-shadow: 0 34px 24px 0 rgba(26, 26, 175, 0.03);
+}
+
+.life_craoyond .row .learning:hover .card_icon {
+  background-color: #334ac0 !important;
+}
+
+.life_craoyond .row .learning:hover .card_icon .active {
+  display: unset !important;
+}
+
+.life_craoyond .row .learning:hover .card_icon .in_active {
+  display: none;
+}
+
+.life_craoyond .row .leadership:hover {
+  -webkit-box-shadow: 0 34px 24px 0 rgba(26, 26, 175, 0.03);
+          box-shadow: 0 34px 24px 0 rgba(26, 26, 175, 0.03);
+}
+
+.life_craoyond .row .leadership:hover .card_icon {
+  background-color: #f3a530 !important;
+}
+
+.life_craoyond .row .leadership:hover .card_icon svg g {
+  fill: #fff !important;
+}
+
+.life_craoyond .row .ambience:hover {
+  -webkit-box-shadow: 0 34px 24px 0 rgba(26, 26, 175, 0.03);
+          box-shadow: 0 34px 24px 0 rgba(26, 26, 175, 0.03);
+}
+
+.life_craoyond .row .ambience:hover .card_icon {
+  background-color: #e42d44 !important;
+}
+
+.life_craoyond .row .ambience:hover .card_icon .active {
+  display: unset !important;
+}
+
+.life_craoyond .row .ambience:hover .card_icon .in_active {
+  display: none;
+}
+
+.life_craoyond .row .freedom:hover {
+  -webkit-box-shadow: 0 34px 24px 0 rgba(26, 26, 175, 0.03);
+          box-shadow: 0 34px 24px 0 rgba(26, 26, 175, 0.03);
+}
+
+.life_craoyond .row .freedom:hover .card_icon {
+  background-color: #000 !important;
+}
+
+.life_craoyond .row .freedom:hover .card_icon .active {
+  display: unset !important;
+}
+
+.life_craoyond .row .freedom:hover .card_icon .in_active {
+  display: none;
+}
+
 .life_craoyond .row .Rectangle_card_body {
   width: 226px;
   height: 350px;
@@ -71,16 +148,12 @@
   display: flex;
   margin-right: 20px;
   text-align: center;
-  -webkit-box-shadow: 0 34px 24px 0 rgba(26, 26, 175, 0.03);
-          box-shadow: 0 34px 24px 0 rgba(26, 26, 175, 0.03);
   border: solid 1px #f1f1f9;
   background-color: #ffffff;
   cursor: pointer;
-}
-
-.life_craoyond .row .Rectangle_card_body:hover {
-  -webkit-box-shadow: 0px 2px 12px 4px #00000013;
-          box-shadow: 0px 2px 12px 4px #00000013;
+  position: relative;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .life_craoyond .row .Rectangle_card_body .cont {
@@ -116,5 +189,24 @@
   letter-spacing: normal;
   text-align: center;
   color: #000000;
+}
+
+.look_ambience {
+  padding-top: 8%;
+  padding-bottom: 8%;
+}
+
+.look_ambience .text {
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.look_ambience .image_div {
+  padding: 7px;
+}
+
+.look_ambience .image_div img {
+  height: 100%;
+  width: 100%;
 }
 /*# sourceMappingURL=opportunities.css.map */

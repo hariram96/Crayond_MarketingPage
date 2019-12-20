@@ -56,6 +56,74 @@
             flex-wrap: nowrap;
             display: flex;
         }
+        .culture{
+            &:hover{
+                box-shadow: 0 34px 24px 0 rgba(26, 26, 175, 0.03);
+                .card_icon{
+                    background-color: #1EAB8C !important;
+                    svg{
+                        path{
+                            stroke: #fff !important;
+                        }
+                    }
+                }
+            }
+        }
+        .learning{
+            &:hover{
+                box-shadow: 0 34px 24px 0 rgba(26, 26, 175, 0.03);
+                .card_icon{
+                    background-color: #334ac0 !important;
+                .active{
+                    display: unset !important;
+                }
+                .in_active{
+                    display: none;
+                }
+                }
+            }
+        }
+        .leadership{
+            &:hover{
+                box-shadow: 0 34px 24px 0 rgba(26, 26, 175, 0.03);
+                .card_icon{
+                    background-color: #f3a530 !important;
+                    svg{
+                        g{
+                            fill: #fff !important;
+                        }
+                    }
+                }
+            }
+        }
+        .ambience{
+            &:hover{
+                box-shadow: 0 34px 24px 0 rgba(26, 26, 175, 0.03);
+                .card_icon{
+                    background-color: #e42d44 !important;
+                    .active{
+                        display: unset !important;
+                    }
+                    .in_active{
+                        display: none;
+                    }
+                }
+            }
+        }
+        .freedom{
+            &:hover{
+                box-shadow: 0 34px 24px 0 rgba(26, 26, 175, 0.03);
+                .card_icon{
+                    background-color: #000 !important;
+                    .active{
+                        display: unset !important;
+                    }
+                    .in_active{
+                        display: none;
+                    }
+                }
+            }
+        }
         .Rectangle_card_body{
             // margin-right: 16px;
             width: 226px;
@@ -64,14 +132,12 @@
             display: flex;
             margin-right: 20px;
             text-align: center;
-            box-shadow: 0 34px 24px 0 rgba(26, 26, 175, 0.03);
             border: solid 1px #f1f1f9;
             background-color: #ffffff;
             cursor: pointer;
-            &:hover{
-                // background-color: red;
-                box-shadow: 0px 2px 12px 4px #00000013;
-            }
+            position: relative;
+            transition: all 0.5s;
+            
             .cont{
                 margin: auto;
             .card_icon{
@@ -103,5 +169,23 @@
             }
           }
         }
+    }
+}
+
+.look_ambience{
+    padding-top: 8%;
+    padding-bottom: 8%;
+    .text{
+        text-align: center;
+        margin-bottom: 5%;
+    }
+    .image_div{
+        padding: 7px;
+        // height: 405px;
+        img{
+            height: 100%;
+            width: 100%;
+        }
+        // background-color: gray;
     }
 }
