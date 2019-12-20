@@ -603,6 +603,20 @@ body {
           box-shadow: none;
 }
 
+.transparent_header {
+  background-color: transparent;
+}
+
+.transparent_header .row a {
+  color: #ffffff;
+}
+
+.transparent_header .row .sign_btn button {
+  border-color: #665CD7;
+  color: #fff;
+  background-color: #665CD7;
+}
+
 html {
   height: 100%;
   width: 100%;

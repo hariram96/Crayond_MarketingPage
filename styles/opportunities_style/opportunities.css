@@ -1,0 +1,22 @@
+.floating_section {
+  margin-top: -90px;
+  z-index: 1;
+  position: relative;
+}
+
+.floating_section .floatr_card {
+  background-color: #fff;
+  padding: 5% 30px;
+  text-align: center;
+}
+
+.floating_section .floatr_card .banner--des {
+  padding-top: 16px;
+  font-size: 22px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+}
+/*# sourceMappingURL=opportunities.css.map */

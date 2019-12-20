@@ -582,6 +582,21 @@ body{
   }
 }
 
+.transparent_header{
+    background-color: transparent;
+    .row {
+        a {
+            color: #ffffff;
+        }
+        .sign_btn{
+            button{
+                border-color: #665CD7;
+                color: #fff;
+                background-color: #665CD7;
+            } 
+          }
+        }
+    } 
 // Mani css
 html{
     height: 100%;

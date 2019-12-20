@@ -1,0 +1,21 @@
+.floating_section{
+    // background-color: red;
+    margin-top: -90px;
+    z-index: 1;
+    position: relative;
+    .floatr_card{
+        // background-color: rosybrown;
+        background-color: #fff;
+        padding: 5% 30px;
+        text-align: center;
+        .banner--des{
+            padding-top: 16px;
+            font-size: 22px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 2;
+            letter-spacing: normal;
+        }
+    }
+}
