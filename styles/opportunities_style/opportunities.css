@@ -1,5 +1,5 @@
 .floating_section {
-  margin-top: -90px;
+  margin-top: -116px;
   z-index: 1;
   position: relative;
 }
@@ -11,6 +11,7 @@
 }
 
 .floating_section .floatr_card .banner--des {
+  color: #878787;
   padding-top: 16px;
   font-size: 22px;
   font-weight: 500;
@@ -18,5 +19,99 @@
   font-style: normal;
   line-height: 2;
   letter-spacing: normal;
+}
+
+.life_craoyond {
+  padding-top: 6%;
+}
+
+.life_craoyond .text {
+  margin-bottom: 160px;
+  text-align: center;
+}
+
+.life_craoyond .text .flag span {
+  position: absolute;
+  color: #fff;
+  padding: 4px 0px 0px 16px;
+}
+
+.life_craoyond .text .description {
+  color: #878787;
+  padding-top: 16px;
+  font-size: 22px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+}
+
+.life_craoyond .row {
+  background-color: #f4f9f9;
+}
+
+.life_craoyond .row .container {
+  margin-top: -110px;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.life_craoyond .row .Rectangle_card_body {
+  width: 226px;
+  height: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 20px;
+  text-align: center;
+  -webkit-box-shadow: 0 34px 24px 0 rgba(26, 26, 175, 0.03);
+          box-shadow: 0 34px 24px 0 rgba(26, 26, 175, 0.03);
+  border: solid 1px #f1f1f9;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.life_craoyond .row .Rectangle_card_body:hover {
+  -webkit-box-shadow: 0px 2px 12px 4px #00000013;
+          box-shadow: 0px 2px 12px 4px #00000013;
+}
+
+.life_craoyond .row .Rectangle_card_body .cont {
+  margin: auto;
+}
+
+.life_craoyond .row .Rectangle_card_body .cont .card_icon {
+  border-radius: 50%;
+  width: 109px;
+  height: 109px;
+  position: relative;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.life_craoyond .row .Rectangle_card_body .cont .card_icon img {
+  margin: auto;
+}
+
+.life_craoyond .row .Rectangle_card_body .cont .card_icon svg {
+  margin: auto;
+}
+
+.life_craoyond .row .Rectangle_card_body .cont .card-text {
+  font-size: 20px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.65;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
 }
 /*# sourceMappingURL=opportunities.css.map */

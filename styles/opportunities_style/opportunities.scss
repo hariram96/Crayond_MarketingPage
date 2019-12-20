@@ -1,6 +1,6 @@
 .floating_section{
     // background-color: red;
-    margin-top: -90px;
+    margin-top: -116px;
     z-index: 1;
     position: relative;
     .floatr_card{
@@ -9,6 +9,7 @@
         padding: 5% 30px;
         text-align: center;
         .banner--des{
+            color: #878787;
             padding-top: 16px;
             font-size: 22px;
             font-weight: 500;
@@ -16,6 +17,89 @@
             font-style: normal;
             line-height: 2;
             letter-spacing: normal;
+        }
+    }
+}
+
+.life_craoyond{
+    padding-top: 6%;
+    // padding-bottom: 6%;
+    // background-color: wheat;
+    // background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 2%, rgba(72, 35, 163, 0.02) 98%);
+    .text{
+        margin-bottom: 160px;
+        text-align: center;
+        .flag{
+            span{
+                position: absolute;
+                color: #fff;
+                padding: 4px 0px 0px 16px;
+            }
+        }
+        .description{
+            color: #878787;
+            padding-top: 16px;
+            font-size: 22px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 2;
+            letter-spacing: normal;
+        }
+    }
+    .row{
+        background-color: #f4f9f9;
+        .container{
+            margin-top: -110px;
+            flex-wrap: nowrap;
+            display: flex;
+        }
+        .Rectangle_card_body{
+            // margin-right: 16px;
+            width: 226px;
+            height: 350px;
+
+            display: flex;
+            margin-right: 20px;
+            text-align: center;
+            box-shadow: 0 34px 24px 0 rgba(26, 26, 175, 0.03);
+            border: solid 1px #f1f1f9;
+            background-color: #ffffff;
+            cursor: pointer;
+            &:hover{
+                // background-color: red;
+                box-shadow: 0px 2px 12px 4px #00000013;
+            }
+            .cont{
+                margin: auto;
+            .card_icon{
+                // background-color: red;
+                border-radius: 50%;
+                width: 109px;
+                height: 109px;
+                // background-color: #f3f5ff;
+                position: relative;
+                margin: auto;
+                display: flex;
+                margin-bottom: 30px;
+                img{
+                    margin: auto;
+                }
+                svg{
+                    margin: auto;
+                }
+            }
+            .card-text{
+                font-size: 20px;
+                font-weight: 600;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.65;
+                letter-spacing: normal;
+                text-align: center;
+                color: #000000;
+            }
+          }
         }
     }
 }
