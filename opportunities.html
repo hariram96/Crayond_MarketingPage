@@ -71,56 +71,6 @@
     <!-- site ahrefs-site-verification -->
     <meta name="ahrefs-site-verification" content="11e94c2e9775fda1d13ea86dec3c2b8de72ac7d67266d640dc9d273dd3cddc4c">
 
-    <style>
-       header {
-        position: relative;
-        background-color: black;
-        height: 100vh;
-        min-height: 25rem;
-        width: 100%;
-        overflow: hidden;
-        }
-
-        header video {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        min-width: 100%;
-        min-height: 100%;
-        width: auto;
-        height: auto;
-        z-index: 0;
-        -ms-transform: translateX(-50%) translateY(-50%);
-        -moz-transform: translateX(-50%) translateY(-50%);
-        -webkit-transform: translateX(-50%) translateY(-50%);
-        transform: translateX(-50%) translateY(-50%);
-        }
-
-        header .container {
-        position: relative;
-        z-index: 2;
-        }
-
-        header .overlay {
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 100%;
-        width: 100%;
-        background-color: black;
-        opacity: 0.5;
-        z-index: 1;
-        }
-
-        @media (pointer: coarse) and (hover: none) {
-        header {
-            background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
-        }
-        header video {
-            display: none;
-        }
-        }
-    </style>
 
 </head>
 
@@ -195,14 +145,16 @@
 
     <header>
         <div class="overlay"></div>
-        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-            <source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4" type="video/mp4">
-        </video>
+        <!-- <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop"> -->
+            <!-- <source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4" type="video/mp4"> -->
+            <!-- <source src="https://www.crayond.com/images/demonstration.mp4" type="video/mp4"> -->
+        <!-- </video> -->
+        <img class="team_img" src="./images/team.JPG"/>
         <div class="container h-100">
             <div class="d-flex h-100 text-center align-items-center">
             <div class="w-100 text-white">
                 <!-- <h1 class="display-3">Video Header</h1> -->
-                <p class="lead mb-0"><i class="fa fa-play-circle" style="cursor: pointer; font-size: 100px;color: #E5B009;border-radius: 50px;background-color: #fff;line-height: 0.7;" aria-hidden="true"></i></p>
+                <!-- <p class="lead mb-0"><i class="fa fa-play-circle" style="cursor: pointer; font-size: 100px;color: #E5B009;border-radius: 50px;background-color: #fff;line-height: 0.7;" aria-hidden="true"></i></p> -->
             </div>
             </div>
         </div>
@@ -219,6 +171,153 @@
                 <p class="banner--des fontLatoRegular">
                     We understand that it's an incredibly large mission that our team of young minds is committed to succeed in. Crayon'd has enjoyed helping startup founders.
                 </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end -->
+
+    <!-- crayond 5c's -->
+    <section class="why_us" id="design_section">
+        <div class="container-fluid container_bg_section2 project_planing" style="background-color: #fff;display: flex;min-height: 100vh;padding: 40px 16px;">
+            <div class="container" style="margin: auto;">
+                <div class="row" style="padding: 0;">
+                    <div class="col-12 col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xl-6" style="display: flex;">
+                        <div class="img_section" style="margin: auto;border-radius: 6px;padding-right: 40px;">
+                            <img alt="Modern-Engineering" class="sale sale1 active_cont" style="display: none;transition: all 0.7s;opacity: 0;overflow: auto;overflow-y: hidden; border-radius: 6px;background: #fff;box-shadow:0 0 12px 0 rgba(0, 0, 0, 0.12);" src="./images/clarity.png" />
+                            <img alt="Modern-Engineering" class="sale sale2" style="display: none;transition: all 0.7s;opacity: 0;overflow: auto;overflow-y: hidden; border-radius: 6px;background: #fff;box-shadow:0 0 12px 0 rgba(0, 0, 0, 0.12);" src="./images/culture.png" />
+                            <img alt="Modern-Engineering" class="sale sale3" style="display: none;transition: all 0.7s;opacity: 0;overflow: auto;overflow-y: hidden; border-radius: 6px;background: #fff;box-shadow:0 0 12px 0 rgba(0, 0, 0, 0.12);" src="./images/competence.png" />
+                            <img alt="Modern-Engineering" class="sale sale4" style="display: none;transition: all 0.7s;opacity: 0;overflow: auto;overflow-y: hidden; border-radius: 6px;background: #fff;box-shadow:0 0 12px 0 rgba(0, 0, 0, 0.12);" src="./images/commitment.png" />
+                            <img alt="Modern-Engineering" class="sale sale5" style="display: none;transition: all 0.7s;opacity: 0;overflow: auto;overflow-y: hidden; border-radius: 6px;background: #fff;box-shadow:0 0 12px 0 rgba(0, 0, 0, 0.12);" src="./images/collaboration.png" />
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xl-6 section_content sale sale1 active_cont" style="display: none;transition: all 0.7s;opacity: 0;overflow: auto;overflow-y: hidden" >
+                        <div class="icon_div col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                            <div class="flag" style="background-color: transparent;">
+                                <!-- <img alt="monitor" src="./images/combined-shape.svg" style="width: 100px;height: 100%;" /> -->
+                                <p class="fontGraphikMedium" style="color: #6455c2;margin-left: 0;border-radius: 10px;border: solid 1px rgba(100, 85, 194, 0.18);background-color: rgba(100, 85, 194, 0.05);padding: 8px 16px;">5C’s to Success</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                            <h1 class="fontGraphikSemibold">1. Clarity</h1>
+                        </div>
+                        <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                            <img alt="line-left" class="divider_line left_line" src="./images/line-left.png" />
+                            <img alt="line-3" class="divider_line center_line" src="./images/line-3.png" style="display: none;"/>
+                        </div>
+                        <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12 sale sale1 active_cont" style="display: none;transition: all 0.7s;opacity: 0;overflow: auto;overflow-y: hidden">
+                            <p class="text_para fontLatoRegular">
+                                If you don’t stand for something, you will fall for anything. It’s such a messy world filled with distractions often disguised in the form of opportunities. You will end up nowhere if you don’t have a strong purpose that justifies each of your action. What is your vision statement?. Is your entire team glued to it?. Do you know where you are going?. Clarity is Mastery!
+                            </p>
+                        </div>
+                        <!-- <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12 sale sale2" style="display: none;transition: all 0.7s;opacity: 0;overflow: auto;overflow-y: hidden">
+                            <p class="text_para fontLatoRegular">
+                                Every aspect of your product is roughly outlined to get a clearer view of the interactions in your product.
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12 sale sale3" style="display: none;transition: all 0.7s;opacity: 0;overflow: auto;overflow-y: hidden" >
+                            <p class="text_para fontLatoRegular">
+                                Finalized sketches are properly grown into a complete experience that contains the desired visual elements with a defined aesthetic.
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12 sale sale4" style="display: none;transition: all 0.7s;opacity: 0;overflow: auto;overflow-y: hidden">
+                            <p class="text_para fontLatoRegular">
+                                Inner beauty is crucial. A well-architectured product runs as smooth as a newly-oiled engine, with the gears fit right.
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12 sale sale5" style="display: none;transition: all 0.7s;opacity: 0;overflow: auto;overflow-y: hidden">
+                            <p class="text_para fontLatoRegular">
+                                Stakeholders get together to discuss the exact criteria of your product’s performance, security, and scalability and finalize them.
+                            </p>
+                        </div> -->
+
+                    </div>
+                    <div class="col-12 col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xl-6 section_content sale sale2" style="display: none;transition: all 0.7s;opacity: 0;overflow: auto;overflow-y: hidden" >
+                        <div class="icon_div col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                            <div class="flag" style="background-color: transparent;">
+                                <p class="fontGraphikMedium" style="color: #6455c2;margin-left: 0;border-radius: 10px;border: solid 1px rgba(100, 85, 194, 0.18);background-color: rgba(100, 85, 194, 0.05);padding: 8px 16px;">5C’s to Success</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                            <h1 class="fontGraphikSemibold">2. Culture</h1>
+                        </div>
+                        <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                            <img alt="line-left" class="divider_line left_line" src="./images/line-left.png" />
+                            <img alt="line-3" class="divider_line center_line" src="./images/line-3.png" style="display: none;"/>
+                        </div>
+                        <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                            <p class="text_para fontLatoRegular">
+                                What makes your brand different?. Why should interesting people associate with you?. To win in the marketplace, you must first win in the workplace. The 3 ingredients of a winning culture according to me are Mutual Respect, Growth, Motivation. Culture has the force to make or break teams. A right culture is a catalyst for exponential growth. Culture is King!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xl-6 section_content sale sale3" style="display: none;transition: all 0.7s;opacity: 0;overflow: auto;overflow-y: hidden" >
+                        <div class="icon_div col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                            <div class="flag" style="background-color: transparent;">
+                                <p class="fontGraphikMedium" style="color: #6455c2;margin-left: 0;border-radius: 10px;border: solid 1px rgba(100, 85, 194, 0.18);background-color: rgba(100, 85, 194, 0.05);padding: 8px 16px;">5C’s to Success</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                            <h1 class="fontGraphikSemibold">3. Competence</h1>
+                        </div>
+                        <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                            <img alt="line-left" class="divider_line left_line" src="./images/line-left.png" />
+                            <img alt="line-3" class="divider_line center_line" src="./images/line-3.png" style="display: none;"/>
+                        </div>
+                        <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                            <p class="text_para fontLatoRegular">
+                                The competence has a direct impact on how far the brand can grow how soon. It is imperative for individuals to stand up and it’s important for teams to evolve over time. The learning curves are getting shorter and limits for innovation are stretched. Extra-ordinary will soon become the norm. The teams that can out think and out class others will win over the long run. Competence Thrives!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xl-6 section_content sale sale4" style="display: none;transition: all 0.7s;opacity: 0;overflow: auto;overflow-y: hidden" >
+                        <div class="icon_div col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                            <div class="flag" style="background-color: transparent;">
+                                <p class="fontGraphikMedium" style="color: #6455c2;margin-left: 0;border-radius: 10px;border: solid 1px rgba(100, 85, 194, 0.18);background-color: rgba(100, 85, 194, 0.05);padding: 8px 16px;">5C’s to Success</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                            <h1 class="fontGraphikSemibold">4. Commitment</h1>
+                        </div>
+                        <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                            <img alt="line-left" class="divider_line left_line" src="./images/line-left.png" />
+                            <img alt="line-3" class="divider_line center_line" src="./images/line-3.png" style="display: none;"/>
+                        </div>
+                        <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                            <p class="text_para fontLatoRegular">
+                                Most overnight success took years. Every startup is a journey and most often than not everything is an unknown. If there can be one constant, that has got to be the vision. If there is something that can get you to the vision, it is commitment. The chances of a startup success is magnified if the entire team has the same level of commitment as that of the founding team towards the vision. Commitment Propels!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xl-6 section_content sale sale5" style="display: none;transition: all 0.7s;opacity: 0;overflow: auto;overflow-y: hidden" >
+                        <div class="icon_div col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                            <div class="flag" style="background-color: transparent;">
+                                <p class="fontGraphikMedium" style="color: #6455c2;margin-left: 0;border-radius: 10px;border: solid 1px rgba(100, 85, 194, 0.18);background-color: rgba(100, 85, 194, 0.05);padding: 8px 16px;">5C’s to Success</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                            <h1 class="fontGraphikSemibold">5. Collaboration</h1>
+                        </div>
+                        <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                            <img alt="line-left" class="divider_line left_line" src="./images/line-left.png" />
+                            <img alt="line-3" class="divider_line center_line" src="./images/line-3.png" style="display: none;"/>
+                        </div>
+                        <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                            <p class="text_para fontLatoRegular">
+                                Collaboration is the keystone of startup success. It is incredible to think what is possible if few minds can come together with passion and skill. Very few succeed alone but almost everyone can succeed in a team. Collaboration is about bringing many gifts from each individual and sharing them in pursuit of a common goal. It’s about bringing ideas, passion, mind, heart, and soul to the Organization leadership and culture. Collaboration Wins!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                        <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12 mobile_tap_section scroll_styles" style="display: flex;padding: 26px 16px;margin-top: 4%;background-color: #fff;border-radius: 8px;border: solid 1px rgba(51, 74, 192, 0.17)">
+                        <!-- <div class="img_section" style="margin: auto;"> -->
+                            <tapSection style="padding-left: 0;margin-left: 0;"><span class="active_sale tap2" data-sale="1">1.&nbsp;Wireframe</span></tapSection><span class="horizontal_line"></span>
+                            <tapSection><span class="tap2" data-sale="2">2.&nbsp;Culture</span></tapSection><span class="horizontal_line"></span>
+                            <tapSection><span class="tap2" data-sale="3">3.&nbsp;Competence</span></tapSection><span class="horizontal_line"></span>
+                            <tapSection><span class="tap2" data-sale="4">4.&nbsp;Commitment</span></tapSection><span class="horizontal_line"></span>
+                            <tapSection style="padding-right: 0;border: 0;margin-right: 0;"><span class="tap2" data-sale="5">5.&nbsp;Collaboration</span></tapSection>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -420,8 +519,8 @@
                     <i class="fa fa-star" style="position: absolute;left: 20px;top: 20px;color: #dfa212;" aria-hidden="true"></i>
                     <div class="row list">
                         <div class="col-12 col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
-                            <h4>Front-End Developer</h4>
-                            <p>Chennai</p>
+                            <h4 class="fontGraphikMedium">Front-End Developer</h4>
+                            <p class="fontLatoRegular">Chennai</p>
                         </div>
                         <div class="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4" style="display: flex;">
                             <button class="fontLatoBlack">APPLY NOW</button>
@@ -432,14 +531,93 @@
                     <i class="fa fa-star" style="position: absolute;left: 20px;top: 20px;color: #dfa212;" aria-hidden="true"></i>
                     <div class="row list">
                         <div class="col-12 col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
-                            <h4>Back-End Developer</h4>
-                            <p>Chennai</p>
+                            <h4 class="fontGraphikMedium">Back-End Developer</h4>
+                            <p class="fontLatoRegular" >Chennai</p>
                         </div>
                         <div class="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4" style="display: flex;">
                             <button class="fontLatoBlack">APPLY NOW</button>
                         </div>
                     </div>
                 </div>
+                <div style="padding-left: 60px;position: relative;">
+                    <i class="fa fa-star" style="position: absolute;left: 20px;top: 20px;color: #dfa212;" aria-hidden="true"></i>
+                    <div class="row list" style="background-image: none;">
+                        <div class="col-12 col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
+                            <h4 class="fontGraphikMedium">Full-Stack Developer</h4>
+                            <p class="fontLatoRegular" >Chennai</p>
+                        </div>
+                        <div class="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4" style="display: flex;">
+                            <button class="fontLatoBlack">APPLY NOW</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hiden_section_open_list">
+                <div style="padding-left: 60px;position: relative;">
+                    <i class="fa fa-star" style="position: absolute;left: 20px;top: 20px;color: #dfa212;" aria-hidden="true"></i>
+                    <div class="row list">
+                        <div class="col-12 col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
+                            <h4 class="fontGraphikMedium">DevOps Engineer</h4>
+                            <p class="fontLatoRegular" >Chennai</p>
+                        </div>
+                        <div class="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4" style="display: flex;">
+                            <button class="fontLatoBlack">APPLY NOW</button>
+                        </div>
+                    </div>
+                </div>
+                <div style="padding-left: 60px;position: relative;">
+                    <i class="fa fa-star" style="position: absolute;left: 20px;top: 20px;color: #dfa212;" aria-hidden="true"></i>
+                    <div class="row list">
+                        <div class="col-12 col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
+                            <h4 class="fontGraphikMedium">iOS Developer</h4>
+                            <p class="fontLatoRegular">Chennai</p>
+                        </div>
+                        <div class="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4" style="display: flex;">
+                            <button class="fontLatoBlack">APPLY NOW</button>
+                        </div>
+                    </div>
+                </div>
+                <div style="padding-left: 60px;position: relative;">
+                    <i class="fa fa-star" style="position: absolute;left: 20px;top: 20px;color: #dfa212;" aria-hidden="true"></i>
+                    <div class="row list">
+                        <div class="col-12 col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
+                            <h4 class="fontGraphikMedium">QA Specialist</h4>
+                            <p class="fontLatoRegular">Chennai</p>
+                        </div>
+                        <div class="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4" style="display: flex;">
+                            <button class="fontLatoBlack">APPLY NOW</button>
+                        </div>
+                    </div>
+                </div>
+                <div style="padding-left: 60px;position: relative;">
+                    <i class="fa fa-star" style="position: absolute;left: 20px;top: 20px;color: #dfa212;" aria-hidden="true"></i>
+                    <div class="row list">
+                        <div class="col-12 col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
+                            <h4 class="fontGraphikMedium">Content Writer</h4>
+                            <p class="fontLatoRegular">Chennai</p>
+                        </div>
+                        <div class="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4" style="display: flex;">
+                            <button class="fontLatoBlack">APPLY NOW</button>
+                        </div>
+                    </div>
+                </div>
+                <div style="padding-left: 60px;position: relative;">
+                    <i class="fa fa-star" style="position: absolute;left: 20px;top: 20px;color: #dfa212;" aria-hidden="true"></i>
+                    <div class="row list" style="background-image: none;">
+                        <div class="col-12 col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
+                            <h4 class="fontGraphikMedium">Visual Designer</h4>
+                            <p class="fontLatoRegular">Chennai</p>
+                        </div>
+                        <div class="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4" style="display: flex;">
+                            <button class="fontLatoBlack">APPLY NOW</button>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="read_more_list">
+                <p class="fontGraphikMedium show_all_jop_offers"  >Show All</p>
+                <p class="fontGraphikMedium show_close_jop_offers"  >Show Less</p>
             </div>
         </div>
     </section>
@@ -683,6 +861,38 @@
         
         lastScrollTop = st;
     }
+
+    $(".show_all_jop_offers").click(function(){
+       $(".hiden_section_open_list").css("height", "520px");
+       $(".show_close_jop_offers").css("display", "block");
+       $(this).css("display", "none");
+    });
+    $(".show_close_jop_offers").click(function(){
+       $(".hiden_section_open_list").css("height", "0px");
+       $(".show_all_jop_offers").css("display", "block");
+       $(this).css("display", "none");
+    });
+
+
+    $(".tap2").click(function(){
+        if($(this).hasClass('tap2')){
+            var index = $(this).data('sale');
+            $(".active_sale").addClass("tap2");
+            $(".tap2").removeClass("active_sale");
+            $(this).addClass("active_sale");
+            $(this).removeClass("tap2");
+            
+
+            $(".sale").addClass("inactive_cont");
+            $(".sale").removeClass("active_cont");
+
+            $(".sale"+index).removeClass("inactive_cont");
+            $(".sale"+index).css("display", "block");
+            setTimeout(function(){ 
+               $(".sale"+index).addClass("active_cont");
+            }, 300);
+        }
+    })
     
 </script>
 

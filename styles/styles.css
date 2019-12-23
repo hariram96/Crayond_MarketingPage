@@ -1,10 +1,6 @@
 @charset "UTF-8";
 body {
   overflow-x: hidden !important;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
 }
 
 .wrapper {

@@ -1,3 +1,68 @@
+header {
+  position: relative;
+  background-color: black;
+  height: 100vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.team_img {
+  width: 100%;
+  position: relative;
+  top: -38vh;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.3)));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3));
+  z-index: 1;
+}
+
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url("https://source.unsplash.com/XT5OInaElMw/1600x900") black no-repeat center center scroll;
+  }
+  header video {
+    display: none;
+  }
+}
+
+.active_cont {
+  display: block !important;
+  /* height: 400px !important; */
+  opacity: 1 !important;
+}
+
+.inactive_cont {
+  display: none !important;
+  /* height: 0px !important; */
+  opacity: 0 !important;
+}
+
 .floating_section {
   margin-top: -70px;
   z-index: 1;
@@ -239,7 +304,9 @@
   border-radius: 15px;
   border: solid 1px #e6e5e5;
   background-color: #ffffff;
-  padding: 46px;
+  padding: 46px 46px 0px 46px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
 
 .opportunities_section .data_row .list {
@@ -261,6 +328,12 @@
   margin-right: 0;
 }
 
+.opportunities_section .data_row .list button:hover {
+  border: solid 1px #6455c2;
+  background-color: #6455c2;
+  color: #fff;
+}
+
 .opportunities_section .data_row .list h4 {
   font-size: 24px;
   font-weight: 500;
@@ -279,5 +352,34 @@
   line-height: normal;
   letter-spacing: normal;
   color: #878787;
+}
+
+.opportunities_section .data_row .hiden_section_open_list {
+  overflow: hidden;
+  height: 0;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.opportunities_section .read_more_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 24px;
+  border: solid 1px #e6e5e5;
+  background-color: #fff;
+  border-top: none;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.opportunities_section .read_more_list p {
+  cursor: pointer;
+  margin: auto;
+  color: #675cd7;
+}
+
+.opportunities_section .read_more_list .show_close_jop_offers {
+  display: none;
 }
 /*# sourceMappingURL=opportunities.css.map */
