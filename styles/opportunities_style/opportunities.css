@@ -129,11 +129,16 @@ header .overlay {
 }
 
 .life_craoyond .row .culture:hover {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  margin-top: -10px;
   -webkit-box-shadow: 0 34px 24px 0 rgba(26, 26, 175, 0.03);
           box-shadow: 0 34px 24px 0 rgba(26, 26, 175, 0.03);
 }
 
 .life_craoyond .row .culture:hover .card_icon {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
   background-color: #1EAB8C !important;
 }
 
@@ -142,11 +147,16 @@ header .overlay {
 }
 
 .life_craoyond .row .learning:hover {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  margin-top: -10px;
   -webkit-box-shadow: 0 34px 24px 0 rgba(26, 26, 175, 0.03);
           box-shadow: 0 34px 24px 0 rgba(26, 26, 175, 0.03);
 }
 
 .life_craoyond .row .learning:hover .card_icon {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
   background-color: #334ac0 !important;
 }
 
@@ -159,11 +169,16 @@ header .overlay {
 }
 
 .life_craoyond .row .leadership:hover {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  margin-top: -10px;
   -webkit-box-shadow: 0 34px 24px 0 rgba(26, 26, 175, 0.03);
           box-shadow: 0 34px 24px 0 rgba(26, 26, 175, 0.03);
 }
 
 .life_craoyond .row .leadership:hover .card_icon {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
   background-color: #f3a530 !important;
 }
 
@@ -172,11 +187,16 @@ header .overlay {
 }
 
 .life_craoyond .row .ambience:hover {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  margin-top: -10px;
   -webkit-box-shadow: 0 34px 24px 0 rgba(26, 26, 175, 0.03);
           box-shadow: 0 34px 24px 0 rgba(26, 26, 175, 0.03);
 }
 
 .life_craoyond .row .ambience:hover .card_icon {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
   background-color: #e42d44 !important;
 }
 
@@ -189,11 +209,16 @@ header .overlay {
 }
 
 .life_craoyond .row .freedom:hover {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  margin-top: -10px;
   -webkit-box-shadow: 0 34px 24px 0 rgba(26, 26, 175, 0.03);
           box-shadow: 0 34px 24px 0 rgba(26, 26, 175, 0.03);
 }
 
 .life_craoyond .row .freedom:hover .card_icon {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
   background-color: #000 !important;
 }
 
@@ -226,6 +251,8 @@ header .overlay {
 }
 
 .life_craoyond .row .Rectangle_card_body .cont .card_icon {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
   border-radius: 50%;
   width: 109px;
   height: 109px;
@@ -381,5 +408,49 @@ header .overlay {
 
 .opportunities_section .read_more_list .show_close_jop_offers {
   display: none;
+}
+
+.next_billion .button_div .banner_button {
+  width: 240px;
+}
+
+.next_billion .button_div .mail_us {
+  background-color: transparent !important;
+  border: 1px solid !important;
+  margin-right: 30px;
+}
+
+@media only screen and (max-width: 767px) {
+  .life_craoyond {
+    padding-top: 10%;
+  }
+  .life_craoyond .text {
+    margin-bottom: 160px;
+    text-align: center;
+  }
+  .life_craoyond .text .flag span {
+    position: absolute;
+    color: #fff;
+    padding: 4px 0px 0px 16px;
+  }
+  .life_craoyond .text .description {
+    color: #878787;
+    padding-top: 16px;
+    font-size: 22px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+  }
+  .life_craoyond .row {
+    padding-bottom: 10%;
+  }
+  .life_craoyond .row .container {
+    display: flow-root;
+  }
+  .life_craoyond .row .Rectangle_card_body {
+    margin: auto auto 24px auto;
+  }
 }
 /*# sourceMappingURL=opportunities.css.map */

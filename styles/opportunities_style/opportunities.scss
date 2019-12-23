@@ -125,8 +125,11 @@ header {
         }
         .culture{
             &:hover{
+                transition: all 0.5s;
+                margin-top: -10px;
                 box-shadow: 0 34px 24px 0 rgba(26, 26, 175, 0.03);
                 .card_icon{
+                    transition: all 0.5s;
                     background-color: #1EAB8C !important;
                     svg{
                         path{
@@ -138,8 +141,11 @@ header {
         }
         .learning{
             &:hover{
+                transition: all 0.5s;
+                margin-top: -10px;
                 box-shadow: 0 34px 24px 0 rgba(26, 26, 175, 0.03);
                 .card_icon{
+                    transition: all 0.5s;
                     background-color: #334ac0 !important;
                 .active{
                     display: unset !important;
@@ -152,8 +158,11 @@ header {
         }
         .leadership{
             &:hover{
+                transition: all 0.5s;
+                margin-top: -10px;
                 box-shadow: 0 34px 24px 0 rgba(26, 26, 175, 0.03);
                 .card_icon{
+                    transition: all 0.5s;
                     background-color: #f3a530 !important;
                     svg{
                         g{
@@ -165,8 +174,11 @@ header {
         }
         .ambience{
             &:hover{
+                transition: all 0.5s;
+                margin-top: -10px;
                 box-shadow: 0 34px 24px 0 rgba(26, 26, 175, 0.03);
                 .card_icon{
+                    transition: all 0.5s;
                     background-color: #e42d44 !important;
                     .active{
                         display: unset !important;
@@ -179,8 +191,11 @@ header {
         }
         .freedom{
             &:hover{
+                transition: all 0.5s;
+                margin-top: -10px;
                 box-shadow: 0 34px 24px 0 rgba(26, 26, 175, 0.03);
                 .card_icon{
+                    transition: all 0.5s;
                     background-color: #000 !important;
                     .active{
                         display: unset !important;
@@ -208,6 +223,7 @@ header {
             .cont{
                 margin: auto;
             .card_icon{
+                transition: all 0.5s;
                 // background-color: red;
                 border-radius: 50%;
                 width: 109px;
@@ -349,4 +365,89 @@ header {
             display: none;
         }
     }
+}
+
+
+.next_billion{
+    .button_div{
+        .banner_button{
+            width: 240px;
+        }
+        .mail_us{
+            background-color: transparent !important;
+            border: 1px solid !important;
+            margin-right: 30px;
+        }
+    }
+}
+
+
+
+// All media qurys
+
+@media only screen and (min-width: 1200px){
+
+}
+
+// Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+
+}
+
+// Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+}
+
+// Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
+}
+
+@media only screen and (max-width: 768px){
+
+}
+
+// Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 767px){
+
+    .life_craoyond{
+        padding-top: 10%;
+        .text{
+            margin-bottom: 160px;
+            text-align: center;
+            .flag{
+                span{
+                    position: absolute;
+                    color: #fff;
+                    padding: 4px 0px 0px 16px;
+                }
+            }
+            .description{
+                color: #878787;
+                padding-top: 16px;
+                font-size: 22px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 2;
+                letter-spacing: normal;
+            }
+        }
+        .row{
+            padding-bottom: 10%;
+            .container{
+                display: flow-root;
+            }
+
+            .Rectangle_card_body{
+               margin: auto auto 24px auto;
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width: 321px){
+
 }
