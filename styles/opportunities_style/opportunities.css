@@ -40,18 +40,9 @@ header .overlay {
   left: 0;
   height: 100%;
   width: 100%;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.3)));
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3));
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0)));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
   z-index: 1;
-}
-
-@media (pointer: coarse) and (hover: none) {
-  header {
-    background: url("../../images/team.JPG") black no-repeat center center scroll;
-  }
-  header video {
-    display: none;
-  }
 }
 
 .active_cont {
@@ -450,6 +441,8 @@ header .overlay {
   }
   header .team_img {
     top: 0px;
+  }
+  header .mobile_title {
     display: unset !important;
   }
   .floating_section .floatr_card h1 {
@@ -462,13 +455,15 @@ header .overlay {
 
 @media only screen and (max-width: 767px) {
   header {
-    height: unset;
+    height: 100vh;
     min-height: -webkit-fit-content;
     min-height: -moz-fit-content;
     min-height: fit-content;
   }
   header .team_img {
     top: 0px;
+  }
+  header .mobile_title {
     display: unset !important;
   }
   .floating_section {
@@ -479,6 +474,7 @@ header .overlay {
   }
   .floating_section .floatr_card h1 {
     font-size: 34px;
+    display: none;
   }
   .floating_section .floatr_card .banner--des {
     font-size: 18px;

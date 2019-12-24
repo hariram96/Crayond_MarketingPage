@@ -1,21 +1,21 @@
 header {
-    position: relative;
-    background-color: black;
-    height: 100vh;
-    min-height: 25rem;
-    width: 100%;
-    overflow: hidden;
+        position: relative;
+        background-color: black;
+        height: 100vh;
+        min-height: 25rem;
+        width: 100%;
+        overflow: hidden;
 
-    background-position: center;
-    background-size: cover;
-    background-image: url(../../images/team.JPG);
+        background-position: center;
+        background-size: cover;
+        background-image: url(../../images/team.JPG);
     }
     .team_img{
         width: 100%;
         position: relative;
         top: -24vh;
     }
-
+    
     header video {
     position: absolute;
     top: 50%;
@@ -42,20 +42,20 @@ header {
     left: 0;
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3));
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
     // background-color: black;
     // opacity: 0.5;
     z-index: 1;
     }
 
-    @media (pointer: coarse) and (hover: none) {
-    header {
-        background: url('../../images/team.JPG') black no-repeat center center scroll;
-    }
-    header video {
-        display: none;
-    }
-    }
+    // @media (pointer: coarse) and (hover: none) {
+    // header {
+    //     background: url('../../images/team.JPG') black no-repeat center center scroll;
+    // }
+    // header video {
+    //     display: none;
+    // }
+    // }
 
     .active_cont{
         display: block !important;
@@ -429,6 +429,9 @@ header {
         min-height: fit-content;
         .team_img{
             top: 0px;
+            // display: unset !important;
+        }
+        .mobile_title{
             display: unset !important;
         }
     }
@@ -449,10 +452,13 @@ header {
 // Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 767px){
     header{
-        height: unset;
+        height: 100vh;
         min-height: fit-content;
         .team_img{
             top: 0px;
+            // display: unset !important;
+        }
+        .mobile_title{
             display: unset !important;
         }
     }
@@ -463,6 +469,7 @@ header {
             padding: 12% 30px;
             h1{
                 font-size: 34px;
+                display: none;
             }
             .banner--des{
                 font-size: 18px;
