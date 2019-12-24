@@ -5,6 +5,10 @@ header {
     min-height: 25rem;
     width: 100%;
     overflow: hidden;
+
+    background-position: center;
+    background-size: cover;
+    background-image: url(../../images/team.JPG);
     }
     .team_img{
         width: 100%;
@@ -425,6 +429,7 @@ header {
         min-height: fit-content;
         .team_img{
             top: 0px;
+            display: unset !important;
         }
     }
 
@@ -448,6 +453,7 @@ header {
         min-height: fit-content;
         .team_img{
             top: 0px;
+            display: unset !important;
         }
     }
 
