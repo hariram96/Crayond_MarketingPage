@@ -10,7 +10,7 @@ header {
 .team_img {
   width: 100%;
   position: relative;
-  top: -38vh;
+  top: -24vh;
 }
 
 header video {
@@ -44,7 +44,7 @@ header .overlay {
 
 @media (pointer: coarse) and (hover: none) {
   header {
-    background: url("https://source.unsplash.com/XT5OInaElMw/1600x900") black no-repeat center center scroll;
+    background: url("../../images/team.JPG") black no-repeat center center scroll;
   }
   header video {
     display: none;
@@ -61,6 +61,21 @@ header .overlay {
   display: none !important;
   /* height: 0px !important; */
   opacity: 0 !important;
+}
+
+.why_us .five_c {
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  padding: 40px 16px;
+}
+
+.why_us .five_c .img_section {
+  padding-right: 40px;
+  margin: auto;
+  border-radius: 6px;
 }
 
 .floating_section {
@@ -114,12 +129,15 @@ header .overlay {
   letter-spacing: normal;
 }
 
-.life_craoyond .row {
+.life_craoyond .row_s {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   background-color: #f4f9f9;
   padding-bottom: 8%;
 }
 
-.life_craoyond .row .container {
+.life_craoyond .row_s .container {
   margin-top: -110px;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
@@ -128,7 +146,7 @@ header .overlay {
   display: flex;
 }
 
-.life_craoyond .row .culture:hover {
+.life_craoyond .row_s .culture:hover {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   margin-top: -10px;
@@ -136,17 +154,17 @@ header .overlay {
           box-shadow: 0 34px 24px 0 rgba(26, 26, 175, 0.03);
 }
 
-.life_craoyond .row .culture:hover .card_icon {
+.life_craoyond .row_s .culture:hover .card_icon {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   background-color: #1EAB8C !important;
 }
 
-.life_craoyond .row .culture:hover .card_icon svg path {
+.life_craoyond .row_s .culture:hover .card_icon svg path {
   stroke: #fff !important;
 }
 
-.life_craoyond .row .learning:hover {
+.life_craoyond .row_s .learning:hover {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   margin-top: -10px;
@@ -154,21 +172,21 @@ header .overlay {
           box-shadow: 0 34px 24px 0 rgba(26, 26, 175, 0.03);
 }
 
-.life_craoyond .row .learning:hover .card_icon {
+.life_craoyond .row_s .learning:hover .card_icon {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   background-color: #334ac0 !important;
 }
 
-.life_craoyond .row .learning:hover .card_icon .active {
+.life_craoyond .row_s .learning:hover .card_icon .active {
   display: unset !important;
 }
 
-.life_craoyond .row .learning:hover .card_icon .in_active {
+.life_craoyond .row_s .learning:hover .card_icon .in_active {
   display: none;
 }
 
-.life_craoyond .row .leadership:hover {
+.life_craoyond .row_s .leadership:hover {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   margin-top: -10px;
@@ -176,17 +194,17 @@ header .overlay {
           box-shadow: 0 34px 24px 0 rgba(26, 26, 175, 0.03);
 }
 
-.life_craoyond .row .leadership:hover .card_icon {
+.life_craoyond .row_s .leadership:hover .card_icon {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   background-color: #f3a530 !important;
 }
 
-.life_craoyond .row .leadership:hover .card_icon svg g {
+.life_craoyond .row_s .leadership:hover .card_icon svg g {
   fill: #fff !important;
 }
 
-.life_craoyond .row .ambience:hover {
+.life_craoyond .row_s .ambience:hover {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   margin-top: -10px;
@@ -194,21 +212,21 @@ header .overlay {
           box-shadow: 0 34px 24px 0 rgba(26, 26, 175, 0.03);
 }
 
-.life_craoyond .row .ambience:hover .card_icon {
+.life_craoyond .row_s .ambience:hover .card_icon {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   background-color: #e42d44 !important;
 }
 
-.life_craoyond .row .ambience:hover .card_icon .active {
+.life_craoyond .row_s .ambience:hover .card_icon .active {
   display: unset !important;
 }
 
-.life_craoyond .row .ambience:hover .card_icon .in_active {
+.life_craoyond .row_s .ambience:hover .card_icon .in_active {
   display: none;
 }
 
-.life_craoyond .row .freedom:hover {
+.life_craoyond .row_s .freedom:hover {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   margin-top: -10px;
@@ -216,21 +234,21 @@ header .overlay {
           box-shadow: 0 34px 24px 0 rgba(26, 26, 175, 0.03);
 }
 
-.life_craoyond .row .freedom:hover .card_icon {
+.life_craoyond .row_s .freedom:hover .card_icon {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   background-color: #000 !important;
 }
 
-.life_craoyond .row .freedom:hover .card_icon .active {
+.life_craoyond .row_s .freedom:hover .card_icon .active {
   display: unset !important;
 }
 
-.life_craoyond .row .freedom:hover .card_icon .in_active {
+.life_craoyond .row_s .freedom:hover .card_icon .in_active {
   display: none;
 }
 
-.life_craoyond .row .Rectangle_card_body {
+.life_craoyond .row_s .Rectangle_card_body {
   width: 226px;
   height: 350px;
   display: -webkit-box;
@@ -246,11 +264,11 @@ header .overlay {
   transition: all 0.5s;
 }
 
-.life_craoyond .row .Rectangle_card_body .cont {
+.life_craoyond .row_s .Rectangle_card_body .cont {
   margin: auto;
 }
 
-.life_craoyond .row .Rectangle_card_body .cont .card_icon {
+.life_craoyond .row_s .Rectangle_card_body .cont .card_icon {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   border-radius: 50%;
@@ -264,15 +282,15 @@ header .overlay {
   margin-bottom: 30px;
 }
 
-.life_craoyond .row .Rectangle_card_body .cont .card_icon img {
+.life_craoyond .row_s .Rectangle_card_body .cont .card_icon img {
   margin: auto;
 }
 
-.life_craoyond .row .Rectangle_card_body .cont .card_icon svg {
+.life_craoyond .row_s .Rectangle_card_body .cont .card_icon svg {
   margin: auto;
 }
 
-.life_craoyond .row .Rectangle_card_body .cont .card-text {
+.life_craoyond .row_s .Rectangle_card_body .cont .card-text {
   font-size: 20px;
   font-weight: 600;
   font-stretch: normal;
@@ -420,37 +438,132 @@ header .overlay {
   margin-right: 30px;
 }
 
+@media only screen and (max-width: 768px) {
+  header {
+    height: unset;
+    min-height: -webkit-fit-content;
+    min-height: -moz-fit-content;
+    min-height: fit-content;
+  }
+  header .team_img {
+    top: 0px;
+  }
+  .floating_section .floatr_card h1 {
+    font-size: 32px;
+  }
+  .floating_section .floatr_card .banner--des {
+    font-size: 19px;
+  }
+}
+
 @media only screen and (max-width: 767px) {
-  .life_craoyond {
-    padding-top: 10%;
+  header {
+    height: unset;
+    min-height: -webkit-fit-content;
+    min-height: -moz-fit-content;
+    min-height: fit-content;
+  }
+  header .team_img {
+    top: 0px;
+  }
+  .floating_section {
+    margin-top: 0px;
+  }
+  .floating_section .floatr_card {
+    padding: 12% 30px;
+  }
+  .floating_section .floatr_card h1 {
+    font-size: 34px;
+  }
+  .floating_section .floatr_card .banner--des {
+    font-size: 18px;
+  }
+  .life_craoyond .container {
+    padding-right: 35px;
+    padding-left: 35px;
   }
   .life_craoyond .text {
     margin-bottom: 160px;
     text-align: center;
   }
-  .life_craoyond .text .flag span {
-    position: absolute;
-    color: #fff;
-    padding: 4px 0px 0px 16px;
+  .life_craoyond .text h1 {
+    font-size: 30px;
   }
   .life_craoyond .text .description {
-    color: #878787;
-    padding-top: 16px;
-    font-size: 22px;
-    font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 2;
-    letter-spacing: normal;
+    font-size: 18px;
   }
-  .life_craoyond .row {
+  .life_craoyond .row_s {
     padding-bottom: 10%;
   }
-  .life_craoyond .row .container {
+  .life_craoyond .row_s .container {
     display: flow-root;
   }
-  .life_craoyond .row .Rectangle_card_body {
+  .life_craoyond .row_s .Rectangle_card_body {
     margin: auto auto 24px auto;
+    width: 100%;
+    height: 275px;
+  }
+  .why_us .five_c {
+    padding: 5% 16px 0px 16px;
+  }
+  .why_us .five_c .img_section {
+    padding-right: 0px;
+  }
+  .why_us .five_c .section_content {
+    min-height: 580px !important;
+    padding-top: 30px;
+  }
+  .why_us .five_c .section_content .flag {
+    margin: auto auto 24px auto;
+  }
+  .why_us .five_c .text_para {
+    text-align: justify;
+  }
+  .look_ambience {
+    padding-top: 12%;
+    padding-bottom: 8%;
+  }
+  .look_ambience .text {
+    text-align: center;
+    margin-bottom: 8%;
+  }
+  .look_ambience .text h1 {
+    font-size: 30px;
+  }
+  .look_ambience .image_div {
+    padding: 3px;
+  }
+  .opportunities_section {
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+  .opportunities_section .text h1 {
+    font-size: 30px;
+  }
+  .opportunities_section .text .banner--des {
+    font-size: 18px;
+  }
+  .opportunities_section .data_row {
+    padding: 20px 20px 0px 20px;
+  }
+  .opportunities_section .data_row .list button {
+    padding: 8px 20px;
+    margin: auto;
+    margin-left: 0;
+    font-size: 12px;
+  }
+  .opportunities_section .data_row .list h4 {
+    font-size: 18px;
+  }
+  .opportunities_section .data_row .list p {
+    font-size: 16px;
+  }
+  .next_billion .button_div .banner_button {
+    width: 240px;
+  }
+  .next_billion .button_div .mail_us {
+    margin-right: 0px;
+    margin-bottom: 20px;
   }
 }
 /*# sourceMappingURL=opportunities.css.map */
