@@ -71,8 +71,11 @@ header {
 
 .why_us{
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 2%, rgba(72, 35, 163, 0.02) 98%);
+    .section_content {
+        min-height: 540px !important;
+    }
     .five_c{
-        background-color: #fff;
+        background-color: transparent !important;
         display: flex;
         min-height: 100vh;
         padding: 40px 16px;
@@ -319,6 +322,10 @@ header {
         padding: 46px 46px 0px 46px;
         border-bottom-left-radius: 0px;
         border-bottom-right-radius: 0px;
+        .list_of_jobs{
+            padding-left: 60px;
+            position: relative;
+        }
         .list{
 
             padding: 14px 0px;
@@ -711,6 +718,35 @@ header {
             }
         }
         .data_row{
+            .list_of_jobs{
+                padding-left: 30px;
+            }
+            // .hiden_section_open_list{
+            //     height: 450px;
+            // }
+            i{
+                left: 6px !important;
+                top: 15px !important;
+            }
+            button{
+                display: none;
+            }
+            .apply_arrow{
+                cursor: pointer;
+                display: block !important;
+                position: absolute;
+                top: 20px;
+                right: 0px;
+                background-color: rgba(103, 92, 215, 0.11);
+                padding: 8px 16px;
+                border-radius: 50px;
+                &:hover{
+                    background-color: #675cd7;
+                    path{
+                        stroke: #fff;
+                    }
+                }
+            }
             padding: 20px 20px 0px 20px;
             .list{
                 button{
@@ -744,5 +780,14 @@ header {
 }
 
 @media only screen and (max-width: 321px){
-
+    .opportunities_section{
+        .list{
+            h4{
+                font-size: 14px !important;
+            }
+            p{
+                font-size: 13px !important;
+            }
+        }
+    }
 }
