@@ -7,13 +7,6 @@ header {
   overflow: hidden;
   background-position: center;
   background-size: cover;
-  background-image: url("../../images/team.webp");
-}
-
-@media screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
-  header {
-    background-image: url("../../images/team.JPG");
-  }
 }
 
 .team_img {
@@ -49,6 +42,14 @@ header .overlay {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0)));
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
   z-index: 1;
+}
+
+.no-webp header {
+  background-image: url("../../images/team.JPG");
+}
+
+.webp header {
+  background-image: url("../../images/team.webp");
 }
 
 @-webkit-keyframes yourAnimation {

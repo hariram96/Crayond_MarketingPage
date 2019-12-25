@@ -37,7 +37,7 @@ header {
         background-position: center;
         background-size: cover;
 
-        @include bg-url($url,$url2x);
+        // @include bg-url($url2x,$url);
         // background-image: url($url);
         // background-image: url($url2x);
 
@@ -82,6 +82,15 @@ header {
     // opacity: 0.5;
     z-index: 1;
     }
+
+
+    .no-webp header {
+        background-image: url('../../images/team.JPG');
+    }
+    
+    .webp header {
+        background-image: url('../../images/team.webp');
+    }      
 
     // @media (pointer: coarse) and (hover: none) {
     // header {
