@@ -10,6 +10,12 @@ header {
   background-image: url("../../images/team.webp");
 }
 
+@media screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
+  header {
+    background-image: url("../../images/team.JPG");
+  }
+}
+
 .team_img {
   width: 100%;
   position: relative;
