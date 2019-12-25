@@ -7,7 +7,7 @@ header {
   overflow: hidden;
   background-position: center;
   background-size: cover;
-  background-image: url(../../images/team.JPG);
+  background-image: url("../../images/team.webp");
 }
 
 .team_img {
@@ -45,6 +45,90 @@ header .overlay {
   z-index: 1;
 }
 
+@-webkit-keyframes yourAnimation {
+  0% {
+    -webkit-transform: scale(1) translateX(520px);
+            transform: scale(1) translateX(520px);
+  }
+  15% {
+    -webkit-transform: scale(1) translateX(420px);
+            transform: scale(1) translateX(420px);
+  }
+  38% {
+    -webkit-transform: scale(1) translateX(320px);
+            transform: scale(1) translateX(320px);
+  }
+  63% {
+    -webkit-transform: scale(1) translateX(220px);
+            transform: scale(1) translateX(220px);
+  }
+  87% {
+    -webkit-transform: rotate(xx) scale(1) translateX(120px);
+            transform: rotate(xx) scale(1) translateX(120px);
+  }
+  96% {
+    -webkit-transform: rotate(xx) scale(1) translateX(100px);
+            transform: rotate(xx) scale(1) translateX(100px);
+  }
+  100% {
+    -webkit-transform: rotate(xx) scale(1) translateX(0px);
+            transform: rotate(xx) scale(1) translateX(0px);
+  }
+}
+
+@keyframes yourAnimation {
+  0% {
+    -webkit-transform: scale(1) translateX(520px);
+            transform: scale(1) translateX(520px);
+  }
+  15% {
+    -webkit-transform: scale(1) translateX(420px);
+            transform: scale(1) translateX(420px);
+  }
+  38% {
+    -webkit-transform: scale(1) translateX(320px);
+            transform: scale(1) translateX(320px);
+  }
+  63% {
+    -webkit-transform: scale(1) translateX(220px);
+            transform: scale(1) translateX(220px);
+  }
+  87% {
+    -webkit-transform: rotate(xx) scale(1) translateX(120px);
+            transform: rotate(xx) scale(1) translateX(120px);
+  }
+  96% {
+    -webkit-transform: rotate(xx) scale(1) translateX(100px);
+            transform: rotate(xx) scale(1) translateX(100px);
+  }
+  100% {
+    -webkit-transform: rotate(xx) scale(1) translateX(0px);
+            transform: rotate(xx) scale(1) translateX(0px);
+  }
+}
+
+@-webkit-keyframes imageAnimation {
+  0% {
+    -webkit-transform: rotate(xx);
+            transform: rotate(xx);
+    opacity: 0.16;
+  }
+  1% {
+    opacity: 0;
+  }
+}
+
+@keyframes imageAnimation {
+  0% {
+    -webkit-transform: rotate(xx);
+            transform: rotate(xx);
+    opacity: 0.16;
+  }
+  1% {
+    opacity: 0;
+  }
+}
+
 .active_cont {
   display: block !important;
   /* height: 400px !important; */
@@ -64,6 +148,22 @@ header .overlay {
 
 .why_us .section_content {
   min-height: 540px !important;
+  display: none;
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+  opacity: 0;
+  overflow: auto;
+  overflow-y: hidden;
+}
+
+.why_us .slider_animation {
+  -webkit-animation: yourAnimation 1.3s 1 0s linear;
+          animation: yourAnimation 1.3s 1 0s linear;
+}
+
+.why_us .image_animation {
+  -webkit-animation: imageAnimation 2s 1 0s linear;
+          animation: imageAnimation 2s 1 0s linear;
 }
 
 .why_us .five_c {

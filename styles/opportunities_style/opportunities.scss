@@ -1,3 +1,31 @@
+$url2x: "../../images/team.JPG";
+$url : "../../images/team.webp";
+
+
+@mixin bg-url($url, $url2x: false, $webp1x: false, $webp2x: false) {
+    background-image: url($url);
+    @if $webp1x {
+      .webp & {
+        background-image: url($webp1x);
+      }
+    }
+    // @if $url2x {
+    //   @media
+    //   screen and (-webkit-min-device-pixel-ratio: 2),
+    //   screen and (min-resolution: 192dpi),
+    //   screen and (min-resolution: 2dppx) {
+    //     background-image: url($url2x);
+    //     @if $webp2x {
+    //       .webp & {
+    //         background-image: url($webp2x);
+    //       }
+    //     }
+    //   }
+    // }
+  }          
+  
+
+  
 header {
         position: relative;
         background-color: #00000061;
@@ -8,7 +36,14 @@ header {
 
         background-position: center;
         background-size: cover;
-        background-image: url(../../images/team.JPG);
+
+        @include bg-url($url,$url2x);
+        // background-image: url($url);
+        // background-image: url($url2x);
+
+
+
+        
     }
     .team_img{
         width: 100%;
@@ -57,6 +92,43 @@ header {
     // }
     // }
 
+
+    @keyframes yourAnimation{
+        0%{
+            transform: scale(1) translateX(520px);
+            }
+        15%{
+            transform: scale(1) translateX(420px);
+            }
+        38%{
+            transform: scale(1) translateX(320px);
+            }
+        63%{
+            transform: scale(1) translateX(220px);
+            }
+        87%{
+            transform: rotate(xx) scale(1) translateX(120px);
+            }
+        96%{
+            transform: rotate(xx) scale(1) translateX(100px);
+            }
+        100%{
+            transform: rotate(xx) scale(1) translateX(0px);
+            }
+    }    
+
+
+    @keyframes imageAnimation{
+        0%{
+            transform: rotate(xx);
+            opacity: 0.16;
+            }
+        1%{
+            opacity: 0;
+            }
+    }
+    
+
     .active_cont{
         display: block !important;
         /* height: 400px !important; */
@@ -73,6 +145,13 @@ header {
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 2%, rgba(72, 35, 163, 0.02) 98%);
     .section_content {
         min-height: 540px !important;
+        display: none;transition: all 0.7s;opacity: 0;overflow: auto;overflow-y: hidden;
+    }
+    .slider_animation{
+        animation: yourAnimation 1.3s 1 0s linear;
+    }
+    .image_animation{
+        animation: imageAnimation 2s 1 0s linear;
     }
     .five_c{
         background-color: transparent !important;
