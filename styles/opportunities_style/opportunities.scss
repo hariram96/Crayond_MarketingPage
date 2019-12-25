@@ -5,7 +5,7 @@ $url : "../../images/team.webp";
 @mixin bg-url($url, $url2x: false, $webp1x: false, $webp2x: false) {
     background-image: url($url);
     @if $webp1x {
-      .webp & {
+      header & {
         background-image: url($webp1x);
       }
     }
@@ -16,7 +16,7 @@ $url : "../../images/team.webp";
       screen and (min-resolution: 2dppx) {
         background-image: url($url2x);
         @if $webp2x {
-          .webp & {
+        header & {
             background-image: url($webp2x);
           }
         }
