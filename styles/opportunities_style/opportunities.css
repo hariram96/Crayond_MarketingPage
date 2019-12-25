@@ -1,6 +1,6 @@
 header {
   position: relative;
-  background-color: black;
+  background-color: #00000061;
   height: 100vh;
   min-height: 25rem;
   width: 100%;
@@ -434,7 +434,7 @@ header .overlay {
 
 @media only screen and (max-width: 768px) {
   header {
-    height: unset;
+    height: 100vh;
     min-height: -webkit-fit-content;
     min-height: -moz-fit-content;
     min-height: fit-content;
@@ -442,14 +442,39 @@ header .overlay {
   header .team_img {
     top: 0px;
   }
-  header .mobile_title {
-    display: unset !important;
-  }
   .floating_section .floatr_card h1 {
     font-size: 32px;
   }
   .floating_section .floatr_card .banner--des {
     font-size: 19px;
+  }
+  .life_craoyond .text {
+    margin-bottom: 160px;
+    text-align: center;
+  }
+  .life_craoyond .text h1 {
+    font-size: 32px;
+  }
+  .life_craoyond .text .description {
+    font-size: 18px;
+  }
+  .life_craoyond .row_s .Rectangle_card_body {
+    width: 100%;
+    height: 200px;
+  }
+  .life_craoyond .row_s .Rectangle_card_body .cont .card_icon {
+    margin-bottom: 16px;
+    width: 60px;
+    height: 60px;
+  }
+  .life_craoyond .row_s .Rectangle_card_body .cont .card_icon svg {
+    width: 24px;
+  }
+  .life_craoyond .row_s .Rectangle_card_body .cont .card_icon img {
+    width: 24px;
+  }
+  .life_craoyond .row_s .Rectangle_card_body .cont .card-text {
+    font-size: 16px;
   }
 }
 
@@ -462,6 +487,9 @@ header .overlay {
   }
   header .team_img {
     top: 0px;
+  }
+  header .text-white {
+    padding-top: 10vh;
   }
   header .mobile_title {
     display: unset !important;
