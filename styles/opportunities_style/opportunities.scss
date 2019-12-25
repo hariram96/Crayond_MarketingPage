@@ -70,6 +70,7 @@ header {
     }
 
 .why_us{
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 2%, rgba(72, 35, 163, 0.02) 98%);
     .five_c{
         background-color: #fff;
         display: flex;
@@ -414,6 +415,93 @@ header {
 
 // Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) and (max-width: 991px){
+    header{
+        height: 100vh;
+        min-height: fit-content;
+        .team_img{
+            top: 0px;
+            // display: unset !important;
+        }
+        .mobile_title{
+            // display: unset !important;
+        }
+    }
+
+    .floating_section{
+        .floatr_card{
+            h1{
+                font-size: 32px;
+            }
+            .banner--des{
+                font-size: 19px;
+            }
+        }
+    }
+
+    .life_craoyond{
+        .text{
+            margin-bottom: 160px;
+            text-align: center;
+            h1{
+                font-size: 32px;
+            }
+            .description{
+                font-size: 18px;
+            }
+        }
+
+        .row_s{
+            .Rectangle_card_body{
+                width: 100%;
+                height: 200px;
+                .cont{
+                    .card_icon{
+                        margin-bottom: 16px;
+                        width: 60px;
+                        height: 60px;
+                        svg{
+                            width: 24px;
+                        }
+                        img{
+                            width: 24px;
+                        }
+                    }
+                    .card-text{
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+    .why_us{
+        .five_c{
+            .img_section{
+                padding-right: 0px;
+            }
+            .section_content{
+                min-height: 540px !important;
+                padding-top: 30px;
+            }
+        }
+    }
+    .look_ambience{
+        .text{
+            h1{
+                font-size: 32px;
+            }
+        }
+    }
+
+    .opportunities_section{
+        .text{
+            h1{
+                font-size: 32px;
+            }
+            .banner--des{
+                font-size: 18px;
+            }
+        }
+    }
 
 }
 
@@ -482,6 +570,36 @@ header {
             }
         }
     }
+    .why_us{
+        .five_c{
+            .img_section{
+                padding-right: 0px;
+            }
+            .section_content{
+                min-height: 540px !important;
+                padding-top: 30px;
+            }
+        }
+    }
+    .look_ambience{
+        .text{
+            h1{
+                font-size: 32px;
+            }
+        }
+    }
+
+    .opportunities_section{
+        .text{
+            h1{
+                font-size: 32px;
+            }
+            .banner--des{
+                font-size: 18px;
+            }
+        }
+    }
+
 
 }
 
@@ -580,6 +698,8 @@ header {
     }
 
     .opportunities_section{
+        padding-left: 16px;
+        padding-right: 16px;
         padding-top: 10%;
         padding-bottom: 10%;
         .text{
