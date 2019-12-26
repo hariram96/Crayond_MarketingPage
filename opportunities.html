@@ -565,7 +565,7 @@
                             <p class="fontLatoRegular" >Chennai</p>
                         </div>
                         <div class="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4" style="display: flex;">
-                            <button class="fontLatoBlack" onclick="window.fcWidget.open();window.fcWidget.show();">Write to Us</button>
+                            <button class="fontLatoBlack" onclick="window.fcWidget.open();window.fcWidget.show();">WRITE TO US</button>
                         </div>
                     </div>
                     <span class="apply_arrow" style="display: none;" onclick="window.fcWidget.open();window.fcWidget.show();">
@@ -599,7 +599,7 @@
                             <p class="fontLatoRegular">Chennai</p>
                         </div>
                         <div class="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4" style="display: flex;">
-                            <button class="fontLatoBlack" onclick="window.fcWidget.open();window.fcWidget.show();">Write to Us</button>
+                            <button class="fontLatoBlack" onclick="window.fcWidget.open();window.fcWidget.show();">WRITE TO US</button>
                         </div>
                     </div>
                     <span class="apply_arrow" style="display: none;" onclick="window.fcWidget.open();window.fcWidget.show();">
@@ -652,6 +652,37 @@
     </section>
     <!-- end -->
 
+    <!-- life@crayond -->
+    <div class="current_opening">
+    <div class="col-md-12 col-sm-12 col-xs-12 contact">
+        <!-- <div class="container"> -->
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 box_info">
+            <span class="image_box">
+              <span class="life_icon">
+                <img alt="shape" src="./images/send-mail-red.svg">
+              </span>
+              <div class="life_text">
+                <p class="discription_life fontLatoRegular">OR EMAIL YOUR RESUME, WE'LL FIGURE OUT WHERE YOU FIT IN</p>
+                <span style="font-size: 20px"><a href="mailto:life@crayond.com?Subject=Hey" target="_top" class="fontGraphikMedium">life@crayond.com</a></span>
+              </div>
+            </span>
+          </div>
+        <!-- </div> -->
+       </div>
+       </div>
+    <!-- <section class="life_crayond">
+        <div class="container">
+            <div class="col-12  col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <span></span>
+                <div class="life_text">
+                    <p class="discription_life fontLatoRegular">OR EMAIL YOUR RESUME, WE'LL FIGURE OUT WHERE YOU FIT IN</p>
+                    <span style="font-size: 20px"><a href="mailto:life@crayond.com?Subject=Hey" target="_top" class="fontGraphikMedium">life@crayond.com</a></span>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- end -->
+
 
     <!-- next_billion -->
     <section class="next_billion">
@@ -665,11 +696,11 @@
                 </p>
             </div>
             <div class="col-12 col-xs-12 col-ms-12 col-md-12 col-lg-12 col-xl-12 button_div">
-                <button class="banner_button fontLatoBlack mail_us" onclick="window.open('mailto:crayond@life.com?subject=Job Application');">
+                <!-- <button class="banner_button fontLatoBlack mail_us" onclick="window.open('mailto:crayond@life.com?subject=Job Application');">
                     <span> MAIL US &nbsp<i class="fa fa-chevron-right" aria-hidden="true"></i></span>
-                </button>
-                <button class="banner_button fontLatoBlack" onclick="window.location.href = './contact'">
-                    <span> JOIN NOW &nbsp<i class="fa fa-chevron-right" aria-hidden="true"></i></span>
+                </button> -->
+                <button class="banner_button fontLatoBlack" onclick="window.fcWidget.open();window.fcWidget.show();">
+                    <span> APPLY NOW &nbsp<i class="fa fa-chevron-right" aria-hidden="true"></i></span>
                 </button>
             </div>
         </div>
@@ -926,6 +957,50 @@
             }, 300);
         }
     })
+    
+    $.fn.isInViewport = function() {
+        var elementTop = $(this).offset().top;
+        var elementBottom = elementTop + $(this).outerHeight();
+
+        var viewportTop = $(window).scrollTop();
+        var viewportBottom = viewportTop + $(window).height();
+
+        return elementBottom > viewportTop && elementTop < viewportBottom;
+    };
+
+    $(window).on('scroll', function() {
+          if ($('.scroll_styles').isInViewport()) {
+            //   clearTimeout(myVar);
+            //   alert("f")
+          }
+        });
+
+    var a = $(".scroll_styles").find('tapSection');
+    // window.addEventListener("load",function(){
+        var i = 1;
+        myLoop(a);
+
+        function myLoop (a) {
+                myVar = setTimeout(function () {
+                    $(a[i]).find('.tap2').trigger('click');
+                    if (i <= 5) {
+                        i++;
+                        myLoop(a);
+                    }
+                    else{
+                        i=0;
+                        myLoop(a);
+                    }
+                }, 5000)
+        }
+        
+        $(".scroll_styles").mouseover(function() {
+            clearTimeout(myVar);
+        });
+        $( ".scroll_styles" ).mouseout(function() {
+            myLoop (a);
+        })
+    // });
     
 </script>
 
