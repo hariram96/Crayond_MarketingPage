@@ -825,6 +825,9 @@ header .overlay {
     margin-right: 0px;
     margin-bottom: 20px;
   }
+  .our_secrets .our_three_traits .text h1 {
+    font-size: 30px;
+  }
 }
 
 @media only screen and (max-width: 321px) {

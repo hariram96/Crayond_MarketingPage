@@ -697,8 +697,6 @@ header {
             }
         }
     }
-
-
 }
 
 // Extra small devices (phones, 600px and down) */
@@ -867,7 +865,16 @@ header {
             }
         }
     }    
+.our_secrets{
 
+    .our_three_traits{
+        .text{
+            h1{
+                font-size: 30px;
+            }
+        }
+    }
+  }
 }
 
 @media only screen and (max-width: 321px){
