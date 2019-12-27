@@ -154,7 +154,7 @@ header .overlay {
 }
 
 .why_us .section_content {
-  min-height: 540px !important;
+  min-height: 450px !important;
   display: none;
   -webkit-transition: all 0.7s;
   transition: all 0.7s;
@@ -478,6 +478,10 @@ header .overlay {
   background-repeat: repeat-x;
 }
 
+.opportunities_section .data_row .list .button_write {
+  padding: 12px 27px;
+}
+
 .opportunities_section .data_row .list button {
   border-radius: 6px;
   border: solid 1px #dddddd;
@@ -601,7 +605,7 @@ header .overlay {
     padding-right: 0px;
   }
   .why_us .five_c .section_content {
-    min-height: 540px !important;
+    min-height: 420px !important;
     padding-top: 30px;
   }
   .look_ambience .text h1 {
@@ -663,7 +667,7 @@ header .overlay {
     padding-right: 0px;
   }
   .why_us .five_c .section_content {
-    min-height: 540px !important;
+    min-height: 380px !important;
     padding-top: 30px;
   }
   .look_ambience .text h1 {
@@ -738,7 +742,7 @@ header .overlay {
     padding-right: 0px;
   }
   .why_us .five_c .section_content {
-    min-height: 580px !important;
+    min-height: 380px !important;
     padding-top: 30px;
   }
   .why_us .five_c .section_content .flag {
