@@ -1,0 +1,170 @@
+.time_line_his{
+    background-color: #353a54;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    .horizontal_time_line{
+        background-color: #353a54;
+        // display: table;
+        display: flex;
+        overflow-x: auto;
+        overflow-y: hidden;
+        scroll-behavior: smooth;
+        width: 3000px;
+        border-bottom: 2px dotted #fff;
+        .time_line_year{
+            // display: inline-block;
+            position: relative;
+            margin: 100px 0px 0 0px;
+            min-height: 302px;
+            // border-left: 2px dotted #fff;
+            padding-left: 100px;
+            ul{
+                // display: inline-flex;
+                margin-bottom: 0;
+                border-left: 2px dotted #fff;
+                display: flex;
+                padding-left: 60px;
+                padding-right: 30px;
+                min-height: 400px;
+                &:before {
+                        content: "";
+                        background: linear-gradient(to bottom right, #d9b400 0%, #d9b400 50%, #a48d0100 50%, #a48d0100 100%);
+                        width: 22px;
+                        height: 21px;
+                        position: absolute;
+                        left: 100px;
+                    }
+                &:after {
+                    content: "";
+                    background-color: #d9b400;
+                    width: 40px;
+                    height: 10px;
+                    position: absolute;
+                    bottom: 0px;
+                    left: 82px;
+                    border-radius: 20px;
+                }
+                .year_title{
+                    font-size: 24px;
+                    font-weight: 500;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    color: #ffffff;
+                    position: absolute;
+                    left: 20px;
+                }
+                .bottom_content{
+                    width: 346px;
+                    position: relative;
+                    top: 72px;
+                    display: table;
+                    svg{
+                        margin-bottom: 12px;
+                    }
+                    p{
+                        font-size: 16px;
+                        font-weight: 500;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: 2.06;
+                        letter-spacing: normal;
+                        color: #fff;
+                    }
+                    h3{
+                        font-size: 24px;
+                        font-weight: 600;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: normal;
+                        letter-spacing: normal;
+                        color: #ffffff;
+                    }
+                }
+                connectLine{
+                    position: relative;
+                    left: -56px;
+                    top: 22px;
+                    display: table;
+                }
+                .connect_line_down{
+                    top: 60px;
+                    left: -36px;
+                }
+                .top_content{
+                    max-width: 290px;
+                    position: relative;
+                    top: 0px;
+                    left: -50px;
+                    display: table;
+                    svg{
+                        margin-bottom: 12px;
+                    }
+                    p{
+                        font-size: 16px;
+                        font-weight: 500;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: 2.06;
+                        letter-spacing: normal;
+                        color: #fff;
+                    }
+                    h3{
+                        font-size: 24px;
+                        font-weight: 600;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: normal;
+                        letter-spacing: normal;
+                        color: #ffffff;
+                    }
+                }
+            }
+        }
+    }
+    .menu_year{
+        display: flex;
+        // border-top: 1.5px solid  #e9ecef;
+        .active{
+            color: #d9b400 !important;
+            font-weight: 600;
+            // border-top: 1.5px solid $primary-color !important;
+        }
+        .time_line_year_btn{
+            color: #878787;
+            cursor: pointer;
+            padding: 10px 5px;
+            margin: auto;
+            border-bottom: 1.5px solid transparent;
+        }
+    }
+}
+
+
+
+
+/*
+ *  STYLE 1
+ */
+
+ .horizontal_time_line::-webkit-scrollbar-track
+ {
+     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+     border-radius: 0px;
+     background-color: #F5F5F5;
+ }
+ 
+ .horizontal_time_line::-webkit-scrollbar
+ {
+     width: 1px;
+     height: 0px;
+     background-color: #F5F5F5;
+ }
+ 
+ .horizontal_time_line::-webkit-scrollbar-thumb
+ {
+     border-radius: 0px;
+     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+     background-color: #555;
+ }
