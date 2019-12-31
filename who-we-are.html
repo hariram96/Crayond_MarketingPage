@@ -804,133 +804,6 @@
         
         lastScrollTop = st;
     }
-    var data = { "2012": [
-                        {
-                             "date": "AUG 2012",
-                             "tagline": "A dream to leap",
-                             "dis": "Our quest began over 100 lines of chat. We dreamt big, starting from creating a unique brand, strong culture & wonderful people. We even planned our outfits! With a budget that did not leave out bean bags, we zeroed in on SP Info City. We had nowhere to go but up."
-                        },
-                        {
-                            "date":"SEP 2012",
-                            "tagline": "Coffee instead of couch",
-                            "dis":"Reality struck hard as our hearts were full but pockets empty. Being product-minded, we were sweating on investors. Unsure of how to proceed, we bought a cafe moments card to get more miles on all of our coffees."
-                        },
-                        {
-                            "date":"SEP 17 2012",
-                            "tagline": "The march starts!",
-                            "dis": "Where there is a will, there is a way. We bootstrapped! We couldn't afford an office but we had kind friend who shared their space with us. Crayon'd started its journey with 3 of us at the helm. The excitement and emotion of those days are still vivid."
-                        },
-                        {
-                            "date":"SEP 2012",
-                            "tagline": "First ray of light",
-                            "dis": "Our 1st Client arrived. Thanks to our well-wisher who passed on a reference to us."
-                        },
-                        {
-                            "date":"NOV 2012",
-                            "tagline": "More people aboard",
-                            "dis": "We were now 6 and hunted for another shared space. Guess What? We found something pretty. We grew to 9 member team here."
-                        }
-                    ],
-                    "2013": [
-                        {
-                            "date": "MAY 2013",
-                            "tagline": "New home",
-                            "dis": "An unprecedented shift to a place where we belong now."
-                        },
-                        {
-                           "date": "SEP 2013",
-                           "tagline": "One trip around the sun, done!",
-                           "dis": "We sank in joy as we lived 1 year as a boot-strapped startup. No fancy parties, but we did celebrate hard."
-                        }
-                    ],
-                    "2014": [
-                        {
-                            "date": "AUG 2014",
-                            "tagline": "Odd feelings are up",
-                            "dis": "The business continued to grow, so did the team. All was well; at least that's what it seemed to be."
-                        },
-                        {
-                            "date": "NOV 2014",
-                            "tagline": "Some downtime",
-                            "dis": "Every startup has twist and turns that you uncover during the journey. The moment of truth arrived for the holes in our culture and it was just human for people to breach the trust barriers."
-                        }
-                    ],
-                    "2016": [
-                        {
-                            "date": "JAN 2016",
-                            "tagline": "Restocking to rock again",
-                            "dis": "We inducted few more fresh minds with the hope of a shoot at our great ambitions. We seemed to have gained more pace than what we had earlier. The grand plans were back to the drawing board, trying to align everyone."
-                        }
-                    ],
-                    "2017": [
-                        {
-                            "date":"SEP 2017",
-                            "tagline": "Strong tides sweep away...",
-                            "dis": "A year of customer defaults squeezed us toward a cash crunch. Regardless, we fought all the way being bootstrapped. We wish all our cusomers had more empathy. It's hard when you don't even recognize your 5th anniversary. It was painful, but one of those moments that just builds your grit."
-                        },
-                        {
-                            "date":"DEC 2017",
-                            "tagline":"Some sand from the shore...",
-                            "dis": "Brought to a new low, our team shrunk. Whoever stayed, hung by threads of their own apprehensions.The funny thing about this period was that while we were filled with opportunities, we weren't filled with people who recognized them as such. How unlucky of them to not see the big picture!"
-                        }
-                    ],
-                    "2018": [
-                        {
-                            "date":"JAN 2018",
-                            "tagline":"But the castle remains unmoved.",
-                            "dis": "Adversity refounds Crayon'd. The question that asked ourselves was, 'Is there enough in the tank to rebuild?' The answer? A silent roar of a BIG YES. "
-                        },
-                        {
-                            "date":"APR 2018",
-                            "tagline":"Extra legs to reach faster",
-                            "dis": "We realized that we had to load ourselves with tons of aspiration. After all, larger the dream, greater should be the team! And so the quest began. The next bunch of people rolled on board and Crayon'd breathed a new life. The floor was on fire.",
-                        }
-                    ],
-                    "2019": [
-                        {
-                            "date":"Today",
-                            "tagline": "Climbing new heights",
-                            "dis": "Over the last 18 months, we focussed on our craft of building products and creating a culture that's worth celebrating. We are a team of ordinary people but with extra-ordinary ambitions. Step in to our space, we'll sweep you off the feet with our aspirations."
-                        }
-                    ]
-                    }
-    $(document).ready(function() {
-        $(".carousel-inner").empty();
-        $(".time_line_years").removeClass("active");
-        var date = "2012"
-        $("#2012_timeline").addClass("active");
-        if(data[date].length == 1){
-            $(".carousel-control-prev").css("display", "none");
-            $(".carousel-control-next").css("display", "none");
-        }else{
-            $(".carousel-control-prev").css("display", "flex");
-            $(".carousel-control-next").css("display", "flex");
-        }
-        jQuery.each(data[date], function (index, value) {
-            // alert(JSON.stringify(value))
-        if (index == 0) {
-            var html4 = '<div class="carousel-item active">'+
-                        '<div class="col-12 col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 slider_discription">'+
-                            '<p class="fontGraphikRegular date" style="color: #2b2a35;">'+value.date+'</p>'+
-                            '<h1 class="fontGraphikSemibold titel" >'+value.tagline+'</h1>'+
-                            '<img alt="line 2" class="divider_line" src="./images/line-left.png" />'+
-                            '<p class="fontLatoRegular diccription" >'+value.dis+'</p>'+
-                        '</div>'+
-                    '</div>';
-                $(".carousel-inner").append(html4);
-        }else{
-        var html4 = '<div class="carousel-item">'+
-                        '<div class="col-12 col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 slider_discription">'+
-                            '<p class="fontGraphikRegular date" style="color: #2b2a35;">'+value.date+'</p>'+
-                            '<h1 class="fontGraphikSemibold titel" >'+value.tagline+'</h1>'+
-                            '<img alt="line 2" class="divider_line" src="./images/line-left.png" />'+
-                            '<p class="fontLatoRegular diccription" >'+value.dis+'</p>'+
-                        '</div>'+
-                    '</div>';
-                $(".carousel-inner").append(html4);
-        }
-            });
-    });
 
 
     $(document).on("click", ".time_line_year_btn", function(){
@@ -938,53 +811,107 @@
         // console.log(date);
         var elmnt = document.getElementById(date);
         elmnt.scrollIntoView({ behavior: 'smooth', inline: "start", block: "nearest" });
+
         $(".time_line_year_btn").removeClass("active");
         $(this).addClass("active");
+
         $(".time_line_year").removeClass("pyro");
         setTimeout(function(){ 
             $("#"+date).addClass("pyro");
         }, 1000);
+        // setTimeout(function(){ 
+        //     $(".time_line_year").removeClass("pyro");
+        // }, 5000);
+    });
+
+
+    $.fn.isOnScreen = function(){
+    
+    var win = $(window);
+    
+    var viewport = {
+        top : win.scrollTop(),
+        left : win.scrollLeft()
+        };
+        viewport.right = viewport.left + win.width();
+        viewport.bottom = viewport.top + win.height();
+        
+        var bounds = this.offset();
+        bounds.right = bounds.left + this.outerWidth();
+        bounds.bottom = bounds.top + this.outerHeight();
+        
+        return (!(viewport.right < bounds.left || viewport.left > bounds.right || viewport.bottom < bounds.top || viewport.top > bounds.bottom));
+        
+    };
+    $(".horizontal_time_line").scroll(function() {
+        if ($('#2012_details ul').isOnScreen() == true) {
+           $(".time_line_year_btn").removeClass("active");
+           $("#2012_timeline").addClass("active");
+
+           $(".time_line_year").removeClass("pyro");
+            setTimeout(function(){ 
+                $("#2012_details").addClass("pyro");
+            }, 1000);
+           return false;
+        }
+        if ($('#2013_details ul').isOnScreen() == true) {
+            $(".time_line_year_btn").removeClass("active");
+            $("#2013_timeline").addClass("active");
+
+            $(".time_line_year").removeClass("pyro");
+            setTimeout(function(){ 
+                $("#2013_details").addClass("pyro");
+            }, 1000);
+            return false;
+        }
+        if ($('#2014_details ul').isOnScreen() == true) {
+            $(".time_line_year_btn").removeClass("active");
+            $("#2014_timeline").addClass("active");
+
+            $(".time_line_year").removeClass("pyro");
+            setTimeout(function(){ 
+                $("#2014_details").addClass("pyro");
+            }, 1000);
+            return false;
+        }
+        if ($('#2016_details ul').isOnScreen() == true) {
+            $(".time_line_year_btn").removeClass("active");
+            $("#2016_timeline").addClass("active");
+
+            $(".time_line_year").removeClass("pyro");
+            setTimeout(function(){ 
+                $("#2016_details").addClass("pyro");
+            }, 1000);
+            return false;
+        }
+        if ($('#2017_details ul').isOnScreen() == true) {
+            $(".time_line_year_btn").removeClass("active");
+            $("#2017_timeline").addClass("active");
+
+            $(".time_line_year").removeClass("pyro");
+            setTimeout(function(){ 
+                $("#2017_details").addClass("pyro");
+            }, 1000);
+            return false;
+        }
+        if ($('#2018_details ul').isOnScreen() == true) {
+            $(".time_line_year_btn").removeClass("active");
+            $("#2018_timeline").addClass("active");
+
+            $(".time_line_year").removeClass("pyro");
+            setTimeout(function(){ 
+                $("#2018_details").addClass("pyro");
+            }, 1000);
+            return false;
+        }
+        if ($('#2019_details ul').isOnScreen() == true) {
+            $(".time_line_year_btn").removeClass("active");
+            $("#2019_timeline").addClass("active");
+            // return false;
+        }
+        
     });
     
-    // $("#2013_timeline").onclick()
-    $(document).on("click", ".time_line_years", function () {
-        $(".carousel-inner").empty();
-        $(".time_line_years").removeClass("active");
-        $(this).addClass("active");
-        var date = $(this).data("title");
-        if(data[date].length == 1){
-            $(".carousel-control-prev").css("display", "none");
-            $(".carousel-control-next").css("display", "none");
-        }else{
-            $(".carousel-control-prev").css("display", "flex");
-            $(".carousel-control-next").css("display", "flex");
-        }
-        jQuery.each(data[date], function (index, value) {
-            // alert(JSON.stringify(value))
-        if (index == 0) {
-            var html4 = '<div class="carousel-item active">'+
-                        '<div class="col-12 col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 slider_discription">'+
-                            '<p class="fontGraphikRegular date" style="color: #2b2a35;">'+value.date+'</p>'+
-                            '<h1 class="fontGraphikSemibold titel" >'+value.tagline+'</h1>'+
-                            '<img alt="line 2" class="divider_line" src="./images/line-left.png" />'+
-                            '<p class="fontLatoRegular diccription" >'+value.dis+'</p>'+
-                        '</div>'+
-                    '</div>';
-                $(".carousel-inner").append(html4);
-        }else{
-        var html4 = '<div class="carousel-item">'+
-                        '<div class="col-12 col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 slider_discription">'+
-                            '<p class="fontGraphikRegular date" style="color: #2b2a35;">'+value.date+'</p>'+
-                            '<h1 class="fontGraphikSemibold titel" >'+value.tagline+'</h1>'+
-                            '<img alt="line 2" class="divider_line" src="./images/line-left.png" />'+
-                            '<p class="fontLatoRegular diccription" >'+value.dis+'</p>'+
-                        '</div>'+
-                    '</div>';
-                $(".carousel-inner").append(html4);
-        }
-            });
-
-    });
 </script>
 
 </html>
