@@ -174,9 +174,9 @@
  }
 
 
- $particles: 50;
-$width: 500;
-$height: 500;
+$particles: 50;
+$width: 400;
+$height: 400;
 
 // Create the explosion...
 $box-shadow: ();
@@ -240,13 +240,6 @@ $box-shadow2: ();
     -webkit-transform: $settings;
     -o-transform: $settings;
     -ms-transform: $settings;
-}
-
-body {
-  margin:0;
-  padding:0;
-  background: #000;
-  overflow: hidden;
 }
 
 .pyro > .before, .pyro > .after {
