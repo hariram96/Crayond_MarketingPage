@@ -3,6 +3,11 @@
     background-color: #353a54;
     padding-top: 6%;
     padding-bottom: 6%;
+    .text{
+        text-align: center;
+        color: #fff;
+        font-size: 42px;
+    }
     .horizontal_time_line{
         background-color: #353a54;
         display: inline-table;
@@ -87,7 +92,7 @@
                 }
                 connectLine{
                     position: relative;
-                    left: -56px;
+                    left: -40px;
                     top: 22px;
                     display: table;
                 }
@@ -100,7 +105,7 @@
                     max-width: 306px;
                     position: relative;
                     top: 0px;
-                    left: -50px;
+                    left: -36px;
                     display: table;
                     svg{
                         margin-bottom: 12px;
