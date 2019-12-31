@@ -349,7 +349,7 @@ $box-shadow2: ();
         .horizontal_time_line{
             width: auto;
             .time_line_year{
-                padding-left: 6px;
+                padding-left: 20px;
                 margin: 60px 0px 0 0px;
                 ul{
                     padding-left: 50px;
@@ -357,10 +357,10 @@ $box-shadow2: ();
                         top: -38px;
                     }
                     &:before {
-                            left: 6px;
+                            left: 20px;
                         }
                     &:after {
-                        left: -12px;
+                        left: 1px;
                     }
                     .bottom_content {
                         min-width: 260px;
