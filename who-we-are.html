@@ -68,6 +68,29 @@
     <script src="https://wchat.freshchat.com/js/widget.js"></script>
     <!-- Freshchat -->
 
+    <style>
+    .carousel-frame {
+    width: 100%;
+    margin-bottom: 0.5em;
+    padding-bottom: 1em;
+    position: relative;
+    overflow-x: scroll;
+    white-space: nowrap;
+ }
+ .carousel-frame ul {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    list-style: none;
+}
+.carousel-frame li.carousel-item {
+    cursor: pointer;
+    display: inline;
+    margin: 0 5px 0 0;
+    padding: 0;
+}
+</style>
+
 
 <body>
     <!-- Google Tag Manager (noscript) -->
@@ -518,6 +541,8 @@
                 <span class="time_line_year_btn fontGraphikMedium" id="2019_timeline" data-title="2019_details">2019</span>
             </div>
         <!-- </div> -->
+        <div id="speed"></div>
+        <div id="scroll"></div>
     </section>
 
     <!-- our_culture -->
@@ -843,7 +868,9 @@
         return (!(viewport.right < bounds.left || viewport.left > bounds.right || viewport.bottom < bounds.top || viewport.top > bounds.bottom));
         
     };
-    $(".horizontal_time_line").scroll(function() {
+    $(".horizontal_time_line").scroll(function(e) {
+        e.scrollLeft
+        debugger
         if ($('#2012_details ul').isOnScreen() == true) {
            $(".time_line_year_btn").removeClass("active");
            $("#2012_timeline").addClass("active");
@@ -911,6 +938,34 @@
         }
         
     });
+
+
+    var speed = 0;
+    var scroll = 0;
+    var container = $('.horizontal_time_line');
+    var container_w = container.width();
+    var max_scroll = container[0].scrollWidth - container.outerWidth();
+
+    container.on('mousemove', function(e) {
+        var mouse_x = e.pageX - container.offset().left;
+        var mouseperc = 100 * mouse_x / container_w;
+        speed = mouseperc - 50;
+    }).on ( 'mouseleave', function() {
+        speed = 0;
+    });
+
+    function updatescroll() {
+            if (speed !== 0 && speed > 40 || speed < -40) {
+                scroll += speed / 5;
+            if (scroll < 0) scroll = 0;
+            if (scroll > max_scroll) scroll = max_scroll;
+                $('.horizontal_time_line').scrollLeft(scroll);
+        }
+        $("#speed").html('Speed: ' + speed);
+        $("#scroll").html('Scroll: ' + scroll);
+        window.requestAnimationFrame(updatescroll);
+    }
+    window.requestAnimationFrame(updatescroll);
     
 </script>
 

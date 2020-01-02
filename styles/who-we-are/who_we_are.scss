@@ -17,9 +17,9 @@
         display: inline-table;
         // display: table;
         display: flex;
-        overflow-x: auto;
+        overflow-x: scroll;
         overflow-y: hidden;
-        scroll-behavior: smooth;
+        // scroll-behavior: smooth;
         width: 3000px;
         border-bottom: 2px dashed #fff;
         .time_line_year{
