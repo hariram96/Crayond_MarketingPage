@@ -437,6 +437,9 @@ $box-shadow2: ();
             width: auto;
             .time_line_year{
                 margin: 60px 0px 0 0px;
+                ul{
+                    min-height: 450px;
+                }
             }
         }
     }
