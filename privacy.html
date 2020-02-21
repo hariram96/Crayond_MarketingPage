@@ -707,13 +707,13 @@
 
 <script>
     function  scrollWin(x, y) {
-        // var elmnt = document.getElementById(x).scrollIntoView(
-        //     {
-        //         behavior: "smooth",
-        //         block: "start"
-        //     }
-        // );
-    window.document.getElementById(x).scrollTop(0);
+        var elmnt = document.getElementById(x).scrollIntoView(
+            {
+                behavior: "smooth",
+                block: "start"
+            }
+        );
+    // window.document.getElementById(x).scrollTop(0);
     }
 </script>
 
