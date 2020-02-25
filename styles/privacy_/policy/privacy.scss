@@ -132,7 +132,7 @@
     margin-bottom: 2%;
 }
 .linksz {
-    padding-left: 20px;
+    padding-left: 30px;
     margin-top : 10px;
     width      : 100%;
     cursor     : pointer;
@@ -141,8 +141,8 @@
     font-weight: 400;
     font-size: 16px;
     display:flex !important;
-    position: sticky;
-    border:3px solid #fff;
+   
+    
     
 }
 .linksz:hover
@@ -165,19 +165,24 @@
        
     }
     .cb-factor__item_1 {
-        width           : 2px !important;;
-        height          : 3px !important;;
-        border-radius   : 1px;
-        background-color: #6450f0 !important;;
-        left            : 0px;
-        margin-top      : 13px !important;
+        width: 3px !important;
+        height: 12px !important;
+        background-color: #fff ;
+        left: -8px;
+        top: -4px;
+        margin-top: 13px !important;
+        display: block; 
+        position: relative;
        
-        display:none;
     }
     .sidePadding {
-        //    display:flex !important;
-        border-left: 3px solid #665CD7;
+        .cb-factor__item_1 {
+          display:flex;
+          background-color: #6450f0 ;
+        }
+        
     }
+    
           
     
 
