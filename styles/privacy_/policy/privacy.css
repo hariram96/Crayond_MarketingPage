@@ -1,0 +1,207 @@
+.body {
+  width: unset;
+}
+
+.card1 {
+  margin-top: 4%;
+  width: 100% !important;
+  height: 300px;
+  background-color: #665CD7;
+  border-radius: .0em;
+}
+
+.card1 .row {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+.card1 .row_privacy {
+  color: white;
+  font-size: 48px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 85px;
+}
+
+@media screen and (max-width: 603px) {
+  .card1 .row_privacy {
+    color: white;
+    font-size: 24px;
+    margin-top: 130px;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 603px) {
+  .card1 .row_privacy {
+    color: white;
+    font-size: 38px;
+    margin-top: 110px;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+}
+
+.card1 .row_date {
+  color: rgba(255, 255, 255, 0.6);
+  margin-top: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card1 .row_prior {
+  color: rgba(255, 255, 255, 0.6);
+  margin-top: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .head_row {
+  margin-top: 6% !important;
+}
+
+.class_1 .para1 {
+  font-size: 15px;
+  line-height: 24px;
+  color: #787882;
+  margin-bottom: 21px;
+}
+
+.head_theme .head_theme {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+  font-family: acumin-pro, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: .27px;
+  margin-bottom: 15px;
+  margin-top: 0px;
+  color: #212121;
+}
+
+.head_theme .cb-factor__item {
+  width: 12px;
+  height: 4px;
+  border-radius: 1px;
+  background-color: #6450f0;
+  left: -10px;
+  margin-top: 10px !important;
+  margin-right: 12px;
+}
+
+.head_theme1 .head_theme1 {
+  font-size: 17px;
+  line-height: 32px;
+  font-weight: 700;
+  font-family: acumin-pro, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: .27px;
+  margin-bottom: 10px;
+  margin-top: 0;
+  color: #212121;
+}
+
+.article .cb-factor__item {
+  width: 12px;
+  height: 4px;
+  border-radius: 1px;
+  background-color: #6450f0;
+  left: -10px;
+  margin-top: 10px !important;
+  margin-right: 12px;
+}
+
+.article .heads {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 16px;
+  font-weight: 750;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 0px !important;
+}
+
+.right_side {
+  position: relative !important;
+  right: 0 !important;
+  margin-top: 0 !important;
+  margin-left: 80px;
+}
+
+.container {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 90px;
+}
+
+.head_right {
+  margin-left: 2%;
+  font-size: 16px;
+  font-weight: 700;
+  color: #212121;
+  margin-bottom: 2%;
+}
+
+.linksz {
+  padding-left: 30px;
+  margin-top: 10px;
+  width: 100%;
+  cursor: pointer;
+  line-height: 30px;
+  color: #595959;
+  font-weight: 400;
+  font-size: 16px;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+.linksz:hover {
+  color: #6450f0;
+}
+
+@media screen and (max-width: 427px) {
+  .right_side {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .right_side {
+    margin-left: 0px;
+  }
+}
+
+.p {
+  line-height: 30px;
+  color: #595959;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.cb-factor__item_1 {
+  width: 3px !important;
+  height: 12px !important;
+  background-color: #fff;
+  left: -8px;
+  top: -4px;
+  margin-top: 13px !important;
+  display: block;
+  position: relative;
+}
+
+.sidePadding .cb-factor__item_1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #6450f0;
+}
+/*# sourceMappingURL=privacy.css.map */
