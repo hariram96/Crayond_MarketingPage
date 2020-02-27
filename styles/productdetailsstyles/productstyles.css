@@ -1,32 +1,41 @@
 .alphabet-color {
   color: #6455c2 !important;
   font-weight: 800 !important;
-  font-size: 20px !important;
 }
 
-.margin {
-  margin-bottom: 25px;
+#result {
+  width: 50%;
+  margin: auto;
+  margin-top: -20px;
+  height: 30px;
+  margin-bottom: 15px;
+}
+
+#result h3 {
+  font-size: 20px;
+  font-weight: 700;
 }
 
 .read-more {
   color: #6455c2;
   font-weight: 700;
+  margin-bottom: 35px;
 }
 
 .para-color {
-  color: #75758a;
-  line-height: 30px;
-  font-size: 17px;
+  color: #595959;
+  font-size: 18px;
+  line-height: 33px;
 }
 
 .product-head {
   background-color: #6455c2;
-  margin-top: 80px;
+  margin-top: 5%;
   position: relative;
 }
 
 .product-head h1 {
-  padding-top: 75px;
+  padding-top: 55px;
   font-size: 45px;
   letter-spacing: 1px;
   font-weight: 800 !important;
@@ -79,15 +88,18 @@
   width: 20%;
 }
 
-.alphabet li {
+.alphabet a {
+  outline: none;
   text-align: center;
   list-style: none;
   font-weight: 300;
-  color: #75758a;
+  color: #595959;
   margin: 10px auto;
   text-transform: uppercase;
   font-size: 16px;
+  display: block;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .container-width {
@@ -104,12 +116,23 @@
 }
 
 .description .des-container h3 {
+  color: #212529;
   font-size: 25px;
   font-weight: 700;
   margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 600px) {
+  #result {
+    width: 87%;
+    margin: auto;
+    height: 20px;
+    margin-bottom: 10px;
+  }
+  #result h3 {
+    font-size: 15px;
+    font-weight: 700;
+  }
   .container-width {
     width: 80%;
     margin: auto;
@@ -117,22 +140,32 @@
   .Row {
     display: block;
   }
-  .alphabet {
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    margin: 25px auto;
+  .search-bar {
+    width: 90%;
+    border: 1px solid #c7c6ca;
+    border-radius: 10px;
+    position: relative;
+    bottom: 50px;
+    left: 5%;
+    right: 6%;
   }
-  .alphabet li {
-    text-align: center;
-    list-style: none;
-    font-size: 11px !important;
-    font-weight: 700 !important;
+  .search-bar .icon {
+    background-color: white;
     color: #75758a;
-    margin: 10px auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .search-bar input {
+    width: 100%;
+    margin: auto;
+    padding: 15px 30px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+  }
+  .alphabet {
+    display: none;
   }
   .description {
     width: 100%;
@@ -146,7 +179,7 @@
     margin-bottom: 20px;
   }
   .para-color {
-    color: #75758a;
+    color: #595959;
     line-height: 25px;
     font-size: 15px;
   }
@@ -156,21 +189,21 @@
   }
   .product-head {
     background-color: #6455c2;
-    margin-top: 80px;
+    margin-top: 5%;
     position: relative;
   }
   .product-head h1 {
     padding-top: 75px;
-    font-size: 38px;
+    font-size: 32px;
     letter-spacing: 1px;
     font-weight: 800 !important;
     color: white;
   }
   .product-head h3 {
-    width: 70%;
+    width: 85%;
     margin: 20px auto;
-    font-size: 20px;
-    line-height: 40px;
+    font-size: 18px;
+    line-height: 30px;
     color: #cec9eb;
     padding-bottom: 75px;
   }

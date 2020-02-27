@@ -53,7 +53,7 @@
     <!-- custom css and responsive css-->
     <link rel='stylesheet' href='./styles/styles.css'>
     <!--- product detailes scss to css  -->
-    <script src="https://kit.fontawesome.com/4ff3e08750.js" crossorigin="anonymous"></script>
+    
     <link rel="stylesheet" href="./styles/productdetailsstyles/productstyles.css">
     <!-- font-awesome icons -->
     <link rel="stylesheet" href="plugin/css/font-awesome.css">
@@ -153,12 +153,16 @@
     <!--Product Defined-->
     <div class="container-fluid text-center product-head">
         <h1>Product Defined</h1>
-        <h3>Create, prototype, collaborate and turn your ideas into product with Crayond</h3>
+        <h3 id="scroll">Create, prototype, collaborate and turn your ideas into product with Crayond</h3>
     </div>
     <div class="search-bar d-flex">
         <!-- <i class="fas fa-search icon"></i> -->
-        <input type="text" id="search-grossary"  placeholder="Search Glossary">
+        <input type="text" id="search-grossary" placeholder="Search Glossary">
     </div>
+    <div id="result">
+
+    </div>
+
     <div class="container-width">
         <div class="Row">
             <div class="alphabet">
@@ -168,14 +172,8 @@
 
             </div>
             <div class="description">
+
                 <div class="des-container">
-                    <!-- <div class="heading margin">
-                        <h3>Average Customer Life</h3>
-                        <p class="para-color">A customer’s average lifespan refers to the average time period for which
-                            the customer is retained by the company. In other terms, it can be defined as the period of
-                            time for which the customer remains a consumer of the firm’s service or product.</p>
-                        <h6 class="read-more">Read More <i class="fas fa-chevron-right"></i></h6>
-                    </div> -->
                     <div id="data">
 
                     </div>
@@ -357,50 +355,50 @@
     var posts = [
         {
 
-            "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
-            "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+            "title": "Average Customer Life",
+            "body": " A customer’s average lifespan refers to the average time period for which the customer is retained by the company. In other terms, it can be defined as the period of time for which the customer remains a consumer of the firm’s service or product."
         },
         {
 
-            "title": 'Qui est esse',
-            "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
+            "title": 'Annual Recurring Revenue',
+            "body": " The term Annual Recurring Revenue is a method of calculating the monetary value of a subscription-based business. In simple terms, the ARR is the total revenue earned from a subscription-based product or service in a year. ARR can be used for products or services such as Netflix, Spotify or Adobe Creative Cloud."
         },
         {
 
-            "title": "ea molestias quasi exercitationem repellat qui ipsa sit aut",
-            "body": "et zzzsss iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut"
+            "title": "Average Revenue Per User",
+            "body": "Average Revenue Per User (ARPU) is a way to calculate the revenue generated from each paying consumer over a period of time (mostly monthly or annually). It is calculated simply by dividing total revenue generated to the number of users during that period of time."
         },
         {
 
-            "title": "eum et est occaecati",
-            "body": "ullam et saepe reiciendis voluptatem adipisci\nsit amet autem assumenda provident rerum culpa\nquis hic commodi nesciunt rem tenetur doloremque ipsam iure\nquis sunt voluptatem rerum illo velit"
+            "title": "Average Selling Price",
+            "body": "The average selling price simply means an average of the selling prices of different products sold. The ASP is used to determine the demand for a product and the margin that a seller can determine on each of the product."
         },
         {
 
-            "title": "nesciunt quas odio",
-            "body": "repudiandae veniam quaerat sunt sed\nalias aut fugiat sit autem sed est\nvoluptatem omnis possimus esse voluptatibus quis\nest aut tenetur dolor neque"
+            "title": "Bookings",
+            "body": " The term booking refers to a contract which binds a seller to provide a service to the consumer in exchange for money. Booking can said to be a way in which the customer is committed to spending money with your company."
         },
         {
-            "title": "dolorem eum magni eos aperiam quia",
-            "body": "ut aspernatur corporis harum nihil quis provident sequi\nmollitia nobis aliquid molestiae\nperspiciatis et ea nemo ab reprehenderit accusantium quas\nvoluptate dolores velit et doloremque molestiae"
+            "title": "Break-Even",
+            "body": " A financial analysis tool which helps a company determine the stage of profitability for a firm. The break-even is a point of no profit-no loss. It simply helps a company evaluate the number of products or services a company should sell in order to cover the costs incurred. The break-even point indicates that "
         },
         {
-            "title": "magnam facilis autem",
-            "body": "dolore placeat quibusdam ea quo vitae\nmagni quis enim qui quis quo nemo aut saepe\nquidem repellat excepturi ut quia\nsunt ut sequi eos ea sed quas"
+            "title": "Burn rate",
+            "body": " Burn Rate refers to a company’s rate of depletion of its cash reserves during a certain period of time. The burn rate is often calculated for startups and new ventures who are more focused on developing their products and services rather than cost considerations. For instance, a company has a $100,000 cash reserve and has a burn rate of $10,000 a month, then the company will burn through its cash in the next 10 months."
         },
         {
-            "title": "dolorem dolore est ipsam",
-            "body": "dignissimos aperiam dolorem qui eum\nfacilis quibusdam animi sint suscipit qui sint possimus cum\nquaerat magni maiores excepturi\nipsam ut commodi dolor voluptatum modi aut vitae"
+            "title": "Cloud",
+            "body": "The cloud can be defined as a virtual entity which consists of a global network of servers performing different and a unique function. The cloud does not have a physical entity and is based on the internet. Instead of associating with different physical devices, the cloud works as a single ecosystem. In simpler terms, the cloud can be termed as a ‘virtual storage device’ or a storage device with no physical existence except the servers that run it."
         },
         {
-            "title": "nesciunt iure omnis dolorem tempora et accusantium",
-            "body": "consectetur animi nesciunt iure dolore\nenim quia ad\nveniam autem ut quam aut nobis\net est aut quod aut provident voluptas autem voluptas"
+            "title": "Cohorts",
+            "body": "A cohort involves a few numbers of people who are grouped together based upon a common characteristic that all of them possess. The term cohorts can be used for anything involving more than two people who might share a significant amount of experience in a particular time period. For instance, a group of people who belong to the same generation, can said to be birth cohorts as they grew up during the same time period as others."
         },
         {
-            "title": "optio molestias id quia eum",
-            "body": "quo et expedita modi cum officia vel magni\ndoloribus qui repudiandae\nvero nisi sit\nquos veniam quod sed accusamus veritatis error"
+            "title": "Contextual Engagement",
+            "body": " A method of marketing or engaging with a potential customer in order to inculcate a more personal and relevant conversation. It follows the LEAP (Listen, Empathise, Analyze, Propel) method to communicate in a more contextual manner with a potential consumer."
         },
-        
+
         {
             "title": "magnam facilis autem",
             "body": "dolore placeat quibusdam ea quo vitae\nmagni quis enim qui quis quo nemo aut saepe\nquidem repellat excepturi ut quia\nsunt ut sequi eos ea sed quas"
@@ -418,26 +416,17 @@
             "body": "quo et expedita modi cum officia vel magni\ndoloribus qui repudiandae\nvero nisi sit\nquos veniam quod sed accusamus veritatis error"
         },
     ]
-    var posts1 = [
-        {
-
-            "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
-            "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
-        }]
     var data = document.getElementById("data")
-    // debugger
+
 
     List.map((a) => {
         var abc = document.getElementById("abc");
-        console.log(a)
-        abc.innerHTML += "<li class='lists' onclick='search()' >" + a + "</li>"
+
+        abc.innerHTML += "<a class='lists' href='#scroll' onclick='search()'>" + a + "</a>"
 
     })
-     
-    //  function alphabetColor(){
-    //      var li = document.getElementsByClassName("lists");
-    //      li.classList.add("alphabet-color")
-    //  }
+
+
 
     posts.map((val, index) => {
         List.map((list) => {
@@ -445,47 +434,80 @@
                 val.id = list.toLowerCase()
             }
         })
-        data.innerHTML += "<div class='heading margin'  >" + `<h3 class='${val.id}' >` + val.title + "</h3>" + "</div>" + "<p class='para-color'>" + val.body + "</p>" + "<h6 class='read-more'>" + "Read More" + "</h6>";
+        data.innerHTML += "<div class='heading margin'  >" + "<h3 class='fontGraphikSemibold'>" + val.title + "</h3>" + "</div>" + "<p class='para-color fontLatoRegular' >" + val.body + "</p>" + "<h6 class='read-more'>" + "Read More" + "</h6>";
     })
 
 
     let _array = []
     var TRange = null;
     $(".lists")
-    $("#search-grossary").change(function(){
+    $("#search-grossary").keyup(function () {
         var str = document.getElementById("search-grossary").value;
-        $(".des-container").empty();
-        var filteredArray = posts.filter(function (itm) {
-            var p_data = itm.title;
-            return p_data.includes(str);
-        });
-        var append;
-        filteredArray.map((val) => {
-            append = "<div class='heading margin'  >" + "<h3 id='div'>" + val.title + "</h3>" + "</div>" + "<p class='para-color'>" + val.body + "</p>" + "<h6 class='read-more'>" + "Read More" + "</h6>";
-            $(".des-container").append(append); 
-        });
+        if (str.length > 0) {
+            $("#res").remove();
+            $(".des-container").empty();
+            var filteredArray = posts.filter(function (itm) {
+                var p_data = itm.title.toUpperCase();
+                    return p_data.includes(str.toUpperCase());
+            });
+            var count = filteredArray.length;
+            if (filteredArray.length == 0) {
+                $("#result").append("<h3 id='res'>" + "no results found for " + '"' + str + '"' + "</h3>");
+            }
+            else {
+                $("#result").append("<h3 id='res'>" + count + " results for " + '"' + str + '"' + "</h3>");
+            }
+            var append;
+            filteredArray.map((val) => {
+                append = "<div class='heading margin'>" + "<h3 id='div'>" + val.title + "</h3>" + "</div>" + "<p class='para-color'>" + val.body + "</p>" + "<h6 class='read-more'>" + "Read More" + "</h6>";
+                $(".des-container").append(append);
+            });
+        } else {
+            $("#res").remove();
+            var content;
+            posts.map((val) => {
+                content = "<div class='heading margin'  >" + "<h3 class='fontGraphikSemibold'>" + val.title + "</h3>" + "</div>" + "<p class='para-color fontLatoRegular' >" + val.body + "</p>" + "<h6 class='read-more'>" + "Read More" + "</h6>";
+                $(".des-container").append(content);
+            })
+        }
+
     });
-    $('body').on('click', '.lists', function() {
+    $('body').on('click', '.lists', function () {
         var letter = $(this).text();
         $(".des-container").empty();
+        $("#res").remove();
         var filteredArray = posts.filter(function (itm) {
             var p_data = itm.title;
-            p_data = p_data.charAt(0);
+            p_data = p_data.charAt(0).toLowerCase();
             return p_data.includes(letter);
-            
+
         });
+        var count = filteredArray.length;
+        var capsLetter = letter.toUpperCase();
+        if (filteredArray.length == 0) {
+            $("#result").append("<h3 id='res'>" + "no results found " + "</h3>");
+        }
+        else {
+            $("#result").append("<h3 id='res'>" + count + " results for " + '"' + capsLetter + '"' + "</h3>");
+        }
+        $(".lists").removeClass("alphabet-color");
+        $(this).addClass("alphabet-color");
         var append;
         filteredArray.map((val) => {
-            append = "<div class='heading margin'  >" + "<h3 id='div'>" + val.title + "</h3>" + "</div>" + "<p class='para-color'>" + val.body + "</p>" + "<h6 class='read-more'>" + "Read More" + "</h6>";
-            
-            $(".des-container").append(append); 
-            $(".lists").removeClass("alphabet-color");
-            $(this).addClass("alphabet-color");
-            
-            
+            append = "<div class='heading margin'>" + "<h3 id='div'>" + val.title + "</h3>" + "</div>" + "<p class='para-color'>" + val.body + "</p>" + "<h6 class='read-more'>" + "Read More" + "</h6>";
+
+            $(".des-container").append(append);
+
+
+
         });
     });
-    
+    $("a.lists").click(function (event) {
+        event.preventDefault();
+        $("html, body").animate({ scrollTop: $($(this).attr("href")).offset().top }, 500);
+    });
+
+
 </script>
 
 </html>
