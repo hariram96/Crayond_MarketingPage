@@ -781,47 +781,58 @@
     return elementBottom > viewportTop && elementTop < viewportBottom;
     };
     $(window).on('resize scroll', function() {
-        debugger
-        if ($('#id2').isInViewport()) {
-            $(".linksz").removeClass("sidePadding");
-            $(".menu2").addClass("sidePadding");
-        } 
+       
+       
         if ($('#id1').isInViewport()) {
             $(".linksz").removeClass("sidePadding");
             $(".menu1").addClass("sidePadding");
+            return false;
+        } 
+        if ($('#id2').isInViewport()) {
+            $(".linksz").removeClass("sidePadding");
+            $(".menu2").addClass("sidePadding");
+            return false;
         } 
         if ($('#id3').isInViewport()) {
             $(".linksz").removeClass("sidePadding");
             $(".menu3").addClass("sidePadding");
+            return false;
         } 
         if ($('#id4').isInViewport()) {
             $(".linksz").removeClass("sidePadding");
             $(".menu4").addClass("sidePadding");
+            return false;
         } 
        
         if ($('#id5').isInViewport()) {
             $(".linksz").removeClass("sidePadding");
             $(".menu5").addClass("sidePadding");
+            return false;
         } 
         if ($('#id6').isInViewport()) {
             $(".linksz").removeClass("sidePadding");
             $(".menu6").addClass("sidePadding");
+            return false;
         } 
         if ($('#id7').isInViewport()) {
             $(".linksz").removeClass("sidePadding");
             $(".menu7").addClass("sidePadding");
+            return false;
         } 
         if ($('#id8').isInViewport()) {
             $(".linksz").removeClass("sidePadding");
             $(".menu8").addClass("sidePadding");
+            return false;
         } 
         if ($('#id9').isInViewport()) {
             $(".linksz").removeClass("sidePadding");
             $(".menu9").addClass("sidePadding");
+            return false;
         } 
         if ($('#id10').isInViewport()) {
             $(".linksz").removeClass("sidePadding");
             $(".menu10").addClass("sidePadding");
+            return false;
         } 
     });
 </script>

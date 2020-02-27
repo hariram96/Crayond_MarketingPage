@@ -138,7 +138,9 @@
     font-size: 16px;
     display:flex !important;
 }
-
+.linksz:hover{
+    color:#6450f0;
+}
 @media screen and (max-width: 427px) {
     .right_side {
         display: none !important;
