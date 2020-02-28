@@ -610,7 +610,8 @@
     // });
     $("a.lists").click(function (event) {
         event.preventDefault();
-        $(this).removeClass("alphabet-color");
+       
+        $(".lists").removeClass("alphabet-color");
         $(this).addClass("alphabet-color");
         debugger;
         // $("html, body").animate({ scrollTop: $($(this).attr("href")).offset().top }, 500);
