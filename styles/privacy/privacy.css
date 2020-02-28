@@ -201,4 +201,15 @@
   display: flex;
   background-color: #6450f0;
 }
+
+.sidePadding_test {
+  color: #6450f0;
+}
+
+.sidePadding_test .cb-factor__item_1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #6450f0;
+}
 /*# sourceMappingURL=privacy.css.map */

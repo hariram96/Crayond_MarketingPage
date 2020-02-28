@@ -601,7 +601,6 @@ If you have any queries regarding the processing, you can contact us at info@cra
                             </div>
                             <div class="  row linksz  menu6  fontLatoRegular" id="linksz" onclick="scrollWin('id6', 0)">
                                 <span class="cb-factor__item_1" id="item1"></span> Lawful Basis of Processing
-
                             </div>
                             <div class="  row linksz  menu7  fontLatoRegular" onclick="scrollWin('id7', 0)">
                                 <span class="cb-factor__item_1" id="item1"></span> Marketing Communication
@@ -731,22 +730,17 @@ If you have any queries regarding the processing, you can contact us at info@cra
     //     ); // window.document.getElementById(x).scrollTop(0);
     // }
     // scrollTop: $($(this).attr("href")).offset().top - 70
-    var elmnt;
+     var elmnt;
     function scrollWin(x, y) {
         debugger
-        elmnt = document.getElementById(x)
+        var elmnt = document.getElementById(x)
         $('html, body').animate({
             scrollTop: $(elmnt).offset().top - 100
-        }, 500);
+        }, 600);
         $(".linksz").removeClass("sidePadding");
         $(this).addClass("sidePadding");
     }
-    // $('.linksz').click(function () {
-
-    //     $(".linksz").removeClass("sidePadding");
-
-    //     $(this).addClass("sidePadding");
-    // });
+   
     var didScroll;
     var lastScrollTop = 0;
     var delta = 5;
@@ -759,9 +753,7 @@ If you have any queries regarding the processing, you can contact us at info@cra
         var viewportBottom = viewportTop + $(window).height();
         return elementBottom > viewportTop && elementTop < viewportBottom;
     };
-    $(window).on('resize scroll', function () {
-       
-       
+    $(window).on('resize ', function () {
         if ($('#id1').isInViewport()) {
             $(".linksz").removeClass("sidePadding");
             $(".menu1").addClass("sidePadding");
@@ -782,7 +774,6 @@ If you have any queries regarding the processing, you can contact us at info@cra
             $(".menu4").addClass("sidePadding");
             return false;
         }
-
         if ($('#id5').isInViewport()) {
             $(".linksz").removeClass("sidePadding");
             $(".menu5").addClass("sidePadding");
@@ -822,9 +813,13 @@ If you have any queries regarding the processing, you can contact us at info@cra
             $(".linksz").removeClass("sidePadding");
             $(".menu12").addClass("sidePadding");
             return false;
-        }
-    });
+        }});
+ $('.linksz').click(function () {
 
+        $(".linksz").removeClass("sidePadding");
+
+        $(this).addClass("sidePadding");
+    });
 </script>
 
 </html>
