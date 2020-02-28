@@ -796,7 +796,6 @@
                             </samp>
                         </a>
                         </div>
-    
                     </div>
                 </div>
             </footer>
@@ -1006,26 +1005,18 @@
         $(".launch_nav").addClass("active_section_tap");
         
     }
-
-
-
     if($(".list_of_team").isInViewport()){
         $("#tap-menu").removeClass("tap_fixed");
-
     }else{
         $("#tap-menu").addClass("tap_fixed");
 
     }
-
     if($(".our_approach_title").isInViewport()){
         $("#tap-menu").removeClass("tap_fixed");
-
     }else{
         // $("#tap-menu").addClass("tap_fixed");
     }
-
     });
-
     function onScroll(event){
     var scrollPos = $(document).scrollTop();
     $('#menu-center a').each(function () {
