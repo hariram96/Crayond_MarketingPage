@@ -421,20 +421,20 @@
 
     List.map((a) => {
         var abc = document.getElementById("abc");
-
-        abc.innerHTML += "<a class='lists' href='#scroll' onclick='search()'>" + a + "</a>"
-
+        abc.innerHTML += `<a class='lists' href="#${a}" onclick='search()'>` + a + "</a>"
     })
 
-
+    
 
     posts.map((val, index) => {
         List.map((list) => {
-            if (val.title[0] === list) {
-                val.id = list.toLowerCase()
+           
+            if (val.title[0].toUpperCase() === list.toUpperCase()) {              
+                val.id = list.toLowerCase();    
             }
         })
-        data.innerHTML += "<div class='heading margin'  >" + "<h3 class='fontGraphikSemibold'>" + val.title + "</h3>" + "</div>" + "<p class='para-color fontLatoRegular' >" + val.body + "</p>" + "<h6 class='read-more'>" + "Read More" + "</h6>";
+        
+        data.innerHTML += `<span id="${val.id}"><br />`+"</span> <div class='heading margin'  >" + `<h3 class='fontGraphikSemibold'>` + val.title + "</h3>" + "</div>" + "<p class='para-color fontLatoRegular' >" + val.body + "</p>";
     })
 
 
@@ -459,52 +459,64 @@
             }
             var append;
             filteredArray.map((val) => {
-                append = "<div class='heading margin'>" + "<h3 id='div'>" + val.title + "</h3>" + "</div>" + "<p class='para-color'>" + val.body + "</p>" + "<h6 class='read-more'>" + "Read More" + "</h6>";
+                append = `<span id="${val.id}"><br />`+"</span> <div class='heading margin'  >" + `<h3 class='fontGraphikSemibold'>` + val.title + "</h3>" + "</div>" + "<p class='para-color fontLatoRegular' >" + val.body + "</p>";
                 $(".des-container").append(append);
             });
         } else {
+            $(".des-container").empty();
             $("#res").remove();
             var content;
             posts.map((val) => {
-                content = "<div class='heading margin'  >" + "<h3 class='fontGraphikSemibold'>" + val.title + "</h3>" + "</div>" + "<p class='para-color fontLatoRegular' >" + val.body + "</p>" + "<h6 class='read-more'>" + "Read More" + "</h6>";
+                content =`<span id="${val.id}"><br />`+"</span> <div class='heading margin'  >" + `<h3 class='fontGraphikSemibold'>` + val.title + "</h3>" + "</div>" + "<p class='para-color fontLatoRegular' >" + val.body + "</p>";
                 $(".des-container").append(content);
             })
         }
 
     });
-    $('body').on('click', '.lists', function () {
-        var letter = $(this).text();
-        $(".des-container").empty();
-        $("#res").remove();
-        var filteredArray = posts.filter(function (itm) {
-            var p_data = itm.title;
-            p_data = p_data.charAt(0).toLowerCase();
-            return p_data.includes(letter);
+    
+    // $('body').on('click', '.lists', function () {
+    //     var letter = $(this).text();
+    //     $(".des-container").empty();
+    //     $("#res").remove();
+    //     var filteredArray = posts.filter(function (itm) {
+    //         var p_data = itm.title;
+    //         p_data = p_data.charAt(0).toLowerCase();
+    //         return p_data.includes(letter);
 
-        });
-        var count = filteredArray.length;
-        var capsLetter = letter.toUpperCase();
-        if (filteredArray.length == 0) {
-            $("#result").append("<h3 id='res'>" + "no results found " + "</h3>");
-        }
-        else {
-            $("#result").append("<h3 id='res'>" + count + " results for " + '"' + capsLetter + '"' + "</h3>");
-        }
-        $(".lists").removeClass("alphabet-color");
-        $(this).addClass("alphabet-color");
-        var append;
-        filteredArray.map((val) => {
-            append = "<div class='heading margin'>" + "<h3 id='div'>" + val.title + "</h3>" + "</div>" + "<p class='para-color'>" + val.body + "</p>" + "<h6 class='read-more'>" + "Read More" + "</h6>";
+    //     });
+    //     var count = filteredArray.length;
+    //     var capsLetter = letter.toUpperCase();
+    //     if (filteredArray.length == 0) {
+    //         $("#result").append("<h3 id='res'>" + "no results found " + "</h3>");
+    //     }
+    //     // else {
+    //     //     $("#result").append("<h3 id='res'>" + count + " results for " + '"' + capsLetter + '"' + "</h3>");
+    //     // }
+    //     $(".lists").removeClass("alphabet-color");
+    //     $(this).addClass("alphabet-color");
+    //     var append;
+    //     filteredArray.map((val) => {
+    //         append = "<div class='heading margin'>" + "<h3 id='div'>" + val.title + "</h3>" + "</div>" + "<p class='para-color'>" + val.body + "</p>";
 
-            $(".des-container").append(append);
+    //         $(".des-container").append(append);
 
 
 
-        });
-    });
+    //     });
+    // });
     $("a.lists").click(function (event) {
         event.preventDefault();
-        $("html, body").animate({ scrollTop: $($(this).attr("href")).offset().top }, 500);
+        debugger;
+        // $("html, body").animate({ scrollTop: $($(this).attr("href")).offset().top }, 500);
+        var $container = $('.des-container'), $scrollTo = $(this).attr("href");
+        $("html, body").animate({ 
+            // scrollTop: $($(this).attr("href")).offset().top - $container.offset().top
+            scrollTop: $($(this).attr("href")).offset().top - 70       
+        });
+        // $('html, body').animate({scrollTop:"-=150px"}, 'slow');
+        // $container.animate({
+        //     scrollTop: $scrollTo.offset().top - $container.offset().top + $container.scrollTop()
+        // });
     });
 
 
