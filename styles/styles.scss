@@ -614,6 +614,11 @@ a:hover{
     }
     
 }
+svg{
+    padding-top: 10px;
+    height: 35px;
+    width: 25px;
+}
 .dropdown{
     display: none;
     position: absolute;
@@ -631,6 +636,7 @@ a:hover{
         color: black;
         display: block;
         padding: 10px 19px;
+        
         border-bottom: 1px solid #6c757d1f;
         text-align: left;
         &:hover{
@@ -643,8 +649,10 @@ a:hover{
         color: black;
         display: block;
         padding: 10px 20px;
+        padding-bottom: 20px;
         border-bottom: 1px solid #6c757d1f;
         text-align: left;
+        
         &:hover{
             color: #665CD7;
         }
