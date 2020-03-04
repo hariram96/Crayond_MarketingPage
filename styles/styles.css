@@ -654,6 +654,10 @@ a:hover {
   text-align: left;
 }
 
+.dropdown #glossary:hover {
+  color: #665CD7;
+}
+
 .dropdown #blog {
   margin: 0;
   width: 100%;
@@ -662,6 +666,10 @@ a:hover {
   padding: 10px 20px;
   border-bottom: 1px solid #6c757d1f;
   text-align: left;
+}
+
+.dropdown #blog:hover {
+  color: #665CD7;
 }
 
 .header_text {
