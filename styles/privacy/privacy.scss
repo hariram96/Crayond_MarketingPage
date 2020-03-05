@@ -1,6 +1,26 @@
 .body {
     width: unset;
 }
+.response-xs{
+    display: flex !important;
+    justify-content: flex-start;
+    width: 100%;
+    margin: auto;
+}
+.privacy-gdpr{
+    display: none !important;
+}
+.privacy{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+   
+}
+.pri:hover{
+    color: #665cd7 !important;
+}
+.pri1{
+    color: #665cd7 !important;
+}
 .card1 {
     margin-top: 4%;
     width           : 100% !important;
@@ -163,6 +183,26 @@
         display: none;
     }
 @media screen and (max-width: 768px) {
+    .response-xs{
+        display: flex !important;
+        justify-content: flex-start;
+        width: 100%;
+        margin: auto;
+    }
+    .privacy-gdpr{
+        display: none !important;
+    }
+    .privacy{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+       
+    }
+    .pri:hover{
+        color: #665cd7 !important;
+    }
+    .pri1{
+        color: #665cd7 !important;
+    }
     .right_side {
         margin-left: 0px;
     }}

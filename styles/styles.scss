@@ -39,6 +39,9 @@ body{
     overflow-x: hidden !important;
     // user-select: none;
 }
+.pri:hover{
+    color: #665cd7 !important;
+}
 
 
 // scroll
@@ -3074,7 +3077,7 @@ body{
   body{
     overflow-x: hidden !important; 
   }
-
+  
   .header_mobile{
       display: block !important;
       tag{
@@ -3874,7 +3877,9 @@ body{
 }
 
 
-
+.pri:hover{
+    color: #665cd7;
+}
 // modal 
 .modal {
 .modal-confirm {		
@@ -3990,3 +3995,25 @@ h4 {
     padding-left: 0px !important;
     padding-right: 0px !important;
   }
+  @media only screen and (max-width: 426px){
+      
+    .response-xs{
+        display: flex !important;
+        justify-content: flex-start;
+        width: 100%;
+        margin: auto;
+    }
+    .privacy-gdpr{
+        display: none !important;
+    }
+    .privacy{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        width: 40% !important;
+    }
+    .gdpr{
+        padding-left: 5px !important;
+        padding-right: 0px !important;
+        width: 40% !important;
+    }
+}

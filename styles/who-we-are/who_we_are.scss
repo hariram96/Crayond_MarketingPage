@@ -344,18 +344,20 @@ $box-shadow2: ();
   }
 }
 
-
+.pri:hover{
+    color: #665cd7 !important;
+}
 
 
 // All media qurys
 
 @media only screen and (min-width: 1200px){
-
+   
 }
 
 // Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) and (max-width: 1199px){
-
+   
 }
 
 // Medium devices (landscape tablets, 768px and up) */
@@ -388,6 +390,23 @@ $box-shadow2: ();
 
 // Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 767px){
+    .response-xs{
+        display: flex !important;
+        justify-content: flex-start;
+        width: 100%;
+        margin: auto;
+    }
+    .privacy-gdpr{
+        display: none !important;
+    }
+    .privacy{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+       
+    }
+    .pri:hover{
+        color: #665cd7 !important;
+    }
     .time_line_his{
         .text{
             h1{   
@@ -431,6 +450,19 @@ $box-shadow2: ();
 }
 
 @media only screen and (max-width: 321px){
+    .response-xs{
+        display: flex !important;
+        justify-content: flex-start;
+        width: 100%;
+        margin: auto;
+    }
+    .privacy-gdpr{
+        display: none !important;
+    }
+    .privacy{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
     .time_line_his{
         .left_arrow{
             display: none !important;
@@ -449,4 +481,31 @@ $box-shadow2: ();
         }
     }
     
+}
+@media only screen and (max-width: 426px){
+    .response-xs{
+        display: flex !important;
+        justify-content: flex-start;
+        width: 100%;
+        margin: auto;
+    }
+    .privacy-gdpr{
+        display: none !important;
+    }
+    .privacy{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        width: 50% !important;
+        &:hover{
+            color: #665cd7 ;
+        }
+    }
+    .gdpr{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        width: 50% !important;
+        &:hover{
+            color: #665cd7 ;
+        }
+    }
 }
