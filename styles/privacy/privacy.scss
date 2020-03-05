@@ -2,14 +2,11 @@
     width: unset;
 }
 .response-xs{
-    display: flex !important;
-    justify-content: flex-start;
-    width: 100%;
-    margin: auto;
+   display: none !important;
 }
-.privacy-gdpr{
-    display: none !important;
-}
+// .privacy-gdpr{
+//     display: none !important;
+// }
 .privacy{
     padding-left: 0px !important;
     padding-right: 0px !important;
