@@ -655,7 +655,7 @@ svg {
   width: 100%;
   color: black;
   display: block;
-  padding: 10px 19px;
+  padding: 10px 24px;
   border-bottom: 1px solid #6c757d1f;
   text-align: left;
 }
@@ -669,14 +669,17 @@ svg {
   width: 100%;
   color: black;
   display: block;
-  padding: 10px 20px;
-  padding-bottom: 20px;
+  padding: 10px 25px;
   border-bottom: 1px solid #6c757d1f;
   text-align: left;
 }
 
 .dropdown #blog:hover {
   color: #665CD7;
+}
+
+.bulletin {
+  margin-bottom: 15px;
 }
 
 .header_text {
@@ -1525,31 +1528,6 @@ body {
   color: #665CD7;
 }
 
-.footer_social_media .row .social_icon {
-  width: 39px;
-  height: 37px;
-  margin: 10px 10px 10px 0px;
-  border-radius: 5px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  cursor: pointer;
-  border-radius: 12px;
-  background-color: rgba(29, 46, 137, 0.05);
-}
-
-.footer_social_media .row .social_icon:hover {
-  border: solid 1px #d4e4e6;
-  -webkit-box-shadow: 0 3px 1px 0 rgba(55, 89, 93, 0.07);
-          box-shadow: 0 3px 1px 0 rgba(55, 89, 93, 0.07);
-  background-color: #ffffff;
-}
-
-.footer_social_media .row .social_icon i {
-  margin: auto;
-  color: #665CD7;
-}
-
 .footer_social_media .row .footer_address {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1571,6 +1549,31 @@ body {
   border-right: 1px solid rgba(25, 34, 79, 0.08);
   font-size: 14px;
   color: #43434b;
+}
+
+.social_icon {
+  width: 39px;
+  height: 37px;
+  margin: 10px 10px 10px 0px;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+  border-radius: 12px;
+  background-color: rgba(29, 46, 137, 0.05);
+}
+
+.social_icon:hover {
+  border: solid 1px #d4e4e6;
+  -webkit-box-shadow: 0 3px 1px 0 rgba(55, 89, 93, 0.07);
+          box-shadow: 0 3px 1px 0 rgba(55, 89, 93, 0.07);
+  background-color: #ffffff;
+}
+
+.social_icon i {
+  margin: auto;
+  color: #665CD7;
 }
 
 .title_of_careerss {
@@ -3281,9 +3284,6 @@ body {
     padding: 15px 0px;
     margin: auto;
   }
-  .footer_social_media .social_icon_link {
-    display: none !important;
-  }
   .footer_social_media .mobile_social_links {
     margin-bottom: 30px;
     display: -webkit-box !important;
@@ -3296,6 +3296,13 @@ body {
   .footer_social_media .footer_address p {
     text-align: left !important;
     margin-top: 0 !important;
+  }
+  .social_icon_link {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .footer_social_media1 {
+    display: none !important;
   }
   .our_mission_section {
     padding: 46px 15px;
@@ -3686,6 +3693,9 @@ body {
 }
 
 @media only screen and (max-width: 321px) {
+  .footer_social_media1 {
+    display: none;
+  }
   .why_us .project_planing {
     min-height: auto !important;
   }
@@ -3812,5 +3822,10 @@ body {
 .modal .modal-confirm .modal-content .trigger-btn {
   display: inline-block;
   margin: 100px auto;
+}
+
+.social_icon_link {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
 }
 /*# sourceMappingURL=styles.css.map */

@@ -635,7 +635,7 @@ svg{
         width: 100%;
         color: black;
         display: block;
-        padding: 10px 19px;
+        padding: 10px 24px;
         
         border-bottom: 1px solid #6c757d1f;
         text-align: left;
@@ -648,8 +648,8 @@ svg{
         width: 100%;
         color: black;
         display: block;
-        padding: 10px 20px;
-        padding-bottom: 20px;
+        padding: 10px 25px;
+        
         border-bottom: 1px solid #6c757d1f;
         text-align: left;
         
@@ -659,7 +659,9 @@ svg{
     }
 }
 
-
+.bulletin{
+    margin-bottom: 15px;
+}
 .header_text{
     position: relative;
     z-index: 1;
@@ -1448,7 +1450,9 @@ body{
     }
   }
 }
+// .footer_social_media1 {
 
+// }
 .footer_social_media {
     border-top: 1px solid rgba(25, 34, 79, 0.08);
     padding: 12px 0px;
@@ -1467,26 +1471,7 @@ body{
            }
        }
     }
-    .social_icon{
-        width: 39px;
-        height: 37px;
-        margin: 10px 10px 10px 0px;
-        border-radius: 5px;
-        display: flex;
-        cursor: pointer;
-        border-radius: 12px;
-        background-color: rgba(29, 46, 137, 0.05);
-        // transition: all 0.1s;
-        &:hover {
-            border: solid 1px #d4e4e6;
-            box-shadow: 0 3px 1px 0 rgba(55, 89, 93, 0.07);
-            background-color: $color-white;
-        }
-        i {
-            margin: auto;
-            color: $primary-color;
-        }
-    }
+   
     .footer_address{
         display: flex;
         align-items: center;
@@ -1505,7 +1490,26 @@ body{
     }
   }
 }
-
+.social_icon{
+    width: 39px;
+    height: 37px;
+    margin: 10px 10px 10px 0px;
+    border-radius: 5px;
+    display: flex;
+    cursor: pointer;
+    border-radius: 12px;
+    background-color: rgba(29, 46, 137, 0.05);
+    // transition: all 0.1s;
+    &:hover {
+        border: solid 1px #d4e4e6;
+        box-shadow: 0 3px 1px 0 rgba(55, 89, 93, 0.07);
+        background-color: $color-white;
+    }
+    i {
+        margin: auto;
+        color: $primary-color;
+    }
+}
 
 
 // opportunities page
@@ -2554,6 +2558,7 @@ body{
             }
         }
     }
+    
     .who_you_are {
      .text {
         h1{
@@ -3069,6 +3074,7 @@ body{
   body{
     overflow-x: hidden !important; 
   }
+
   .header_mobile{
       display: block !important;
       tag{
@@ -3359,10 +3365,7 @@ body{
               margin: auto;
           }
       }
-      .social_icon_link{
-        // justify-content: center !important;
-        display: none !important;
-      }
+      
       .mobile_social_links{
         margin-bottom: 30px;
           display: flex !important;
@@ -3375,7 +3378,21 @@ body{
           }
       }
   }
-
+  .social_icon_link{
+          
+    // justify-content: center !important;
+//   display: none;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .footer_social_media1 {
+    display: none !important;
+}
+// .mob-view{
+//      display: flex !important;
+//      width: 90%;
+//      margin: auto;
+// }
 
 //   opportunities page css
 .our_mission_section{
@@ -3836,7 +3853,9 @@ body{
 }
 
 @media only screen and (max-width: 321px) {
-
+    .footer_social_media1 {
+        display: none;
+    }
 .why_us{
     .project_planing{
         h1{
@@ -3965,3 +3984,9 @@ h4 {
 }
 }
 }
+.social_icon_link{
+          
+    // justify-content: center !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }

@@ -48,6 +48,7 @@ p {
   letter-spacing: 1px;
   font-weight: 800 !important;
   color: white;
+  margin-bottom: 50px;
 }
 
 .product-head h3 {
@@ -147,6 +148,9 @@ p {
   #result h3 {
     font-size: 15px;
     font-weight: 700;
+  }
+  .footer_social_media1 {
+    display: none;
   }
   .container-width {
     width: 80%;

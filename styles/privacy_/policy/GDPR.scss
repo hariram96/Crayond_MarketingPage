@@ -34,9 +34,10 @@
         width: 100%;
         color: black;
         display: block;
-        padding: 10px 28px;
+        padding: 10px 22px;
         border-bottom: 1px solid #6c757d1f;
         text-align: left;
+        color: #595959;
         &:hover{
             color: #665CD7;
         }
@@ -46,9 +47,10 @@
         width: 100%;
         color: black;
         display: block;
-        padding: 10px 29px;
+        padding: 10px 22px;
         border-bottom: 1px solid #6c757d1f;
         text-align: left;
+        color: #595959;
         &:hover{
             color: #665CD7;
         }
@@ -197,6 +199,9 @@
     .right_side {
         display: none !important;
     }}
+    .footer_social_media1 {
+        display: none;
+    }
 @media screen and (max-width: 768px) {
     .right_side {
         margin-left: 0px;

@@ -44,6 +44,7 @@ p{
     letter-spacing: 1px;
     font-weight: 800 !important;
     color: white;
+    margin-bottom: 50px;
     }
     h3{ 
         width:50%;
@@ -134,6 +135,9 @@ p{
             
         }
     }
+    .footer_social_media1 {
+        display: none;
+    }
     .container-width{
         width: 80%;
         margin: auto;
@@ -204,6 +208,7 @@ p{
         background-color: #6455c2;
         margin-top: 5%;
         position: relative;
+       
         h1{
         padding-top: 75px;
         font-size: 32px;
