@@ -21,13 +21,13 @@
   margin: auto;
 }
 
-.privacy-gdpr {
-  display: none !important;
-}
-
 .privacy {
   padding-left: 12px !important;
   padding-right: 0px !important;
+}
+
+.c {
+  color: #595959;
 }
 
 .response-xs {
@@ -50,6 +50,10 @@
 
 .span-position:hover .dropdown {
   display: block;
+}
+
+.footer_social_media1 {
+  display: block !important;
 }
 
 .dropdown {
@@ -266,6 +270,10 @@
   color: #6450f0;
 }
 
+.privacy-gdpr .gdpr p {
+  padding-left: 14px;
+}
+
 @media screen and (max-width: 427px) {
   .right_side {
     display: none !important;
@@ -333,8 +341,13 @@
     display: none !important;
   }
   .privacy {
-    padding-left: 5px !important;
     padding-right: 0px !important;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  .privacy p {
+    padding-right: 30px !important;
   }
 }
 /*# sourceMappingURL=GDPR.css.map */

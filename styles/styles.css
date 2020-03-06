@@ -3853,13 +3853,19 @@ body {
   }
   .privacy {
     padding-left: 0px !important;
-    padding-right: 0px !important;
-    width: 40% !important;
+    padding-right: 10px !important;
+    width: 20% !important;
   }
   .gdpr {
     padding-left: 5px !important;
     padding-right: 0px !important;
     width: 40% !important;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  .privacy p {
+    padding-right: 30px !important;
   }
 }
 /*# sourceMappingURL=styles.css.map */

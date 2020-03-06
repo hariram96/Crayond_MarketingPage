@@ -173,6 +173,12 @@
 }
 
 @media screen and (max-width: 427px) {
+    .response-xs{
+        display: flex !important;
+        justify-content: flex-start;
+        width: 100%;
+        margin: 0px auto;
+    }
     .right_side {
         display: none !important;
     }}
@@ -180,15 +186,10 @@
         display: none;
     }
 @media screen and (max-width: 768px) {
-    .response-xs{
-        display: flex !important;
-        justify-content: flex-start;
-        width: 100%;
-        margin: auto;
-    }
-    .privacy-gdpr{
-        display: none !important;
-    }
+    
+    // .privacy-gdpr{
+    //     display: none !important;
+    // }
     .privacy{
         padding-left: 0px !important;
         padding-right: 0px !important;
