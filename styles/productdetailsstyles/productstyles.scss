@@ -1,0 +1,228 @@
+.alphabet-color{
+    color:#6455c2 !important;
+    font-weight: 800 !important;
+  
+}
+p{
+    margin-bottom: 0px;
+}
+#glossary{
+  
+        color: #665CD7 !important;
+   
+}
+#result{
+    width: 50%;
+    margin: auto;
+    margin-top: -20px;
+    height: 30px;
+    margin-bottom: 15px;
+    h3{
+        font-size: 20px;
+        font-weight: 700;
+        
+    }
+}
+.read-more{
+    color: #6455c2;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+.para-color{
+    
+    color: #595959;
+    font-size: 18px;
+    line-height: 33px;
+}
+.product-head{
+    background-color: #6455c2;
+    margin-top: 5%;
+    position: relative;
+    h1{
+    padding-top: 80px;
+    font-size: 45px;
+    letter-spacing: 1px;
+    font-weight: 800 !important;
+    color: white;
+    margin-bottom: 50px;
+    }
+    h3{ 
+        width:50%;
+        margin: 20px auto;
+        font-size:23px;
+        line-height: 40px;
+        color:#cec9eb;
+        padding-bottom: 75px;
+    }
+}
+.search-bar{
+    width:50%;
+   border: 1px solid #c7c6ca;
+   border-radius: 10px;
+    position: relative;
+    bottom:50px;
+    left: 25%;
+    right: 25%;
+    .icon{
+        background-color: white;
+        color: #75758a;
+        align-items: center;
+    }
+    input{
+        width: 100%;
+        margin: auto;
+        padding:17px 30px;
+        border-radius: 10px;
+        border:none;
+        outline: none;  
+    }
+}
+.Row{
+    display: flex;
+}
+#abc{
+    position: sticky !important;
+    top: 100px;
+    padding-top: 17px;
+}
+.alphabet{
+    
+    width: 20%;
+    a{
+        outline: none;
+        text-align: center;
+        list-style: none;
+        font-weight: 300;
+        // color: #75758a;
+        color: #595959;
+        // position: sticky !important;
+        // top: 10px;
+        margin: 10px auto;
+        text-transform: uppercase;
+        font-size: 16px;
+        display: block;
+        cursor: pointer;
+        text-decoration: none;
+        // transition: all 0.3s linear;
+    }
+}
+.container-width{
+    width: 90%;
+    margin: auto;
+}
+.description{
+    width:80%;
+    .des-container{
+        width: 95%;
+        h3{
+            color: #212529;
+            font-size: 25px;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+    }
+}
+@media only screen and (max-width: 600px) {
+    #result{
+        width: 87%;
+        margin: auto;
+        height: 20px;
+        margin-bottom: 10px;
+        
+        h3{
+            font-size: 15px;
+            font-weight: 700;
+            
+        }
+    }
+    .footer_social_media1 {
+        display: none;
+    }
+    .container-width{
+        width: 80%;
+        margin: auto;
+    }
+    .Row{
+        display: block;
+    }
+    .search-bar{
+        width:90%;
+       border: 1px solid #c7c6ca;
+       border-radius: 10px;
+        position: relative;
+        bottom:50px;
+        left: 5%;
+        right: 6%;
+        .icon{
+            background-color: white;
+            color: #75758a;
+            align-items: center;
+        }
+        input{
+            width: 100%;
+            margin: auto;
+            padding:15px 30px;
+            border-radius: 10px;
+            border:none;
+            outline: none;  
+        }
+    }
+    .alphabet{
+        display: none;
+        // width: 100%;
+        // display: flex;
+        // flex-wrap: wrap;
+        // margin: 25px auto;
+      
+        // a{
+          
+        //     text-align: center;
+        //     list-style: none;
+        //     font-size: 11px !important;
+        //     font-weight: 700 !important;
+        //     color: #75758a;
+        //     margin: 10px auto;
+        // }
+    }
+    .description{
+        width:100%;
+        .des-container{
+            width: 100% !important;
+            h3{
+                font-size: 20px !important;
+                font-weight: 600;
+                margin-bottom: 20px;
+            }
+        }
+    }
+    .para-color{
+        color: #595959;
+        line-height: 25px;
+        font-size: 15px;
+    }
+    .read-more{
+        color: #6455c2;
+        font-weight: 600;
+    }
+    .product-head{
+        background-color: #6455c2;
+        margin-top: 5%;
+        position: relative;
+       
+        h1{
+        padding-top: 75px;
+        font-size: 32px;
+        letter-spacing: 1px;
+        font-weight: 800 !important;
+        color: white;
+        }
+        h3{ 
+            width:85%;
+            margin: 20px auto;
+            font-size:18px;
+            line-height: 30px;
+            color:#cec9eb;
+            padding-bottom: 75px;
+        }
+    }
+  }
