@@ -1350,12 +1350,18 @@ body{
         font-weight: 500 !important;
         text-align: center;
     }
+    .hr{
+        width: 75px;
+        margin: 25px auto;
+        border-bottom: 1px solid #6455c2;
+        
+    }
     .facts-para{
        
         font-weight: 500;
         color: $text-tertiary-color;
-        font-size: 20px;
-        line-height: 33px;
+        font-size: 18px;
+        line-height: 40px;
         width: 50%;
         margin: auto;
     }

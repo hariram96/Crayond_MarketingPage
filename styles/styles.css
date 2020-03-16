@@ -1384,11 +1384,17 @@ body {
   text-align: center;
 }
 
+.quick_facts .hr {
+  width: 75px;
+  margin: 25px auto;
+  border-bottom: 1px solid #6455c2;
+}
+
 .quick_facts .facts-para {
   font-weight: 500;
   color: #595959;
-  font-size: 20px;
-  line-height: 33px;
+  font-size: 18px;
+  line-height: 40px;
   width: 50%;
   margin: auto;
 }
