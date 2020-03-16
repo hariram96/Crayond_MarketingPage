@@ -1288,7 +1288,7 @@ body{
     // background-color: $darck-background-color;
     background-color: $card-background-color;
     padding: 6% 0;
-    margin: 6% 0px;
+    // margin: 6% 0px;
     .about-crayond {
         display: flex;
         .row{
@@ -1331,6 +1331,51 @@ body{
             height: auto;
         }
     }
+}
+.quick_facts{
+    padding: 75px 0px;
+    background-color: whitesmoke;
+    .facts_head{
+        color: #6455c2;
+        font-size: 32px;
+        text-align: center;
+    }
+    h3{
+        font-size: 42px;
+       
+        text-align: center;
+    }
+    h4{
+        font-size: 32px;
+        font-weight: 500 !important;
+        text-align: center;
+    }
+    .facts-para{
+       
+        font-weight: 500;
+        color: $text-tertiary-color;
+        font-size: 20px;
+        line-height: 33px;
+        width: 50%;
+        margin: auto;
+    }
+    .containers{
+        width: 60%;
+        margin:25px auto;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        
+        background-color: #fdfdfdab;
+        border-radius: 20px;
+        box-shadow: 0px 15px;
+        .card-subhead{
+            font-size: 20px;
+            
+            color: #adadad;
+        }
+    }
+    
+   
 }
 
 .next_billion{
@@ -2731,7 +2776,6 @@ body{
         }
     }
 
-
     // opportunities page css
     .our_mission_section{
         padding: 45px 15px 0px 15px;
@@ -3072,6 +3116,11 @@ body{
             font-size: 2rem !important;
         }
     }
+    .facts-para{
+        font-size:18px !important;
+        width: 80% !important;
+        margin: auto;
+    }
 }
 // Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 767px) {
@@ -3163,7 +3212,7 @@ body{
         }
     }
 
-
+ 
 
   .who_you_are {
     margin-top: 15%;
@@ -3320,7 +3369,7 @@ body{
           display: none !important;
       }
   }
-
+  
   .next_billion{
       .billion{
         padding-top: 12%;
@@ -3997,7 +4046,10 @@ h4 {
     padding-right: 0px !important;
   }
   @media only screen and (max-width: 426px){
-      
+    .facts-para{
+        width: 80% !important;
+        margin: auto;
+    }
     .response-xs{
         display: flex !important;
         justify-content: flex-start;
