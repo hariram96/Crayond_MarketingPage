@@ -530,6 +530,7 @@
   }
   .l {
     margin: auto 0px !important;
+    display: block !important;
   }
 }
 

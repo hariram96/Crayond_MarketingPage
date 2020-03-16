@@ -3854,10 +3854,10 @@ body {
   .privacy {
     padding-left: 0px !important;
     padding-right: 10px !important;
-    width: 20% !important;
+    width: 100% !important;
   }
   .gdpr {
-    padding-left: 5px !important;
+    padding-left: 0px !important;
     padding-right: 0px !important;
     width: 40% !important;
   }
