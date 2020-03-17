@@ -13,7 +13,7 @@
 .ebook .ebook-content h1 {
   color: #2c3550;
   line-height: 1.25;
-  padding-top: 75px;
+  padding-top: 25px;
   font-size: 56px;
   font-weight: 600;
 }
@@ -239,7 +239,7 @@
     margin: 16px auto !important;
   }
   .sm {
-    height: 500px !important;
+    height: auto !important;
   }
   .img2-response {
     height: 475px !important;
@@ -269,7 +269,7 @@
     font-size: 14px !important;
   }
   .sm {
-    height: 450px !important;
+    height: auto !important;
   }
   .img2-response {
     height: 425px !important;
@@ -543,7 +543,7 @@
     height: auto !important;
   }
   .sm {
-    height: 330px !important;
+    height: auto !important;
   }
   .ebook {
     margin-top: 18% !important;
