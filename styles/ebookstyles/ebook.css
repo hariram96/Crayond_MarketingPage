@@ -269,7 +269,7 @@
     font-size: 14px !important;
   }
   .sm {
-    height: 500px !important;
+    height: 320px !important;
   }
   .img2-response {
     height: 425px !important;
@@ -281,14 +281,14 @@
   .ebook .ebook-content h4 {
     color: #656c81;
     line-height: 1.67;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     margin: 20px auto;
   }
   .ebook .ebook-content h1 {
     color: #2c3550;
     line-height: 1.25;
-    font-size: 40px;
+    font-size: 36px;
     font-weight: 600;
   }
   .ebook .ebook-content .buttons {
