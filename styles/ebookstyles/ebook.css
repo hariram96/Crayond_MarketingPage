@@ -8,12 +8,12 @@
   line-height: 1.67;
   font-size: 24px;
   font-weight: 500;
-  margin: 25px auto;
 }
 
 .ebook .ebook-content h1 {
   color: #2c3550;
   line-height: 1.25;
+  padding-top: 75px;
   font-size: 56px;
   font-weight: 600;
 }
@@ -186,7 +186,7 @@
 }
 
 .lists {
-  margin: 70px auto;
+  margin: 0px auto;
   line-height: 35px;
 }
 
@@ -236,7 +236,7 @@
     padding: 12px 20px;
   }
   .lists {
-    margin: 35px auto !important;
+    margin: 16px auto !important;
   }
   .sm {
     height: 500px !important;
@@ -337,7 +337,7 @@
     font-size: 15px;
   }
   .lists {
-    margin: 40px auto;
+    margin: 0px auto;
     line-height: 30px;
   }
   .lists ul {
@@ -427,6 +427,7 @@
     line-height: 1.25;
     font-size: 35px;
     font-weight: 600;
+    padding-top: 40px;
   }
   .ebook .ebook-content .buttons {
     margin-top: 35px;
@@ -456,7 +457,7 @@
     padding-left: 50px !important;
   }
   .lists {
-    margin: 15px auto !important;
+    margin: 10px auto !important;
   }
   .ebook {
     margin-top: 12% !important;
