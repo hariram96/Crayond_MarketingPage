@@ -1,12 +1,12 @@
 .ebook {
-  margin-top: 8%;
+  margin-top: 12%;
   margin-bottom: 75px;
 }
 
 .ebook .ebook-content h4 {
   color: #656c81;
   line-height: 1.67;
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 500;
 }
 
@@ -14,7 +14,7 @@
   color: #2c3550;
   line-height: 1.25;
   padding-top: 25px;
-  font-size: 62px;
+  font-size: 56px;
   font-weight: 800 !important;
 }
 
@@ -29,12 +29,20 @@
   font-weight: 800 !important;
 }
 
+.ebook .ebook-content .buttons .pdf a {
+  color: black;
+}
+
 .ebook .ebook-content .buttons .inside {
   font-weight: 800 !important;
   background-color: #ffd84e;
   border-radius: 10px;
   font-size: 19px;
   padding: 15px 16px;
+}
+
+.ebook .ebook-content .buttons .inside a {
+  color: black;
 }
 
 .reponse-img {
@@ -77,6 +85,7 @@
 .report h3 {
   font-weight: 800;
   margin-bottom: 25px;
+  font-size: 22px;
 }
 
 .report .card {
@@ -128,18 +137,6 @@
   cursor: pointer;
   padding: 0;
   color: #cccccc;
-}
-
-.styled-checkbox + label:before {
-  content: '';
-  margin-right: 10px;
-  display: inline-block;
-  vertical-align: text-top;
-  width: 20px;
-  height: 20px;
-  background: transparent;
-  border: 1px solid #cccccc;
-  border-radius: 6px;
 }
 
 .styled-checkbox:checked + label:before {
@@ -216,7 +213,7 @@
 
 @media only screen and (max-width: 1200px) {
   .ebook {
-    margin-top: 10% !important;
+    margin-top: 12% !important;
   }
   .ebook .ebook-content h4 {
     color: #656c81;
@@ -309,7 +306,7 @@
   .ebook .ebook-content .buttons .pdf {
     border-radius: 10px;
     font-size: 13px;
-    padding: 10px 22px;
+    padding: 8px 18px;
     font-weight: 700 !important;
   }
   .ebook .ebook-content .buttons .inside {
@@ -317,7 +314,7 @@
     background-color: #ffd84e;
     border-radius: 10px;
     font-size: 13px;
-    padding: 12px 16px;
+    padding: 10px 12px;
   }
   .card .full-name {
     width: 20%;
@@ -425,7 +422,7 @@
     padding-right: 0px !important;
   }
   .ebook {
-    margin-top: 12% !important;
+    margin-top: 14% !important;
   }
   .ebook .ebook-content h4 {
     color: #656c81;
@@ -510,7 +507,7 @@
     border-radius: 6px;
     font-size: 13px;
     margin: auto 5px;
-    padding: 7px 13px;
+    padding: 10px 16px;
     font-weight: 700 !important;
   }
   .ebook .ebook-content .buttons .pdf .pd {
@@ -523,9 +520,12 @@
     border-radius: 6px;
     font-size: 13px;
     margin: auto 5px;
-    padding: 10px 7px !important;
+    padding: 12px 8px !important;
   }
   .right-bg {
+    display: none;
+  }
+  .img-2 {
     display: none;
   }
   .report {

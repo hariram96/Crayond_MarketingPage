@@ -143,17 +143,17 @@
     <div class="container ebook">
         <div class="row">
             <div class="col-lg-6 col-md-6">
-                <div class="ebook-content col-lg-12">
+                <div class="ebook-content col-lg-11">
                     <!-- <h4 class="fontLatoRegular">SaaS Cheat Sheet</h4> -->
-                    <h1 class="fontLatoRegular">Design Sprint— The Ultimate Guide.</h1>
+                    <h1 class="fontGraphikBold">Design Sprint— The Ultimate Guide.</h1>
                     <h4 class="fontLatoRegular">From idea to prototype— validate your product-idea to start developing, in just 5 days!
                     </h4>
                     <div class="reponse-img">
                         <img src="./images/design_sprint.png" alt="" class="img-fluid sm">
                     </div>
                     <div class="buttons d-flex justify-content-between">
-                        <button class="btn pdf "><img src="./images/pdf.jpg" class="img-fluid pd mr-3 pb-1">Download Report</button>
-                        <button class="btn inside">What is Inside?</button>
+                        <button class="btn pdf "><a href="#report" ><img src="./images/pdf.jpg" class="img-fluid pd mr-3 pb-1">Download Report</a></button>
+                        <button class="btn inside"><a href="#what-inside">What is Inside?</a></button>
                     </div>
                 </div>
             </div>
@@ -170,7 +170,7 @@
     </div>
     <div class="container " id="report">
         <div class="report">
-            <h3 class="report-title">Get the Report</h3>
+            <h3 class="report-title fontGraphikBold">Get the Report</h3>
             <div class="card">
                 <form class="row d-flex margin  mx-5 mb-2" action="https://crayond.us18.list-manage.com/subscribe/post?u=1dfb1707af43fd19e76de6127&amp;id=de0850782f" method="post">
                     <div class="full-name w-25 mx-3">
@@ -195,7 +195,9 @@
                         <li class="li">
                             <input class="styled-checkbox checkbox-hide" id="styled-checkbox-2" type="checkbox" 
                                 >
-                            <label for="styled-checkbox-2">Subscribe to our Newsletter</label>
+                            <label for="styled-checkbox-2">
+                                <!-- Subscribe to our Newsletter -->
+                            </label>
                         </li>
 
                     </ul>
@@ -209,7 +211,7 @@
     <div class="container-fluid footer-border bg-img">
         <div class="container  " id="what-inside">
             <div class="whats-inside">
-                <h3 class="text-center fontGraphikRegular">What is inside?</h3>
+                <h3 class="text-center fontGraphikBold">What is inside?</h3>
             </div>
             <div class="row mb-5 ">
                 <div class="col-lg-6 col-md-6 pr-0 ">
@@ -495,18 +497,24 @@ email.addEventListener('invalid', function () {
     $("#nav-toggle").click(function(){
       $(".sub-menu").slideToggle();
     });
-    
+    $(document).on('click', 'a[href^="#"]', function (event) {
+    event.preventDefault();
+
+    $('html, body').animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+    }, 1000);
+});
         
-        $(".inside").click(function() {
-            $('html, body').animate({
-                scrollTop: $("#what-inside").offset().top
-            }, 1000);
-        });
-        $(".pdf").click(function() {
-            $('html, body').animate({
-                scrollTop: $("#report").offset().top
-            }, 1000);
-        });
+    //     $(".inside").click(function() {
+    //         $('html, body').animate({
+    //             scrollTop: $("#what-inside").offset().top
+    //         }, 1000);
+    //     });
+    //     $(".pdf").click(function() {
+    //         $('html, body').animate({
+    //             scrollTop: $("#report").offset().top
+    //         }, 1000);
+    //     });
         $(".download").click(function(){
             debugger
             var name = document.getElementById("name").value;
