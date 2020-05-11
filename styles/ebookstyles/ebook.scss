@@ -333,21 +333,28 @@ z-index:1;
                 font-weight: 600;
             }
             .buttons{
-                margin-top: 25px;
+                margin-top: 18px;
+                display: flex;
+                justify-content: start !important;
                 .pdf{
                     border-radius: 10px;
-                    font-size: 13px;
-                   
-                    padding: 6px 16px;
+                    font-size: 12px;
+                    margin-right: 16px;
+                    padding: 7px 12px;
                     font-weight: 700 !important;
                     // margin-right: 20px;
+                    .pd{
+                        height:22px;
+                        margin-right:8px !important;
+                        padding-bottom:0px !important;
+                    }
                 }
                 .inside{
                     font-weight: 700 !important;
                     background-color: #ffd84e;
                     border-radius: 10px;
-                    font-size: 13px;
-                    padding: 7px 10px;
+                    font-size: 12px;
+                    padding: 8px 21px;
                 }
             }
         }    
@@ -359,7 +366,7 @@ z-index:1;
     width:20%;
 }  
     .card{
-        
+        padding-bottom:20px;
         .full-name{
             width: 20%;
             margin: auto 5px !important;
@@ -651,7 +658,7 @@ z-index:1;
     }
     .sm{
         // padding-top: 20px !important;
-        height: 300px !important;
+        height: unset !important;
     }
 }
 @media only screen and (max-width: 374px) {
@@ -772,7 +779,7 @@ z-index:1;
     }
     .sm{
         // padding-top: 20px !important;
-        height: 270px !important;
+        height: unset !important;
     }
     
 }
