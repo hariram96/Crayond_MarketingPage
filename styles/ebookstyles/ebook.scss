@@ -115,12 +115,13 @@ z-index:1;
 .styled-checkbox {
     // position: absolute; // take it out of document flow
     opacity: 0; // hide it
+    
   
     & + label {
       position: relative;
       cursor: pointer;
       padding: 0;
-      color:white;
+      color:#cccccc;
     }
   
     // Box.
@@ -132,7 +133,8 @@ z-index:1;
       width: 20px;
       height: 20px;
       background: transparent;
-      border: 1px solid #ffffff;
+      border: 1px solid #cccccc;
+      border-radius:6px;
     }
   
     
@@ -142,6 +144,7 @@ z-index:1;
     &:checked + label:before {
       background:transparent;
       border: 1px solid #c0c0c3;
+      border-radius:6px;
     }
     
    
@@ -156,8 +159,8 @@ z-index:1;
     &:checked + label:after {
       content: '';
       position: absolute;
-      left: 5px;
-      top: 9px;
+      left: 4px;
+      top: 11px;
       background: transparent;
       width: 2px;
       height: 2px;
@@ -513,6 +516,19 @@ z-index:1;
     .unstyled {
         padding-left: 50px !important;
     }
+    .styled-checkbox {
+        // position: absolute; // take it out of document flow
+        opacity: 0; // hide it
+        
+      
+        & + label {
+          position: relative;
+          cursor: pointer;
+          padding: 0;
+          color:#cccccc;
+          display:flex;
+        }
+    }    
     .lists{
         margin: 10px auto !important;
     }
@@ -564,6 +580,9 @@ z-index:1;
     .right-bg{
        display: none;
     } 
+    .report{
+        margin-top:40px;
+    }
     .download-btn{
         margin-left: 0px !important;
     }

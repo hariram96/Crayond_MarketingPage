@@ -127,7 +127,7 @@
   position: relative;
   cursor: pointer;
   padding: 0;
-  color: white;
+  color: #cccccc;
 }
 
 .styled-checkbox + label:before {
@@ -138,12 +138,14 @@
   width: 20px;
   height: 20px;
   background: transparent;
-  border: 1px solid #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
 }
 
 .styled-checkbox:checked + label:before {
   background: transparent;
   border: 1px solid #c0c0c3;
+  border-radius: 6px;
 }
 
 .styled-checkbox:disabled + label:before {
@@ -155,8 +157,8 @@
 .styled-checkbox:checked + label:after {
   content: '';
   position: absolute;
-  left: 5px;
-  top: 9px;
+  left: 4px;
+  top: 11px;
   background: transparent;
   width: 2px;
   height: 2px;
@@ -466,6 +468,18 @@
   .unstyled {
     padding-left: 50px !important;
   }
+  .styled-checkbox {
+    opacity: 0;
+  }
+  .styled-checkbox + label {
+    position: relative;
+    cursor: pointer;
+    padding: 0;
+    color: #cccccc;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
   .lists {
     margin: 10px auto !important;
   }
@@ -513,6 +527,9 @@
   }
   .right-bg {
     display: none;
+  }
+  .report {
+    margin-top: 40px;
   }
   .download-btn {
     margin-left: 0px !important;
