@@ -65,12 +65,14 @@
   position: absolute;
   top: 200px;
   right: 1px;
+  width: 50%;
 }
 
 .img-2 {
   position: absolute;
   top: 350px;
   left: 1px;
+  width: 20%;
 }
 
 .right-bg {
@@ -277,9 +279,6 @@
   .privacy h6 {
     font-size: 14px !important;
   }
-  .sm {
-    height: 320px !important;
-  }
   .img2-response {
     height: 425px !important;
   }
@@ -290,7 +289,7 @@
   .ebook .ebook-content h4 {
     color: #656c81;
     line-height: 1.67;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     margin: 20px auto;
   }
@@ -301,12 +300,12 @@
     font-weight: 600;
   }
   .ebook .ebook-content .buttons {
-    margin-top: 35px;
+    margin-top: 25px;
   }
   .ebook .ebook-content .buttons .pdf {
     border-radius: 10px;
     font-size: 13px;
-    padding: 8px 18px;
+    padding: 6px 16px;
     font-weight: 700 !important;
   }
   .ebook .ebook-content .buttons .inside {
@@ -314,7 +313,13 @@
     background-color: #ffd84e;
     border-radius: 10px;
     font-size: 13px;
-    padding: 10px 12px;
+    padding: 7px 10px;
+  }
+  .img-2 {
+    position: absolute;
+    top: 210px;
+    left: 1px;
+    width: 20%;
   }
   .card .full-name {
     width: 20%;
@@ -360,10 +365,15 @@
     padding-right: 0px !important;
   }
   .report {
-    margin-bottom: 30px;
+    margin-bottom: 70px;
+    margin-top: 100px;
   }
   .report .report-title {
     font-size: 22px;
+  }
+  .footer-border {
+    padding-bottom: 0px;
+    border-bottom: 1px solid #dfdfdf;
   }
 }
 
@@ -420,6 +430,9 @@
     font-weight: 600;
     font-size: 15px;
     padding-right: 0px !important;
+  }
+  .sm {
+    height: 330px !important;
   }
   .ebook {
     margin-top: 14% !important;
@@ -478,7 +491,7 @@
     display: flex;
   }
   .lists {
-    margin: 10px auto !important;
+    margin: -10px auto !important;
   }
   .ebook {
     margin-top: 12% !important;
@@ -497,9 +510,8 @@
     font-weight: 600;
   }
   .ebook .ebook-content .buttons {
-    -webkit-box-pack: start !important;
-        -ms-flex-pack: start !important;
-            justify-content: start !important;
+    -ms-flex-pack: distribute !important;
+        justify-content: space-around !important;
     margin-top: 35px;
     margin-bottom: 25px;
   }
@@ -507,7 +519,7 @@
     border-radius: 6px;
     font-size: 13px;
     margin: auto 5px;
-    padding: 10px 16px;
+    padding: 10px 24px;
     font-weight: 700 !important;
   }
   .ebook .ebook-content .buttons .pdf .pd {
@@ -520,7 +532,7 @@
     border-radius: 6px;
     font-size: 13px;
     margin: auto 5px;
-    padding: 12px 8px !important;
+    padding: 12px 16px !important;
   }
   .right-bg {
     display: none;
@@ -536,6 +548,8 @@
   }
   .img2-response {
     float: left !important;
+    height: 420px;
+    z-index: 1;
   }
   .download {
     padding: 10px 25px;
@@ -556,9 +570,17 @@
     margin-bottom: 25px;
     font-size: 15px;
   }
+  .whats-inside h3 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 25px;
+  }
   .l {
     margin: auto 0px !important;
     display: block !important;
+  }
+  .sm {
+    height: 300px !important;
   }
 }
 
@@ -567,9 +589,6 @@
     padding-left: 20px !important;
   }
   .img2-response {
-    height: auto !important;
-  }
-  .sm {
     height: auto !important;
   }
   .ebook {
@@ -592,7 +611,7 @@
     -webkit-box-pack: start !important;
         -ms-flex-pack: start !important;
             justify-content: start !important;
-    margin-top: 35px;
+    margin-top: 22px;
     margin-bottom: 25px;
   }
   .ebook .ebook-content .buttons .pdf {
@@ -631,6 +650,9 @@
     font-size: 13px !important;
     margin-bottom: 25px;
   }
+  label {
+    font-size: 14px !important;
+  }
   .lists li {
     font-size: 16px !important;
   }
@@ -657,6 +679,9 @@
   }
   .l {
     margin: auto 0px !important;
+  }
+  .sm {
+    height: 270px !important;
   }
 }
 /*# sourceMappingURL=ebook.css.map */

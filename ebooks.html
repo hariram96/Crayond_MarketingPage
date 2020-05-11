@@ -152,7 +152,7 @@
                         <img src="./images/design_sprint.png" alt="" class="img-fluid sm">
                     </div>
                     <div class="buttons d-flex justify-content-between">
-                        <button class="btn pdf "><a href="#report" ><img src="./images/pdf.jpg" class="img-fluid pd mr-3 pb-1">Download Report</a></button>
+                        <button class="btn pdf "><a href="#report"><img src="./images/pdf.jpg" class="img-fluid pd mr-3 pb-1">Download Report</a></button>
                         <button class="btn inside"><a href="#what-inside">What is Inside?</a></button>
                     </div>
                 </div>
@@ -163,10 +163,10 @@
         </div>
     </div>
     <div class="img-2">
-        <img src="../../images/rightbg.png" alt="">
+        <img src="../../images/rightbg.png" class="img-fluid" alt="">
     </div>
     <div class="img">
-        <img src="../../images/topleft-bg.png" alt="">
+        <img src="../../images/topleft-bg.png" class="img-fluid" alt="">
     </div>
     <div class="container " id="report">
         <div class="report">
@@ -501,7 +501,7 @@ email.addEventListener('invalid', function () {
     event.preventDefault();
 
     $('html, body').animate({
-        scrollTop: $($.attr(this, 'href')).offset().top
+        scrollTop: $($.attr(this, 'href')).offset().top - 80
     }, 1000);
 });
         
