@@ -25,6 +25,7 @@
 .ebook .ebook-content .buttons .pdf {
   border-radius: 10px;
   font-size: 19px;
+  background-color: #dddddd;
   padding: 15px 24px;
   font-weight: 800 !important;
 }
@@ -250,7 +251,7 @@
     margin: 16px auto !important;
   }
   .sm {
-    height: auto !important;
+    height: auto;
   }
   .img2-response {
     height: 475px !important;
@@ -371,6 +372,9 @@
   .report .report-title {
     font-size: 22px;
   }
+  .sm {
+    height: 310px !important;
+  }
   .footer-border {
     padding-bottom: 0px;
     border-bottom: 1px solid #dfdfdf;
@@ -430,9 +434,6 @@
     font-weight: 600;
     font-size: 15px;
     padding-right: 0px !important;
-  }
-  .sm {
-    height: 330px !important;
   }
   .ebook {
     margin-top: 14% !important;
@@ -519,6 +520,7 @@
     border-radius: 6px;
     font-size: 13px;
     margin: auto 5px;
+    background-color: #dddddd;
     padding: 10px 24px;
     font-weight: 700 !important;
   }
@@ -617,6 +619,7 @@
   .ebook .ebook-content .buttons .pdf {
     border-radius: 6px;
     font-size: 11px;
+    background-color: #dddddd;
     margin: auto 5px;
     padding: 8px 12px 6px 12px !important;
     font-weight: 700 !important;

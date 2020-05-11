@@ -24,7 +24,7 @@
             .pdf{
                 border-radius: 10px;
                 font-size: 19px;
-               
+               background-color:#dddddd;
                 padding: 15px 24px;
                 font-weight: 800 !important;
                 // margin-right: 20px;
@@ -275,7 +275,7 @@ z-index:1;
     }
     .sm{
         // padding-top: 20px !important;
-        height: auto !important;
+        height: auto ;
     }
     .img2-response{
         height: 475px !important;
@@ -413,7 +413,10 @@ z-index:1;
      font-size: 22px;
     } 
 } 
-
+.sm{
+    // padding-top: 20px !important;
+    height: 310px !important;
+}
 .footer-border{
     padding-bottom: 0px;
     border-bottom: 1px solid #dfdfdf;
@@ -479,10 +482,7 @@ z-index:1;
         }
     }
 } 
-.sm{
-    // padding-top: 20px !important;
-    height: 330px !important;
-}
+
 
 .ebook{
     margin-top: 14% !important;
@@ -579,6 +579,7 @@ z-index:1;
                     border-radius: 6px;
                     font-size: 13px;
                    margin: auto 5px;
+                   background-color:#dddddd;
                     padding: 10px 24px;
                     font-weight: 700 !important;
                     // margin-right: 20px;
@@ -686,6 +687,7 @@ z-index:1;
                 .pdf{
                     border-radius: 6px;
                     font-size: 11px;
+                    background-color:#dddddd;
                    margin: auto 5px;
                    padding: 8px 12px 6px 12px !important;
                     font-weight: 700 !important;
