@@ -143,17 +143,16 @@
     <div class="container ebook">
         <div class="row">
             <div class="col-lg-6 col-md-6">
-                <div class="ebook-content col-lg-10">
+                <div class="ebook-content col-lg-12">
                     <!-- <h4 class="fontLatoRegular">SaaS Cheat Sheet</h4> -->
-                    <h1 class="fontGraphikRegular">Design Sprint— The Ultimate Guide.</h1>
+                    <h1 class="fontLatoRegular">Design Sprint— The Ultimate Guide.</h1>
                     <h4 class="fontLatoRegular">From idea to prototype— validate your product-idea to start developing, in just 5 days!
                     </h4>
                     <div class="reponse-img">
                         <img src="./images/design_sprint.png" alt="" class="img-fluid sm">
                     </div>
                     <div class="buttons d-flex justify-content-between">
-                        <button class="btn pdf "><img src="./images/pdf.jpg" class="img-fluid pd mr-3 pb-1">Download
-                            PDF</button>
+                        <button class="btn pdf "><img src="./images/pdf.jpg" class="img-fluid pd mr-3 pb-1">Download Report</button>
                         <button class="btn inside">What is Inside?</button>
                     </div>
                 </div>
@@ -169,33 +168,33 @@
     <div class="img">
         <img src="../../images/topleft-bg.png" alt="">
     </div>
-    <div class="container ">
+    <div class="container " id="report">
         <div class="report">
             <h3 class="report-title">Get the Report</h3>
             <div class="card">
-                <div class="row d-flex margin  mx-5 mb-2">
+                <form class="row d-flex margin  mx-5 mb-2" action="https://crayond.us18.list-manage.com/subscribe/post?u=1dfb1707af43fd19e76de6127&amp;id=de0850782f" method="post">
                     <div class="full-name w-25 mx-3">
                         <label class="label fontLatoRegular" for="name">Full Name *</label><br>
-                        <input type="text" id="name">
+                        <input type="text" id="name"  autocomplete="off" required >
                     </div>
                     <div class="email w-25 mx-3">
-                        <label class="label fontLatoRegular" for="email">Email *</label><br>
-                        <input type="email" name="email" id="email">
+                        <label class="label fontLatoRegular"  for="email">Email *</label><br>
+                        <input type="email" name="email"  autocomplete="off"  id="email" required>
                     </div>
                     <div class="company w-25 mx-3">
-                        <label class="label fontLatoRegular" for="company">Company *</label><br>
-                        <input type="text" id="company">
+                        <label class="label fontLatoRegular"  for="company">Company *</label><br>
+                        <input type="text"  autocomplete="off" required id="company" required>
                     </div>
                     <div class="download-btn ml-2">
-                        <button class="download btn fontLatoRegular">DOWNLOAD</button>
+                        <button class="download btn fontLatoRegular" >DOWNLOAD</button>
                     </div>
-                </div>
+                </form>
                 <div class="row  d-flex justify-content-between l mx-5 ">
                     <ul class="unstyled centered">
 
                         <li class="li">
-                            <input class="styled-checkbox checkbox-hide" id="styled-checkbox-2" type="checkbox" value="value2"
-                                checked>
+                            <input class="styled-checkbox checkbox-hide" id="styled-checkbox-2" type="checkbox" 
+                                >
                             <label for="styled-checkbox-2">Subscribe to our Newsletter</label>
                         </li>
 
@@ -208,7 +207,7 @@
         </div>
     </div>
     <div class="container-fluid footer-border bg-img">
-        <div class="container  ">
+        <div class="container  " id="what-inside">
             <div class="whats-inside">
                 <h3 class="text-center fontGraphikRegular">What is inside?</h3>
             </div>
@@ -466,11 +465,85 @@
         
         lastScrollTop = st;
     }
+    var email = document.querySelector('input[name="email"]');
+    email.setCustomValidity(' ');
+
+    email.addEventListener('input', function () {
+ 
+        if (this.value.trim() === '') {
+            
+            this.setCustomValidity('');
+            
+        }
+        else {
+            this.setCustomValidity('');
+            
+        }
+    }, false);
+
+email.addEventListener('invalid', function () {
+  if (this.value.trim() !== '') {
+    this.setCustomValidity("'" + this.value + "' is not a valid email");
+  }
+}, false);
+    
     
 </script>
+<!-- //mailchimp -->
+
 <script>
     $("#nav-toggle").click(function(){
       $(".sub-menu").slideToggle();
     });
-    </script>
+    
+        
+        $(".inside").click(function() {
+            $('html, body').animate({
+                scrollTop: $("#what-inside").offset().top
+            }, 1000);
+        });
+        $(".pdf").click(function() {
+            $('html, body').animate({
+                scrollTop: $("#report").offset().top
+            }, 1000);
+        });
+        $(".download").click(function(){
+            debugger
+            var name = document.getElementById("name").value;
+            var email = document.getElementById("email").value;
+            var company = document.getElementById("company").value;
+            if(name.length > 0 && email.length > 0 && company.length > 0){
+                
+                // alert("download sucessfull");
+            }
+            else{
+                if(name.length > 0 ){
+                    $("#name").removeClass("warning");
+                    if(email.length === 0){
+                      $("#email").addClass("warning");
+                    }
+                    else if(email.length > 0 && company.length === 0){
+                      $("#email").removeClass("warning");
+                        $("#company").addClass("warning"); 
+                        
+                    }
+                    if( company.length > 0){
+                            $("#company").removeClass("warning"); 
+                        }
+                }
+                else {
+                    $("#name").addClass("warning");
+                    if( company.length > 0){
+                            $("#company").removeClass("warning"); 
+                        }
+                    if(email.length > 0){
+                            $("#email").removeClass("warning"); 
+                        }    
+                }
+                
+            }
+          
+            
+        })
+</script>
 </html>
