@@ -83,6 +83,7 @@ z-index:1;
     }
     .card{
         padding-top: 35px;
+        padding-bottom:18px;
         border-radius: 15px;
         background-color: #233062;
         .label{
@@ -647,6 +648,9 @@ z-index:1;
             font-size: 15px;
         }
     }
+    .card{
+        padding-bottom: 12px !important;
+    }
     .whats-inside h3 {
         font-size: 32px;
         font-weight: 600;
@@ -752,6 +756,7 @@ z-index:1;
     }
     .card{
         padding-top:20px !important;
+        padding-bottom: 6px !important;
         .margin{
             margin-left: 20px !important;
             margin-right: 20px !important;

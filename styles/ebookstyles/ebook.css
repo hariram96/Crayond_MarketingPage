@@ -93,6 +93,7 @@
 
 .report .card {
   padding-top: 35px;
+  padding-bottom: 18px;
   border-radius: 15px;
   background-color: #233062;
 }
@@ -587,6 +588,9 @@
     margin-bottom: 25px;
     font-size: 15px;
   }
+  .card {
+    padding-bottom: 12px !important;
+  }
   .whats-inside h3 {
     font-size: 32px;
     font-weight: 600;
@@ -676,6 +680,7 @@
   }
   .card {
     padding-top: 20px !important;
+    padding-bottom: 6px !important;
   }
   .card .margin {
     margin-left: 20px !important;
