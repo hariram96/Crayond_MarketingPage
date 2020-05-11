@@ -60,7 +60,7 @@
     position: absolute;
     top: 200px;
     right: 1px;
-    width:50%;
+    // width:50%;
 }
 .img-2{
     position: absolute;
@@ -282,6 +282,12 @@ z-index:1;
     .img2-response{
         height: 475px !important;
     }
+    .img{
+        // position: absolute;
+        // top: 200px;
+        // right: 1px;
+        width:50% !important;
+    }
   
   .card{
       .full-name{
@@ -302,6 +308,7 @@ z-index:1;
   }
 }  
   @media only screen and (max-width: 990px) {
+
       label{
           font-size: 14px !important;
       }
@@ -316,7 +323,7 @@ z-index:1;
         height: 425px !important;
     }
     .ebook{
-        margin-top: 11% !important;
+        margin-top: 14% !important;
         margin-bottom: 20px;
         .ebook-content{    
             h4{
@@ -367,6 +374,7 @@ z-index:1;
     left: 1px;
     width:20%;
 }  
+
     .card{
         padding-bottom:20px;
         .full-name{

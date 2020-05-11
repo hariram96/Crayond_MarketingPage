@@ -67,7 +67,6 @@
   position: absolute;
   top: 200px;
   right: 1px;
-  width: 50%;
 }
 
 .img-2 {
@@ -258,6 +257,9 @@
   .img2-response {
     height: 475px !important;
   }
+  .img {
+    width: 50% !important;
+  }
   .card .full-name {
     width: 23%;
     margin: auto 10px !important;
@@ -286,7 +288,7 @@
     height: 425px !important;
   }
   .ebook {
-    margin-top: 11% !important;
+    margin-top: 14% !important;
     margin-bottom: 20px;
   }
   .ebook .ebook-content h4 {
