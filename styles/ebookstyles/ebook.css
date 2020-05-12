@@ -217,7 +217,7 @@
 
 @media only screen and (max-width: 1200px) {
   .ebook {
-    margin-top: 12% !important;
+    margin-top: 14% !important;
   }
   .ebook .ebook-content h4 {
     color: #656c81;
@@ -291,17 +291,20 @@
     margin-top: 14% !important;
     margin-bottom: 20px;
   }
+  .ebook .ebook-content {
+    margin-top: 28px;
+  }
   .ebook .ebook-content h4 {
     color: #656c81;
-    line-height: 1.67;
-    font-size: 14px;
+    line-height: 1.6;
+    font-size: 15px;
     font-weight: 500;
-    margin: 20px auto;
+    margin: 6px auto;
   }
   .ebook .ebook-content h1 {
     color: #2c3550;
-    line-height: 1.25;
-    font-size: 36px;
+    line-height: 1.2;
+    font-size: 35px;
     font-weight: 600;
   }
   .ebook .ebook-content .buttons {
@@ -316,13 +319,13 @@
   .ebook .ebook-content .buttons .pdf {
     border-radius: 10px;
     font-size: 12px;
-    margin-right: 16px;
-    padding: 7px 12px;
+    margin-right: 12px;
+    padding: 7px 10px;
     font-weight: 700 !important;
   }
   .ebook .ebook-content .buttons .pdf .pd {
-    height: 22px;
-    margin-right: 8px !important;
+    height: 18px;
+    margin-right: 4px !important;
     padding-bottom: 0px !important;
   }
   .ebook .ebook-content .buttons .inside {
@@ -330,7 +333,7 @@
     background-color: #ffd84e;
     border-radius: 10px;
     font-size: 12px;
-    padding: 8px 21px;
+    padding: 8px 20px;
   }
   .img-2 {
     position: absolute;
@@ -391,8 +394,8 @@
   .report .report-title {
     font-size: 22px;
   }
-  .sm {
-    height: 310px !important;
+  .right-bg {
+    padding-left: 0px;
   }
   .footer-border {
     padding-bottom: 0px;
