@@ -247,6 +247,7 @@
   border: 0px;
   outline: none;
   margin: 10px 10px;
+  background-color: #dddddd;
 }
 
 .carousal-section .img-div .span-class .span1:hover, .carousal-section .img-div .span-class .span2:hover, .carousal-section .img-div .span-class .span3:hover {
