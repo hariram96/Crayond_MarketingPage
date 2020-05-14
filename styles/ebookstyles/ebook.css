@@ -213,19 +213,19 @@
 
 .carousal-section .img-div .img-carousal .image-2 {
   position: absolute;
-  left: 40px;
-  top: -25px;
+  left: 33px;
+  top: -18px;
 }
 
 .carousal-section .img-div .img-carousal .image-3 {
   position: absolute;
-  left: 64px;
-  top: -50px;
+  left: 51px;
+  top: -36px;
 }
 
 .carousal-section .img-div .img-carousal img {
-  width: 350px;
-  border: 25px solid white;
+  width: 300px;
+  border: 18px solid white;
   -webkit-box-shadow: -2px 1px 8px -4px #aaaaaa;
           box-shadow: -2px 1px 8px -4px #aaaaaa;
 }
@@ -254,7 +254,7 @@
 }
 
 .carousal-section .img-div .span-class .active {
-  background-color: #737373;
+  background-color: #ffd84e;
 }
 
 .carousal-section .img-div .span-class #two:hover, .carousal-section .img-div .span-class #one:hover {
@@ -463,7 +463,7 @@
     top: -35px;
   }
   .carousal-section .img-div .img-carousal img {
-    width: 214px;
+    width: 200px;
     border: 18px solid white;
     -webkit-box-shadow: -2px 1px 8px -4px #aaaaaa;
             box-shadow: -2px 1px 8px -4px #aaaaaa;
@@ -485,7 +485,7 @@
     cursor: pointer;
   }
   .carousal-section .img-div .span-class .active {
-    background-color: #737373;
+    background-color: #ffd84e;
   }
   .carousal-section .img-div .span-class #two:hover, .carousal-section .img-div .span-class #one:hover {
     cursor: pointer;
@@ -724,7 +724,7 @@
     cursor: pointer;
   }
   .carousal-section .img-div .span-class .active {
-    background-color: #737373;
+    background-color: #ffd84e;
   }
   .carousal-section .img-div .span-class #two:hover, .carousal-section .img-div .span-class #one:hover {
     cursor: pointer;
@@ -821,7 +821,7 @@
     cursor: pointer;
   }
   .carousal-section .img-div .span-class .active {
-    background-color: #737373;
+    background-color: #ffd84e;
   }
   .carousal-section .img-div .span-class #two:hover, .carousal-section .img-div .span-class #one:hover {
     cursor: pointer;
@@ -879,7 +879,7 @@
     cursor: pointer;
   }
   .carousal-section .img-div .span-class .active {
-    background-color: #737373;
+    background-color: #ffd84e;
   }
   .carousal-section .img-div .span-class #two:hover, .carousal-section .img-div .span-class #one:hover {
     cursor: pointer;
