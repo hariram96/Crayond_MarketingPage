@@ -213,19 +213,19 @@
 
 .carousal-section .img-div .img-carousal .image-2 {
   position: absolute;
-  left: 33px;
-  top: -18px;
+  left: 27px;
+  top: -12px;
 }
 
 .carousal-section .img-div .img-carousal .image-3 {
   position: absolute;
-  left: 51px;
-  top: -36px;
+  left: 39px;
+  top: -24px;
 }
 
 .carousal-section .img-div .img-carousal img {
   width: 300px;
-  border: 18px solid white;
+  border: 12px solid white;
   -webkit-box-shadow: -2px 1px 8px -4px #aaaaaa;
           box-shadow: -2px 1px 8px -4px #aaaaaa;
 }
