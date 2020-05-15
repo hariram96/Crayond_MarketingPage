@@ -230,6 +230,10 @@
           box-shadow: -2px 1px 8px -4px #aaaaaa;
 }
 
+.carousal-section .img-div .img-carousal img:hover {
+  cursor: pointer;
+}
+
 .carousal-section .img-div .span-class {
   margin-top: 18px;
   display: -webkit-box;
