@@ -169,8 +169,9 @@
                         <img src="./images/design_sprint.png" alt="" class="img-fluid sm">
                     </div>
                     <div class="buttons d-flex justify-content-start">
-                        <button class="btn pdf "><a href="#report"><img src="./images/pdf.jpg"
-                                    class="img-fluid pd mr-3 pb-1">Download Report</a></button>
+                        <button class="btn pdf "><a href="#report">
+                            <!-- <img src="./images/pdf.jpg" class="img-fluid pd mr-3 pb-1"> -->
+                                    Download Report</a></button>
                         <button class="btn inside"><a href="#what-inside">What is Inside?</a></button>
                     </div>
                 </div>
@@ -547,7 +548,16 @@
 
     
     function largeScreen(y) {
-        debugger
+        var img_1 = document.getElementsByClassName("img")[0];
+        var img_2 = document.getElementsByClassName("img")[1];
+
+        $(img_1).hover(function(){
+            $(this).css("cursor","pointer");
+        })
+        $(img_2).hover(function(){
+            $(this).css("cursor","pointer");
+        })
+        
         if (y.matches) {
             $(Document).ready(function () {
         $("#img2").click(function () {
@@ -708,7 +718,7 @@
                 $(".img-1").removeClass("src", a);
                 $(".img-1").removeAttr("src", c);
                 $(".img-1").attr("src", b);
-                //   debugger
+                
             }, 1000);
             var src1 = "./images/gather-2.jpg";
             var src2 = "./images/gather-1.jpg";
@@ -891,7 +901,6 @@
                 $(".img-1").removeClass("src", a);
                 $(".img-1").removeAttr("src", c);
                 $(".img-1").attr("src", b);
-                //   debugger
             }, 1000);
             var src1 = "./images/gather-2.jpg";
             var src2 = "./images/gather-1.jpg";
@@ -945,7 +954,7 @@
     //         }, 1000);
     //     });
     $(".download").click(function () {
-        debugger
+        
         var name = document.getElementById("name").value;
         var email = document.getElementById("email").value;
         var company = document.getElementById("company").value;
