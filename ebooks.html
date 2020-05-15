@@ -734,12 +734,7 @@
             //   alert(a)
             var b = document.getElementsByClassName("img")[1].getAttribute("src");
             var c = document.getElementsByClassName("img")[2].getAttribute("src");
-            var button_a = document.getElementsByClassName("span1");
-            var button_b = document.getElementsByClassName("span2");
-            var button_c = document.getElementsByClassName("span3");
-            $(button_c).removeClass("active");
-            $(button_b).removeClass("active");
-            $(button_a).removeClass("active");
+          
 
             $(".img-1").animate({ left: 27, top: -12, opacity: "hide" }, 100);
             $(".img-1").animate({ left: 0, top: 0, opacity: "show" }, 200);
@@ -748,34 +743,44 @@
             $(".img-3").hide();
             $(".img-3").animate({ left: 39, top: -24, opacity: "show" }, 200);
             $(".img-3").removeClass("src", a);
+            $(".img-3").removeAttr("src", b);
             $(".img-3").removeAttr("src", c);
             $(".img-3").attr("src", b);
             $(".img-2").hide();
             $(".img-2").animate({ left: -15, top: 15 }, 100);
             $(".img-2").hide();
             $(".img-2").animate({ left: 27, top: -12, opacity: "show" }, 200);
-            $(".img-2").removeClass("src", c);
+            $(".img-2").removeClass("src", a);
             $(".img-2").removeAttr("src", b);
+            $(".img-2").removeAttr("src", c);
             $(".img-2").attr("src", a);
             setTimeout(function () {
-                $(".img-1").removeClass("src", c);
+                $(".img-1").removeClass("src", a);
                 $(".img-1").removeAttr("src", b);
+                $(".img-1").removeAttr("src", c);
                 $(".img-1").attr("src", c);
                 
             }, 1000);
+
+            var button_a = document.getElementsByClassName("span1");
+            var button_b = document.getElementsByClassName("span2");
+            var button_c = document.getElementsByClassName("span3");
+            $(button_c).removeClass("active");
+            $(button_b).removeClass("active");
+            $(button_a).removeClass("active");
             var src1 = "./images/gather-2.jpg";
             var src2 = "./images/gather-1.jpg";
             var src3 = "./images/index.png";
 
             if (c === src1) {
-                $(button_a).addClass("active");
+                $(button_c).addClass("active");
 
             }
             else if (c === src2) {
-                $(button_b).addClass("active");
+                $(button_a).addClass("active");
             }
             else if (c === src3) {
-                $(button_c).addClass("active");
+                $(button_b).addClass("active");
 
             }
             });
