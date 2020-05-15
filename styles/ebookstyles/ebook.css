@@ -30,6 +30,7 @@
   background-color: #dddddd;
   padding: 14px 50px;
   margin-right: 26px;
+  font-weight: 600;
 }
 
 .ebook .ebook-content .buttons .pdf a {
@@ -41,6 +42,7 @@
   border-radius: 10px;
   font-size: 16px;
   padding: 14px 54px;
+  font-weight: 600;
 }
 
 .ebook .ebook-content .buttons .inside a {
@@ -120,7 +122,7 @@
 }
 
 .report .card .download {
-  font-weight: 500;
+  font-weight: 600;
   background-color: #ffd84e;
   border-radius: 10px;
   font-size: 17px;
@@ -193,49 +195,49 @@
   margin-bottom: 40px;
 }
 
-.carousal-section {
+.carousal .carousal-section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 44px;
+  margin-top: 50px;
 }
 
-.carousal-section .img-div .img-carousal {
+.carousal .carousal-section .img-div .img-carousal {
   position: relative;
 }
 
-.carousal-section .img-div .img-carousal .image-1 {
+.carousal .carousal-section .img-div .img-carousal .image-1 {
   position: relative;
 }
 
-.carousal-section .img-div .img-carousal .image-2 {
+.carousal .carousal-section .img-div .img-carousal .image-2 {
   position: absolute;
   left: 27px;
   top: -12px;
 }
 
-.carousal-section .img-div .img-carousal .image-3 {
+.carousal .carousal-section .img-div .img-carousal .image-3 {
   position: absolute;
   left: 39px;
   top: -24px;
 }
 
-.carousal-section .img-div .img-carousal img {
+.carousal .carousal-section .img-div .img-carousal img {
   width: 300px;
   border: 12px solid white;
   -webkit-box-shadow: -2px 1px 8px -4px #aaaaaa;
           box-shadow: -2px 1px 8px -4px #aaaaaa;
 }
 
-.carousal-section .img-div .img-carousal img:hover {
+.carousal .carousal-section .img-div .img-carousal img:hover {
   cursor: pointer;
 }
 
-.carousal-section .img-div .span-class {
-  margin-top: 18px;
+.carousal .span-class {
+  margin-top: 22px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -244,7 +246,7 @@
           justify-content: center;
 }
 
-.carousal-section .img-div .span-class .span1, .carousal-section .img-div .span-class .span2, .carousal-section .img-div .span-class .span3 {
+.carousal .span-class .span1, .carousal .span-class .span2, .carousal .span-class .span3 {
   height: 12px;
   width: 10px;
   border-radius: 8px;
@@ -254,33 +256,35 @@
   background-color: #dddddd;
 }
 
-.carousal-section .img-div .span-class .span1:hover, .carousal-section .img-div .span-class .span2:hover, .carousal-section .img-div .span-class .span3:hover {
+.carousal .span-class .span1:hover, .carousal .span-class .span2:hover, .carousal .span-class .span3:hover {
   cursor: pointer;
 }
 
-.carousal-section .img-div .span-class .active {
+.carousal .span-class .active {
   background-color: #ffd84e;
 }
 
-.carousal-section .img-div .span-class #two:hover, .carousal-section .img-div .span-class #one:hover {
-  cursor: pointer;
+.carousal .lists {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0px auto;
+  line-height: 35px;
+}
+
+.carousal .lists li {
+  margin: 8px auto;
+  color: #2c3550;
+  font-weight: 600;
+  font-size: 16px;
 }
 
 .footer-border {
   padding-bottom: 34px;
   border-bottom: 1px solid #dfdfdf;
-}
-
-.lists {
-  margin: 0px auto;
-  line-height: 35px;
-}
-
-.lists li {
-  margin: 13px auto;
-  color: #2c3550;
-  font-weight: 600;
-  font-size: 18px;
 }
 
 .bg-img {
@@ -441,39 +445,58 @@
     padding: 9px 13px;
     font-size: 15px;
   }
-  .carousal-section {
-    display: block;
-    margin-top: 62px;
-    padding-left: 58px;
+  .carousal .carousal-section {
+    margin-top: 14px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-left: 0px;
+    padding-left: 0px;
   }
-  .carousal-section .img-div .img-carousal {
+  .carousal .carousal-section .img-div .img-carousal {
     position: relative;
   }
-  .carousal-section .img-div .img-carousal .image-1 {
+  .carousal .carousal-section .img-div .img-carousal .image-1 {
     position: relative;
   }
-  .carousal-section .img-div .img-carousal .image-2 {
+  .carousal .carousal-section .img-div .img-carousal .image-2 {
     position: absolute;
     left: 27px;
     top: -12px;
   }
-  .carousal-section .img-div .img-carousal .image-3 {
+  .carousal .carousal-section .img-div .img-carousal .image-3 {
     position: absolute;
     left: 39px;
     top: -24px;
   }
-  .carousal-section .img-div .img-carousal img {
+  .carousal .carousal-section .img-div .img-carousal img {
     width: 200px;
     border: 12px solid white;
     -webkit-box-shadow: -2px 1px 8px -4px #aaaaaa;
             box-shadow: -2px 1px 8px -4px #aaaaaa;
   }
-  .carousal-section .img-div .span-class {
-    margin-top: 12px;
-    margin-left: 94px;
+  .carousal .lists {
+    margin: 0px auto;
+    line-height: 28px;
+  }
+  .carousal .lists ul {
+    padding-left: 10px;
+  }
+  .carousal .lists ul li {
+    margin: 0px auto;
+    color: #2c3550;
+    font-weight: 600;
+    font-size: 13px;
+    padding-right: 0px !important;
+  }
+  .carousal .span-class {
+    margin-top: -10px;
     display: block;
   }
-  .carousal-section .img-div .span-class .span1, .carousal-section .img-div .span-class .span2, .carousal-section .img-div .span-class .span3 {
+  .carousal .span-class .span1, .carousal .span-class .span2, .carousal .span-class .span3 {
     height: 12px;
     width: 9px;
     border-radius: 8px;
@@ -481,28 +504,14 @@
     outline: none;
     margin: 10px 10px;
   }
-  .carousal-section .img-div .span-class .span1:hover, .carousal-section .img-div .span-class .span2:hover, .carousal-section .img-div .span-class .span3:hover {
+  .carousal .span-class .span1:hover, .carousal .span-class .span2:hover, .carousal .span-class .span3:hover {
     cursor: pointer;
   }
-  .carousal-section .img-div .span-class .active {
+  .carousal .span-class .active {
     background-color: #ffd84e;
   }
-  .carousal-section .img-div .span-class #two:hover, .carousal-section .img-div .span-class #one:hover {
+  .carousal .span-class #two:hover, .carousal .span-class #one:hover {
     cursor: pointer;
-  }
-  .lists {
-    margin: 0px auto;
-    line-height: 30px;
-  }
-  .lists ul {
-    padding-left: 10px;
-  }
-  .lists ul li {
-    margin: 5px auto;
-    color: #2c3550;
-    font-weight: 600;
-    font-size: 15px;
-    padding-right: 0px !important;
   }
   .report {
     margin-bottom: 70px;
@@ -628,9 +637,6 @@
     display: -ms-flexbox;
     display: flex;
   }
-  .lists {
-    margin: -10px auto !important;
-  }
   .ebook {
     margin-top: 12% !important;
   }
@@ -675,40 +681,45 @@
   .right-img {
     display: none;
   }
-  .carousal-section {
+  .carousal .carousal-section {
     display: block;
     margin-top: 62px;
-    padding-left: 10%;
+    padding-left: 12%;
   }
-  .carousal-section .img-div .img-carousal {
+  .carousal .carousal-section .img-div .img-carousal {
     position: relative;
   }
-  .carousal-section .img-div .img-carousal .image-1 {
+  .carousal .carousal-section .img-div .img-carousal .image-1 {
     position: relative;
   }
-  .carousal-section .img-div .img-carousal .image-2 {
+  .carousal .carousal-section .img-div .img-carousal .image-2 {
     position: absolute;
     left: 27px;
     top: -12px;
   }
-  .carousal-section .img-div .img-carousal .image-3 {
+  .carousal .carousal-section .img-div .img-carousal .image-3 {
     position: absolute;
     left: 39px;
     top: -24px;
   }
-  .carousal-section .img-div .img-carousal img {
+  .carousal .carousal-section .img-div .img-carousal img {
     width: 214px;
     border: 12px solid white;
     -webkit-box-shadow: -2px 1px 8px -4px #aaaaaa;
             box-shadow: -2px 1px 8px -4px #aaaaaa;
   }
-  .carousal-section .img-div .span-class {
+  .carousal .carousal-section .img-div .span-class {
     margin-top: 16px;
-    margin-left: 94px;
+    margin-left: -26px;
     margin-bottom: 25px;
-    display: block;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
-  .carousal-section .img-div .span-class .span1, .carousal-section .img-div .span-class .span2, .carousal-section .img-div .span-class .span3 {
+  .carousal .carousal-section .img-div .span-class .span1, .carousal .carousal-section .img-div .span-class .span2, .carousal .carousal-section .img-div .span-class .span3 {
     height: 12px;
     width: 9px;
     border-radius: 8px;
@@ -716,14 +727,17 @@
     outline: none;
     margin: 10px 10px;
   }
-  .carousal-section .img-div .span-class .span1:hover, .carousal-section .img-div .span-class .span2:hover, .carousal-section .img-div .span-class .span3:hover {
+  .carousal .carousal-section .img-div .span-class .span1:hover, .carousal .carousal-section .img-div .span-class .span2:hover, .carousal .carousal-section .img-div .span-class .span3:hover {
     cursor: pointer;
   }
-  .carousal-section .img-div .span-class .active {
+  .carousal .carousal-section .img-div .span-class .active {
     background-color: #ffd84e;
   }
-  .carousal-section .img-div .span-class #two:hover, .carousal-section .img-div .span-class #one:hover {
+  .carousal .carousal-section .img-div .span-class #two:hover, .carousal .carousal-section .img-div .span-class #one:hover {
     cursor: pointer;
+  }
+  .carousal #hide_on_mobile {
+    display: none;
   }
   .report {
     margin-top: 40px;
@@ -870,39 +884,39 @@
   .img2-response {
     height: auto !important;
   }
-  .carousal-section {
+  .carousal .carousal-section {
     display: block;
     margin-top: 62px;
     padding-left: 2%;
   }
-  .carousal-section .img-div .img-carousal {
+  .carousal .carousal-section .img-div .img-carousal {
     position: relative;
   }
-  .carousal-section .img-div .img-carousal .image-1 {
+  .carousal .carousal-section .img-div .img-carousal .image-1 {
     position: relative;
   }
-  .carousal-section .img-div .img-carousal .image-2 {
+  .carousal .carousal-section .img-div .img-carousal .image-2 {
     position: absolute;
     left: 27px;
     top: -12px;
   }
-  .carousal-section .img-div .img-carousal .image-3 {
+  .carousal .carousal-section .img-div .img-carousal .image-3 {
     position: absolute;
     left: 39px;
     top: -24px;
   }
-  .carousal-section .img-div .img-carousal img {
+  .carousal .carousal-section .img-div .img-carousal img {
     width: 214px;
     border: 12px solid white;
     -webkit-box-shadow: -2px 1px 8px -4px #aaaaaa;
             box-shadow: -2px 1px 8px -4px #aaaaaa;
   }
-  .carousal-section .img-div .span-class {
+  .carousal .carousal-section .img-div .span-class {
     margin-top: 12px;
-    margin-left: 94px;
+    margin-left: 0px;
     display: block;
   }
-  .carousal-section .img-div .span-class .span1, .carousal-section .img-div .span-class .span2, .carousal-section .img-div .span-class .span3 {
+  .carousal .carousal-section .img-div .span-class .span1, .carousal .carousal-section .img-div .span-class .span2, .carousal .carousal-section .img-div .span-class .span3 {
     height: 12px;
     width: 9px;
     border-radius: 8px;
@@ -910,13 +924,13 @@
     outline: none;
     margin: 10px 10px;
   }
-  .carousal-section .img-div .span-class .span1:hover, .carousal-section .img-div .span-class .span2:hover, .carousal-section .img-div .span-class .span3:hover {
+  .carousal .carousal-section .img-div .span-class .span1:hover, .carousal .carousal-section .img-div .span-class .span2:hover, .carousal .carousal-section .img-div .span-class .span3:hover {
     cursor: pointer;
   }
-  .carousal-section .img-div .span-class .active {
+  .carousal .carousal-section .img-div .span-class .active {
     background-color: #ffd84e;
   }
-  .carousal-section .img-div .span-class #two:hover, .carousal-section .img-div .span-class #one:hover {
+  .carousal .carousal-section .img-div .span-class #two:hover, .carousal .carousal-section .img-div .span-class #one:hover {
     cursor: pointer;
   }
   .ebook {
@@ -1021,9 +1035,6 @@
   }
   label {
     font-size: 14px !important;
-  }
-  .lists li {
-    font-size: 16px !important;
   }
   .card {
     padding-top: 20px !important;

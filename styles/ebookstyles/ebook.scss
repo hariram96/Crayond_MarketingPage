@@ -28,6 +28,7 @@
                 background-color: #dddddd;
                 padding: 14px 50px;
                 margin-right:26px;
+                font-weight: 600;
                 // margin-right: 20px;
                 a{
                     color:black;
@@ -38,6 +39,7 @@
     border-radius: 10px;
     font-size: 16px;
     padding: 14px 54px;
+    font-weight: 600;
                 a{
                     color:black;
                 }
@@ -107,7 +109,7 @@ z-index:1;
             border: 1px solid red;
         }
         .download{
-            font-weight: 500;
+            font-weight: 600;
             background-color: #ffd84e;
             border-radius: 10px;
             font-size: 17px;
@@ -204,77 +206,82 @@ z-index:1;
     }
     
 }
-.carousal-section{
-    display: flex;
-    justify-content: center;
-    margin-top: 44px; 
-   .img-div{
-      .img-carousal{
-        position: relative;
-        .image-1{
+.carousal{
+    .carousal-section{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px; 
+       .img-div{
+          .img-carousal{
             position: relative;
-            }
-            .image-2{
-                position: absolute;
-                left: 27px;
-                top: -12px;
-            }
-            .image-3{
-                position: absolute;
-                left: 39px;
-                top: -24px;
-            }
-            img{
-                width:300px;
-                border: 12px solid white;
-                box-shadow:-2px 1px 8px -4px #aaaaaa;
-                &:hover{
-                    cursor: pointer;
+            .image-1{
+                position: relative;
                 }
-            } 
-      }
-        
-        .span-class{
-            margin-top:18px;
-            display: flex;
-            justify-content: center;
-            .span1,.span2,.span3{
-                height: 12px;
-                width: 10px;
-                border-radius: 8px;
-                border: 0px;
-                outline: none;
-                margin: 10px 10px;
-                background-color: #dddddd;
-            }
-            .span1:hover,.span2:hover,.span3:hover{
-                cursor: pointer;
-            }
-            .active{
-                background-color:#ffd84e;
-            }
-            #two:hover,#one:hover{
-                cursor: pointer;
-            }
+                .image-2{
+                    position: absolute;
+                    left: 27px;
+                    top: -12px;
+                }
+                .image-3{
+                    position: absolute;
+                    left: 39px;
+                    top: -24px;
+                }
+                img{
+                    width:300px;
+                    border: 12px solid white;
+                    box-shadow:-2px 1px 8px -4px #aaaaaa;
+                    &:hover{
+                        cursor: pointer;
+                    }
+                } 
+          }
+            
+            
         }
     }
+    .span-class{
+        margin-top:22px;
+        display: flex;
+        justify-content: center;
+        .span1,.span2,.span3{
+            height: 12px;
+            width: 10px;
+            border-radius: 8px;
+            border: 0px;
+            outline: none;
+            margin: 10px 10px;
+            background-color: #dddddd;
+        }
+        .span1:hover,.span2:hover,.span3:hover{
+            cursor: pointer;
+        }
+        .active{
+            background-color:#ffd84e;
+        }
+        
+    }
+    .lists{
+        display: flex;
+        align-items: center;
+        margin: 0px auto;
+        line-height: 35px;
+        li{
+            margin: 8px auto;
+            color: #2c3550;
+            font-weight: 600;
+            font-size: 16px;
+    
+        }
+    }
+    
 }
 
 .footer-border{
     padding-bottom: 34px;
     border-bottom: 1px solid #dfdfdf;
 }
-.lists{
-       margin: 0px auto;
-       line-height: 35px;
-    li{
-        margin: 13px auto;
-        color: #2c3550;
-        font-weight: 600;
-        font-size: 18px;
-    
-    }
-}
+
 .bg-img{
     background-image: url("../../images/bottom-bg.png");
     background-repeat: no-repeat;
@@ -447,72 +454,77 @@ label{
         }
     }
 }
-.carousal-section{
-    display: block;
-    margin-top: 62px; 
-    padding-left:58px;
-   .img-div{
-      .img-carousal{
-        position: relative;
-        .image-1{
+.carousal{
+    .carousal-section{
+        margin-top: 14px;
+        display: flex;
+        align-items: center;
+        padding-left: 0px;
+        padding-left:0px;
+       .img-div{
+          .img-carousal{
             position: relative;
+            .image-1{
+                position: relative;
+                }
+                .image-2{
+                    position: absolute;
+                    left: 27px;
+                    top: -12px;
+                }
+                .image-3{
+                    position: absolute;
+                    left: 39px;
+                    top: -24px;
+                }
+                img{
+                    width:200px;
+                    border: 12px solid white;
+                    box-shadow:-2px 1px 8px -4px #aaaaaa;
+                } 
+          }
+        }
+    }
+    .lists{
+            margin: 0px auto;
+            line-height: 28px;
+            ul{
+                padding-left: 10px;
+         li{
+             margin: 0px auto;
+             color: #2c3550;
+             font-weight: 600;
+             
+             font-size: 13px;
+             padding-right: 0px !important;
+         
             }
-            .image-2{
-                position: absolute;
-                left: 27px;
-                top: -12px;
-            }
-            .image-3{
-                position: absolute;
-                left: 39px;
-                top: -24px;
-            }
-            img{
-                width:200px;
-                border: 12px solid white;
-                box-shadow:-2px 1px 8px -4px #aaaaaa;
-            } 
-      }
-        
-        .span-class{
-            margin-top:12px;
-            margin-left: 94px;
-            display: block;
-            .span1,.span2,.span3{
-                height: 12px;
-                width: 9px;
-                border-radius: 8px;
-                border: 0px;
-                outline: none;
-                margin: 10px 10px;
-            }
-            .span1:hover,.span2:hover,.span3:hover{
-                cursor: pointer;
-            }
-            .active{
-                background-color:#ffd84e;
-            }
-            #two:hover,#one:hover{
-                cursor: pointer;
-            }
+        }
+    }
+    .span-class{
+        margin-top:-10px;
+        // margin-left: 94px;
+        display: block;
+        .span1,.span2,.span3{
+            height: 12px;
+            width: 9px;
+            border-radius: 8px;
+            border: 0px;
+            outline: none;
+            margin: 10px 10px;
+        }
+        .span1:hover,.span2:hover,.span3:hover{
+            cursor: pointer;
+        }
+        .active{
+            background-color:#ffd84e;
+        }
+        #two:hover,#one:hover{
+            cursor: pointer;
         }
     }
 }
-.lists{
-        margin: 0px auto;
-        line-height: 30px;
-        ul{
-            padding-left: 10px;
-     li{
-         margin: 5px auto;
-         color: #2c3550;
-         font-weight: 600;
-         font-size: 15px;
-         padding-right: 0px !important;
-     
-        }
-    }
-} 
+ 
 .report{
      margin-bottom: 70px;
      margin-top:100px;
@@ -652,9 +664,7 @@ label{
         display:flex;
     }
 }    
-.lists{
-    margin: -10px auto !important;
-}
+
 .ebook{
     margin-top: 12% !important;
     .ebook-content{    
@@ -704,58 +714,68 @@ label{
 .right-img{
     display:none;
 }
-.carousal-section{
-    display: block;
-    margin-top: 62px; 
-    padding-left:10%;
-   .img-div{
-      .img-carousal{
-        position: relative;
-        .image-1{
+
+
+.carousal{
+    .carousal-section{
+        display: block;
+        margin-top: 62px; 
+        padding-left:12%;
+       .img-div{
+          .img-carousal{
             position: relative;
-            }
-            .image-2{
-                position: absolute;
-                left: 27px;
-                top: -12px;
-            }
-            .image-3{
-                position: absolute;
-                left: 39px;
-                top: -24px;
-            }
-            img{
-                width:214px;
-                border: 12px solid white;
-                box-shadow:-2px 1px 8px -4px #aaaaaa;
-            } 
-      }
-        
-        .span-class{
-            margin-top:16px;
-            margin-left: 94px;
-            margin-bottom: 25px;
-            display: block;
-            .span1,.span2,.span3{
-                height: 12px;
-                width: 9px;
-                border-radius: 8px;
-                border: 0px;
-                outline: none;
-                margin: 10px 10px;
-            }
-            .span1:hover,.span2:hover,.span3:hover{
-                cursor: pointer;
-            }
-            .active{
-                background-color:#ffd84e;
-            }
-            #two:hover,#one:hover{
-                cursor: pointer;
+            .image-1{
+                position: relative;
+                }
+                .image-2{
+                    position: absolute;
+                    left: 27px;
+                    top: -12px;
+                }
+                .image-3{
+                    position: absolute;
+                    left: 39px;
+                    top: -24px;
+                }
+                img{
+                    width:214px;
+                    border: 12px solid white;
+                    box-shadow:-2px 1px 8px -4px #aaaaaa;
+                } 
+          }
+            
+            .span-class{
+                margin-top:16px;
+                margin-left: -26px;
+                margin-bottom: 25px;
+                display: flex !important;
+                justify-content: center;
+                .span1,.span2,.span3{
+                    height: 12px;
+                    width: 9px;
+                    border-radius: 8px;
+                    border: 0px;
+                    outline: none;
+                    margin: 10px 10px;
+                }
+                .span1:hover,.span2:hover,.span3:hover{
+                    cursor: pointer;
+                }
+                .active{
+                    background-color:#ffd84e;
+                }
+                #two:hover,#one:hover{
+                    cursor: pointer;
+                }
             }
         }
     }
+    #hide_on_mobile{
+        display: none;
+    }
+
 }
+
 .report{
     margin-top:40px;
 }
@@ -912,57 +932,60 @@ input {
 .img2-response{
     height: auto !important;
 }
-.carousal-section{
-    display: block;
-    margin-top: 62px; 
-    padding-left:2%;
-   .img-div{
-      .img-carousal{
-        position: relative;
-        .image-1{
+.carousal{
+    .carousal-section{
+        display: block;
+        margin-top: 62px; 
+        padding-left:2%;
+       .img-div{
+          .img-carousal{
             position: relative;
-            }
-            .image-2{
-                position: absolute;
-                left: 27px;
-                top: -12px;
-            }
-            .image-3{
-                position: absolute;
-                left: 39px;
-                top: -24px;
-            }
-            img{
-                width:214px;
-                border: 12px solid white;
-                box-shadow:-2px 1px 8px -4px #aaaaaa;
-            } 
-      }
-        
-        .span-class{
-            margin-top:12px;
-            margin-left: 94px;
-            display: block;
-            .span1,.span2,.span3{
-                height: 12px;
-                width: 9px;
-                border-radius: 8px;
-                border: 0px;
-                outline: none;
-                margin: 10px 10px;
-            }
-            .span1:hover,.span2:hover,.span3:hover{
-                cursor: pointer;
-            }
-            .active{
-                background-color:#ffd84e;
-            }
-            #two:hover,#one:hover{
-                cursor: pointer;
+            .image-1{
+                position: relative;
+                }
+                .image-2{
+                    position: absolute;
+                    left: 27px;
+                    top: -12px;
+                }
+                .image-3{
+                    position: absolute;
+                    left: 39px;
+                    top: -24px;
+                }
+                img{
+                    width:214px;
+                    border: 12px solid white;
+                    box-shadow:-2px 1px 8px -4px #aaaaaa;
+                } 
+          }
+            
+            .span-class{
+                margin-top:12px;
+                margin-left: 0px;
+                display: block;
+                .span1,.span2,.span3{
+                    height: 12px;
+                    width: 9px;
+                    border-radius: 8px;
+                    border: 0px;
+                    outline: none;
+                    margin: 10px 10px;
+                }
+                .span1:hover,.span2:hover,.span3:hover{
+                    cursor: pointer;
+                }
+                .active{
+                    background-color:#ffd84e;
+                }
+                #two:hover,#one:hover{
+                    cursor: pointer;
+                }
             }
         }
     }
 }
+
 .ebook{
     margin-top: 18% !important;
     .ebook-content{    
@@ -1085,13 +1108,8 @@ label{
     font-size: 14px !important;
 }
 
-.lists{
-    li{
-        font-size: 16px !important;
-        
-    }
-    
-}
+  
+
 .card{
     padding-top:20px !important;
     padding-bottom: 6px !important;
