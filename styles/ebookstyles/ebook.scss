@@ -1,12 +1,12 @@
 
 .ebook{
-    margin-top: 12%;
+    margin-top: 10%;
     margin-bottom: 75px;
     .ebook-content{    
         h4{
             color:#656c81;
             line-height: 1.67;
-           
+            margin-right: 44px;
             font-size: 20px;
             font-weight: 500;
             // margin: 25px auto;
@@ -15,7 +15,7 @@
             color: #2c3550;
             line-height: 1.25;
             // margin-top: 25px;
-            padding-top: 35px;
+            padding-top: 55px;
             margin-right: 44px;
             font-size: 52px;
             font-weight: 800 !important;
@@ -26,8 +26,8 @@
                 border-radius: 10px;
                 font-size: 16px;
                 background-color: #dddddd;
-                padding: 14px 54px;
-                margin-right: 36px;
+                padding: 14px 50px;
+                margin-right:26px;
                 font-weight: 800 !important;
                 // margin-right: 20px;
                 a{
@@ -39,7 +39,7 @@
     background-color: #ffd84e;
     border-radius: 10px;
     font-size: 16px;
-    padding: 14px 58px;
+    padding: 14px 54px;
                 a{
                     color:black;
                 }
@@ -285,20 +285,20 @@ z-index:1;
         h4{
             color:#656c81;
             line-height: 1.67;
-            
-            font-size: 20px;
+            margin-right:0px;
+            font-size: 19px;
             font-weight: 500;
-            margin: 20px auto;
+            margin: 10px auto;
         }
         h1{
             color: #2c3550;
             line-height: 1.25;
             
-            font-size: 50px;
+            font-size: 46px;
             font-weight: 600;
         }
         .buttons{
-            margin-top: 30px;
+            margin-top: 24px;
             .pdf{
                 border-radius: 10px;
                 font-size: 14px;
@@ -365,7 +365,7 @@ label{
     height: 425px !important;
 }
 .ebook{
-    margin-top: 14% !important;
+    margin-top: 18% !important;
     margin-bottom: 20px;
     .ebook-content{ 
         margin-top:28px;   
@@ -382,6 +382,7 @@ label{
             line-height: 1.2;
             margin-right: 0px;
             font-size: 35px;
+            padding-top: 30px;
             font-weight: 600;
         }
         .buttons{
