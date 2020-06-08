@@ -23,9 +23,9 @@
         .buttons{
             margin-top: 40px;
             .pdf{
+                background-color: #ffd84e;
                 border-radius: 10px;
                 font-size: 16px;
-                background-color: #dddddd;
                 padding: 14px 50px;
                 margin-right:26px;
                 font-weight: 600;
@@ -35,11 +35,11 @@
                 }
             }
             .inside{
-    background-color: #ffd84e;
-    border-radius: 10px;
-    font-size: 16px;
-    padding: 14px 54px;
-    font-weight: 600;
+                background-color: #dddddd;
+                border-radius: 10px;
+                font-size: 16px;
+                padding: 14px 54px;
+                font-weight: 600;
                 a{
                     color:black;
                 }
@@ -270,7 +270,7 @@ z-index:1;
             margin: 8px auto;
             color: #2c3550;
             font-weight: 600;
-            font-size: 16px;
+            font-size: 20px;
     
         }
     }
