@@ -277,7 +277,7 @@
 
 .carousal .lists li {
   margin: 8px auto;
-  color: #2c3550;
+  color: #2c3550db;
   font-weight: 600;
   font-size: 20px;
 }
@@ -487,7 +487,7 @@
   }
   .carousal .lists ul li {
     margin: 0px auto;
-    color: #2c3550;
+    color: #2c3550db;
     font-weight: 600;
     font-size: 13px;
     padding-right: 0px !important;
@@ -578,7 +578,7 @@
   }
   .lists ul li {
     margin: 5px auto;
-    color: #2c3550;
+    color: #2c3550db;
     font-weight: 600;
     font-size: 15px;
     padding-right: 0px !important;
