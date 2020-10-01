@@ -969,7 +969,7 @@ body {
 #card5 {
     background-color: #FF616E;
     color           : #FFFFFF;
-    margin-top      : 30px;
+    
 
     .svg_right3 {
         width     : 100%;
@@ -1026,7 +1026,7 @@ body {
 #card7 {
     background-color: #21E797;
     color           : #FFFFFF;
-    margin-top      : 30px;
+    
 
     .svg_right7 {
         width      : 80px;
@@ -1180,7 +1180,7 @@ body {
 #card13 {
     background-color: #2AE0CE;
     color           : #FFFFFF;
-    margin-top      : 30px;
+    
 
     .svg_right13 {
         width: 80px;
@@ -1236,7 +1236,7 @@ body {
 #card15 {
     background-color: #7D21E7;
     color           : #FFFFFF;
-    margin-top      : 40px;
+    
 
     .read_article15 {
         margin-top: 40px;
@@ -1256,6 +1256,64 @@ body {
     }
 
 }
+@media only screen and (max-width: 768px)
+{
+    .college_cards {
+    
+    }
+    
+        .college_cards .card_inside .head_title {
+            font-weight: 600;
+            font-size: 18px;
+            font-family: fontGraphikRegular;
+        }
+        .college_cards .card_inside .number {
+            font-size: 56px;
+            font-weight: bold;
+            margin-bottom: 12px;
+            color: #FFFFFF;
+            margin-bottom: -13px;
+            right: -6px;
+            position: relative;
+            opacity: 0.1;
+        }
+        .college_cards .card_inside .read_article {
+            margin-top: 20px;
+            font-size: 11px;
+            cursor: pointer;
+            bottom: 0;
+            position: absolute;
+        }
+        .college_cards .card_inside .svg_right {
+            width: 75px;
+            height: 80px;
+            padding: 0px 10px 0px 0px;
+        }
+        .svg_right1 {
+            width: 70px;
+            height: 80px;
+            padding: 0px 10px 0px 0px;
+            position: relative;
+            margin-top: -40px;
+            right: 18px;
+        }
+        #card2 .number1 {
+            font-size: 56px;
+            font-weight: bold;
+            margin-bottom: 0px;
+            color: #665CD7;
+            margin-top: -9px;
+            position: absolute;
+            margin-left: -21px;
+            opacity: 0.1;
+        }
+        #card2 .read_article1 {
+            margin-top: 40px;
+            font-size: 12px;
+            cursor: pointer;
+        }
+}
+
 
 
 // @media only screen and (max-width: 1024px) {
