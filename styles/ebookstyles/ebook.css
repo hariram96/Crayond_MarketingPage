@@ -1,0 +1,1068 @@
+.ebook {
+  margin-top: 10%;
+  margin-bottom: 75px;
+}
+
+.ebook .ebook-content h4 {
+  color: #656c81;
+  line-height: 1.67;
+  margin-right: 44px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.ebook .ebook-content h1 {
+  color: #2c3550;
+  line-height: 1.25;
+  padding-top: 55px;
+  margin-right: 44px;
+  font-size: 52px;
+  font-weight: 800 !important;
+}
+
+.ebook .ebook-content .buttons {
+  margin-top: 40px;
+}
+
+.ebook .ebook-content .buttons .pdf {
+  background-color: #ffd84e;
+  border-radius: 10px;
+  font-size: 16px;
+  padding: 14px 50px;
+  margin-right: 26px;
+  font-weight: 600;
+}
+
+.ebook .ebook-content .buttons .pdf a {
+  color: black;
+}
+
+.ebook .ebook-content .buttons .inside {
+  background-color: #dddddd;
+  border-radius: 10px;
+  font-size: 16px;
+  padding: 14px 54px;
+  font-weight: 600;
+}
+
+.ebook .ebook-content .buttons .inside a {
+  color: black;
+}
+
+.reponse-img {
+  display: none;
+}
+
+.sm {
+  height: auto !important;
+}
+
+.checkbox-hide {
+  display: none;
+}
+
+.img2-response {
+  height: 500px !important;
+}
+
+.top-left-img {
+  position: absolute;
+  top: 200px;
+  right: 1px;
+}
+
+.right-img {
+  position: absolute;
+  top: 350px;
+  left: 1px;
+  width: 20%;
+}
+
+.right-bg {
+  z-index: 1;
+}
+
+.report {
+  margin-bottom: 120px;
+  margin-top: 140px;
+}
+
+.report h3 {
+  font-weight: 800;
+  margin-bottom: 25px;
+  font-size: 22px;
+}
+
+.report .card {
+  padding-top: 35px;
+  padding-bottom: 18px;
+  border-radius: 15px;
+  background-color: #233062;
+}
+
+.report .card .label {
+  color: #ffffff;
+  opacity: 0.6;
+  font-weight: 200 !important;
+}
+
+.report .card input {
+  margin-bottom: 35px;
+  padding: 12px 30px !important;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+  width: 100% !important;
+  outline: none;
+  color: white;
+}
+
+.report .card .warning {
+  border: 1px solid red;
+}
+
+.report .card .download {
+  font-weight: 600;
+  background-color: #ffd84e;
+  border-radius: 10px;
+  font-size: 17px;
+  padding: 12px 20px;
+  margin-top: 30px;
+}
+
+.li {
+  list-style-type: none !important;
+}
+
+.styled-checkbox {
+  opacity: 0;
+}
+
+.styled-checkbox + label {
+  position: relative;
+  cursor: pointer;
+  padding: 0;
+  color: #cccccc;
+}
+
+.styled-checkbox:checked + label:before {
+  background: transparent;
+  border: 1px solid #c0c0c3;
+  border-radius: 6px;
+}
+
+.styled-checkbox:disabled + label:before {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background: transparent;
+}
+
+.styled-checkbox:checked + label:after {
+  content: '';
+  position: absolute;
+  left: 4px;
+  top: 11px;
+  background: transparent;
+  width: 2px;
+  height: 2px;
+  -webkit-box-shadow: 2px 0 0 white, 4px 0 0 white, 4px -2px 0 white, 4px -4px 0 white, 4px -6px 0 white, 4px -8px 0 white;
+          box-shadow: 2px 0 0 white, 4px 0 0 white, 4px -2px 0 white, 4px -4px 0 white, 4px -6px 0 white, 4px -8px 0 white;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.unstyled {
+  padding-left: 10px;
+}
+
+.privacy {
+  color: rgba(255, 255, 255, 0.49);
+}
+
+.privacy h6 {
+  margin-top: 2px;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.privacy b {
+  color: #cccccc;
+}
+
+.whats-inside h3 {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.carousal .carousal-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 50px;
+}
+
+.carousal .carousal-section .img-div .img-carousal {
+  position: relative;
+}
+
+.carousal .carousal-section .img-div .img-carousal .image-1 {
+  position: relative;
+}
+
+.carousal .carousal-section .img-div .img-carousal .image-2 {
+  position: absolute;
+  left: 27px;
+  top: -12px;
+}
+
+.carousal .carousal-section .img-div .img-carousal .image-3 {
+  position: absolute;
+  left: 39px;
+  top: -24px;
+}
+
+.carousal .carousal-section .img-div .img-carousal img {
+  width: 300px;
+  border: 12px solid white;
+  -webkit-box-shadow: -2px 1px 8px -4px #aaaaaa;
+          box-shadow: -2px 1px 8px -4px #aaaaaa;
+}
+
+.carousal .carousal-section .img-div .img-carousal img:hover {
+  cursor: pointer;
+}
+
+.carousal .span-class {
+  margin-top: 22px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.carousal .span-class .span1, .carousal .span-class .span2, .carousal .span-class .span3 {
+  height: 12px;
+  width: 10px;
+  border-radius: 8px;
+  border: 0px;
+  outline: none;
+  margin: 10px 10px;
+  background-color: #dddddd;
+}
+
+.carousal .span-class .span1:hover, .carousal .span-class .span2:hover, .carousal .span-class .span3:hover {
+  cursor: pointer;
+}
+
+.carousal .span-class .active {
+  background-color: #ffd84e;
+}
+
+.carousal .lists {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0px auto;
+  line-height: 35px;
+}
+
+.carousal .lists li {
+  margin: 8px auto;
+  color: #2c3550db;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.footer-border {
+  padding-bottom: 34px;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.bg-img {
+  background-image: url("../../images/bottom-bg.png");
+  background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 1200px) {
+  .ebook {
+    margin-top: 14% !important;
+  }
+  .ebook .ebook-content h4 {
+    color: #656c81;
+    line-height: 1.67;
+    margin-right: 0px;
+    font-size: 19px;
+    font-weight: 500;
+    margin: 10px auto;
+  }
+  .ebook .ebook-content h1 {
+    color: #2c3550;
+    line-height: 1.25;
+    font-size: 46px;
+    font-weight: 600;
+  }
+  .ebook .ebook-content .buttons {
+    margin-top: 24px;
+  }
+  .ebook .ebook-content .buttons .pdf {
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 11px 42px;
+    margin-right: 32px;
+  }
+  .ebook .ebook-content .buttons .inside {
+    background-color: #ffd84e;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 11px 46px;
+  }
+  .lists {
+    margin: 16px auto !important;
+  }
+  .sm {
+    height: auto;
+  }
+  .img2-response {
+    height: 475px !important;
+  }
+  .top-left-img {
+    width: 50% !important;
+  }
+  .card .full-name {
+    width: 23%;
+    margin: auto 10px !important;
+  }
+  .card .email {
+    width: 23%;
+    margin: auto 10px !important;
+  }
+  .card .company {
+    width: 23%;
+    margin: auto 10px !important;
+  }
+  .card .download-btn {
+    width: 10%;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  label {
+    font-size: 14px !important;
+  }
+  .privacy h6 {
+    font-size: 14px !important;
+  }
+  .img2-response {
+    height: 425px !important;
+  }
+  .ebook {
+    margin-top: 18% !important;
+    margin-bottom: 20px;
+  }
+  .ebook .ebook-content {
+    margin-top: 28px;
+  }
+  .ebook .ebook-content h4 {
+    color: #656c81;
+    line-height: 1.6;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 6px auto;
+  }
+  .ebook .ebook-content h1 {
+    color: #2c3550;
+    line-height: 1.2;
+    margin-right: 0px;
+    font-size: 35px;
+    padding-top: 30px;
+    font-weight: 600;
+  }
+  .ebook .ebook-content .buttons {
+    margin-top: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+            justify-content: start !important;
+  }
+  .ebook .ebook-content .buttons .pdf {
+    border-radius: 10px;
+    font-size: 12px;
+    margin-right: 12px;
+    padding: 7px 18px;
+  }
+  .ebook .ebook-content .buttons .inside {
+    background-color: #ffd84e;
+    border-radius: 10px;
+    font-size: 12px;
+    padding: 8px 22px;
+  }
+  .right-img {
+    position: absolute;
+    top: 210px;
+    left: 1px;
+    width: 20%;
+  }
+  .card {
+    padding-bottom: 20px;
+  }
+  .card .full-name {
+    width: 20%;
+    margin: auto 5px !important;
+  }
+  .card .full-name input {
+    padding: 8px 14px !important;
+  }
+  .card .email {
+    width: 20%;
+    margin: auto 5px !important;
+  }
+  .card .email input {
+    padding: 8px 14px !important;
+  }
+  .card .company {
+    width: 20%;
+    margin: auto 5px !important;
+  }
+  .card .company input {
+    padding: 8px 14px !important;
+  }
+  .card .download-btn {
+    width: 10%;
+  }
+  .card .download-btn .download {
+    margin-top: 28px !important;
+    padding: 9px 13px;
+    font-size: 15px;
+  }
+  .carousal .carousal-section {
+    margin-top: 14px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-left: 0px;
+    padding-left: 0px;
+  }
+  .carousal .carousal-section .img-div .img-carousal {
+    position: relative;
+  }
+  .carousal .carousal-section .img-div .img-carousal .image-1 {
+    position: relative;
+  }
+  .carousal .carousal-section .img-div .img-carousal .image-2 {
+    position: absolute;
+    left: 27px;
+    top: -12px;
+  }
+  .carousal .carousal-section .img-div .img-carousal .image-3 {
+    position: absolute;
+    left: 39px;
+    top: -24px;
+  }
+  .carousal .carousal-section .img-div .img-carousal img {
+    width: 200px;
+    border: 12px solid white;
+    -webkit-box-shadow: -2px 1px 8px -4px #aaaaaa;
+            box-shadow: -2px 1px 8px -4px #aaaaaa;
+  }
+  .carousal .lists {
+    margin: 0px auto;
+    line-height: 28px;
+  }
+  .carousal .lists ul {
+    padding-left: 10px;
+  }
+  .carousal .lists ul li {
+    margin: 0px auto;
+    color: #2c3550db;
+    font-weight: 600;
+    font-size: 13px;
+    padding-right: 0px !important;
+  }
+  .carousal .span-class {
+    margin-top: -10px;
+    display: block;
+  }
+  .carousal .span-class .span1, .carousal .span-class .span2, .carousal .span-class .span3 {
+    height: 12px;
+    width: 9px;
+    border-radius: 8px;
+    border: 0px;
+    outline: none;
+    margin: 10px 10px;
+  }
+  .carousal .span-class .span1:hover, .carousal .span-class .span2:hover, .carousal .span-class .span3:hover {
+    cursor: pointer;
+  }
+  .carousal .span-class .active {
+    background-color: #ffd84e;
+  }
+  .carousal .span-class #two:hover, .carousal .span-class #one:hover {
+    cursor: pointer;
+  }
+  .report {
+    margin-bottom: 70px;
+    margin-top: 100px;
+  }
+  .report .report-title {
+    font-size: 22px;
+  }
+  .right-bg {
+    padding-left: 0px;
+  }
+  .footer-border {
+    padding-bottom: 0px;
+    border-bottom: 1px solid #dfdfdf;
+  }
+}
+
+@media only screen and (max-width: 765px) {
+  .card .full-name {
+    width: 100% !important;
+    margin: auto  !important;
+  }
+  .card .full-name label {
+    font-size: 14px;
+  }
+  .card .full-name input {
+    padding: 5px 5px !important;
+  }
+  .card .email {
+    width: 100% !important;
+    margin: auto  !important;
+  }
+  .card .email input {
+    padding: 5px 5px !important;
+  }
+  .card .email label {
+    font-size: 14px;
+  }
+  .card .company {
+    width: 100% !important;
+    margin: auto 0px  !important;
+  }
+  .card .company input {
+    padding: 5px 5px !important;
+  }
+  .card .company label {
+    font-size: 14px;
+  }
+  .card .download-btn {
+    width: 100% !important;
+  }
+  .card .download-btn .download {
+    padding: 7px 16px;
+    font-size: 15px;
+  }
+  .lists {
+    margin: 17px auto;
+    line-height: 30px;
+    padding-right: 0px !important;
+    width: 80%;
+  }
+  .lists ul {
+    padding-right: 0px !important;
+  }
+  .lists ul li {
+    margin: 5px auto;
+    color: #2c3550db;
+    font-weight: 600;
+    font-size: 15px;
+    padding-right: 0px !important;
+  }
+  .ebook {
+    margin-top: 14% !important;
+  }
+  .ebook .ebook-content h4 {
+    color: #656c81;
+    line-height: 1.67;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 20px auto;
+  }
+  .ebook .ebook-content h1 {
+    color: #2c3550;
+    line-height: 1.25;
+    font-size: 35px;
+    font-weight: 600;
+    padding-top: 40px;
+  }
+  .ebook .ebook-content .buttons {
+    margin-top: 35px;
+    margin-bottom: 25px;
+  }
+  .ebook .ebook-content .buttons .pdf {
+    border-radius: 10px;
+    font-size: 13px;
+    padding: 7px 17px;
+  }
+  .ebook .ebook-content .buttons .inside {
+    background-color: #ffd84e;
+    border-radius: 10px;
+    font-size: 13px;
+    padding: 8px 10px;
+  }
+}
+
+@media only screen and (max-width: 445px) {
+  .reponse-img {
+    display: block;
+    height: 100%;
+  }
+  .unstyled {
+    padding-left: 50px !important;
+  }
+  .styled-checkbox {
+    opacity: 0;
+  }
+  .styled-checkbox + label {
+    position: relative;
+    cursor: pointer;
+    padding: 0;
+    color: #cccccc;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .ebook {
+    margin-top: 12% !important;
+  }
+  .ebook .ebook-content h4 {
+    color: #656c81;
+    line-height: 1.67;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 20px auto;
+  }
+  .ebook .ebook-content h1 {
+    color: #2c3550;
+    line-height: 1.25;
+    font-size: 35px;
+    font-weight: 600;
+  }
+  .ebook .ebook-content .buttons {
+    margin-top: 20px;
+    margin-bottom: 25px;
+  }
+  .ebook .ebook-content .buttons .pdf {
+    border-radius: 6px;
+    font-size: 13px;
+    margin: auto 10px;
+    background-color: #dddddd;
+    padding: 10px 28px;
+  }
+  .ebook .ebook-content .buttons .pdf .pd {
+    width: 16px;
+    margin-right: 8px !important;
+  }
+  .ebook .ebook-content .buttons .inside {
+    background-color: #ffd84e;
+    border-radius: 6px;
+    font-size: 13px;
+    margin: auto 5px;
+    padding: 11px 36px !important;
+  }
+  .right-bg {
+    display: none;
+  }
+  .right-img {
+    display: none;
+  }
+  .carousal .carousal-section {
+    display: block;
+    margin-top: 62px;
+    padding-left: 12%;
+  }
+  .carousal .carousal-section .img-div .img-carousal {
+    position: relative;
+  }
+  .carousal .carousal-section .img-div .img-carousal .image-1 {
+    position: relative;
+  }
+  .carousal .carousal-section .img-div .img-carousal .image-2 {
+    position: absolute;
+    left: 27px;
+    top: -12px;
+  }
+  .carousal .carousal-section .img-div .img-carousal .image-3 {
+    position: absolute;
+    left: 39px;
+    top: -24px;
+  }
+  .carousal .carousal-section .img-div .img-carousal img {
+    width: 214px;
+    border: 12px solid white;
+    -webkit-box-shadow: -2px 1px 8px -4px #aaaaaa;
+            box-shadow: -2px 1px 8px -4px #aaaaaa;
+  }
+  .carousal .carousal-section .img-div .span-class {
+    margin-top: 16px;
+    margin-left: -26px;
+    margin-bottom: 25px;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .carousal .carousal-section .img-div .span-class .span1, .carousal .carousal-section .img-div .span-class .span2, .carousal .carousal-section .img-div .span-class .span3 {
+    height: 12px;
+    width: 9px;
+    border-radius: 8px;
+    border: 0px;
+    outline: none;
+    margin: 10px 10px;
+  }
+  .carousal .carousal-section .img-div .span-class .span1:hover, .carousal .carousal-section .img-div .span-class .span2:hover, .carousal .carousal-section .img-div .span-class .span3:hover {
+    cursor: pointer;
+  }
+  .carousal .carousal-section .img-div .span-class .active {
+    background-color: #ffd84e;
+  }
+  .carousal .carousal-section .img-div .span-class #two:hover, .carousal .carousal-section .img-div .span-class #one:hover {
+    cursor: pointer;
+  }
+  .carousal #hide_on_mobile {
+    display: none;
+  }
+  .report {
+    margin-top: 40px;
+  }
+  .download-btn {
+    margin-left: 0px !important;
+  }
+  .img2-response {
+    float: left !important;
+    height: 420px;
+    z-index: 1;
+  }
+  .download {
+    padding: 10px 25px;
+    font-size: 15px;
+  }
+  .company input {
+    font-size: 14px;
+    margin-bottom: 10px !important;
+  }
+  input {
+    margin-bottom: 10px !important;
+  }
+  .li {
+    margin-top: 10px;
+  }
+  .privacy h6 {
+    margin-left: 50px;
+    margin-bottom: 25px;
+    font-size: 15px;
+  }
+  .card {
+    padding-bottom: 12px !important;
+  }
+  .whats-inside h3 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  .l {
+    margin: auto 0px !important;
+    display: block !important;
+  }
+  .sm {
+    width: 90% !important;
+  }
+}
+
+@media only screen and (max-width: 379px) {
+  .carousal-section {
+    display: block;
+    margin-top: 62px;
+    padding-left: 8%;
+  }
+  .carousal-section .img-div .img-carousal {
+    position: relative;
+  }
+  .carousal-section .img-div .img-carousal .image-1 {
+    position: relative;
+  }
+  .carousal-section .img-div .img-carousal .image-2 {
+    position: absolute;
+    left: 27px;
+    top: -12px;
+  }
+  .carousal-section .img-div .img-carousal .image-3 {
+    position: absolute;
+    left: 39px;
+    top: -24px;
+  }
+  .carousal-section .img-div .img-carousal img {
+    width: 214px;
+    border: 12px solid white;
+    -webkit-box-shadow: -2px 1px 8px -4px #aaaaaa;
+            box-shadow: -2px 1px 8px -4px #aaaaaa;
+  }
+  .carousal-section .img-div .span-class {
+    margin-top: 12px;
+    margin-left: 94px;
+    display: block;
+  }
+  .carousal-section .img-div .span-class .span1, .carousal-section .img-div .span-class .span2, .carousal-section .img-div .span-class .span3 {
+    height: 12px;
+    width: 9px;
+    border-radius: 8px;
+    border: 0px;
+    outline: none;
+    margin: 10px 10px;
+  }
+  .carousal-section .img-div .span-class .span1:hover, .carousal-section .img-div .span-class .span2:hover, .carousal-section .img-div .span-class .span3:hover {
+    cursor: pointer;
+  }
+  .carousal-section .img-div .span-class .active {
+    background-color: #ffd84e;
+  }
+  .carousal-section .img-div .span-class #two:hover, .carousal-section .img-div .span-class #one:hover {
+    cursor: pointer;
+  }
+  .ebook {
+    margin-top: 12% !important;
+  }
+  .ebook .ebook-content h4 {
+    color: #656c81;
+    line-height: 1.67;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 20px auto;
+  }
+  .ebook .ebook-content h1 {
+    color: #2c3550;
+    line-height: 1.25;
+    font-size: 35px;
+    font-weight: 600;
+  }
+  .ebook .ebook-content .buttons {
+    margin-top: 20px;
+    margin-bottom: 25px;
+  }
+  .ebook .ebook-content .buttons .pdf {
+    border-radius: 6px;
+    font-size: 13px;
+    margin-right: 10px;
+    margin-left: 0px;
+    background-color: #dddddd;
+    padding: 10px 26px;
+  }
+  .ebook .ebook-content .buttons .pdf .pd {
+    width: 16px;
+    margin-right: 8px !important;
+  }
+  .ebook .ebook-content .buttons .inside {
+    background-color: #ffd84e;
+    border-radius: 6px;
+    font-size: 13px;
+    margin: auto 5px;
+    padding: 10px 30px !important;
+  }
+}
+
+@media only screen and (max-width: 374px) {
+  .unstyled {
+    padding-left: 20px !important;
+  }
+  .img2-response {
+    height: auto !important;
+  }
+  .carousal .carousal-section {
+    display: block;
+    margin-top: 62px;
+    padding-left: 2%;
+  }
+  .carousal .carousal-section .img-div .img-carousal {
+    position: relative;
+  }
+  .carousal .carousal-section .img-div .img-carousal .image-1 {
+    position: relative;
+  }
+  .carousal .carousal-section .img-div .img-carousal .image-2 {
+    position: absolute;
+    left: 27px;
+    top: -12px;
+  }
+  .carousal .carousal-section .img-div .img-carousal .image-3 {
+    position: absolute;
+    left: 39px;
+    top: -24px;
+  }
+  .carousal .carousal-section .img-div .img-carousal img {
+    width: 214px;
+    border: 12px solid white;
+    -webkit-box-shadow: -2px 1px 8px -4px #aaaaaa;
+            box-shadow: -2px 1px 8px -4px #aaaaaa;
+  }
+  .carousal .carousal-section .img-div .span-class {
+    margin-top: 12px;
+    margin-left: 0px;
+    display: block;
+  }
+  .carousal .carousal-section .img-div .span-class .span1, .carousal .carousal-section .img-div .span-class .span2, .carousal .carousal-section .img-div .span-class .span3 {
+    height: 12px;
+    width: 9px;
+    border-radius: 8px;
+    border: 0px;
+    outline: none;
+    margin: 10px 10px;
+  }
+  .carousal .carousal-section .img-div .span-class .span1:hover, .carousal .carousal-section .img-div .span-class .span2:hover, .carousal .carousal-section .img-div .span-class .span3:hover {
+    cursor: pointer;
+  }
+  .carousal .carousal-section .img-div .span-class .active {
+    background-color: #ffd84e;
+  }
+  .carousal .carousal-section .img-div .span-class #two:hover, .carousal .carousal-section .img-div .span-class #one:hover {
+    cursor: pointer;
+  }
+  .ebook {
+    margin-top: 18% !important;
+  }
+  .ebook .ebook-content h4 {
+    color: #656c81;
+    line-height: 1.67;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 20px auto;
+  }
+  .ebook .ebook-content h1 {
+    color: #2c3550;
+    line-height: 1.25;
+    font-size: 32px;
+    font-weight: 600;
+  }
+  .ebook .ebook-content .buttons {
+    -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+            justify-content: start !important;
+    margin-top: 18px;
+    margin-bottom: 25px;
+  }
+  .ebook .ebook-content .buttons .pdf {
+    border-radius: 6px;
+    font-size: 11px;
+    background-color: #dddddd;
+    margin: auto 0px;
+    margin-right: 5px;
+    padding: 8px 20px !important;
+  }
+  .ebook .ebook-content .buttons .pdf .pd {
+    width: 12px;
+    margin-right: 8px !important;
+  }
+  .ebook .ebook-content .buttons .inside {
+    background-color: #ffd84e;
+    border-radius: 6px;
+    font-size: 11px;
+    margin: auto 5px;
+    padding: 8px 24px !important;
+  }
+  .report-title {
+    width: 93%;
+    margin: auto;
+    font-size: 16px;
+  }
+  .whats-inside h3 {
+    margin-bottom: 16px;
+    font-size: 22px;
+  }
+  .whats-inside .img-div {
+    margin-top: 100px;
+  }
+  .whats-inside .img-div .image-1 {
+    position: relative;
+  }
+  .whats-inside .img-div .image-2 {
+    position: absolute;
+    left: 25px;
+    top: -25px;
+  }
+  .whats-inside .img-div .image-3 {
+    position: absolute;
+    left: 50px;
+    top: -50px;
+  }
+  .whats-inside .img-div img {
+    width: 100%;
+    height: auto;
+    border: 25px solid white;
+    -webkit-box-shadow: -2px 1px 8px -4px #aaaaaa;
+            box-shadow: -2px 1px 8px -4px #aaaaaa;
+  }
+  .whats-inside .img-div .span-class .span1, .whats-inside .img-div .span-class .span2, .whats-inside .img-div .span-class .span3 {
+    height: 12px;
+    width: 10px;
+    border-radius: 8px;
+    border: 0px;
+    outline: none;
+    margin: 10px 10px;
+  }
+  .whats-inside .img-div .span-class .span1:hover, .whats-inside .img-div .span-class .span2:hover, .whats-inside .img-div .span-class .span3:hover {
+    cursor: pointer;
+  }
+  .whats-inside .img-div .span-class .active {
+    background-color: #737373;
+  }
+  .whats-inside .img-div .span-class #two:hover, .whats-inside .img-div .span-class #one:hover {
+    cursor: pointer;
+  }
+  label {
+    font-size: 13px !important;
+    color: #c0c0c3;
+  }
+  .privacy h6 {
+    margin-left: 25px;
+    font-size: 13px !important;
+    margin-bottom: 25px;
+  }
+  label {
+    font-size: 14px !important;
+  }
+  .card {
+    padding-top: 20px !important;
+    padding-bottom: 6px !important;
+  }
+  .card .margin {
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+  }
+  input {
+    margin-bottom: 10px !important;
+  }
+  .download-btn {
+    margin-top: 0px !important;
+    margin-bottom: 10px;
+  }
+  .download-btn .download {
+    padding: 6px 14px 6px 14px !important;
+    font-size: 12px !important;
+  }
+  .li {
+    margin-top: 0px;
+  }
+  .l {
+    margin: auto 0px !important;
+  }
+  .sm {
+    width: 86% !important;
+  }
+}
+/*# sourceMappingURL=ebook.css.map */
