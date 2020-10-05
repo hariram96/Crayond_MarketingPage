@@ -790,7 +790,7 @@ body {
   color: #665CD7;
   margin-top: 9px;
   position: absolute;
-  margin-left: -21px;
+  margin-left: 16px;
   opacity: 0.1;
 }
 
@@ -820,6 +820,10 @@ body {
   cursor: pointer;
 }
 
+#card2 .svg_right1 {
+  left: 20px;
+}
+
 #card2 .number1 {
   font-size: 82px;
   font-weight: bold;
@@ -827,7 +831,7 @@ body {
   color: #665CD7;
   margin-top: -9px;
   position: absolute;
-  margin-left: -21px;
+  margin-left: 8px;
   opacity: 0.1;
 }
 
@@ -836,7 +840,7 @@ body {
 }
 
 #card3 .svg_right3 {
-  margin-left: 52px;
+  margin-left: 70px;
   width: 83px;
   height: 83px;
   padding: 0px 10px 0px 0px;
@@ -915,7 +919,7 @@ body {
   margin-top: 23px;
   position: absolute;
   opacity: 0.1;
-  margin-left: 0px;
+  margin-left: 20px;
 }
 
 #card6 {
@@ -957,7 +961,7 @@ body {
   padding: 0px 15px 0px 0px;
   position: relative;
   margin-top: 0px;
-  margin-left: 32px;
+  margin-left: 47px;
 }
 
 #card7 .read_article7 {
@@ -988,9 +992,9 @@ body {
   height: 80px;
   padding: 0px 10px 0px 0px;
   position: relative;
-  margin-top: -33px;
+  margin-top: -30px;
   /* margin-right: 0px; */
-  margin-left: -15px;
+  margin-left: 40px;
 }
 
 #card8 .read_article8 {
@@ -1004,9 +1008,9 @@ body {
   font-weight: bold;
   margin-bottom: 0px;
   color: #135F40;
-  margin-top: 12px;
+  margin-top: 45px;
   position: absolute;
-  margin-left: -32px;
+  margin-left: 24px;
   opacity: 0.1;
 }
 
@@ -1069,7 +1073,7 @@ body {
   font-weight: bold;
   margin-bottom: 0px;
   color: #FFFFFF;
-  margin-top: 9px;
+  margin-top: 2px;
   position: absolute;
   opacity: 0.1;
   margin-left: 12px;
@@ -1109,7 +1113,7 @@ body {
   padding: 0px 15px 0px 0px;
   position: relative;
   margin-top: 0px;
-  margin-left: 33px;
+  margin-left: 73px;
 }
 
 #card13 .read_article13 {
@@ -1125,7 +1129,7 @@ body {
   color: #FFFFFF;
   margin-top: 11px;
   position: absolute;
-  margin-left: -7px;
+  margin-left: 30px;
   opacity: 0.1;
 }
 
@@ -1224,6 +1228,386 @@ body {
     margin-top: 40px;
     font-size: 12px;
     cursor: pointer;
+  }
+}
+
+.fafaicons {
+  font-size: 13px;
+}
+
+@media only screen and (max-width: 769px) {
+  .fafaicons {
+    font-size: 11px;
+  }
+  .college_cards .card_inside {
+    padding: 12px 0px;
+    margin: 0px;
+    margin-top: 20px;
+  }
+  .college_cards .card_inside .head_title {
+    font-size: 13px;
+    margin-top: 14px;
+  }
+  .college_cards .card_inside .svg_right {
+    width: 94%;
+    padding: 0px;
+  }
+  .college_cards .card_inside .svg_right1 {
+    width: 100%;
+    padding: 0px;
+  }
+  .college_cards .card_inside .number,
+  .college_cards .card_inside .number1 {
+    right: -17px;
+    font-size: 40px;
+    margin-top: 12px;
+  }
+  .college_cards .card_inside .read_article {
+    margin-top: 46px !important;
+    font-size: 11px;
+    cursor: pointer;
+    bottom: 0;
+    position: relative;
+  }
+  .college_cards .card_inside .svg_right1 {
+    width: 84%;
+    padding: 0px;
+    margin-top: -46px;
+    margin-left: -9px;
+  }
+  #card2
+.number1 {
+    right: 13px;
+    font-size: 40px;
+    margin-top: 5px;
+  }
+  #card2 .read_article1 {
+    font-size: 11px;
+    margin: 0px;
+    margin-top: 30px;
+  }
+  #card3 .svg_right3 {
+    width: 76%;
+    padding: 0px;
+    margin-left: 31px;
+  }
+  #card4 {
+    margin-top: 20px;
+  }
+  #card4 .read_article1 {
+    font-size: 11px;
+  }
+  #card4 .number1 {
+    right: 13px;
+    font-size: 40px;
+    top: 21px;
+  }
+  #card4 .head_title {
+    font-size: 13px;
+  }
+  #card5 {
+    margin-top: 20px;
+  }
+  #card5 .number5 {
+    right: 13px;
+    font-size: 40px;
+  }
+  #card5 .read_article1 {
+    margin-top: 51px;
+    font-size: 11px;
+    position: relative;
+  }
+  #card5 .svg_right3 {
+    width: 100%;
+    height: 100%;
+    padding: 48px 0px 0px 0px;
+    position: relative;
+    margin-top: -36px;
+  }
+  #card6 {
+    margin-top: 20px;
+  }
+  #card6 .number1 {
+    right: 13px;
+    font-size: 40px;
+    top: 28px;
+  }
+  #card6 .read_article1 {
+    font-size: 11px;
+  }
+  #card7 {
+    margin-top: 20px;
+  }
+  #card7 .number7 {
+    right: 13px;
+    font-size: 40px;
+    top: 69px;
+    left: 16px;
+  }
+  #card7 .read_article7 {
+    font-size: 11px;
+  }
+  #card7 .svg_right7 {
+    width: 100%;
+    margin-left: 13px;
+    padding: 0px;
+  }
+  #card8 {
+    margin-top: 20px;
+  }
+  #card8 .number8 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    color: #135F40;
+    margin-top: 21px;
+    position: absolute;
+    margin-left: 10px;
+    opacity: 0.1;
+  }
+  #card8 .read_article8 {
+    font-size: 11px;
+  }
+  #card8 .svg_right8 {
+    width: 95%;
+    height: 80px;
+    padding: 0px 10px 0px 0px;
+    position: relative;
+    margin-top: -36px;
+    /* margin-right: 0px; */
+    margin-left: 9px;
+  }
+  #card9 {
+    margin-top: 20px;
+  }
+  #card9 .number {
+    right: 13px;
+    font-size: 40px;
+    margin-bottom: 0px;
+  }
+  #card10 {
+    margin-top: 0px;
+  }
+  #card10 .read_article10 {
+    font-size: 11px;
+    margin-top: 17px;
+  }
+  #card10 .number10 {
+    right: 13px;
+    font-size: 40px;
+    top: 24px;
+  }
+  #card11 .read_article1 {
+    margin-top: 40px;
+    font-size: 11px;
+  }
+  #card11 .number5 {
+    right: 13px;
+    font-size: 40px;
+    top: 86px;
+  }
+  #card12 .number12 {
+    right: 13px;
+    font-size: 40px;
+    top: 22px;
+  }
+  #card12 .read_article12 {
+    font-size: 11px;
+    margin-top: 32px;
+  }
+  #card13 .svg_right13 {
+    width: 100%;
+    margin-left: 14px;
+    padding: 0px;
+  }
+  #card13 .read_article13 {
+    font-size: 11px;
+  }
+  #card13 .svg_right13 {
+    width: 90%;
+    margin-left: 22px;
+    padding: 0px;
+  }
+  #card13 .number13 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    color: #FFFFFF;
+    margin-top: 15px;
+    position: absolute;
+    margin-left: 17px;
+    opacity: 0.1;
+  }
+  #card14 .number14 {
+    right: 13px;
+    font-size: 40px;
+    top: 35px;
+  }
+  #card14 .read_article14 {
+    font-size: 11px;
+  }
+  #card15,
+  #card13 {
+    margin-top: 20px;
+  }
+  #card15 .number15 {
+    right: 13px;
+    font-size: 40px;
+  }
+  #card15 .read_article15 {
+    font-size: 11px;
+  }
+  .read_article1 {
+    margin-top: 0px;
+    font-size: 11px;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  .college_cards .card_inside .number, .college_cards .card_inside .number1 {
+    right: 0px;
+    font-size: 40px;
+    margin-top: 12px;
+  }
+  #card2 .read_article1 {
+    font-size: 9px;
+    margin: 0px;
+    margin-top: 30px;
+  }
+  #card5 .number5 {
+    right: 13px;
+    font-size: 40px;
+    top: 77px;
+  }
+  #card7 .number7 {
+    right: 13px;
+    font-size: 40px;
+    top: 86px;
+    left: 16px;
+  }
+  #card8 .read_article8 {
+    margin-top: 18px;
+    font-size: 11px;
+  }
+  #card14 .read_article14 {
+    margin-top: 17px;
+    font-size: 11px;
+    cursor: pointer;
+  }
+  #card14 .number14 {
+    right: 13px;
+    font-size: 40px;
+    top: 22px;
+  }
+  #card13 .svg_right13 {
+    width: 90%;
+    margin-left: 22px;
+    padding: 0px;
+    top: 18px;
+  }
+  #card13 .number13 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    color: #FFFFFF;
+    margin-top: 45px;
+    position: absolute;
+    margin-left: 17px;
+    opacity: 0.1;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  .college_cards .card_inside .read_article {
+    margin-top: 27px !important;
+    font-size: 9px;
+    cursor: pointer;
+    bottom: 0;
+    position: relative;
+  }
+  #card2 .head_title {
+    font-weight: 600;
+    font-size: 10px;
+    margin-top: 0px;
+    font-family: fontGraphikRegular;
+  }
+  #card2 .svg_right1 {
+    width: 100%;
+    padding: 0px;
+    margin-top: -51px;
+    margin-left: -17px;
+  }
+  #card2 .read_article1 {
+    font-size: 7px;
+    margin: 0px;
+    margin-top: 44px;
+  }
+  #card3 .svg_right3 {
+    width: 100%;
+    padding: 0px;
+    margin-left: 16px;
+  }
+  #card5 .read_article1 {
+    margin-top: 35px;
+    font-size: 9px;
+    position: relative;
+  }
+  #card7 .number7 {
+    right: 13px;
+    font-size: 40px;
+    top: 86px;
+    left: 6px;
+  }
+  #card7 .svg_right7 {
+    width: 100%;
+    margin-left: 13px;
+    padding: 0px;
+    margin-top: 25px;
+  }
+  #card8 .read_article8 {
+    margin-top: 18px;
+    font-size: 9px;
+  }
+  #card8 .svg_right8 {
+    width: 106%;
+    height: 80px;
+    padding: 0px 10px 0px 0px;
+    position: relative;
+    margin-top: -39px;
+    margin-left: 9px;
+  }
+  #card8 .number8 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    color: #135F40;
+    margin-top: 21px;
+    position: absolute;
+    margin-left: 0px;
+    opacity: 0.1;
+  }
+  #card11 .read_article1 {
+    margin-top: 23px;
+    font-size: 9px;
+  }
+  #card13 .read_article13 {
+    font-size: 9px;
+  }
+  #card13 .number13 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    color: #FFFFFF;
+    margin-top: 59px;
+    position: absolute;
+    margin-left: 1px;
+    opacity: 0.1;
   }
 }
 /*# sourceMappingURL=Saas_metric.css.map */
