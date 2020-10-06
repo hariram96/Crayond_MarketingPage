@@ -841,7 +841,10 @@ body {
         }
     }
 }
-
+.mobiletab
+{
+    display:none;
+}
 .title {
     text-align: center;
     color: #222C5D;
@@ -1604,6 +1607,15 @@ body {
 }
 @media only screen and (max-width:426px)
 {
+.mobiletab
+{
+    display:flex;
+}
+.webview
+{
+    display:none;
+}
+
     h1 {
         font-size: 1.5rem;
     }
@@ -1612,55 +1624,208 @@ body {
         font-size: 40px;
         margin-top: 12px;
     }
-    #card2 .read_article1 {
-        font-size: 9px;
-        margin: 0px;
-        margin-top: 30px;
+    #card2 
+    {
+        
+            background-color: #E0DDFF;
+            color: #222C5D;
+            padding: 22px 5px 22px 10px;
+            height: 130px !important;
+            .number1 {
+                right: 38px;
+                font-size: 40px;
+                margin-top: -5px;
+            }
     }
-    #card5 .number5 {
-        right: 13px;
-        font-size: 40px;
-        top: 77px;
+    #card4
+    {
+        height: 126px !important;
+         .number1 {
+            right: 52px;
+            font-size: 40px;
+            top: 0px;
+        }
+}
+    #card5 
+    {
+        height: 160px !important;
+        .number5 {
+            right: 39px;
+            font-size: 40px;
+            top: 63px;
+        }  
     }
-    #card7 .number7 {
-        right: 13px;
-        font-size: 40px;
-        top: 86px;
-        left: 16px;
-    }
-    #card8 .read_article8 {
-        margin-top: 18px;
-        font-size: 11px;
-    }
-    #card14 .read_article14 {
-        margin-top: 17px;
-        font-size: 11px;
-        cursor: pointer;
-    }
-    #card14 .number14 {
-        right: 13px;
-        font-size: 40px;
-        top: 22px;
+    #card6 
+    {
+        height: 126px !important;
+         .number1 {
+            right: 41px;
+            font-size: 40px;
+            top: 29px !important;
+        }
     }
     
+    
+    #card7 
+    {
+        height: 172px !important;
+        .number7 {
+            .number7 {
+                right: 0px;
+                font-size: 40px;
+                top: 79px;
+                left: 19px;
+            }
+        }
+    }
+    #card8 
+    {
+        height: 145px !important;
+        .number8{
+            font-size: 40px;
+            font-weight: bold;
+            margin-bottom: 0px;
+            color: #135F40;
+            margin-top: -8px;
+            position: absolute;
+            margin-left: -1px;
+            opacity: 0.1;
+        }
+       
+    }
+    
+    #card9 .number {
+        right: 0px;
+        font-size: 40px;
+        margin-bottom: 0px;
+    }
+    #card10 
+    {
+        height:130px!important;
+         .number10 {
+            right: 77px;
+            font-size: 40px;
+            top: 14px;
+        }
+    }
+    #card11
+    {
+        height:160px !important;
+        .number5 {
+            right: 45px;
+            font-size: 40px;
+            top: 80px;
+        }
+    }
+    #card12
+    {
+        height:122px !important;
+        .number12 {
+            right: 74px;
+            font-size: 40px;
+            top: -3px;
+        }
+    }
+   
+    #card14
+    {
+        height: 130px !important;
+        .number14 {
+            right: 61px;
+            font-size: 40px;
+            top: -10px;
+        }
+    } 
+    
 
-#card13 .svg_right13 {
-    width: 90%;
-    margin-left: 22px;
-    padding: 0px;
-    top: 18px;
-}
-#card13 .number13 {
-    font-size: 40px;
+#card13
+{
+    
+        height: 160px !important;
+        .svg_right13 {
+            width: 90%;
+            margin-left: 22px;
+            padding: 0px;
+            top: 18px;
+        }
+        .number13 {
+            font-size: 40px;
     font-weight: bold;
     margin-bottom: 0px;
     color: #FFFFFF;
-    margin-top: 45px;
-    position: absolute;
-    margin-left: 17px;
+    margin-top: -17px;
+    position: relative;
+    margin-left: -3px;
     opacity: 0.1;
-}
-}
+        }
+    }
+
+    .arrow_crr
+    {
+        float: right;
+        margin-top: 21px;
+    }
+    .arrow_crr1
+    {
+        float: right;
+    margin-top: 26px;
+    }
+    .icon1
+    {
+        float:right;
+       
+    }
+    .arrow_crr2 {
+        float: right;
+        margin-top: 60px !important;
+    }
+    .arrow_crr3 {
+        float: right;
+        margin-top: 78px;
+    }
+    .arrow_crr4 {
+        float: right;
+        margin-top: 38px;
+    }
+    .arrow_crr5
+    {
+        float: right;
+        margin-top: 25px;
+    }
+    .arrow_crr6 {
+        margin-top: 63px;
+        float: right;
+    }
+    .arrow_crr7 {
+        float: right;
+        margin-top: 29px;
+    }
+    .arrow_crr8 {
+        margin-top: 50px;
+        float: right;
+    }
+    
+
+    #card14 .number14 {
+        right: 61px;
+        font-size: 40px;
+        top: 7px;
+    }
+
+#card15
+{
+    height:160px !important;
+   
+        .number15 {
+            right: 48px;
+            top: 78px;
+            font-size: 40px;
+        }
+    }
+
+} 
+
+
 @media only screen and (max-width: 376px)
 {
     h1 {
@@ -1677,7 +1842,7 @@ body {
     {
         .head_title {
             font-weight: 600;
-            font-size: 10px;
+            font-size: 11px;
             margin-top: 0px;
             font-family: fontGraphikRegular;
         } 
@@ -1687,38 +1852,95 @@ body {
             margin-top: -51px;
             margin-left: -17px;
         }
-        .read_article1 {
-            font-size: 7px;
-            margin: 0px;
-            margin-top: 44px;
+        
+        .number1 {
+            right: 25px;
+            font-size: 40px;
+            margin-top: -5px;
         }
        
     }
+
+    .arrow_crr
+    {
+        float: right;
+        margin-top: 45px;
+    }
+    .arrow_crr1
+    {
+        float: right;
+        margin-top: 14px;
+    }
+    .icon1
+    {
+        float:right;
+     
+        margin-top: 6px;
+    }
+    
+    .arrow_crr2
+    {
+        float: right;
+        margin-top: 75px;
+    }
+    .arrow_crr3
+    {
+        float: right;
+        margin-top: 50px;
+    }
+    .arrow_crr4
+    {
+        float: right;
+        margin-top: 55px;
+    }
+    .arrow_crr5
+    {
+        float: right;
+        margin-top: 25px;
+    }
+
+
     #card3 .svg_right3 {
         width: 100%;
         padding: 0px;
         margin-left: 16px;
     }
-    #card5 .read_article1 {
-        margin-top: 35px;
-        font-size: 9px;
-        position: relative;
+    #card4 .number1 {
+        right: 45px;
+        font-size: 40px;
+        top: 7px;
+    }
+    #card5 
+    {
+        margin-top: 23px;
+    }
+    
+    #card6 .number1 {
+        right: 41px;
+        font-size: 40px;
+        top: 16px;
     }
     #card7 .number7 {
-        right: 13px;
+        right: 0px;
         font-size: 40px;
         top: 86px;
-        left: 6px;
+        left: 19px;
     }
     #card7 .svg_right7 {
-        width: 100%;
-        margin-left: 13px;
+        width: 40px;
+        margin-left: 0px;
         padding: 0px;
-        margin-top: 25px;
+        margin-top: 10px;
     }
-    #card8 .read_article8 {
-        margin-top: 18px;
-        font-size: 9px;
+    #card8 .number8 {
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 0px;
+        color: #135F40;
+        margin-top: -13px;
+        position: absolute;
+        margin-left: 0px;
+        opacity: 0.1;
     }
     #card8 .svg_right8 {
         width: 106%;
@@ -1729,33 +1951,48 @@ body {
         
         margin-left: 9px;
     }
-    #card8 .number8 {
+    #card10 .number10 {
+        right: 60px;
         font-size: 40px;
-        font-weight: bold;
-        margin-bottom: 0px;
-        color: #135F40;
-        margin-top: 21px;
-        position: absolute;
-        margin-left: 0px;
-        opacity: 0.1;
+        top: 11px;
     }
-    #card11 .read_article1 {
-        margin-top: 23px;
-        font-size: 9px;
-    }
-    #card13 .read_article13 {
-        font-size: 9px;
-    }
-    #card13 .number13 {
+    #card11 .number5 {
+        right: 35px;
         font-size: 40px;
-        font-weight: bold;
-        margin-bottom: 0px;
-        color: #FFFFFF;
-        margin-top: 59px;
-        position: absolute;
-        margin-left: 1px;
-        opacity: 0.1;
+        top: 86px;
     }
+    #card12 .number12 {
+        right: 60px;
+        font-size: 40px;
+        top: -4px;
+    }
+    #card13 
+    {
+        .number13 {
+            font-size: 40px;
+            font-weight: bold;
+            margin-bottom: 0px;
+            color: #FFFFFF;
+            margin-top: px;
+            position: relative;
+            margin-left: -8px;
+            opacity: 0.1;
+        }
+    }
+    
+    
+
+    #card14 .number14 {
+        right: 47px;
+        font-size: 40px;
+        top: 10px;
+    }
+#card15 .number15 {
+    right: 48px;
+    top: 66px;
+    font-size: 40px;
+}   
+
 }
 @media only screen and (max-width: 321px)
 {
@@ -1770,10 +2007,40 @@ body {
         right: 11px;
         font-size: 40px;
         margin-top: 17px;
+        left: 1px;
     }
 
     
-
+    .arrow_crr
+    {
+        float: right;
+        margin-top: 45px;
+    }
+    .arrow_crr1
+    {
+        float: right;
+        margin-top: 40px;
+    }
+    .arrow_crr2
+    {
+        float: right;
+        margin-top: 75px;
+    }
+    .arrow_crr3
+    {
+        float: right;
+        margin-top: 50px;
+    }
+    .arrow_crr4
+    {
+        float: right;
+        margin-top: 55px;
+    }
+    .arrow_crr5
+    {
+        float: right;
+        margin-top: 25px;
+    }
 #card2 
 {
     .head_title {
@@ -1789,48 +2056,43 @@ body {
         margin-top: -48px;
         margin-left: -32px;
     }
-    .read_article1 {
-        font-size: 8px;
-        margin: 0px;
-        margin-top: 17px;
-    }
+   
     .number1 {
         right: 4px;
         font-size: 40px;
-        margin-top: 5px;
+        left: 32px;
+        margin-top: 0px;
     }
 }
 #card4
 {
-    .number1 {
-        right: 13px;
-        font-size: 40px;
-        top: 32px;
-        left: 9px;
-    }
+    
+
+ .number1 {
+    right: 0px;
+    font-size: 40px;
+    top: 0px;
+    left: 37px;
+}
 }
 
 #card5
 {
-    .read_article1 {
-        margin-top: 28px;
-        font-size: 9px;
-        position: relative;
-    }
-    .svg_right3 {
-        width: 49px;
-        height: 100%;
-        padding: 48px -5px 0px 0px;
-        position: relative;
-        margin-top: -36px;
-    }
+    
+.number5 {
+    right: 15px;
+    font-size: 40px;
+    top: 63px;
+}
 } 
 #card6 
 {
-    .read_article1 {
-        font-size: 11px;
-        cursor: pointer;
-        margin-top: 2px;
+    height:145px !important;
+    .number1 {
+        right: 0px;
+        font-size: 40px;
+        top: 16px;
+        left: 22px;
     }
 }
 #card7 
@@ -1841,16 +2103,12 @@ body {
         padding: 0px;
         margin-top: 25px;
     }
-    .read_article7 {
-        margin-top: 18px;
-        font-size: 11px;
-        cursor: pointer;
-    }
-    .number7 {
-        right: 25px;
+    
+ .number7 {
+        right: 0px;
         font-size: 40px;
-        top: 98px;
-        left: -4px;
+        top: 91px;
+        left: 11px;
     }
 }
 #card8
@@ -1868,10 +2126,10 @@ body {
         font-weight: bold;
         margin-bottom: 0px;
         color: #135F40;
-        margin-top: 48px;
+        margin-top: -24px;
         position: absolute;
         opacity: 0.1;
-        right: 7px;
+        right: 18px;
     }
 }
 #card9
@@ -1901,9 +2159,9 @@ body {
         margin-top: -6px;
     } 
     .number10 {
-        right: 6px;
+        right: 42px;
         font-size: 40px;
-        top: 13px;
+        top: 10px;
     }
 }
 #card11
@@ -1916,23 +2174,16 @@ body {
         position: relative;
         margin-top: -36px;
     }
-    .number5 {
-        right: 6px;
+     .number5 {
+        right: 19px;
         font-size: 40px;
         top: 93px;
     }
 }
-#card12
-{
-    .read_article12 {
-        font-size: 9px;
-        margin-top: 23px;
-    }
-    .number12 {
-        right: 3px;
-        font-size: 40px;
-        top: 11px;
-    }  
+#card12 .number12 {
+    right: 37px;
+    font-size: 40px;
+    top: -5px;
 }
 #card13 
 {
@@ -1942,12 +2193,12 @@ body {
         padding: 0px;
         top: 18px;
     }
-    .number13 {
+     .number13 {
         font-size: 40px;
         font-weight: bold;
         margin-bottom: 0px;
         color: #FFFFFF;
-        margin-top: 44px;
+        margin-top: -13px;
         position: absolute;
         margin-left: -8px;
         opacity: 0.1;
@@ -1960,13 +2211,14 @@ body {
 }
 #card14
 {
+    height: 145px !important  ;
     .read_article14 {
         margin-top: 0px;
         font-size: 11px;
         cursor: pointer;
     }
-    .number14 {
-        right: 13px;
+     .number14 {
+        right: 30px;
         font-size: 40px;
         top: 10px;
     }
@@ -1982,8 +2234,8 @@ body {
         font-size: 11px;
         cursor: pointer;
     }
-    .number15 {
-        right: 7px;
+     .number15 {
+        right: 30px;
         font-size: 40px;
         margin-top: 22px;
     }

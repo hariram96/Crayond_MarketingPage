@@ -770,6 +770,10 @@ body {
   opacity: 0.1;
 }
 
+.mobiletab {
+  display: none;
+}
+
 .title {
   text-align: center;
   color: #222C5D;
@@ -1464,6 +1468,14 @@ body {
 }
 
 @media only screen and (max-width: 426px) {
+  .mobiletab {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .webview {
+    display: none;
+  }
   h1 {
     font-size: 1.5rem;
   }
@@ -1472,35 +1484,102 @@ body {
     font-size: 40px;
     margin-top: 12px;
   }
-  #card2 .read_article1 {
-    font-size: 9px;
-    margin: 0px;
-    margin-top: 30px;
+  #card2 {
+    background-color: #E0DDFF;
+    color: #222C5D;
+    padding: 22px 5px 22px 10px;
+    height: 130px !important;
+  }
+  #card2 .number1 {
+    right: 38px;
+    font-size: 40px;
+    margin-top: -5px;
+  }
+  #card4 {
+    height: 126px !important;
+  }
+  #card4 .number1 {
+    right: 52px;
+    font-size: 40px;
+    top: 0px;
+  }
+  #card5 {
+    height: 160px !important;
   }
   #card5 .number5 {
-    right: 13px;
+    right: 39px;
     font-size: 40px;
-    top: 77px;
+    top: 63px;
   }
-  #card7 .number7 {
-    right: 13px;
+  #card6 {
+    height: 126px !important;
+  }
+  #card6 .number1 {
+    right: 41px;
     font-size: 40px;
-    top: 86px;
-    left: 16px;
+    top: 29px !important;
   }
-  #card8 .read_article8 {
-    margin-top: 18px;
-    font-size: 11px;
+  #card7 {
+    height: 172px !important;
   }
-  #card14 .read_article14 {
-    margin-top: 17px;
-    font-size: 11px;
-    cursor: pointer;
+  #card7 .number7 .number7 {
+    right: 0px;
+    font-size: 40px;
+    top: 79px;
+    left: 19px;
+  }
+  #card8 {
+    height: 145px !important;
+  }
+  #card8 .number8 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    color: #135F40;
+    margin-top: -8px;
+    position: absolute;
+    margin-left: -1px;
+    opacity: 0.1;
+  }
+  #card9 .number {
+    right: 0px;
+    font-size: 40px;
+    margin-bottom: 0px;
+  }
+  #card10 {
+    height: 130px !important;
+  }
+  #card10 .number10 {
+    right: 77px;
+    font-size: 40px;
+    top: 14px;
+  }
+  #card11 {
+    height: 160px !important;
+  }
+  #card11 .number5 {
+    right: 45px;
+    font-size: 40px;
+    top: 80px;
+  }
+  #card12 {
+    height: 122px !important;
+  }
+  #card12 .number12 {
+    right: 74px;
+    font-size: 40px;
+    top: -3px;
+  }
+  #card14 {
+    height: 130px !important;
   }
   #card14 .number14 {
-    right: 13px;
+    right: 61px;
     font-size: 40px;
-    top: 22px;
+    top: -10px;
+  }
+  #card13 {
+    height: 160px !important;
   }
   #card13 .svg_right13 {
     width: 90%;
@@ -1513,10 +1592,62 @@ body {
     font-weight: bold;
     margin-bottom: 0px;
     color: #FFFFFF;
-    margin-top: 45px;
-    position: absolute;
-    margin-left: 17px;
+    margin-top: -17px;
+    position: relative;
+    margin-left: -3px;
     opacity: 0.1;
+  }
+  .arrow_crr {
+    float: right;
+    margin-top: 21px;
+  }
+  .arrow_crr1 {
+    float: right;
+    margin-top: 26px;
+  }
+  .icon1 {
+    float: right;
+  }
+  .arrow_crr2 {
+    float: right;
+    margin-top: 60px !important;
+  }
+  .arrow_crr3 {
+    float: right;
+    margin-top: 78px;
+  }
+  .arrow_crr4 {
+    float: right;
+    margin-top: 38px;
+  }
+  .arrow_crr5 {
+    float: right;
+    margin-top: 25px;
+  }
+  .arrow_crr6 {
+    margin-top: 63px;
+    float: right;
+  }
+  .arrow_crr7 {
+    float: right;
+    margin-top: 29px;
+  }
+  .arrow_crr8 {
+    margin-top: 50px;
+    float: right;
+  }
+  #card14 .number14 {
+    right: 61px;
+    font-size: 40px;
+    top: 7px;
+  }
+  #card15 {
+    height: 160px !important;
+  }
+  #card15 .number15 {
+    right: 48px;
+    top: 78px;
+    font-size: 40px;
   }
 }
 
@@ -1533,7 +1664,7 @@ body {
   }
   #card2 .head_title {
     font-weight: 600;
-    font-size: 10px;
+    font-size: 11px;
     margin-top: 0px;
     font-family: fontGraphikRegular;
   }
@@ -1543,36 +1674,78 @@ body {
     margin-top: -51px;
     margin-left: -17px;
   }
-  #card2 .read_article1 {
-    font-size: 7px;
-    margin: 0px;
-    margin-top: 44px;
+  #card2 .number1 {
+    right: 25px;
+    font-size: 40px;
+    margin-top: -5px;
+  }
+  .arrow_crr {
+    float: right;
+    margin-top: 45px;
+  }
+  .arrow_crr1 {
+    float: right;
+    margin-top: 14px;
+  }
+  .icon1 {
+    float: right;
+    margin-top: 6px;
+  }
+  .arrow_crr2 {
+    float: right;
+    margin-top: 75px;
+  }
+  .arrow_crr3 {
+    float: right;
+    margin-top: 50px;
+  }
+  .arrow_crr4 {
+    float: right;
+    margin-top: 55px;
+  }
+  .arrow_crr5 {
+    float: right;
+    margin-top: 25px;
   }
   #card3 .svg_right3 {
     width: 100%;
     padding: 0px;
     margin-left: 16px;
   }
-  #card5 .read_article1 {
-    margin-top: 35px;
-    font-size: 9px;
-    position: relative;
+  #card4 .number1 {
+    right: 45px;
+    font-size: 40px;
+    top: 7px;
+  }
+  #card5 {
+    margin-top: 23px;
+  }
+  #card6 .number1 {
+    right: 41px;
+    font-size: 40px;
+    top: 16px;
   }
   #card7 .number7 {
-    right: 13px;
+    right: 0px;
     font-size: 40px;
     top: 86px;
-    left: 6px;
+    left: 19px;
   }
   #card7 .svg_right7 {
-    width: 100%;
-    margin-left: 13px;
+    width: 40px;
+    margin-left: 0px;
     padding: 0px;
-    margin-top: 25px;
+    margin-top: 10px;
   }
-  #card8 .read_article8 {
-    margin-top: 18px;
-    font-size: 9px;
+  #card8 .number8 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    color: #135F40;
+    margin-top: -13px;
+    position: absolute;
+    margin-left: 0px;
+    opacity: 0.1;
   }
   #card8 .svg_right8 {
     width: 106%;
@@ -1582,32 +1755,40 @@ body {
     margin-top: -39px;
     margin-left: 9px;
   }
-  #card8 .number8 {
+  #card10 .number10 {
+    right: 60px;
     font-size: 40px;
-    font-weight: bold;
-    margin-bottom: 0px;
-    color: #135F40;
-    margin-top: 21px;
-    position: absolute;
-    margin-left: 0px;
-    opacity: 0.1;
+    top: 11px;
   }
-  #card11 .read_article1 {
-    margin-top: 23px;
-    font-size: 9px;
+  #card11 .number5 {
+    right: 35px;
+    font-size: 40px;
+    top: 86px;
   }
-  #card13 .read_article13 {
-    font-size: 9px;
+  #card12 .number12 {
+    right: 60px;
+    font-size: 40px;
+    top: -4px;
   }
   #card13 .number13 {
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 0px;
     color: #FFFFFF;
-    margin-top: 59px;
-    position: absolute;
-    margin-left: 1px;
+    margin-top: px;
+    position: relative;
+    margin-left: -8px;
     opacity: 0.1;
+  }
+  #card14 .number14 {
+    right: 47px;
+    font-size: 40px;
+    top: 10px;
+  }
+  #card15 .number15 {
+    right: 48px;
+    top: 66px;
+    font-size: 40px;
   }
 }
 
@@ -1623,6 +1804,31 @@ body {
     right: 11px;
     font-size: 40px;
     margin-top: 17px;
+    left: 1px;
+  }
+  .arrow_crr {
+    float: right;
+    margin-top: 45px;
+  }
+  .arrow_crr1 {
+    float: right;
+    margin-top: 40px;
+  }
+  .arrow_crr2 {
+    float: right;
+    margin-top: 75px;
+  }
+  .arrow_crr3 {
+    float: right;
+    margin-top: 50px;
+  }
+  .arrow_crr4 {
+    float: right;
+    margin-top: 55px;
+  }
+  .arrow_crr5 {
+    float: right;
+    margin-top: 25px;
   }
   #card2 .head_title {
     font-weight: 600;
@@ -1636,38 +1842,31 @@ body {
     margin-top: -48px;
     margin-left: -32px;
   }
-  #card2 .read_article1 {
-    font-size: 8px;
-    margin: 0px;
-    margin-top: 17px;
-  }
   #card2 .number1 {
     right: 4px;
     font-size: 40px;
-    margin-top: 5px;
+    left: 32px;
+    margin-top: 0px;
   }
   #card4 .number1 {
-    right: 13px;
+    right: 0px;
     font-size: 40px;
-    top: 32px;
-    left: 9px;
+    top: 0px;
+    left: 37px;
   }
-  #card5 .read_article1 {
-    margin-top: 28px;
-    font-size: 9px;
-    position: relative;
+  #card5 .number5 {
+    right: 15px;
+    font-size: 40px;
+    top: 63px;
   }
-  #card5 .svg_right3 {
-    width: 49px;
-    height: 100%;
-    padding: 48px -5px 0px 0px;
-    position: relative;
-    margin-top: -36px;
+  #card6 {
+    height: 145px !important;
   }
-  #card6 .read_article1 {
-    font-size: 11px;
-    cursor: pointer;
-    margin-top: 2px;
+  #card6 .number1 {
+    right: 0px;
+    font-size: 40px;
+    top: 16px;
+    left: 22px;
   }
   #card7 .svg_right7 {
     width: 37px;
@@ -1675,16 +1874,11 @@ body {
     padding: 0px;
     margin-top: 25px;
   }
-  #card7 .read_article7 {
-    margin-top: 18px;
-    font-size: 11px;
-    cursor: pointer;
-  }
   #card7 .number7 {
-    right: 25px;
+    right: 0px;
     font-size: 40px;
-    top: 98px;
-    left: -4px;
+    top: 91px;
+    left: 11px;
   }
   #card8 .svg_right8 {
     width: 44px;
@@ -1699,10 +1893,10 @@ body {
     font-weight: bold;
     margin-bottom: 0px;
     color: #135F40;
-    margin-top: 48px;
+    margin-top: -24px;
     position: absolute;
     opacity: 0.1;
-    right: 7px;
+    right: 18px;
   }
   #card9 .svg_right {
     width: 47px;
@@ -1726,9 +1920,9 @@ body {
     margin-top: -6px;
   }
   #card10 .number10 {
-    right: 6px;
+    right: 42px;
     font-size: 40px;
-    top: 13px;
+    top: 10px;
   }
   #card11 .svg_right3 {
     width: 36px;
@@ -1738,18 +1932,14 @@ body {
     margin-top: -36px;
   }
   #card11 .number5 {
-    right: 6px;
+    right: 19px;
     font-size: 40px;
     top: 93px;
   }
-  #card12 .read_article12 {
-    font-size: 9px;
-    margin-top: 23px;
-  }
   #card12 .number12 {
-    right: 3px;
+    right: 37px;
     font-size: 40px;
-    top: 11px;
+    top: -5px;
   }
   #card13 .svg_right13 {
     width: 40px;
@@ -1762,7 +1952,7 @@ body {
     font-weight: bold;
     margin-bottom: 0px;
     color: #FFFFFF;
-    margin-top: 44px;
+    margin-top: -13px;
     position: absolute;
     margin-left: -8px;
     opacity: 0.1;
@@ -1772,13 +1962,16 @@ body {
     font-size: 9px;
     cursor: pointer;
   }
+  #card14 {
+    height: 145px !important;
+  }
   #card14 .read_article14 {
     margin-top: 0px;
     font-size: 11px;
     cursor: pointer;
   }
   #card14 .number14 {
-    right: 13px;
+    right: 30px;
     font-size: 40px;
     top: 10px;
   }
@@ -1792,7 +1985,7 @@ body {
     cursor: pointer;
   }
   #card15 .number15 {
-    right: 7px;
+    right: 30px;
     font-size: 40px;
     margin-top: 22px;
   }

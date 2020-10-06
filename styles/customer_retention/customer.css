@@ -186,7 +186,7 @@
   margin-bottom: 30px;
   margin-top: 0px;
   color: #212121;
-  margin-top: 30px;
+  margin-top: 57px;
   font-weight: 800;
 }
 
@@ -319,10 +319,47 @@
   .right_side {
     display: none !important;
   }
+  .footer_social_media1 {
+    display: none;
+  }
 }
 
-.footer_social_media1 {
-  display: none;
+@media screen and (max-width: 426px) {
+  .head_theme .head_theme {
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 700;
+    letter-spacing: .27px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    color: #212121;
+    margin-top: 57px;
+    font-weight: 800;
+  }
+  .head_theme .head_ques {
+    font-size: 18px;
+  }
+  .head_theme .head_imp {
+    font-size: 18px;
+  }
+  .head_theme .for_div {
+    background-color: #665CD71A;
+    padding: 15px 10px 10px 10px;
+    width: 250px;
+    height: 55px;
+  }
+  .head_theme .for_div .formula {
+    color: #665CD7;
+  }
+  .head_theme .for_div1 {
+    background-color: #665CD71A;
+    padding: 15px 10px 10px 10px;
+    width: 450px;
+    height: 55px;
+  }
+  .head_theme .for_div1 .formula {
+    color: #665CD7;
+  }
 }
 
 @media screen and (max-width: 768px) {
