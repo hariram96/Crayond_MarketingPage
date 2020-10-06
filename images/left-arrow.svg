@@ -1,0 +1,12 @@
+<svg id="left-arrow" xmlns="http://www.w3.org/2000/svg" width="22.71" height="11" viewBox="0 0 22.71 11">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #665cd7;
+      }
+    </style>
+  </defs>
+  <g id="Group_3" data-name="Group 3" transform="translate(0 0)">
+    <path id="Path_4" data-name="Path 4" class="cls-1" d="M21.822,136.613H3.035l3.112-3.1A.887.887,0,0,0,4.9,132.258L.261,136.871h0a.888.888,0,0,0,0,1.256h0L4.9,142.742a.887.887,0,0,0,1.252-1.258l-3.112-3.1H21.822a.887.887,0,0,0,0-1.774Z" transform="translate(0 -132)"/>
+  </g>
+</svg>
