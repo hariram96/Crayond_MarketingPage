@@ -56,6 +56,10 @@
   display: block !important;
 }
 
+.article_ref {
+  color: #595959;
+}
+
 .dropdown {
   display: none;
   position: absolute;
@@ -121,6 +125,14 @@
       -ms-flex-pack: center;
           justify-content: center;
   margin-top: 85px;
+}
+.bottom_next
+{
+  display: none;
+}
+.arrow
+{
+  display:none;
 }
 
 @media screen and (max-width: 603px) {
@@ -319,6 +331,14 @@
   .right_side {
     display: none !important;
   }
+  .bottom_next
+{
+  display: block;
+}
+.arrow
+{
+  display: block;
+}
   .footer_social_media1 {
     display: none;
   }

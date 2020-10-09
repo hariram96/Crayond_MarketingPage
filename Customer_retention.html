@@ -286,10 +286,6 @@
 
 
                 </div>
-
-
-
-
                 <div id="id2" class="head_theme ">
                     <h4 class=" head_theme fontGraphikSemibold ">Burn Rate </h4>
                     <div class="dotted_line" style="position:relative;bottom:15px;"><img src="images/line-2.png"
@@ -878,8 +874,6 @@
                         P.S. Revenue is the total money earned whereas Profits are the surplus after subtracting
                         business expenses.
 
-
-
                     </p>
 
                     <br />
@@ -925,15 +919,10 @@
                         Nudges at the right time can motivate them to start paying.
 
                         These include:
-                        Let them know that paid customers have no limits
-                        Track their features’ usage & send them badges
-                        Highlight the differences of certain features when paid
-                        Consult on how a paid plan can boost their productivity
-
-
-
-
-
+                        Let them know that paid customers have no limits<br/>
+                        Track their features’ usage & send them badges<br/>
+                        Highlight the differences of certain features when paid<br/>
+                        Consult on how a paid plan can boost their productivity<br/>
                     </p>
                     <p class=" head_imp fontGraphikSemibold ">Importance of PQLs
 
@@ -944,19 +933,9 @@
 
                         This makes them a better metric than sales/marketing qualified leads, as the conversion rate is
                         higher and much more predictable.
-
-
-
-
-
-
-
-
-
-
                     </p>
 
-                    <br />
+                    <br/>
                 </div>
                 <div class="head_theme">
                     <h4 id="id15" class="head_theme fontGraphikSemibold">
@@ -989,21 +968,22 @@
                     </p>
                     <p class="p fontLatoRegular" style="color:#7B6A77">
                         Customer acquisition is a long, tedious process at the beginning stages of an organization. But
-                        slowly, under a good acquisition strategy, word spreads about you and more leads come
+                        slowly,<br/>
+                        under a good acquisition strategy, word spreads about you and more leads come
                         at your door.<br/>
 
                         Ultimately, CAC helps you understand where your marketing/sales strategies are effective or not.
-
-
                         <br />
                 </div>
             </div>
 
+       
 
 
         </div>
     </div>
     </div>
+  
     <!-- footer_social_media -->
     <section class="footer">
         <div class="container">
@@ -1240,10 +1220,15 @@
 
     $.fn.isInViewport = function () {
         var elementTop = $(this).offset().top;
+
         var elementBottom = elementTop + $(this).outerHeight();
+
         var viewportTop = $(window).scrollTop();
+
         var viewportBottom = viewportTop + $(window).height();
+
         return elementBottom > viewportTop && elementTop < viewportBottom;
+
     };
     $(window).on('resize ', function () {
         if ($('#id1').isInViewport()) {
@@ -1316,8 +1301,27 @@
 </script>
 <script>
     $("#nav-toggle").click(function () {
+
         $(".sub-menu").slideToggle();
+
     });
+</script>
+<script>
+    // let arr=["crr"]
+    // let a=window.location.pathname
+    // let b=a.split("html/")
+    // let mobileview =window.innerWidth
+    //  if (mobileview <=427)
+    //  {
+    //    arr.map(item=>{
+    //        if (item===b)
+    //        {
+    //            return document.getElementById("crr").style.display="block"
+    //        }else{
+    //         return document.getElementById("crr").style.display="none"
+    //        }
+    //    })
+    //  }
 </script>
 
 </html>
