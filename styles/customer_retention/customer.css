@@ -126,14 +126,6 @@
           justify-content: center;
   margin-top: 85px;
 }
-.bottom_next
-{
-  display: none;
-}
-.arrow
-{
-  display:none;
-}
 
 @media screen and (max-width: 603px) {
   .card1 .row_privacy {
@@ -331,14 +323,6 @@
   .right_side {
     display: none !important;
   }
-  .bottom_next
-{
-  display: block;
-}
-.arrow
-{
-  display: block;
-}
   .footer_social_media1 {
     display: none;
   }

@@ -729,9 +729,9 @@ body {
   width: 100%;
   border-radius: 25px;
   color: #ffffff;
+  margin-left: 2px;
   height: auto !important;
   padding: 18px;
-  margin: 12px 10px;
 }
 
 .college_cards .card_inside .head_title {
@@ -928,7 +928,7 @@ body {
 
 #card6 {
   background-color: #FFD4D8;
-  margin-top: 30px;
+  margin-top: 24px !important;
   color: #940C17;
   margin-top: 30px;
 }
@@ -1021,7 +1021,7 @@ body {
 #card9 {
   background-color: #C948F8;
   color: #FFFFFF;
-  margin-top: 30px;
+  margin-top: 0px;
 }
 
 #card9 .number {
@@ -1038,7 +1038,7 @@ body {
 #card10 {
   background-color: #F2CDFF;
   color: #6A1789;
-  margin-top: 30px;
+  margin-top: 0px;
 }
 
 #card10 .read_article10 {
@@ -1140,7 +1140,7 @@ body {
 #card14 {
   background-color: #ADFFDE;
   color: #135F40;
-  margin-top: 30px;
+  margin-top: 24px !important;
 }
 
 #card14 .read_article14 {
