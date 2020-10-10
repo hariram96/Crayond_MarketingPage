@@ -60,6 +60,10 @@
   color: #595959;
 }
 
+.bottom mobile {
+  display: none;
+}
+
 .dropdown {
   display: none;
   position: absolute;
@@ -322,6 +326,9 @@
 @media screen and (max-width: 427px) {
   .right_side {
     display: none !important;
+  }
+  .bottom mobile {
+    display: block;
   }
   .footer_social_media1 {
     display: none;

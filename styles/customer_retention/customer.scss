@@ -49,6 +49,10 @@
 {
     color:#595959;
 }
+.bottom mobile
+{
+    display: none;
+}
 .dropdown{
     display: none;
     position: absolute;
@@ -279,10 +283,15 @@
     .right_side {
         display: none !important;
     }
-    .footer_social_media1 {
+    .bottom mobile
+    {
+        display: block;
+    }
+       .footer_social_media1 {
         display: none;
     } 
-}   
+} 
+
 @media screen and (max-width: 426px) { 
     .head_theme {
         .head_theme {
@@ -370,6 +379,8 @@
           display:flex;
           background-color: #6450f0 ;
         }}
+
+       
 
         @media only screen and (max-width: 426px){
             .social_icon_link{
