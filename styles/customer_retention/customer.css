@@ -26,6 +26,10 @@
   padding-right: 0px !important;
 }
 
+.rightbottom {
+  display: none;
+}
+
 .c {
   color: #595959;
 }
@@ -330,6 +334,9 @@
   .bottom mobile {
     display: block;
   }
+  .rightbottom {
+    display: block;
+  }
   .footer_social_media1 {
     display: none;
   }
@@ -346,6 +353,11 @@
     color: #212121;
     margin-top: 57px;
     font-weight: 800;
+  }
+  .head_theme .mobilebottom {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
   }
   .head_theme .head_ques {
     font-size: 18px;

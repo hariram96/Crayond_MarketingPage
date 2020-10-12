@@ -21,6 +21,10 @@
     padding-right: 0px !important;
    
 }
+.rightbottom
+{
+    display: none;
+}
 .c{
     color: #595959
 }
@@ -287,6 +291,10 @@
     {
         display: block;
     }
+    .rightbottom
+{
+    display: block;
+}
        .footer_social_media1 {
         display: none;
     } 
@@ -304,6 +312,10 @@
            color: #212121;
            margin-top: 57px;
            font-weight: 800;
+       }
+       .mobilebottom
+       {
+           display:flex !important;
        }
       
        .head_ques
