@@ -9,6 +9,9 @@
     position: relative;
    
 }
+p{
+    line-height: 2.0rem;
+}
 .response-xs{
     display: flex !important;
     justify-content: flex-start;
@@ -295,10 +298,21 @@
 {
     display: block;
 }
+.dotted_line
+{
+    width:100% !important;
+}
        .footer_social_media1 {
         display: none;
     } 
 } 
+@media screen and (max-width:321px)
+{
+    .dotted_line
+    {
+        width:100% !important;
+    }
+}
 
 @media screen and (max-width: 426px) { 
     .head_theme {
@@ -316,6 +330,10 @@
        .mobilebottom
        {
            display:flex !important;
+       }
+       .dotted_line
+       {
+           width:100% !important;
        }
       
        .head_ques
@@ -358,7 +376,10 @@
     }
     .right_side {
         margin-left: 0px;
-    }}
+    }
+    .arrow{
+        display: none;
+    }
     .p {
         line-height: 35px;
         color: #595959;
@@ -392,7 +413,7 @@
           background-color: #6450f0 ;
         }}
 
-       
+    }
 
         @media only screen and (max-width: 426px){
             .social_icon_link{

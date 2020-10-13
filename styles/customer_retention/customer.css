@@ -10,6 +10,10 @@
   position: relative;
 }
 
+p {
+  line-height: 2.0rem;
+}
+
 .response-xs {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
@@ -337,8 +341,17 @@
   .rightbottom {
     display: block;
   }
+  .dotted_line {
+    width: 100% !important;
+  }
   .footer_social_media1 {
     display: none;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .dotted_line {
+    width: 100% !important;
   }
 }
 
@@ -358,6 +371,9 @@
     display: -webkit-box !important;
     display: -ms-flexbox !important;
     display: flex !important;
+  }
+  .head_theme .dotted_line {
+    width: 100% !important;
   }
   .head_theme .head_ques {
     font-size: 18px;
@@ -392,44 +408,42 @@
   .right_side {
     margin-left: 0px;
   }
-}
-
-.p {
-  line-height: 35px;
-  color: #595959;
-  font-weight: 400;
-  font-size: 16px;
-  margin-bottom: 25px;
-}
-
-.head_theme .for_div1 {
-  background-color: #665CD71A;
-  padding: 15px 10px 10px 10px;
-  width: 450px;
-  height: 77px;
-  width: 100%;
-}
-
-.cb-factor__item_1 {
-  width: 3px !important;
-  height: 12px !important;
-  background-color: #fff;
-  left: -8px;
-  top: -4px;
-  margin-top: 13px !important;
-  display: block;
-  position: relative;
-}
-
-.sidePadding {
-  color: #6450f0;
-}
-
-.sidePadding .cb-factor__item_1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  background-color: #6450f0;
+  .arrow {
+    display: none;
+  }
+  .p {
+    line-height: 35px;
+    color: #595959;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+  .head_theme .for_div1 {
+    background-color: #665CD71A;
+    padding: 15px 10px 10px 10px;
+    width: 450px;
+    height: 77px;
+    width: 100%;
+  }
+  .cb-factor__item_1 {
+    width: 3px !important;
+    height: 12px !important;
+    background-color: #fff;
+    left: -8px;
+    top: -4px;
+    margin-top: 13px !important;
+    display: block;
+    position: relative;
+  }
+  .sidePadding {
+    color: #6450f0;
+  }
+  .sidePadding .cb-factor__item_1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #6450f0;
+  }
 }
 
 @media only screen and (max-width: 426px) {
