@@ -338,6 +338,11 @@ p {
   .bottom mobile {
     display: block;
   }
+  .arrow {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
   .rightbottom {
     display: block;
   }
