@@ -455,6 +455,9 @@ p {
   .social_icon_link {
     display: none !important;
   }
+  .head_theme .head_ques {
+    margin-top: -13px !important;
+  }
   .response-xs {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
