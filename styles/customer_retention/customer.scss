@@ -427,6 +427,14 @@ p{
              
                  margin-top: -13px !important;
              }
+             .ar1
+             {
+                 top:0px !important
+             }
+             .score
+             {
+                 padding-left: 0px !important;
+             }
 
             .response-xs{
                 display: flex !important;
@@ -441,6 +449,15 @@ p{
                 
                 padding-right: 0px !important;
                
+            }
+        }
+        @media only screen and (max-width: 321px){
+            .net{
+                padding-left: 0px !important;
+            }
+            .ar1
+            {
+                top: 10px !important;
             }
         }
         @media only screen and (min-width: 1100px){

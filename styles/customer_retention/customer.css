@@ -458,6 +458,12 @@ p {
   .head_theme .head_ques {
     margin-top: -13px !important;
   }
+  .ar1 {
+    top: 0px !important;
+  }
+  .score {
+    padding-left: 0px !important;
+  }
   .response-xs {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
@@ -473,6 +479,15 @@ p {
   }
   .privacy {
     padding-right: 0px !important;
+  }
+}
+
+@media only screen and (max-width: 321px) {
+  .net {
+    padding-left: 0px !important;
+  }
+  .ar1 {
+    top: 10px !important;
   }
 }
 
