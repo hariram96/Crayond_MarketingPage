@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="300" height="300" viewBox="0 0 300 300">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: rgba(33,37,41,0.1);
+      }
+
+      .cls-2 {
+        fill: #212529;
+        font-size: 30px;
+        font-family: Graphik-Medium, Graphik;
+        font-weight: 500;
+      }
+
+      .cls-3 {
+        fill: #fdb32c;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+
+      .cls-5 {
+        fill: none;
+      }
+
+      .cls-6 {
+        filter: url(#Rectangle_1258);
+      }
+    </style>
+    <filter id="Rectangle_1258" x="0" y="0" width="300" height="300" filterUnits="userSpaceOnUse">
+      <feOffset dy="13" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="12.5" result="blur"/>
+      <feFlood flood-color="#665cd7" flood-opacity="0.059"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_5883" data-name="Group 5883" transform="translate(1508.5 8250.5)">
+    <g class="cls-6" transform="matrix(1, 0, 0, 1, -1508.5, -8250.5)">
+      <g id="Rectangle_1258-2" data-name="Rectangle 1258" class="cls-1" transform="translate(37.5 24.5)">
+        <rect class="cls-4" width="225" height="225" rx="15"/>
+        <rect class="cls-5" x="0.5" y="0.5" width="224" height="224" rx="14.5"/>
+      </g>
+    </g>
+    <g id="Group_5882" data-name="Group 5882" transform="translate(-8 1)">
+      <text id="Execution" class="cls-2" transform="translate(-1421 -8058)"><tspan x="0" y="0">Execution</tspan></text>
+      <g id="icons8-monitor" transform="translate(-1380 -8178)">
+        <path id="Path_17524" data-name="Path 17524" class="cls-3" d="M8,20H29.2v5.3H8Z" transform="translate(11.55 29.7)"/>
+        <path id="Path_17525" data-name="Path 17525" class="cls-3" d="M10,17H20.6V27.6H10Z" transform="translate(14.85 24.75)"/>
+        <path id="Path_17526" data-name="Path 17526" class="cls-3" d="M54,2H6.3A5.3,5.3,0,0,0,1,7.3V39.1a5.3,5.3,0,0,0,5.3,5.3H54a5.3,5.3,0,0,0,5.3-5.3V7.3A5.3,5.3,0,0,0,54,2Zm0,37.1H6.3V7.3H54Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

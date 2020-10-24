@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="639" height="737.001" viewBox="0 0 639 737.001">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-13, .cls-2 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: rgba(36,26,26,0.2);
+      }
+
+      .cls-3, .cls-9 {
+        stroke-width: 2px;
+      }
+
+      .cls-4, .cls-5 {
+        fill: #382f9c;
+      }
+
+      .cls-4, .cls-7 {
+        font-size: 17px;
+      }
+
+      .cls-4, .cls-6, .cls-7, .cls-8 {
+        font-family: CenturyGothic-Bold, Century Gothic;
+        font-weight: 700;
+      }
+
+      .cls-6, .cls-8 {
+        fill: rgba(36,26,26,0.3);
+      }
+
+      .cls-6 {
+        font-size: 15px;
+      }
+
+      .cls-7 {
+        fill: #241a1a;
+      }
+
+      .cls-8 {
+        font-size: 13px;
+      }
+
+      .cls-9 {
+        fill: rgba(40,159,68,0.05);
+        stroke: #27b43f;
+      }
+
+      .cls-10 {
+        fill: #27b43f;
+      }
+
+      .cls-11, .cls-12 {
+        stroke: none;
+      }
+
+      .cls-12 {
+        fill: rgba(36,26,26,0.1);
+      }
+
+      .cls-14 {
+        filter: url(#Union_4);
+      }
+    </style>
+    <filter id="Union_4" x="0" y="0" width="639" height="737.001" filterUnits="userSpaceOnUse">
+      <feOffset dy="13" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="14" result="blur"/>
+      <feFlood flood-color="#382f9c" flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_3308" data-name="Group 3308" transform="translate(-1271.979 -57.001)">
+    <g class="cls-14" transform="matrix(1, 0, 0, 1, 1271.98, 57)">
+      <g id="Union_4-2" data-name="Union 4" class="cls-1" transform="translate(42 29)">
+        <path class="cls-11" d="M10,653A10,10,0,0,1,0,643V27.385a10,10,0,0,1,10-10H489.981L499.828,0l9.848,17.384H545a10,10,0,0,1,10,10V643a10,10,0,0,1-10,10Z"/>
+        <path class="cls-12" d="M 545.0004272460938 652.002197265625 C 549.9630126953125 652.002197265625 554.0003051757813 647.9649047851563 554.0003051757813 643.0023193359375 L 554.0003051757813 27.38522338867188 C 554.0003051757813 22.42263984680176 549.9630126953125 18.38530731201172 545.0004272460938 18.38530731201172 L 509.6754150390625 18.38530731201172 L 509.0925598144531 18.38530731201172 L 508.8053283691406 17.87822341918945 L 499.8276672363281 2.029797554016113 L 490.8507385253906 17.87813949584961 L 490.5634765625 18.38530731201172 L 489.9806518554688 18.38530731201172 L 9.999902725219727 18.38530731201172 C 5.037319183349609 18.38530731201172 0.999985933303833 22.42263984680176 0.999985933303833 27.38522338867188 L 0.999985933303833 643.0023193359375 C 0.999985933303833 647.9649047851563 5.037319183349609 652.002197265625 9.999902725219727 652.002197265625 L 545.0004272460938 652.002197265625 M 545.0004272460938 653.002197265625 L 9.999902725219727 653.002197265625 C 4.477486133575439 653.002197265625 -1.407877607562114e-05 648.525634765625 -1.407877607562114e-05 643.0023193359375 L -1.407877607562114e-05 27.38522338867188 C -1.407877607562114e-05 21.86280632019043 4.477486133575439 17.38530731201172 9.999902725219727 17.38530731201172 L 489.9806518554688 17.38530731201172 L 499.8276672363281 0.0008897298248484731 L 509.6754150390625 17.38530731201172 L 545.0004272460938 17.38530731201172 C 550.5228271484375 17.38530731201172 555.0003051757813 21.86280632019043 555.0003051757813 27.38522338867188 L 555.0003051757813 643.0023193359375 C 555.0003051757813 648.525634765625 550.5228271484375 653.002197265625 545.0004272460938 653.002197265625 Z"/>
+      </g>
+    </g>
+    <line id="Line_236" data-name="Line 236" class="cls-2" x2="554.436" transform="translate(1314.543 212.527)"/>
+    <line id="Line_236-2" data-name="Line 236" class="cls-2" x2="551.721" transform="translate(1314.543 322.219)"/>
+    <g id="Group_3179" data-name="Group 3179" transform="translate(1802.729 251.082)">
+      <g id="Ellipse_44" data-name="Ellipse 44" class="cls-3" transform="translate(0.251 -0.082)">
+        <ellipse class="cls-11" cx="16" cy="16.5" rx="16" ry="16.5"/>
+        <ellipse class="cls-13" cx="16" cy="16.5" rx="15" ry="15.5"/>
+      </g>
+    </g>
+    <g id="Group_3179-2" data-name="Group 3179" transform="translate(1802.729 470.467)">
+      <g id="Ellipse_44-2" data-name="Ellipse 44" class="cls-3" transform="translate(0.251 -0.467)">
+        <ellipse class="cls-11" cx="16" cy="16.5" rx="16" ry="16.5"/>
+        <ellipse class="cls-13" cx="16" cy="16.5" rx="15" ry="15.5"/>
+      </g>
+    </g>
+    <line id="Line_236-3" data-name="Line 236" class="cls-2" x2="550.635" transform="translate(1314.543 431.912)"/>
+    <g id="Group_3179-3" data-name="Group 3179" transform="translate(1802.729 360.775)">
+      <g id="Ellipse_44-3" data-name="Ellipse 44" class="cls-3" transform="translate(0.251 0.226)">
+        <circle class="cls-11" cx="16" cy="16" r="16"/>
+        <circle class="cls-13" cx="16" cy="16" r="15"/>
+      </g>
+    </g>
+    <line id="Line_249" data-name="Line 249" class="cls-2" x2="551.721" transform="translate(1314.543 541.604)"/>
+    <line id="Line_250" data-name="Line 250" class="cls-2" x2="551.721" transform="translate(1314.543 651.297)"/>
+    <g id="Group_3184" data-name="Group 3184" transform="translate(1669.143 684.422)">
+      <text id="Mark_all_as_Read" data-name="Mark all as Read" class="cls-4" transform="translate(26.609 17)"><tspan x="0" y="0">Mark all as Read</tspan></text>
+      <path id="check" class="cls-5" d="M.7,9.209a.961.961,0,0,0,.1,1.356l4.745,4.068a.955.955,0,0,0,.624.231c.028,0,.057,0,.086,0a.958.958,0,0,0,.659-.347l8.116-9.878A.963.963,0,0,0,14.9,3.28L13.415,2.06a.963.963,0,0,0-1.353.133L5.815,9.8l-2.51-2.15a.964.964,0,0,0-1.356.1Z" transform="translate(-0.466 2.502)"/>
+    </g>
+    <text id="See_more" data-name="See more" class="cls-4" transform="translate(1346.979 701)"><tspan x="0" y="0">See more</tspan></text>
+    <g id="Group_3196" data-name="Group 3196" transform="translate(1346.582 574.729)">
+      <g id="Group_3179-4" data-name="Group 3179" transform="translate(456.147 5.43)">
+        <g id="Ellipse_44-4" data-name="Ellipse 44" class="cls-3" transform="translate(0.251 -0.16)">
+          <ellipse class="cls-11" cx="16" cy="16.5" rx="16" ry="16.5"/>
+          <ellipse class="cls-13" cx="16" cy="16.5" rx="15" ry="15.5"/>
+        </g>
+      </g>
+      <g id="Group_3195" data-name="Group 3195" transform="translate(0 0)">
+        <g id="Group_3180" data-name="Group 3180">
+          <text id="has_been_added_to_your_Clinic_." data-name="has been added to your Clinic ." class="cls-6" transform="translate(97.396 17.271)"><tspan x="0" y="0">has been added to your Clinic .</tspan></text>
+          <text id="Dr._George" data-name="Dr. George" class="cls-7" transform="translate(0.396 17.271)"><tspan x="0" y="0">Dr. George</tspan></text>
+        </g>
+        <text id="_2_Days_ago" data-name="2 Days ago" class="cls-8" transform="translate(0.396 40.271)"><tspan x="0" y="0">2 Days ago</tspan></text>
+      </g>
+    </g>
+    <g id="Group_3194" data-name="Group 3194" transform="translate(1346.582 465.037)">
+      <g id="Group_3180-2" data-name="Group 3180" transform="translate(0 0)">
+        <text id="has_been_added_to_your_Clinic_.-2" data-name="has been added to your Clinic ." class="cls-6" transform="translate(88.396 16.963)"><tspan x="0" y="0">has been added to your Clinic .</tspan></text>
+        <text id="Trinity_Lab" data-name="Trinity Lab" class="cls-7" transform="translate(0.396 16.963)"><tspan x="0" y="0">Trinity Lab</tspan></text>
+      </g>
+      <text id="_2_Days_ago-2" data-name="2 Days ago" class="cls-8" transform="translate(0.396 39.963)"><tspan x="0" y="0">2 Days ago</tspan></text>
+    </g>
+    <g id="Group_3193" data-name="Group 3193" transform="translate(1346.582 355.344)">
+      <g id="Group_3180-3" data-name="Group 3180" transform="translate(0 0)">
+        <text id="has_updated_the_" data-name="has updated the " class="cls-6" transform="translate(88.396 17.655)"><tspan x="0" y="0">has updated the </tspan></text>
+        <text id="to_Completed_." data-name="to Completed ." class="cls-6" transform="translate(312.396 17.655)"><tspan x="0" y="0">to Completed .</tspan></text>
+        <text id="Trinity_Lab-2" data-name="Trinity Lab" class="cls-7" transform="translate(0.396 16.655)"><tspan x="0" y="0">Trinity Lab</tspan></text>
+        <text id="Visit_1234" data-name="Visit #1234" class="cls-7" transform="translate(219.396 16.655)"><tspan x="0" y="0">Visit #1234</tspan></text>
+      </g>
+      <text id="_2_Days_ago-3" data-name="2 Days ago" class="cls-8" transform="translate(0.396 39.656)"><tspan x="0" y="0">2 Days ago</tspan></text>
+    </g>
+    <g id="Group_3191" data-name="Group 3191" transform="translate(1346.582 245.652)">
+      <g id="Group_3180-4" data-name="Group 3180">
+        <text id="has_been_added_to_your_Clinic_.-3" data-name="has been added to your Clinic ." class="cls-6" transform="translate(97.396 17.349)"><tspan x="0" y="0">has been added to your Clinic .</tspan></text>
+        <text id="Dr._George-2" data-name="Dr. George" class="cls-7" transform="translate(0.396 17.349)"><tspan x="0" y="0">Dr. George</tspan></text>
+      </g>
+      <text id="_2_Days_ago-4" data-name="2 Days ago" class="cls-8" transform="translate(0.396 40.349)"><tspan x="0" y="0">2 Days ago</tspan></text>
+    </g>
+    <g id="Group_3190" data-name="Group 3190" transform="translate(1346.582 135.959)">
+      <g id="Group_3179-5" data-name="Group 3179" transform="translate(456.69 5.43)">
+        <g id="Ellipse_44-5" data-name="Ellipse 44" class="cls-9" transform="translate(0 0)">
+          <circle class="cls-11" cx="16.291" cy="16.291" r="16.291"/>
+          <circle class="cls-13" cx="16.291" cy="16.291" r="15.291"/>
+        </g>
+        <path id="check-2" data-name="check" class="cls-10" d="M.7,9.209a.961.961,0,0,0,.1,1.356l4.745,4.068a.955.955,0,0,0,.624.231c.028,0,.057,0,.086,0a.958.958,0,0,0,.659-.347l8.116-9.878A.963.963,0,0,0,14.9,3.28L13.415,2.06a.963.963,0,0,0-1.353.133L5.815,9.8l-2.51-2.15a.964.964,0,0,0-1.356.1Z" transform="translate(8.222 7.932)"/>
+      </g>
+      <g id="Group_3192" data-name="Group 3192">
+        <g id="Group_3188" data-name="Group 3188" transform="translate(0.543)">
+          <text id="has_been_added_to_your_Clinic_.-4" data-name="has been added to your Clinic ." class="cls-6" transform="translate(87.971 17.172)"><tspan x="0" y="0">has been added to your Clinic .</tspan></text>
+          <text id="Trinity_Lab-3" data-name="Trinity Lab" class="cls-7" transform="translate(0 17)"><tspan x="0" y="0">Trinity Lab</tspan></text>
+        </g>
+        <text id="_2_Days_ago-5" data-name="2 Days ago" class="cls-8" transform="translate(0.396 40.041)"><tspan x="0" y="0">2 Days ago</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
