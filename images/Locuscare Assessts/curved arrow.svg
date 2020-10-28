@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="254.571" height="96.68" viewBox="0 0 254.571 96.68">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #767a82;
+      }
+
+      .cls-1 {
+        stroke-width: 2px;
+        stroke-dasharray: 5;
+      }
+
+      .cls-2 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <g id="Group_5913" data-name="Group 5913" transform="translate(-742.054 -7809.972)">
+    <path id="Path_17527" data-name="Path 17527" class="cls-1" d="M-5913.985-3120.754s37.856,132.5,128.44,85.176,110.864-66.248,110.864-66.248" transform="translate(6657 10931)"/>
+    <path id="chevron-right_1_" data-name="chevron-right (1)" class="cls-2" d="M9,21.8l7.9-7.9L9,6" transform="translate(969.839 7819.276) rotate(-25)"/>
+  </g>
+</svg>
