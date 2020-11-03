@@ -1017,6 +1017,12 @@ svg {
   display: block;
 }
 
+@media only screen and (max-width: 1442px) {
+  .section_2 {
+    margin-left: 50px !important;
+  }
+}
+
 @media only screen and (max-width: 1026px) {
   .section_2 {
     margin-left: -22px !important;
