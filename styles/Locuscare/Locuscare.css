@@ -807,7 +807,7 @@ svg {
   letter-spacing: 0.3px;
   color: #767A82;
   opacity: 2;
-  font-size: 20px;
+  font-size: 19px;
   font-weight: 400;
 }
 
@@ -848,7 +848,7 @@ svg {
 
 .head_details2 .para_row {
   padding-right: 10% !important;
-  padding-top: 1%;
+  margin-top: -90px;
 }
 
 .head_details2 .para_1 {
@@ -858,7 +858,7 @@ svg {
   letter-spacing: 0.3px;
   color: #FFFFFF;
   opacity: 2;
-  font-size: 18px;
+  font-size: 19px;
   font-weight: 400;
   opacity: 0.7;
 }
