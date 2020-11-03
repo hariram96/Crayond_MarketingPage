@@ -1097,17 +1097,69 @@ svg {
   {
     left:40%;  
   }
-  
+  .approach_whole
+  {
+      display: block;
+  }
     
 
 
 @media only screen and (max-width: 769px) {}
 
 @media only screen and (max-width: 426px) {
+
+
+    .section_2
+    {
+        margin-left:-15px !important;
+    }
+    .head_details .para_1 {
+        line-height: 2.2rem;
+        text-align: left;
+        font-family: "fontLatoRegular";
+        letter-spacing: 0.3px;
+        color: #767A82;
+        opacity: 2;
+        font-size: 17px;
+        font-weight: 400;
+    }
+    
+    .section_4
+    {
+        padding:25px 25px 25px 25px !important;
+       
+    }
+    .web_launch
+    {
+        display:none !important;
+    }
+    .mobile_launch
+    {
+        display:flex !important;
+    }
+    .head_details1 .para_1 {
+        line-height: 2.2rem;
+        text-align: left;
+        font-family: "fontLatoRegular";
+        letter-spacing: 0.4px;
+        color: #FFFFFF;
+        opacity: 2;
+        font-size: 18px;
+        font-weight: 400;
+        opacity: 0.7;
+    }
+    p {
+        margin-top: 25px;
+        margin-bottom: 0rem;
+    }
     .container {
         margin-top: 0px !important;
     }
 
+    .approach_whole
+  {
+      display: none !important;
+  }
     .frst_title {
         margin-top: 100px;
     }
