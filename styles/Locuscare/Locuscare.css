@@ -730,7 +730,7 @@ svg {
   height: 50px;
   text-align: center;
   width: 50px;
-  background-color: #382F9C0D;
+  background-color: #FFFFFF;
   vertical-align: middle;
   border: 1px solid #222C5D1A;
 }
@@ -745,7 +745,6 @@ svg {
   border-radius: 50px;
   position: absolute;
   left: 0px;
-  background-color: #382F9C0D;
   height: 50px;
   text-align: center;
   width: 50px;
@@ -808,7 +807,7 @@ svg {
   letter-spacing: 0.3px;
   color: #767A82;
   opacity: 2;
-  font-size: 19px;
+  font-size: 20px;
   font-weight: 400;
 }
 
