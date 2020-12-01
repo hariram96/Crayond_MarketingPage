@@ -1279,8 +1279,7 @@ body {
     margin-top: -46px;
     margin-left: -9px;
   }
-  #card2
-.number1 {
+  #card2 .number1 {
     right: 13px;
     font-size: 40px;
     margin-top: 5px;
@@ -1914,7 +1913,8 @@ body {
     font-size: 16px;
     margin-top: 14px;
   }
-  .college_cards .card_inside .number, .college_cards .card_inside .number1 {
+  .college_cards .card_inside .number,
+  .college_cards .card_inside .number1 {
     right: 11px;
     font-size: 40px;
     margin-top: 30px;
