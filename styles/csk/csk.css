@@ -238,31 +238,31 @@
   width: 100%;
   margin-left: 73px;
   position: relative;
-  top: -60px;
+  margin-top: -60px;
 }
 
 .whistles_from {
   width: 100%;
   position: relative;
-  top: -220px;
+  margin-top: -220px;
 }
 
 .web1920 {
   width: 100%;
   margin-left: -80px;
   position: relative;
-  top: -240px;
+  margin-top: -240px;
 }
 
 .csk_landing {
   position: relative;
-  top: -325px;
+  margin-top: -220px;
 }
 
 .number90 {
   width: 50%;
   position: relative;
-  top: -450px;
+  margin-top: -10px;
   margin-left: 80px;
 }
 /*# sourceMappingURL=csk.css.map */
