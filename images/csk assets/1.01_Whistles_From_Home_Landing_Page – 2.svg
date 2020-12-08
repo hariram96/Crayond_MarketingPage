@@ -1,0 +1,243 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="1138" viewBox="0 0 1440 1138">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-_1.01_Whistles_From_Home_Landing_Page_2);
+      }
+
+      .cls-10, .cls-16, .cls-18, .cls-2, .cls-20, .cls-21 {
+        fill: #fff;
+      }
+
+      .cls-14, .cls-3 {
+        fill: #dcdcdc;
+      }
+
+      .cls-4 {
+        fill: #f9f9f8;
+        stroke: rgba(53,53,150,0.2);
+      }
+
+      .cls-5 {
+        fill: rgba(255,255,255,0.1);
+        stroke: rgba(255,255,255,0.13);
+      }
+
+      .cls-13, .cls-17, .cls-19, .cls-6, .cls-7, .cls-8 {
+        fill: #191710;
+      }
+
+      .cls-21, .cls-7, .cls-8 {
+        font-size: 14px;
+      }
+
+      .cls-15, .cls-17, .cls-19, .cls-7, .cls-8 {
+        font-family: ProximaNova-Semibold, Proxima Nova;
+        font-weight: 600;
+      }
+
+      .cls-17, .cls-19, .cls-8, .cls-9 {
+        opacity: 0.997;
+      }
+
+      .cls-10 {
+        opacity: 0.139;
+      }
+
+      .cls-11 {
+        fill: #15202b;
+      }
+
+      .cls-11, .cls-13 {
+        font-size: 20px;
+      }
+
+      .cls-11, .cls-13, .cls-16, .cls-21 {
+        font-family: ProximaNova-Bold, Proxima Nova;
+        font-weight: 700;
+      }
+
+      .cls-12, .cls-22, .cls-24 {
+        fill: none;
+      }
+
+      .cls-12 {
+        stroke: #15202b;
+        stroke-width: 2px;
+      }
+
+      .cls-14 {
+        stroke: rgba(0,102,179,0.2);
+        stroke-width: 4px;
+      }
+
+      .cls-15 {
+        font-size: 18px;
+      }
+
+      .cls-16, .cls-17, .cls-20 {
+        font-size: 16px;
+      }
+
+      .cls-18 {
+        stroke: #fff;
+      }
+
+      .cls-19 {
+        font-size: 12px;
+      }
+
+      .cls-20 {
+        font-family: ProximaNova-Regular, Proxima Nova;
+      }
+
+      .cls-22 {
+        stroke: rgba(255,255,255,0.26);
+      }
+
+      .cls-23 {
+        stroke: none;
+      }
+
+      .cls-25 {
+        filter: url(#Template_V2-2);
+      }
+
+      .cls-26 {
+        filter: url(#Rectangle_693);
+      }
+    </style>
+    <filter id="Rectangle_693" x="1086" y="261" width="228" height="204" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Template_V2-2" x="155" y="524" width="337" height="336" filterUnits="userSpaceOnUse">
+      <feOffset dy="30" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="18" result="blur-2"/>
+      <feFlood flood-opacity="0.039"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-_1.01_Whistles_From_Home_Landing_Page_2">
+      <rect width="1440" height="1138"/>
+    </clipPath>
+  </defs>
+  <g id="_1.01_Whistles_From_Home_Landing_Page_2" data-name="1.01_Whistles_From_Home_Landing_Page – 2" class="cls-1">
+    <rect class="cls-2" width="1440" height="1138"/>
+    <rect id="Rectangle_689" data-name="Rectangle 689" class="cls-2" width="1440" height="1010" transform="translate(7 143)"/>
+    <g id="Group_1104" data-name="Group 1104" transform="translate(0 272)">
+      <g id="Group_959" data-name="Group 959" transform="translate(135 216)">
+        <rect id="Rectangle_184" data-name="Rectangle 184" class="cls-3" width="376" height="337" rx="6"/>
+      </g>
+    </g>
+    <rect id="Screenshot_2020-02-08_at_7.48.17_PM" data-name="Screenshot 2020-02-08 at 7.48.17 PM" class="cls-3" width="1170" height="96" rx="8" transform="translate(135 143)"/>
+    <g id="Rectangle_692" data-name="Rectangle 692" class="cls-4" transform="translate(135 267)">
+      <rect class="cls-23" width="927" height="186" rx="6"/>
+      <rect class="cls-24" x="0.5" y="0.5" width="926" height="185" rx="5.5"/>
+    </g>
+    <rect id="Rectangle_38" data-name="Rectangle 38" class="cls-3" width="1440" height="79" transform="translate(1)"/>
+    <g id="Rectangle_14" data-name="Rectangle 14" class="cls-5" transform="translate(1259 16)">
+      <rect class="cls-23" width="47" height="47" rx="15"/>
+      <rect class="cls-24" x="0.5" y="0.5" width="46" height="46" rx="14.5"/>
+    </g>
+    <rect id="icons8-account-96-2" class="cls-6" width="22" height="22" transform="translate(1272 29)"/>
+    <g id="Group_37" data-name="Group 37" transform="translate(-26.5 -1)">
+      <text id="Home" class="cls-7" transform="translate(306 44)"><tspan x="-18.802" y="0">Home</tspan></text>
+      <text id="News" class="cls-8" transform="translate(388 44)"><tspan x="-17.521" y="0">News</tspan></text>
+      <text id="CSK_TV" data-name="CSK TV" class="cls-8" transform="translate(619 44)"><tspan x="-23.828" y="0">CSK TV</tspan></text>
+      <text id="More" class="cls-8" transform="translate(796 44)"><tspan x="-16.184" y="0">More</tspan></text>
+      <g id="Group_35" data-name="Group 35" class="cls-9" transform="translate(44 -14)">
+        <text id="Match_Centre" data-name="Match Centre" class="cls-7" transform="translate(449 58)"><tspan x="-42.287" y="0">Match Centre</tspan></text>
+        <path id="Path_4" data-name="Path 4" class="cls-6" d="M373,433l3.88,3.88L373,440.76" transform="translate(938.82 -320.06) rotate(90)"/>
+      </g>
+      <g id="Group_34" data-name="Group 34" class="cls-9" transform="translate(59 -14)">
+        <text id="Shop" class="cls-7" transform="translate(645 58)"><tspan x="-16.205" y="0">Shop</tspan></text>
+        <path id="Path_29" data-name="Path 29" class="cls-6" d="M373,433l3.88,3.88L373,440.76" transform="translate(1108.82 -320.06) rotate(90)"/>
+      </g>
+    </g>
+    <g id="Group_1091" data-name="Group 1091" transform="translate(793 272)">
+      <g id="Group_959-2" data-name="Group 959">
+        <rect id="Rectangle_184-2" data-name="Rectangle 184" class="cls-3" width="377" height="100" rx="6" transform="translate(135 216)"/>
+        <path id="Path_70" data-name="Path 70" class="cls-10" d="M3464,1529.357l372-93.46v93.46Z" transform="translate(-3324 -1213)"/>
+      </g>
+      <circle id="Ellipse_111" data-name="Ellipse 111" class="cls-2" cx="35" cy="35" r="35" transform="translate(156 231)"/>
+      <text id="Yellove_wall" data-name="Yellove wall" class="cls-11" transform="translate(299 272)"><tspan x="-52.94" y="0">Yellove wall</tspan></text>
+      <path id="Path_100" data-name="Path 100" class="cls-12" d="M3729,1598.89l4.72,4.72-4.72,4.72" transform="translate(-3248 -1337.39)"/>
+    </g>
+    <g id="Group_1092" data-name="Group 1092" transform="translate(793 393)">
+      <g id="Group_959-3" data-name="Group 959">
+        <rect id="Rectangle_184-3" data-name="Rectangle 184" class="cls-3" width="377" height="100" rx="6" transform="translate(135 216)"/>
+        <path id="Path_70-2" data-name="Path 70" class="cls-10" d="M3464,1529.357l372-93.46v93.46Z" transform="translate(-3324 -1213)"/>
+      </g>
+      <circle id="Ellipse_111-2" data-name="Ellipse 111" class="cls-2" cx="35" cy="35" r="35" transform="translate(156 231)"/>
+      <text id="Lions_Reward" data-name="Lions Reward" class="cls-11" transform="translate(307 272)"><tspan x="-60.86" y="0">Lions Reward</tspan></text>
+      <path id="Path_100-2" data-name="Path 100" class="cls-12" d="M3729,1598.89l4.72,4.72-4.72,4.72" transform="translate(-3248 -1337.39)"/>
+    </g>
+    <g id="Group_1093" data-name="Group 1093" transform="translate(396 272)">
+      <g id="Group_959-4" data-name="Group 959">
+        <rect id="Rectangle_184-4" data-name="Rectangle 184" class="cls-3" width="377" height="100" rx="6" transform="translate(135 216)"/>
+        <path id="Path_70-3" data-name="Path 70" class="cls-10" d="M3464,1529.357l372-93.46v93.46Z" transform="translate(-3324 -1213)"/>
+      </g>
+      <circle id="Ellipse_111-3" data-name="Ellipse 111" class="cls-2" cx="35" cy="35" r="35" transform="translate(156 231)"/>
+      <text id="Roaring_Whistles" data-name="Roaring Whistles" class="cls-13" transform="translate(322 272)"><tspan x="-76.12" y="0">Roaring Whistles</tspan></text>
+      <path id="Path_100-3" data-name="Path 100" class="cls-12" d="M3729,1598.89l4.72,4.72-4.72,4.72" transform="translate(-3248 -1337.39)"/>
+    </g>
+    <g id="Group_1103" data-name="Group 1103" transform="translate(397 -475)">
+      <g id="Group_1094" data-name="Group 1094" transform="translate(0 868)">
+        <g id="Group_959-5" data-name="Group 959">
+          <rect id="Rectangle_184-5" data-name="Rectangle 184" class="cls-3" width="377" height="100" rx="6" transform="translate(135 216)"/>
+          <path id="Path_70-4" data-name="Path 70" class="cls-10" d="M3464,1529.357l372-93.46v93.46Z" transform="translate(-3324 -1213)"/>
+        </g>
+        <circle id="Ellipse_111-4" data-name="Ellipse 111" class="cls-2" cx="35" cy="35" r="35" transform="translate(156 231)"/>
+        <text id="I_am_Super_" data-name="I am Super " class="cls-11" transform="translate(297 272)"><tspan x="-51.14" y="0">I am Super </tspan></text>
+        <path id="Path_100-4" data-name="Path 100" class="cls-12" d="M3729,1598.89l4.72,4.72-4.72,4.72" transform="translate(-3248 -1337.39)"/>
+      </g>
+    </g>
+    <g class="cls-26" transform="matrix(1, 0, 0, 1, 0, 0)">
+      <g id="Rectangle_693-2" data-name="Rectangle 693" class="cls-14" transform="translate(1095 267)">
+        <rect class="cls-23" width="210" height="186" rx="8"/>
+        <rect class="cls-24" x="2" y="2" width="206" height="182" rx="6"/>
+      </g>
+    </g>
+    <text id="The_Chennai_Super_Kings_CSK_are_a_franchise_cricket_team_based_in_Chennai_Tamil_Nadu_which_plays_in_the_Indian_PremierLeague_IPL_._Founded_in_2008_the_team_plays_its_home_matches_at_the_M._A._Chidambaram_Stadium_in_Chennai._The_team_served_a_two-ye" data-name="The Chennai Super Kings (CSK) are a franchise cricket team based in Chennai, Tamil Nadu, which plays 
+in the Indian PremierLeague (IPL). Founded in 2008, the team plays its home matches at the M. A. 
+Chidambaram Stadium in Chennai. The team served a two-ye" class="cls-15" transform="translate(171 310)"><tspan x="0" y="0">The Chennai Super Kings (CSK) are a franchise cricket team based in Chennai, Tamil Nadu, which plays </tspan><tspan x="0" y="28">in the Indian PremierLeague (IPL). Founded in 2008, the team plays its home matches at the M. A. </tspan><tspan x="0" y="56">Chidambaram Stadium in Chennai. The team served a two-year suspension from the IPL starting July 2015</tspan><tspan x="0" y="84">for the alleged involvement of their owners in the 2013 IPL betting case, and won the title in its</tspan><tspan x="0" y="112">comeback season.</tspan></text>
+    <g class="cls-25" transform="matrix(1, 0, 0, 1, 0, 0)">
+      <rect id="Template_V2-2-2" data-name="Template_V2-2" class="cls-2" width="229" height="228" transform="translate(209 548)"/>
+    </g>
+    <g id="Group_1101" data-name="Group 1101" transform="translate(-29 16.253)">
+      <g id="Group_1100" data-name="Group 1100" transform="translate(237 790)">
+        <rect id="Rectangle_194" data-name="Rectangle 194" class="cls-6" width="230" height="40" rx="8" transform="translate(0 -0.253)"/>
+        <text id="Create_your_template" data-name="Create your template" class="cls-16" transform="translate(101 24.748)"><tspan x="-76.696" y="0">Create your template</tspan></text>
+      </g>
+      <path id="left-arrow" class="cls-2" d="M18.586,6.638H5.31L9.957,1.991,7.965,0,0,7.965l7.965,7.965,1.991-1.991L5.31,9.293H18.586Z" transform="translate(450.737 817.547) rotate(180)"/>
+    </g>
+    <text id="How_super_are_you_" data-name="How super are you?" class="cls-13" transform="translate(323 521)"><tspan x="-89.47" y="0">How super are you?</tspan></text>
+    <g id="Group_998" data-name="Group 998" transform="translate(-169 3)">
+      <text id="_Whistle_from_home" data-name="#Whistle from home" class="cls-17" transform="translate(1098 45)"><tspan x="-72.104" y="0">#Whistle from home</tspan></text>
+      <g id="Group_997" data-name="Group 997" transform="translate(-6 -4)">
+        <g id="Rectangle_681" data-name="Rectangle 681" class="cls-18" transform="translate(1179 14)">
+          <path class="cls-23" d="M10,0H26A10,10,0,0,1,36,10v1A10,10,0,0,1,26,21H0a0,0,0,0,1,0,0V10A10,10,0,0,1,10,0Z"/>
+          <path class="cls-24" d="M10,.5H26A9.5,9.5,0,0,1,35.5,10v1A9.5,9.5,0,0,1,26,20.5H1A.5.5,0,0,1,.5,20V10A9.5,9.5,0,0,1,10,.5Z"/>
+        </g>
+        <text id="New" class="cls-19" transform="translate(1197 30)"><tspan x="-12.186" y="0">New</tspan></text>
+      </g>
+    </g>
+    <g id="Group_206" data-name="Group 206" transform="translate(2744 -12636)">
+      <rect id="Rectangle_55" data-name="Rectangle 55" class="cls-6" width="1440" height="221" transform="translate(-2744 13553)"/>
+      <text id="_CSK._All_rights_reserved._" data-name="© CSK. All rights reserved. " class="cls-20" transform="translate(-2024 13672)"><tspan x="-94.544" y="0">© CSK. All rights reserved. </tspan></text>
+      <g id="Group_46" data-name="Group 46" transform="translate(-3011 10902)">
+        <text id="Privacy_Policy" data-name="Privacy Policy" class="cls-21" transform="translate(727 2822)"><tspan x="-55.216" y="0">PRIVACY POLICY</tspan></text>
+        <text id="Terms_conditions" data-name="Terms &amp; conditions" class="cls-21" transform="translate(924 2822)"><tspan x="-73.808" y="0">TERMS &amp; CONDITIONS</tspan></text>
+        <text id="Disclaimer" class="cls-21" transform="translate(1107 2822)"><tspan x="-40.887" y="0">DISCLAIMER</tspan></text>
+        <text id="Contact_Us" data-name="Contact Us" class="cls-21" transform="translate(1259 2822)"><tspan x="-43.414" y="0">CONTACT US</tspan></text>
+      </g>
+      <line id="Line_4" data-name="Line 4" class="cls-22" y2="17" transform="translate(-2198.5 13710.5)"/>
+      <line id="Line_5" data-name="Line 5" class="cls-22" y2="17" transform="translate(-1973.5 13710.5)"/>
+      <line id="Line_6" data-name="Line 6" class="cls-22" y2="17" transform="translate(-1817.5 13710.5)"/>
+    </g>
+  </g>
+</svg>

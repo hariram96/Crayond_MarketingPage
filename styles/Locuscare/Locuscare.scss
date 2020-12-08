@@ -772,6 +772,16 @@ svg {
 }
 
 // main css
+
+.first_section
+{
+    margin-top:100px;
+    
+}
+.colomn_div
+    {
+        margin-top:3%;
+    }
 .frst_title {
     margin-top: 200px;
 
@@ -803,8 +813,13 @@ svg {
         background-color: #FFFFFF;
         vertical-align  : middle;
         border          : 1px solid #222C5D1A;
-    }
+        box-shadow: 1px 2px 0px #222C5D1A;
+         border: 1px solid #222C5D1A;
 
+        
+       
+    }
+   
     .fa_icon {
         margin-top      : 0px;
         padding         : 0;
@@ -838,6 +853,32 @@ svg {
             font-size     : 15px;
         }
     }
+}
+.icons_
+{
+   width: 22px;
+       margin: auto; 
+}
+.sub1
+{
+    padding-left:20%;
+}
+.sub2
+{
+    padding-left:10%; 
+}
+.sub3
+{
+    padding-left:18%;  
+}
+
+
+.section_2
+{
+    text-align:left;
+    justify-content:left;
+    margin-left:95px;
+    background: url(images/Locuscare\ Assessts/Group5216.svg);
 }
 
 .about_head {
@@ -1062,9 +1103,7 @@ svg {
     font-size: 18px;
 }
 
-.approach div {
-    
-  }
+
   .card{
   right: -50px;
   width: 100%;
@@ -1102,6 +1141,38 @@ svg {
   {
       display: block;
   }
+  .phone_1
+  {
+      position:relative;
+      left:50px;
+      width:100%
+
+  }
+  .phone_2
+  {
+      position:relative;
+      right:60px;
+      width: 100%;
+      
+  }
+  .section_4
+  {
+    background: #2B2756;
+    padding:50px 70px 50px 70px;
+    border-radius:40px;
+    width:100%;
+    margin-left:0px;
+    margin-top:4% !important 
+  }
+  .qr_code
+  {
+    background: #2B2756;
+    padding: 30px 70px 30px 70px;
+    border-radius: 40px;
+    width: 100%;
+    margin-left: 0px;
+    height: 700px !important;  
+  }
     
   @media only screen and (max-width: 1442px) {
     .section_2
@@ -1116,11 +1187,20 @@ svg {
     }
     .recep_1
     {
-        bottom:92px !important;
+        bottom:0px !important;
+        margin-top: 45px;
     }
     .web_launch
     {
        height:450px !important;
+    }
+    .qr_code{
+        background: #2B2756;
+    padding: 30px 70px 30px 70px;
+    border-radius: 40px;
+    width: 100%;
+    margin-left: 0px;
+    height: 643px !important;
     }
   }
 

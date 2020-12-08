@@ -1,0 +1,237 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="1297" viewBox="0 0 1440 1297">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-view_cart);
+      }
+
+      .cls-2, .cls-24 {
+        fill: #dcdcdc;
+      }
+
+      .cls-3 {
+        opacity: 0.06;
+      }
+
+      .cls-22, .cls-23, .cls-27, .cls-29, .cls-4, .cls-8 {
+        fill: none;
+      }
+
+      .cls-4 {
+        stroke: #fff;
+        stroke-width: 3px;
+      }
+
+      .cls-12, .cls-16, .cls-19, .cls-20, .cls-5, .cls-6, .cls-7, .cls-9 {
+        fill: #191710;
+      }
+
+      .cls-12, .cls-5 {
+        font-size: 20px;
+      }
+
+      .cls-10, .cls-11, .cls-16, .cls-5, .cls-6 {
+        font-family: Gotham-Bold, Gotham;
+      }
+
+      .cls-10, .cls-11, .cls-16, .cls-26, .cls-5, .cls-6 {
+        font-weight: 700;
+      }
+
+      .cls-6 {
+        font-size: 26px;
+      }
+
+      .cls-25, .cls-7 {
+        font-size: 16px;
+      }
+
+      .cls-12, .cls-7 {
+        font-family: Gotham-Book, Gotham;
+      }
+
+      .cls-8 {
+        stroke: #c3c3c3;
+        stroke-width: 2px;
+      }
+
+      .cls-10 {
+        fill: #c3c3c3;
+      }
+
+      .cls-10, .cls-11 {
+        font-size: 18px;
+      }
+
+      .cls-11, .cls-13, .cls-25, .cls-26 {
+        fill: #fff;
+      }
+
+      .cls-12 {
+        opacity: 0.75;
+      }
+
+      .cls-14 {
+        fill: rgba(255,255,255,0.08);
+      }
+
+      .cls-14, .cls-22, .cls-24 {
+        stroke: #191710;
+      }
+
+      .cls-15 {
+        fill: rgba(0,0,0,0.08);
+      }
+
+      .cls-16 {
+        font-size: 22px;
+      }
+
+      .cls-17 {
+        fill: url(#pattern);
+      }
+
+      .cls-18 {
+        fill: url(#pattern-2);
+      }
+
+      .cls-19, .cls-20, .cls-26 {
+        font-size: 14px;
+      }
+
+      .cls-19, .cls-20 {
+        font-family: ProximaNova-Semibold, Proxima Nova;
+        font-weight: 600;
+      }
+
+      .cls-20, .cls-21 {
+        opacity: 0.997;
+      }
+
+      .cls-22 {
+        stroke-linecap: round;
+        stroke-width: 4px;
+      }
+
+      .cls-23 {
+        stroke: rgba(0,0,0,0.2);
+      }
+
+      .cls-25 {
+        font-family: ProximaNova-Regular, Proxima Nova;
+      }
+
+      .cls-26 {
+        font-family: ProximaNova-Bold, Proxima Nova;
+      }
+
+      .cls-27 {
+        stroke: rgba(255,255,255,0.26);
+      }
+
+      .cls-28 {
+        stroke: none;
+      }
+    </style>
+    <pattern id="pattern" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 96 96">
+      <image width="96" height="96" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAABmJLR0QA/wD/AP+gvaeTAAAA8ElEQVR4nO3UsU3DQBiG4f/stDQuLWWGtEwAM2UJMghigwxBG9EmbpBcJC320VCG4o9AKOR5+ld3uk+6CAAAAAAAAAAAAAAAAAAAAACuRbkk6vtuWed5EzUeIuLuh+90bU4RsS3ttB6G0y4bpwfo+25Zp/k1Irps+8+NzaJZHQ7jPhM12VPqPG/C45/T1Y/6lI3SA3x9O5xRoz5mm/wAfKtE1GxzyQDbC5qbUEv+bdIDlHZaR8SY7W7A2E7zOhulBxiG065ZNKsS5Tkijtn+HzpGiZd2nu/378e3v74MAAAAAAAAAAAAAAAAAAAAAL/nE4zPNfXWpFjgAAAAAElFTkSuQmCC"/>
+    </pattern>
+    <pattern id="pattern-2" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 96 96">
+      <image width="96" height="96" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAABmJLR0QA/wD/AP+gvaeTAAAA6UlEQVR4nO3bsQ3CMBBAUYcJ6CL2Hw7RsQFskMgS4ivye62bs77c+cYAAAAAYBVbPcCsx37/HJ0/X+9L3elWD7A6AWICxASICRATICZATICYADEBYgLEBIgJEBMgJkBMgJgAMQFiAsQEiAkQEyAmQEyAmAAxAWICxASICRATICZAbPov/dn//NXN7id4ATEBYgLEBIgJEBMgJkDsUju1Y9gT5scEiAkQEyAmQEyAmAAxAWICxASICRATICZATICYADEBYgLEBIgJEBMgJkBMgJgAMQFiAsQEiAkQEyAmQEyAmAAAAAAA8CdfcssMjujk7ksAAAAASUVORK5CYII="/>
+    </pattern>
+    <clipPath id="clip-view_cart">
+      <rect width="1440" height="1297"/>
+    </clipPath>
+  </defs>
+  <g id="view_cart" data-name="view cart" class="cls-1">
+    <rect class="cls-13" width="1440" height="1297"/>
+    <rect id="Rectangle_38" data-name="Rectangle 38" class="cls-2" width="1440" height="79" transform="translate(1)"/>
+    <rect id="Screenshot_2020-02-08_at_7.48.17_PM" data-name="Screenshot 2020-02-08 at 7.48.17 PM" class="cls-2" width="1170" height="96" rx="8" transform="translate(135 93)"/>
+    <rect id="Rectangle_87" data-name="Rectangle 87" class="cls-3" width="717" height="778" rx="8" transform="translate(135 248)"/>
+    <path id="Path_49" data-name="Path 49" class="cls-4" d="M4666,3233.5h716" transform="translate(-4530 -2460)"/>
+    <path id="Path_50" data-name="Path 50" class="cls-4" d="M4906,3233.5V3485" transform="translate(-4530 -2460)"/>
+    <path id="Path_51" data-name="Path 51" class="cls-4" d="M4906,3233.5V3485" transform="translate(-4292 -2460)"/>
+    <text id="CSK:Official_Match_Replica_Jersey_by_THE_SOULED_STORE" data-name="CSK:Official Match Replica Jersey by THE 
+SOULED STORE" class="cls-5" transform="translate(882 267)"><tspan x="0" y="0">CSK:Official Match Replica Jersey by the </tspan><tspan x="0" y="24">Souled Store</tspan></text>
+    <text id="Rs._1399" data-name="Rs. 1399" class="cls-6" transform="translate(882 345)"><tspan x="0" y="0">Rs. 1399</tspan></text>
+    <text id="Size" class="cls-5" transform="translate(882 417)"><tspan x="0" y="0">Size</tspan></text>
+    <text id="inclusive_of_all_taxes" data-name="inclusive of all taxes" class="cls-7" transform="translate(882 371)"><tspan x="0" y="0">inclusive of all taxes</tspan></text>
+    <g id="Ellipse_95" data-name="Ellipse 95" class="cls-8" transform="translate(882 432)">
+      <circle class="cls-28" cx="25" cy="25" r="25"/>
+      <circle class="cls-29" cx="25" cy="25" r="24"/>
+    </g>
+    <path id="Path_7395" data-name="Path 7395" class="cls-9" d="M25,0A25,25,0,1,1,0,25,25,25,0,0,1,25,0Z" transform="translate(952 432)"/>
+    <g id="Ellipse_97" data-name="Ellipse 97" class="cls-8" transform="translate(1022 432)">
+      <ellipse class="cls-28" cx="24.561" cy="25" rx="24.561" ry="25"/>
+      <ellipse class="cls-29" cx="24.561" cy="25" rx="23.561" ry="24"/>
+    </g>
+    <g id="Ellipse_98" data-name="Ellipse 98" class="cls-8" transform="translate(1092 432)">
+      <circle class="cls-28" cx="25" cy="25" r="25"/>
+      <circle class="cls-29" cx="25" cy="25" r="24"/>
+    </g>
+    <text id="S" class="cls-10" transform="translate(901 464)"><tspan x="0" y="0">S</tspan></text>
+    <text id="M" class="cls-11" transform="translate(969 464)"><tspan x="0" y="0">M</tspan></text>
+    <text id="L" class="cls-10" transform="translate(1041 464)"><tspan x="0" y="0">L</tspan></text>
+    <text id="XL" class="cls-10" transform="translate(1105 464)"><tspan x="0" y="0">XL</tspan></text>
+    <text id="Description" class="cls-5" transform="translate(882 722)"><tspan x="0" y="0">Description</tspan></text>
+    <text id="Official_Chennai_Super_Kings_Match_Replica_JerseyLed_by_captain_cool_Mahendra_Singh_Dhoni_Chennai_Super_Kings_is_one_of_the_most_loved_and_followed_teams_in_the_IPL._Seven_times_finalists_and_three_times_winner_of_the_title_." data-name="Official Chennai Super Kings Match 
+Replica JerseyLed by captain cool 
+Mahendra Singh Dhoni, Chennai Super 
+Kings is one of the most loved and 
+followed teams in the IPL. Seven times 
+finalists and three times winner of the 
+title ." class="cls-12" transform="translate(903 769)"><tspan x="0" y="0">Official Chennai Super Kings Match </tspan><tspan x="0" y="25">Replica JerseyLed by captain cool </tspan><tspan x="0" y="50">Mahendra Singh Dhoni, Chennai Super </tspan><tspan x="0" y="75">Kings is one of the most loved and </tspan><tspan x="0" y="100">followed teams in the IPL. Seven times </tspan><tspan x="0" y="125">finalists and three times winner of the </tspan><tspan x="0" y="150">title .</tspan></text>
+    <text id="Material:_100_Polyester" data-name="Material: 100% Polyester" class="cls-12" transform="translate(903 965)"><tspan x="0" y="0">Material: 100% Polyester</tspan></text>
+    <text id="Wash_Care:_Machine_wash._" data-name="Wash Care: Machine wash. " class="cls-12" transform="translate(903 1010)"><tspan x="0" y="0">Wash Care: Machine wash. </tspan></text>
+    <ellipse id="Ellipse_99" data-name="Ellipse 99" class="cls-9" cx="5.5" cy="6" rx="5.5" ry="6" transform="translate(882 751)"/>
+    <circle id="Ellipse_100" data-name="Ellipse 100" class="cls-9" cx="5.5" cy="5.5" r="5.5" transform="translate(882 952)"/>
+    <circle id="Ellipse_103" data-name="Ellipse 103" class="cls-9" cx="5.5" cy="5.5" r="5.5" transform="translate(882 997)"/>
+    <rect id="Rectangle_92" data-name="Rectangle 92" class="cls-9" width="317" height="66" rx="11" transform="translate(882 613)"/>
+    <text id="ADD_TO_CART" data-name="ADD TO CART" class="cls-11" transform="translate(994.451 652)"><tspan x="0" y="0">ADD TO CART</tspan></text>
+    <path id="buy" class="cls-13" d="M22.151,25.193H4.09L3.821,22.2a.949.949,0,0,0-.945-.864H.949a.949.949,0,1,0,0,1.9h1.06L3.1,35.392a3.65,3.65,0,0,0,1.366,2.473,2.875,2.875,0,1,0,4.969.791h5.192a2.876,2.876,0,1,0,2.7-1.9H6.738a1.762,1.762,0,0,1-1.62-1.068L20.279,34.8a.949.949,0,0,0,.865-.717l1.928-7.71A.949.949,0,0,0,22.151,25.193ZM6.731,40.613a.979.979,0,1,1,.979-.979A.98.98,0,0,1,6.731,40.613Zm10.6,0a.979.979,0,1,1,.979-.979A.98.98,0,0,1,17.332,40.613Zm2.14-7.667L4.862,33.8l-.6-6.714H20.936Z" transform="translate(956 613.662)"/>
+    <text id="Quantity" class="cls-5" transform="translate(882 525)"><tspan x="0" y="0">Quantity</tspan></text>
+    <g id="Rectangle_90" data-name="Rectangle 90" class="cls-14" transform="translate(882 540)">
+      <rect class="cls-28" width="139" height="49" rx="5"/>
+      <rect class="cls-29" x="0.5" y="0.5" width="138" height="48" rx="4.5"/>
+    </g>
+    <rect id="Rectangle_91" data-name="Rectangle 91" class="cls-15" width="53" height="49" transform="translate(928 540)"/>
+    <text id="_1" data-name="1" class="cls-16" transform="translate(950 573)"><tspan x="0" y="0">1</tspan></text>
+    <rect id="icons8-minus-96_4_" data-name="icons8-minus-96 (4)" class="cls-17" width="22" height="22" transform="translate(990 554)"/>
+    <rect id="icons8-plus-math-96_4_" data-name="icons8-plus-math-96 (4)" class="cls-18" width="22" height="22" transform="translate(894 554)"/>
+    <g id="Group_37" data-name="Group 37" transform="translate(-26.5 -1)">
+      <text id="Home" class="cls-19" transform="translate(306 44)"><tspan x="-18.802" y="0">Home</tspan></text>
+      <text id="News" class="cls-20" transform="translate(388 44)"><tspan x="-17.521" y="0">News</tspan></text>
+      <text id="CSK_TV" data-name="CSK TV" class="cls-20" transform="translate(619 44)"><tspan x="-23.828" y="0">CSK TV</tspan></text>
+      <text id="More" class="cls-20" transform="translate(796 44)"><tspan x="-16.184" y="0">More</tspan></text>
+      <g id="Group_35" data-name="Group 35" class="cls-21" transform="translate(44 -14)">
+        <text id="Match_Centre" data-name="Match Centre" class="cls-19" transform="translate(449 58)"><tspan x="-42.287" y="0">Match Centre</tspan></text>
+        <path id="Path_4" data-name="Path 4" class="cls-9" d="M373,433l3.88,3.88L373,440.76" transform="translate(938.82 -320.06) rotate(90)"/>
+      </g>
+      <g id="Group_34" data-name="Group 34" class="cls-21" transform="translate(59 -14)">
+        <text id="Shop" class="cls-19" transform="translate(645 58)"><tspan x="-16.205" y="0">Shop</tspan></text>
+        <path id="Path_29" data-name="Path 29" class="cls-9" d="M373,433l3.88,3.88L373,440.76" transform="translate(1108.82 -320.06) rotate(90)"/>
+      </g>
+      <line id="Line_2" data-name="Line 2" class="cls-22" x2="50" transform="translate(684.5 77.5)"/>
+    </g>
+    <line id="Line_3" data-name="Line 3" class="cls-23" y2="21" transform="translate(1240.5 29.5)"/>
+    <g id="Group_123" data-name="Group 123" transform="translate(2 -1)">
+      <g id="Rectangle_113" data-name="Rectangle 113" class="cls-24" transform="translate(1258 17)">
+        <rect class="cls-28" width="47" height="47" rx="15"/>
+        <rect class="cls-29" x="0.5" y="0.5" width="46" height="46" rx="14.5"/>
+      </g>
+    </g>
+    <g id="Group_206" data-name="Group 206" transform="translate(2744 -12477)">
+      <rect id="Rectangle_55" data-name="Rectangle 55" class="cls-9" width="1440" height="221" transform="translate(-2744 13553)"/>
+      <text id="_CSK._All_rights_reserved._" data-name="© CSK. All rights reserved. " class="cls-25" transform="translate(-2024 13672)"><tspan x="-94.544" y="0">© CSK. All rights reserved. </tspan></text>
+      <g id="Group_46" data-name="Group 46" transform="translate(-3011 10902)">
+        <text id="Privacy_Policy" data-name="Privacy Policy" class="cls-26" transform="translate(727 2822)"><tspan x="-55.216" y="0">PRIVACY POLICY</tspan></text>
+        <text id="Terms_conditions" data-name="Terms &amp; conditions" class="cls-26" transform="translate(924 2822)"><tspan x="-73.808" y="0">TERMS &amp; CONDITIONS</tspan></text>
+        <text id="Disclaimer" class="cls-26" transform="translate(1107 2822)"><tspan x="-40.887" y="0">DISCLAIMER</tspan></text>
+        <text id="Contact_Us" data-name="Contact Us" class="cls-26" transform="translate(1259 2822)"><tspan x="-43.414" y="0">CONTACT US</tspan></text>
+      </g>
+      <line id="Line_4" data-name="Line 4" class="cls-27" y2="17" transform="translate(-2198.5 13710.5)"/>
+      <line id="Line_5" data-name="Line 5" class="cls-27" y2="17" transform="translate(-1973.5 13710.5)"/>
+      <line id="Line_6" data-name="Line 6" class="cls-27" y2="17" transform="translate(-1817.5 13710.5)"/>
+    </g>
+  </g>
+</svg>

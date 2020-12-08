@@ -128,16 +128,19 @@
     color: #a9a9a9;
     font-size: 14px;
   }
-  .index_image {
-    width: 120%;
-    height: 120%;
+  .index_image { 
+    width: 100%;
+    height: 100%;
     object-fit: cover;
+    margin-top: 42px;
   }
   .rebranding_head {
     padding: 70px 0px;
   }
   .rebranding_child {
     margin: auto;
+    
+   
   }
   .rebranding_text {
     color: #444444;
@@ -204,6 +207,20 @@
     width:100%;
     margin-left:-80px
   }
+  .result_head
+  {
+      font-size:60px;
+      font-weight:bold;
+  }
+    .result_definition
+    {
+      font-size:16px;
+      line-height: 3.0rem;
+      color:#BDBDBD;
+      font-weight: 580;
+    }
+  
+  
   .my_whistle
   {
     width:100%;
@@ -234,9 +251,62 @@
   {
       width:50%;
       position:relative;
-    margin-top:-10px;
+    margin-top:-110px;
     margin-left:80px;
   }
+  ._cards
+  {
+    margin-left:6%;
+  }
+  .first_img
+  {
+    width:78%;
+    position:relative;
+    margin-top:200px;
+    margin-left:15%;
+  }
+  .second_img
+  {
+  width:80%;
+  }
+  .third_img
+  {
+    width:80%;
+    position:relative;
+    margin-top:200px;
+    margin-left: -15%;
+  }
+  .fourth_img
+  {
+    width:80%;
+    position:relative;
+    margin-top:50px;
+    margin-left:15%;
+  }
+  .fifth_img
+  {
+    width:80%;
+    position:relative;
+    margin-top:-150px;
+  }
+  .six_img
+  {
+    width:80%;
+    position:relative;
+    margin-top:50px;
+    margin-left:-15%;
+  }
+  
+.row_class{
+  display : "flex";
+    justify-content: space-between ;
+}
+.column_class {
+  display : "flex";
+  background-color : #ffffff;
+  
+}
+
   
   
   /*# sourceMappingURL=csk.css.map */
