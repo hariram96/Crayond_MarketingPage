@@ -1073,6 +1073,16 @@ svg {
   margin-top: 4% !important;
 }
 
+.web_launch {
+  height: 600px !important;
+}
+
+.recep_1 {
+  bottom: 0px;
+  margin-top: 0px;
+  position: relative;
+}
+
 @media only screen and (max-width: 1442px) {
   .section_2 {
     margin-left: 0px !important;
@@ -1095,12 +1105,12 @@ svg {
 }
 
 .recep_1 {
-  bottom: 0px !important;
-  margin-top: 0px;
+  bottom: 0px;
+  margin-top: 58px;
 }
 
 .web_launch {
-  height: 550px !important;
+  height: 450px;
 }
 
 .qr_code {
