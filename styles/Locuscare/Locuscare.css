@@ -796,6 +796,14 @@ svg {
   padding-left: 18%;
 }
 
+.section_2 {
+  text-align: left;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  margin-left: 95px;
+}
+
 .about_head {
   padding-top: 3%;
 }
@@ -1056,9 +1064,19 @@ svg {
   width: 100%;
 }
 
+.section_4 {
+  background: #2B2756;
+  padding: 50px 70px 50px 70px;
+  border-radius: 40px;
+  width: 100%;
+  margin-left: 0px;
+  margin-top: 4% !important;
+}
+
 @media only screen and (max-width: 1442px) {
   .section_2 {
-    margin-left: 50px !important;
+    margin-left: 0px !important;
+    padding: 0px 20px !important;
   }
 }
 
@@ -1066,13 +1084,32 @@ svg {
   .section_2 {
     margin-left: -22px !important;
   }
-  .recep_1 {
-    bottom: 0px !important;
-    margin-top: 45px;
+  .first_se {
+    padding: 0px 52px;
   }
-  .web_launch {
-    height: 450px !important;
+  .resulttop {
+    float: right;
+    position: relative;
+    bottom: 23px;
   }
+}
+
+.recep_1 {
+  bottom: 0px !important;
+  margin-top: 45px;
+}
+
+.web_launch {
+  height: 450px !important;
+}
+
+.qr_code {
+  background: #2B2756;
+  padding: 30px 70px 30px 70px;
+  border-radius: 40px;
+  width: 100%;
+  margin-left: 0px;
+  height: 643px !important;
 }
 
 @media only screen and (max-width: 769px) {
