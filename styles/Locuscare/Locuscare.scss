@@ -37,7 +37,7 @@ $card-background-color     : #FFE953;
 
 body {
     overflow-x    : hidden !important;
-    width:100% !important
+    width:100% !important;
     // user-select: none;
 }
 
@@ -1164,15 +1164,7 @@ svg {
     margin-left:0px;
     margin-top:4% !important 
   }
-  .qr_code
-  {
-    background: #2B2756;
-    padding: 30px 70px 30px 70px;
-    border-radius: 40px;
-    width: 100%;
-    margin-left: 0px;
-    height: 700px !important;  
-  }
+  
     
   @media only screen and (max-width: 1442px) {
     .section_2
