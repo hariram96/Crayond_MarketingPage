@@ -1097,6 +1097,7 @@ font-family: "fontLatoRegular";
     }
 }
 
+
 @media only screen and (min-width: 767px) and (max-width: 991px) {
     .header_mobile{
         display: block !important;
@@ -1323,7 +1324,7 @@ font-family: "fontLatoRegular";
     }
 }
 
-@media only screen and (max-width: 426px) {
+@media only screen and (max-width: 450px) {
 
     .line{
         max-width: 40px;
@@ -1445,7 +1446,14 @@ font-family: "fontLatoRegular";
         margin-top: 10px;
     }
 }
-
+@media only screen and (min-width: 377px) and (max-width: 412px) {
+    .button_1
+    {
+       display:flex;
+       
+       
+    } 
+}
 @media only screen and (max-width: 376px)
 {
     .button_1
