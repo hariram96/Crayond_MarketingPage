@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="548" height="240" viewBox="0 0 548 240">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #0066b3;
+      }
+
+      .cls-2, .cls-9 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        font-size: 12px;
+      }
+
+      .cls-2, .cls-5, .cls-6, .cls-9 {
+        font-family: ProximaNova-Semibold, Proxima Nova;
+        font-weight: 600;
+      }
+
+      .cls-3 {
+        fill: rgba(255,255,255,0.08);
+      }
+
+      .cls-4 {
+        fill: rgba(255,255,255,0.07);
+      }
+
+      .cls-5 {
+        fill: rgba(255,255,255,0.7);
+      }
+
+      .cls-11, .cls-5, .cls-6, .cls-7, .cls-9 {
+        font-size: 14px;
+      }
+
+      .cls-6 {
+        fill: #848484;
+      }
+
+      .cls-10, .cls-7 {
+        fill: #ffcb05;
+      }
+
+      .cls-11, .cls-7 {
+        font-family: ProximaNova-Bold, Proxima Nova;
+        font-weight: 700;
+      }
+
+      .cls-8 {
+        fill: none;
+        stroke: rgba(255,255,255,0.1);
+      }
+    </style>
+  </defs>
+  <g id="Group_195" data-name="Group 195" transform="translate(-941 -640)">
+    <path id="Rectangle_134" data-name="Rectangle 134" class="cls-1" d="M10,0H536a10,10,0,0,1,10,10V43a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V10A10,10,0,0,1,10,0Z" transform="translate(943 640)"/>
+    <text id="Pos" class="cls-2" transform="translate(961 665)"><tspan x="0" y="0">Pos</tspan></text>
+    <text id="Team" class="cls-2" transform="translate(1036 665)"><tspan x="0" y="0">Team</tspan></text>
+    <text id="Pld" class="cls-2" transform="translate(1179 665)"><tspan x="0" y="0">Pld</tspan></text>
+    <text id="Won" class="cls-2" transform="translate(1237 665)"><tspan x="0" y="0">Won</tspan></text>
+    <text id="Loss" class="cls-2" transform="translate(1298 665)"><tspan x="0" y="0">Loss</tspan></text>
+    <text id="Net_RR" data-name="Net RR" class="cls-2" transform="translate(1361 665)"><tspan x="0" y="0">Net RR</tspan></text>
+    <text id="Pts" class="cls-2" transform="translate(1449 665)"><tspan x="0" y="0">Pts</tspan></text>
+    <rect id="Rectangle_135" data-name="Rectangle 135" class="cls-3" width="545" height="50" transform="translate(943 732)"/>
+    <rect id="Rectangle_136" data-name="Rectangle 136" class="cls-4" width="545" height="49" transform="translate(941 831)"/>
+    <text id="_5" data-name="5" class="cls-5" transform="translate(1183 712)"><tspan x="0" y="0">5</tspan></text>
+    <text id="_1" data-name="1" class="cls-6" transform="translate(967 712)"><tspan x="0" y="0">1</tspan></text>
+    <text id="_3" data-name="3" class="cls-5" transform="translate(1245 712)"><tspan x="0" y="0">3</tspan></text>
+    <text id="_2" data-name="2" class="cls-5" transform="translate(1305 712)"><tspan x="0" y="0">2</tspan></text>
+    <text id="_0.62" data-name="+0.62" class="cls-5" transform="translate(1361 712)"><tspan x="0" y="0">+0.62</tspan></text>
+    <text id="_6" data-name="6" class="cls-5" transform="translate(1454 712)"><tspan x="0" y="0">6</tspan></text>
+    <text id="_5-2" data-name="5" class="cls-5" transform="translate(1183 762)"><tspan x="0" y="0">5</tspan></text>
+    <text id="_2-2" data-name="2" class="cls-6" transform="translate(967 762)"><tspan x="0" y="0">2</tspan></text>
+    <text id="_3-2" data-name="3" class="cls-5" transform="translate(1245 762)"><tspan x="0" y="0">3</tspan></text>
+    <text id="_2-3" data-name="2" class="cls-5" transform="translate(1305 762)"><tspan x="0" y="0">2</tspan></text>
+    <text id="_0.14" data-name="+0.14" class="cls-5" transform="translate(1363 762)"><tspan x="0" y="0">+0.14</tspan></text>
+    <text id="_6-2" data-name="6" class="cls-5" transform="translate(1454 762)"><tspan x="0" y="0">6</tspan></text>
+    <text id="_5-3" data-name="5" class="cls-5" transform="translate(1183 810)"><tspan x="0" y="0">5</tspan></text>
+    <text id="_3-3" data-name="3" class="cls-6" transform="translate(967 810)"><tspan x="0" y="0">3</tspan></text>
+    <text id="_2-4" data-name="2" class="cls-5" transform="translate(1245 810)"><tspan x="0" y="0">2</tspan></text>
+    <text id="_3-4" data-name="3" class="cls-5" transform="translate(1305 810)"><tspan x="0" y="0">3</tspan></text>
+    <text id="_0.27" data-name="+0.27" class="cls-5" transform="translate(1380 810)"><tspan x="-17.255" y="0">+0.27</tspan></text>
+    <text id="_4" data-name="4" class="cls-5" transform="translate(1454 810)"><tspan x="0" y="0">4</tspan></text>
+    <text id="_5-4" data-name="5" class="cls-7" transform="translate(1183 860)"><tspan x="0" y="0">5</tspan></text>
+    <text id="_5-5" data-name="5" class="cls-7" transform="translate(967 860)"><tspan x="0" y="0">5</tspan></text>
+    <text id="_2-5" data-name="2" class="cls-7" transform="translate(1245 860)"><tspan x="0" y="0">2</tspan></text>
+    <text id="_3-5" data-name="3" class="cls-7" transform="translate(1305 860)"><tspan x="0" y="0">3</tspan></text>
+    <text id="_0.19" data-name="+0.19" class="cls-7" transform="translate(1379 860)"><tspan x="-15.953" y="0">+0.19</tspan></text>
+    <text id="_4-2" data-name="4" class="cls-7" transform="translate(1454 860)"><tspan x="0" y="0">4</tspan></text>
+    <line id="Line_29" data-name="Line 29" class="cls-8" x2="545.5" transform="translate(941.5 732.322)"/>
+    <line id="Line_32" data-name="Line 32" class="cls-8" x2="545.5" transform="translate(941.5 831.085)"/>
+    <line id="Line_30" data-name="Line 30" class="cls-8" x2="545.5" transform="translate(941.5 782.133)"/>
+    <text id="RR" class="cls-9" transform="translate(1041 712)"><tspan x="0" y="0">RR</tspan></text>
+    <text id="MI" class="cls-9" transform="translate(1043 762)"><tspan x="0" y="0">MI</tspan></text>
+    <text id="KKR" class="cls-9" transform="translate(1037 811)"><tspan x="0" y="0">KKR</tspan></text>
+    <rect id="Rectangle_178" data-name="Rectangle 178" class="cls-10" width="53" height="27" rx="6" transform="translate(1024 842)"/>
+    <text id="CSK" class="cls-11" transform="translate(1037 860)"><tspan x="0" y="0">CSK</tspan></text>
+  </g>
+</svg>

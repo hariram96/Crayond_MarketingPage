@@ -381,7 +381,7 @@ body{
     z-index: 2;
     top: 0;
     right: 0;
-	float: right;
+	
 	/* Simply change property to float left to switch icon side :) */
 	height: 60px;
 	width: 55px;
@@ -946,10 +946,7 @@ font-family: "fontLatoRegular";
     margin-left:20px;
     font-family: "fontLatoRegular";
 }
-.img_edit
-{
-   
-}
+
 .link
 {
     margin-top:30px;
@@ -1095,11 +1092,7 @@ font-family: "fontLatoRegular";
 @media only screen and (min-width: 767px) and (max-width: 991px) {
     .header_mobile{
         display: block !important;
-        .logo_mobile{
-            img{
-                // width: 120px;
-            }
-        }
+        
 
         
     }

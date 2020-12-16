@@ -361,7 +361,6 @@ body {
   z-index: 2;
   top: 0;
   right: 0;
-  float: right;
   /* Simply change property to float left to switch icon side :) */
   height: 60px;
   width: 55px;

@@ -1,0 +1,569 @@
+@font-face {
+  font-family: "fontGraphikBold";
+  src: url("../plugin/fonts/graphik/GraphikBold.otf");
+}
+
+@font-face {
+  font-family: "fontGraphikMedium";
+  src: url("../plugin/fonts/graphik/GraphikMedium.otf");
+}
+
+@font-face {
+  font-family: "fontGraphikLight";
+  src: url("../plugin/fonts/graphik/GraphikLight.otf");
+}
+
+@font-face {
+  font-family: "fontGraphikSemibold";
+  src: url("../plugin/fonts/graphik/GraphikSemibold.otf");
+}
+
+@font-face {
+  font-family: "fontGraphikRegular";
+  src: url("../plugin/fonts/graphik/GraphikRegular.otf");
+}
+
+@font-face {
+  font-family: "fontNova";
+  src: url("../plugin/fonts/HKNova-Medium.otf");
+}
+
+@font-face {
+  font-family: "fontLatoRegular";
+  src: url("../plugin/fonts/lato/Lato-Regular.ttf");
+}
+
+@font-face {
+  font-family: "fontLatoBlack";
+  src: url("../plugin/fonts/lato/Lato-Black.ttf");
+}
+
+@font-face {
+  font-family: "fontLatoBold";
+  src: url("../plugin/fonts/lato/Lato-Bold.ttf");
+}
+
+.fontGraphikMedium {
+  font-family: "fontGraphikMedium";
+}
+
+.fontGraphikRegular {
+  font-family: "fontGraphikRegular";
+}
+
+.fontGraphikLight {
+  font-family: "fontGraphikLight";
+}
+
+.fontGraphikBold {
+  font-family: "fontGraphikBold";
+}
+
+.fontGraphikSemibold {
+  font-family: "fontGraphikSemibold";
+}
+
+.fontLatoBold {
+  font-family: "fontLatoBold";
+}
+
+.fontLatoRegular {
+  font-family: "fontLatoRegular";
+}
+
+.fontLatoBlack {
+  font-family: "fontLatoBlack";
+}
+
+.fontNova {
+  font-family: "fontNova";
+}
+
+.head_container {
+  padding: 0px;
+  margin: 100px 0px 0px 0px;
+}
+
+.index_head {
+  margin: auto;
+}
+
+.title {
+  text-align: left;
+}
+
+.understanding_row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #f2f7fb;
+  position: relative;
+  margin-top: 80px;
+  overflow: hidden;
+  padding: 60px 0px;
+}
+
+.understanding_title {
+  color: #0066b3;
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+  /* font-size: 50px; */
+}
+
+.Csk_title {
+  font-size: 60px;
+  font-weight: bold;
+  color: #0066b3;
+}
+
+.Title_details {
+  font-size: 16px;
+  line-height: 2.5rem;
+  font-family: "fontNova";
+  color: #848484;
+  font-weight: 400;
+}
+
+.rebranding_child {
+  padding: 0px;
+}
+
+.understanding_details {
+  padding-top: 20px;
+  font-size: 16px;
+  color: #848484;
+  text-align: center;
+  font-family: "fontNova";
+  line-height: 2.3rem;
+  padding: 0px 40px;
+}
+
+.rebranding_content {
+  font-size: 16px;
+  color: #848484;
+  text-align: left;
+  padding: 20px 0px 0px 0px;
+  font-family: "fontNova";
+  line-height: 2.3rem;
+  padding-bottom: 30px;
+}
+
+.letter {
+  text-align: center;
+}
+
+.index_head_type {
+  color: #444444;
+  font-size: 18px;
+}
+
+.index_head_content {
+  color: #a9a9a9;
+  font-size: 12px;
+  font-family: "fontNova";
+  margin-top: -8px;
+}
+
+.index_image {
+  width: 100%;
+  height: 100%;
+  margin-top: 0px;
+}
+
+.rebranding_head {
+  padding: 70px 0px 10px 0px;
+}
+
+.rebranding_text {
+  color: #444444;
+  font-size: 34px;
+}
+
+.rebranding_image {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.typography_bg_color {
+  background-color: #44444405;
+}
+
+.typography_p_image {
+  height: inherit;
+  width: inherit;
+}
+
+.typography_div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.typography_rows {
+  padding-top: 34px;
+}
+
+.typography_heading {
+  color: #191710;
+  font-size: 40px;
+  letter-spacing: 0px;
+  font-weight: bold;
+}
+
+.typography_bold_text {
+  color: #191710;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "fontNova";
+}
+
+.typography_bold_text_1 {
+  color: #191710;
+  font-size: 16px;
+  font-family: "fontNova";
+}
+
+.typography_semibold_text {
+  color: #848484;
+  font-size: 16px;
+  font-family: "fontNova";
+}
+
+.typography_regular_text {
+  color: #191710;
+  font-size: 15px;
+  font-family: "fontNova";
+}
+
+.wireframes_title {
+  color: #444444;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "fontGraphikBold";
+}
+
+.shop {
+  width: 100%;
+  margin-left: 70px;
+}
+
+.view {
+  width: 100%;
+}
+
+.web {
+  width: 100%;
+  margin-left: -80px;
+}
+
+.result_head {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.result_definition {
+  font-size: 16px;
+  line-height: 3.0rem;
+  color: #8f8f8f;
+  font-weight: 580;
+  font-family: "fontNova";
+  margin-top: 20px;
+}
+
+.my_whistle {
+  width: 100%;
+  margin-left: 73px;
+  position: relative;
+  margin-top: -60px;
+}
+
+.whistles_from {
+  width: 100%;
+  position: relative;
+  margin-top: -220px;
+}
+
+.web1920 {
+  width: 100%;
+  margin-left: -80px;
+  position: relative;
+  margin-top: -240px;
+}
+
+.csk_landing {
+  position: relative;
+  margin-top: -220px;
+}
+
+.number90 {
+  width: 50%;
+  position: relative;
+  margin-top: -110px;
+  margin-left: 80px;
+}
+
+._cards {
+  margin-left: 0%;
+}
+
+.first_img {
+  width: 95%;
+  position: relative;
+  margin-top: 150px;
+  margin-left: 0%;
+}
+
+.second_img {
+  width: 95%;
+}
+
+.third_img {
+  width: 95%;
+  position: relative;
+  margin-top: 150px;
+  margin-left: 0%;
+}
+
+.fourth_img {
+  width: 95%;
+  position: relative;
+  margin-top: 50px;
+  margin-left: 0%;
+}
+
+.fifth_img {
+  width: 95%;
+  position: relative;
+  margin-top: -100px;
+}
+
+.six_img {
+  width: 95%;
+  position: relative;
+  margin-top: 50px;
+  margin-left: 0%;
+}
+
+.row_class {
+  display: "flex";
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.column_class {
+  display: "flex";
+  background-color: #ffffff;
+}
+
+.card {
+  width: 1100px;
+  border: none;
+  background: #FFFAE5 0% 0% no-repeat padding-box;
+}
+
+.images_component {
+  width: 100%;
+}
+
+.images_component1 {
+  width: 100%;
+  height: 88%;
+  margin-top: 7px;
+}
+
+.img_section {
+  padding: 0px;
+}
+
+.img_main {
+  margin-left: 2px;
+}
+
+.img_main_1 {
+  margin-left: 1px;
+}
+
+.img_section_1 {
+  padding: 0px 4px 0px 4px;
+}
+
+.images_component_2 {
+  width: 100%;
+}
+
+.shop_head {
+  margin-top: 10px;
+}
+
+.images_component_3 {
+  width: 100%;
+}
+
+.images_component_4 {
+  width: 100%;
+}
+
+.component_title {
+  margin-top: 40px;
+  font-family: "fontGraphikBold";
+  font-size: 40px;
+}
+
+.first_component_sec {
+  margin-top: 25px;
+}
+
+.title_1 {
+  font-size: 15px;
+  font-family: "fontGraphikBold";
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.title_2 {
+  font-size: 17px;
+  font-family: "fontGraphikBold";
+  margin-left: 0px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+.typo {
+  background-color: #44444405;
+  margin-top: 70px;
+}
+
+.yellow_line {
+  width: 50px;
+  height: 7px;
+  background-color: #fdaa0f;
+  padding: 0px 0px 0px 30px;
+  border-radius: 10px;
+  margin-left: 4px;
+}
+
+@media only screen and (max-width: 1025px) {
+  .index_head_type {
+    color: #444444;
+    font-size: 16px;
+  }
+  .Title_details {
+    font-size: 15px;
+    line-height: 2.3rem;
+    font-family: "fontNova";
+    color: #848484;
+    font-weight: 400;
+  }
+  .Csk_title {
+    font-size: 50px;
+    font-weight: bold;
+    color: #0066b3;
+  }
+  .index_image {
+    width: 140%;
+    height: 100%;
+    margin-top: 0px;
+  }
+  .understanding_title {
+    color: #0066b3;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    /* font-size: 50px; */
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .Title_details {
+    font-size: 14px;
+    line-height: 2.3rem;
+    font-family: "fontNova";
+    color: #848484;
+    font-weight: 400;
+  }
+  .index_image {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    padding-left: -60px;
+  }
+  .understanding_title {
+    color: #0066b3;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+  }
+  .understanding_details {
+    padding-top: 20px;
+    font-size: 14px;
+    color: #848484;
+    text-align: center;
+    font-family: "fontNova";
+    line-height: 2.3rem;
+    padding: 0px 40px;
+  }
+  .understanding_details {
+    padding-top: 20px;
+    font-size: 14px;
+    color: #848484;
+    font-family: "fontNova";
+    line-height: 2.3rem;
+    padding: 0px 0px;
+    text-align: left;
+  }
+  .rebranding_content {
+    font-size: 14px;
+    color: #848484;
+    text-align: left;
+    padding: 20px 0px 0px 0px;
+    font-family: "fontNova";
+    line-height: 2.3rem;
+    padding-bottom: 30px;
+  }
+  .shop {
+    width: 100%;
+    margin-left: 49px;
+  }
+  .web {
+    width: 100%;
+    margin-left: -61px;
+  }
+  .my_whistle {
+    width: 100%;
+    margin-left: 49px;
+    position: relative;
+    margin-top: -35px;
+  }
+  .whistles_from {
+    width: 100%;
+    position: relative;
+    margin-top: -141px;
+  }
+  .web1920 {
+    width: 100%;
+    margin-left: -62px;
+    position: relative;
+    margin-top: -156px;
+  }
+  .csk_landing {
+    position: relative;
+    margin-top: -152px;
+  }
+  .number90 {
+    width: 50%;
+    position: relative;
+    margin-top: -105px;
+    margin-left: 53px;
+  }
+}
+/*# sourceMappingURL=csk.css.map */
