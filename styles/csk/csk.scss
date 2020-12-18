@@ -86,8 +86,13 @@
   .index_head {
     margin: auto;
   }
-  .title {
+  .title_web {
       
+    text-align: left;
+  }
+  .title_mobile
+  {
+    display:none;
     text-align: left;
   }
   .understand{
@@ -111,6 +116,10 @@
     padding: 0px 150px;
     
     /* font-size: 50px; */
+  }
+  .mobile_first
+  {
+    display: none;
   }
   .Csk_title
   {
@@ -695,14 +704,25 @@
   margin-top: 30px !important;
   
 }
+.tit{
+padding:15px 0px 10px 3px;
+}
+.web_first
+{
+  display: none;
+}
+.mobile_first
+{
+  display:block;
+}
 .index_head_type {
   color: #444444;
-  font-size: 14px;
+  font-size: 16px;
 }
 .understanding_title {
   color: #0066b3;
   text-align: center;
-  font-size: 30px;
+  font-size: 39px;
   font-weight: bold;
   padding: 0px 11px;
   /* font-size: 50px; */
@@ -722,6 +742,16 @@
   position: relative;
   margin-top: -50px;
   margin-left: 0%;
+}
+.title_web {
+      
+  text-align: left;
+  display:none;
+}
+.title_mobile
+{
+  display: block;
+  text-align: left;
 }
 .fifth_img {
   width: 95%;
@@ -780,10 +810,15 @@
   font-size: 13px;
   font-family: "fontNova";
 }
+.rebranding_text_1{
+  color: #444444;
+  font-size: 34px;
+  text-align:center;
+}
 .rebranding_text {
   color: #444444;
   font-size: 34px;
-  text-align: center;
+  text-align:left;
 }
 .sec_1
 {
@@ -799,7 +834,7 @@
 .rebranding_content {
   font-size: 14px;
   color: #848484;
-  text-align: center;
+  text-align:left;
   padding: 0px 0px 0px 0px;
   font-family: "fontNova";
   line-height: 2.3rem;
@@ -965,6 +1000,16 @@
     position: relative;
     margin-top: -168px;
 }
+.rebranding_text_1 {
+  color: #444444;
+  font-size: 26px;
+  text-align: left;
+}
+.rebranding_text {
+  color: #444444;
+  font-size: 26px;
+  text-align: center;
+}
 .seveen_img {
   display: block;
   width: 95%;
@@ -973,7 +1018,7 @@
 }
 .typo{
   background-position-x: right;
-    background-position: 100% 19% !important;
+    background-position: 100% 17% !important;
     background-size: 30%;
 }
 .typography_heading {
@@ -1019,5 +1064,10 @@
     margin-left: 19px;
     position: relative;
     margin-top: -21px;
+}
+.rebranding_text {
+  color: #444444;
+  font-size: 26px;
+  text-align: center;
 }
 }
