@@ -1,0 +1,765 @@
+@font-face {
+  font-family: "fontavenirlight";
+  src: url("../../plugin/fonts/avenir/AvenirLTStd-Light.otf");
+}
+
+@font-face {
+  font-family: "fontavenirbook";
+  src: url("../../plugin/fonts/avenir/AvenirLTStd-Book.otf");
+}
+
+@font-face {
+  font-family: "fontavenirmedium";
+  src: url("../../plugin/fonts/avenir/AvenirLTStd-Medium.otf");
+}
+
+@font-face {
+  font-family: "fontavenirblack";
+  src: url("../../plugin/fonts/avenir/AvenirLTStd-Black.otf");
+}
+
+@font-face {
+  font-family: "fontcalisto";
+  src: url("../../plugin/fonts/Calistoga-Regular.ttf");
+}
+
+@font-face {
+  font-family: "fontGraphikMedium";
+  src: url("../plugin/fonts/graphik/GraphikMedium.otf");
+}
+
+@font-face {
+  font-family: "fontGraphikLight";
+  src: url("../plugin/fonts/graphik/GraphikLight.otf");
+}
+
+@font-face {
+  font-family: "fontGraphikSemibold";
+  src: url("../plugin/fonts/graphik/GraphikSemibold.otf");
+}
+
+@font-face {
+  font-family: "fontGraphikRegular";
+  src: url("../../plugin/fonts/graphik/GraphikRegular.otf");
+}
+
+.index_head {
+  margin-top: 150px;
+}
+
+.index_head .title_web .healthcare {
+  font-family: "fontavenirmedium";
+  letter-spacing: 0px;
+  color: #F27D35;
+  opacity: 1;
+  font-size: 28px;
+}
+
+.index_head .title_web .managed_care_title {
+  letter-spacing: 2.22px;
+  color: #363A57;
+  opacity: 1;
+  font-size: 60px;
+  font-family: "fontcalisto";
+}
+
+.index_head .title_web .Title_details {
+  text-align: left;
+  margin-top: 30px;
+  letter-spacing: 1px;
+  color: #9297A5;
+  opacity: 1;
+  font-family: "fontavenirlight";
+  line-height: 2.2rem;
+  font-weight: 700;
+}
+
+.index_head .title_web .Title_details_1 {
+  text-align: left;
+  margin-top: 30px;
+  letter-spacing: 1px;
+  color: #9297A5;
+  opacity: 1;
+  font-family: "fontavenirlight";
+  line-height: 2.2rem;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.index_head .title_web .platform_deliverables {
+  margin-top: 30px;
+  margin-left: 1px;
+}
+
+.index_head .title_web .platform_deliverables .platform {
+  border-left: 3px solid #F27D35;
+  line-height: 7px;
+}
+
+.index_head .title_web .platform_deliverables .deliverables {
+  border-left: 3px solid #F27D35;
+  line-height: 7px;
+}
+
+.index_head .title_web .platform_deliverables .common_title {
+  margin-top: 4px;
+  font-family: "fontavenirlight";
+  letter-spacing: 0px;
+  color: #9297A5;
+  opacity: 1;
+  font-size: 13px;
+}
+
+.index_head .title_web .platform_deliverables .common_description {
+  top: 15px;
+  position: relative;
+  letter-spacing: 0.66px;
+  color: #363A57;
+  opacity: 1;
+  font-family: "fontcalisto";
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.index_head .title_web .platform_deliverables .common_description .android {
+  width: 15px;
+}
+
+.blue_section {
+  background-color: #353596;
+  padding-bottom: 100px;
+  margin-top: -80px !important;
+}
+
+.blue_section .first_one {
+  margin-top: 80px;
+}
+
+.blue_section .first_one .our_approach {
+  margin-top: 80px;
+  text-align: center;
+  font-family: "fontcalisto";
+  letter-spacing: 2.22px;
+  color: #FFFFFF;
+  opacity: 1;
+  font-size: 60px;
+}
+
+.blue_section .first_one .linediv {
+  text-align: center;
+  margin-top: 3px;
+}
+
+.blue_section .first_one .lined {
+  width: 13%;
+}
+
+.blue_section .second_one {
+  margin-top: 0px;
+}
+
+.blue_section .second_one .next_line {
+  margin-top: 80px;
+  padding: 0px;
+}
+
+.blue_section .second_one .lined_1 {
+  position: relative;
+  height: 70%;
+  top: 20px;
+}
+
+.blue_section .second_one .weeks {
+  font-size: 18px;
+  letter-spacing: 0px;
+  color: #FF6495;
+  opacity: 1;
+  font-family: "fontavenirmedium";
+  margin-bottom: 0px;
+}
+
+.blue_section .second_one .planning_evegelism {
+  letter-spacing: 0px;
+  color: #FEFEFE;
+  opacity: 1;
+  font-size: 35px;
+}
+
+.blue_section .second_one .lists_order {
+  -webkit-padding-start: 14px;
+          padding-inline-start: 14px;
+  list-style-image: url("/images/Rectangle 1118.svg");
+}
+
+.blue_section .second_one .lists_order .list_details {
+  color: #FFFFFF;
+  opacity: 0.4;
+  line-height: 2.8rem;
+}
+
+.blue_section .third_one {
+  margin-top: 0px;
+}
+
+.blue_section .third_one .next_line_1 {
+  margin-top: 80px;
+  padding: 0px;
+  text-align: center;
+}
+
+.blue_section .third_one .lined_1 {
+  position: relative;
+  height: 70%;
+  top: 20px;
+}
+
+.blue_section .third_one .weeks {
+  font-size: 18px;
+  letter-spacing: 0px;
+  color: #FF6495;
+  opacity: 1;
+  font-family: "fontavenirmedium";
+  margin-bottom: 0px;
+}
+
+.blue_section .third_one .planning_evegelism {
+  letter-spacing: 0px;
+  color: #FEFEFE;
+  opacity: 1;
+  font-size: 35px;
+}
+
+.blue_section .third_one .lists_order {
+  -webkit-padding-start: 14px;
+          padding-inline-start: 14px;
+  list-style-image: url("/images/Rectangle 1118.svg");
+}
+
+.blue_section .third_one .lists_order .list_details {
+  color: #FFFFFF;
+  opacity: 0.4;
+  line-height: 2.8rem;
+}
+
+.blue_section .fourth_one {
+  margin-top: 0px;
+}
+
+.blue_section .fourth_one .next_line {
+  margin-top: 80px;
+  padding: 0px;
+}
+
+.blue_section .fourth_one .lined_1 {
+  position: relative;
+  height: 70%;
+  top: 20px;
+}
+
+.blue_section .fourth_one .weeks {
+  font-size: 18px;
+  letter-spacing: 0px;
+  color: #FF6495;
+  opacity: 1;
+  font-family: "fontavenirmedium";
+  margin-bottom: 0px;
+}
+
+.blue_section .fourth_one .planning_evegelism {
+  letter-spacing: 0px;
+  color: #FEFEFE;
+  opacity: 1;
+  font-size: 35px;
+}
+
+.blue_section .fourth_one .lists_order {
+  -webkit-padding-start: 14px;
+          padding-inline-start: 14px;
+  list-style-image: url("/images/Rectangle 1118.svg");
+}
+
+.blue_section .fourth_one .lists_order .list_details {
+  padding-left: 2px;
+  color: #FFFFFF;
+  opacity: 0.4;
+  line-height: 2.8rem;
+}
+
+.blue_section .fifth_one {
+  margin-top: 40px;
+  padding-top: 80px;
+  padding-bottom: 70px;
+  background-color: #313183;
+  backdrop-filter: blur(5px) !important;
+  -webkit-backdrop-filter: blur(9px) !important;
+  border-radius: 35px;
+}
+
+.blue_section .fifth_one .img_section {
+  text-align: center;
+}
+
+.blue_section .fifth_one .img_section .img_common_1 {
+  width: 30%;
+}
+
+.blue_section .fifth_one .linediv {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.blue_section .fifth_one .launch_title {
+  padding-top: 20px;
+  text-align: center;
+  font-family: "fontcalisto";
+  letter-spacing: 2.22px;
+  color: #FFFFFF;
+  opacity: 1;
+  font-size: 60px;
+}
+
+.blue_section .fifth_one .paragraph_launch {
+  padding-top: 30px;
+}
+
+.blue_section .fifth_one .paragraph_launch .launch_description {
+  text-align: center;
+  color: #FFFFFF;
+  opacity: 0.4;
+}
+
+.blue_section .fifth_one .paragraph_launch_1 {
+  padding-top: 15px;
+}
+
+.blue_section .fifth_one .paragraph_launch_1 .launch_description_1 {
+  text-align: center;
+  color: #FFFFFF;
+  opacity: 0.4;
+}
+
+.blue_section .fifth_one .paragraph_launch_2 {
+  padding-top: 15px;
+}
+
+.blue_section .fifth_one .paragraph_launch_2 .launch_description_2 {
+  text-align: center;
+  color: #FFFFFF;
+  opacity: 0.4;
+}
+
+.img_common {
+  width: 80%;
+}
+
+.index_head_1 {
+  margin-top: 50px;
+}
+
+.index_head_1 .title_web .managed_care_title {
+  letter-spacing: 2.22px;
+  color: #363A57;
+  opacity: 1;
+  font-size: 60px;
+  font-family: "fontcalisto";
+}
+
+.index_head_1 .title_web .Title_details_1 {
+  text-align: left;
+  margin-top: 30px;
+  letter-spacing: 1px;
+  color: #9297A5;
+  opacity: 1;
+  font-family: "fontavenirlight";
+  line-height: 2.2rem;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.quick_onboard {
+  background-color: #35359608;
+  padding-bottom: 60px;
+}
+
+.quick_onboard .index_head_1 {
+  margin-top: 70px;
+}
+
+.quick_onboard .image_quick_on {
+  margin-top: 40px;
+}
+
+.quick_onboard .image_quick_on .img_onboard {
+  width: 90%;
+}
+
+.img_onboard_1 {
+  width: 100%;
+  height: 100%;
+}
+
+.manage_availablity {
+  background-color: #F27D350D;
+  margin-top: 280px;
+  height: 600px;
+}
+
+.manage_availablity .img_availability {
+  width: 100%;
+  position: relative;
+  bottom: 300px;
+}
+
+.activities_img {
+  width: 100%;
+}
+
+.service {
+  margin-left: 0%;
+}
+
+.service .index_head_12 {
+  margin-top: 100px;
+  background-color: #FFF8F4;
+  padding: 100px 0px;
+}
+
+.service .index_head_12 .sevice_1 {
+  text-align: end;
+}
+
+.service .index_head_12 .img_onboard {
+  position: relative;
+  width: 60%;
+}
+
+.service .index_head_12 .img_onboard_2 {
+  position: relative;
+  bottom: 200px;
+  width: 60%;
+}
+
+.monitoring {
+  margin-top: 200px;
+  padding: 100px 0px 50px 50px;
+  background-color: #FFF8F4;
+  height: 600px;
+}
+
+.monitoring .monitoring_img_section .image_quick_on_1 .img_onboard_3 {
+  width: 100%;
+  position: relative;
+  bottom: 160px;
+}
+
+.monitoring .monitoring_img_section .image_quick_on_1 .img_onboard_4 {
+  width: 100%;
+  position: relative;
+  bottom: 60px;
+}
+
+.monitoring .monitoring_img_section .image_quick_on_1 .img_onboard_5 {
+  width: 100%;
+  position: relative;
+  bottom: 160px;
+}
+
+.monitoring .monitoring_img_section .image_quick_on_1 .img_onboard_6 {
+  width: 100%;
+  position: relative;
+  bottom: 125px;
+}
+
+.monitoring .monitoring_img_section .image_quick_on_1 .img_onboard_7 {
+  width: 100%;
+  position: relative;
+  bottom: 25px;
+}
+
+.monitoring .monitoring_img_section .image_quick_on_1 .img_onboard_8 {
+  width: 100%;
+  position: relative;
+  bottom: 125px;
+}
+
+.administration {
+  margin-top: 300px;
+}
+
+.administration .Title_details_1 {
+  text-align: left;
+  letter-spacing: 1px;
+  color: #9297A5;
+  opacity: 1;
+  font-family: "fontavenirlight";
+  line-height: 2.2rem;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.administration .main_admin {
+  padding-top: 100px;
+}
+
+.administration .main_admin .admin_img {
+  padding-top: 100px;
+  background: url("/images/Ellipse 258.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 10%;
+  height: 900px;
+}
+
+.administration .main_admin .admin_img .amin_1 {
+  text-align: end;
+  padding-right: 0px;
+}
+
+.administration .main_admin .admin_img .amin_1 .amin_img_1 {
+  width: 80%;
+  position: relative;
+  top: 150px;
+}
+
+.administration .main_admin .admin_img .amin_2 {
+  text-align: center;
+  padding: 0px;
+}
+
+.administration .main_admin .admin_img .amin_2 .amin_img_2 {
+  width: 85%;
+}
+
+.administration .main_admin .admin_img .amin_3 {
+  text-align: left;
+  padding-left: 0px;
+}
+
+.administration .main_admin .admin_img .amin_3 .amin_img_3 {
+  width: 80%;
+  position: relative;
+  top: 100px;
+}
+
+.conversation_section {
+  background-color: #FFF8F4;
+  /* For browsers that do not support gradients */
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#FFF8F4), to(#FFFFFF));
+  background-image: linear-gradient(#FFF8F4, #FFFFFF);
+}
+
+.conversation_section .conversation_container {
+  padding: 100px 0px;
+}
+
+.conversation_section .conversation_container .title_web {
+  margin-top: 150px;
+}
+
+.conversation_section .conversation_container .conver_img_section .conver_img {
+  width: 70%;
+}
+
+.quick_onboard_1 {
+  background-color: #FFF8F4;
+  padding-bottom: 100px;
+}
+
+.quick_onboard_1 .index_head_1 {
+  margin-top: 100px;
+}
+
+.quick_onboard_1 .index_head_1 .title_web {
+  margin-top: 50px;
+}
+
+.quick_onboard_1 .image_quick_on {
+  margin-top: 40px;
+}
+
+.quick_onboard_1 .image_quick_on .rec_img_1 {
+  text-align: center;
+  padding-left: 0px;
+}
+
+.quick_onboard_1 .image_quick_on .rec_img_1 .img_onboard_2 {
+  width: 110%;
+}
+
+.quick_onboard_1 .image_quick_on .rec_img_2 {
+  padding-left: 0px;
+  text-align: center;
+}
+
+.quick_onboard_1 .image_quick_on .img_onboard_1 {
+  width: 90%;
+}
+
+.quick_onboard_1 .image_quick_on .img_onboard_3 {
+  text-align: left;
+  width: 100%;
+  height: 100%;
+  margin-top: 28px;
+}
+
+.notification {
+  margin-top: 100px;
+  background: url("/images/Ellipse 258.svg");
+  background-repeat: no-repeat;
+  background-position: 40% 10%;
+  height: 900px;
+}
+
+.notification .Title_details_1 {
+  text-align: left;
+  margin-top: 20px;
+  letter-spacing: 1px;
+  color: #9297A5;
+  opacity: 1;
+  font-family: "fontavenirlight";
+  line-height: 2.2rem;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.notification .main_admin .admin_img .amin_1 {
+  text-align: end;
+  padding-right: 0px;
+}
+
+.notification .main_admin .admin_img .amin_1 .amin_img_1 {
+  width: 60%;
+  position: relative;
+  top: 100px;
+}
+
+.notification .main_admin .admin_img .amin_2 {
+  text-align: left;
+  padding: 0px;
+  top: 10px;
+}
+
+.notification .main_admin .admin_img .amin_2 .amin_img_2 {
+  width: 60%;
+}
+
+.back_svg {
+  background: url("/images/Ellipse 259.svg");
+}
+
+.index_head_5 {
+  margin-top: 0px;
+}
+
+.index_head_5 .title_web .healthcare {
+  font-family: "fontavenirmedium";
+  letter-spacing: 0px;
+  color: #F27D35;
+  opacity: 1;
+  font-size: 28px;
+}
+
+.index_head_5 .title_web .managed_care_title {
+  letter-spacing: 2.22px;
+  color: #363A57;
+  opacity: 1;
+  font-size: 60px;
+  font-family: "fontcalisto";
+}
+
+.index_head_5 .title_web .Title_details_1 {
+  text-align: left;
+  margin-top: 30px;
+  letter-spacing: 1px;
+  color: #9297A5;
+  opacity: 1;
+  font-family: "fontavenirlight";
+  line-height: 2.2rem;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.yellow_line {
+  width: 50px;
+  height: 7px;
+  background-color: #FFCB05;
+  padding: 0px 0px 0px 30px;
+  border-radius: 10px;
+  margin-left: 4px;
+}
+
+.image_quick_on_6 {
+  margin-top: 40px;
+}
+
+.manage_products_image_1 {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.college_section {
+  margin-top: 40px;
+}
+
+.college_section .college_1 {
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (max-width: 1440px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+
+@media only screen and (max-width: 1025px) {
+  body {
+    overflow-x: hidden;
+  }
+  .index_head .title_web .healthcare {
+    font-family: "fontavenirmedium";
+    letter-spacing: 0px;
+    color: #F27D35;
+    opacity: 1;
+    font-size: 22px;
+  }
+  .index_head .title_web .managed_care_title {
+    letter-spacing: 2.22px;
+    color: #363A57;
+    opacity: 1;
+    font-size: 48px;
+    font-family: "fontcalisto";
+  }
+  .blue_section .first_one .our_approach {
+    margin-top: 80px;
+    text-align: center;
+    font-family: "fontcalisto";
+    letter-spacing: 2.22px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-size: 50px;
+  }
+  .blue_section .fifth_one .launch_title {
+    padding-top: 20px;
+    text-align: center;
+    font-family: "fontcalisto";
+    letter-spacing: 2.22px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-size: 50px;
+  }
+  .index_head_1 .title_web .managed_care_title {
+    letter-spacing: 2.22px;
+    color: #363A57;
+    opacity: 1;
+    font-size: 50px;
+    font-family: "fontcalisto";
+  }
+  .index_head_5 .title_web .managed_care_title {
+    letter-spacing: 2.22px;
+    color: #363A57;
+    opacity: 1;
+    font-size: 50px;
+    font-family: "fontcalisto";
+  }
+}
+/*# sourceMappingURL=managedcare.css.map */
