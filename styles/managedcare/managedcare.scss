@@ -68,6 +68,15 @@
 
 // section 1 css starts here
 
+.healthcare {
+    font-family   : "fontLatoRegular";
+    letter-spacing: 0px;
+    color         : #F27D35;
+    opacity       : 1;
+    font-size     : 1.5rem;
+    font-weight   : 400;
+
+}
 .index_head {
     margin-top: 150px;
 
@@ -88,7 +97,7 @@
             opacity       : 1;
 
             font-family: "fontGraphikSemibold";
-            font-size  : 46px;
+            font-size  : 60px;
             font-weight: 700;
         }
 
@@ -123,13 +132,13 @@
 
             .platform {
                 border-left: 3px solid #F27D35;
-                line-height: 7px;
+                line-height: 6px;
             }
 
             .deliverables {
 
                 border-left: 3px solid #F27D35;
-                line-height: 7px;
+                line-height: 4px;
             }
 
             .common_title {
@@ -140,9 +149,26 @@
                 opacity       : 1;
                 font-size     : 14px;
             }
-
             .common_description {
                 top           : 15px;
+                position      : relative;
+                letter-spacing: 0.66px;
+                color         : #363A57;
+                opacity       : 1;
+                font-family   : "fontGraphikSemibold";
+                font-size     : 16px;
+                font-weight   : bold;
+            }
+            .common_title_1 {
+                margin-top    : 4px;
+                font-family   : "fontLatoRegular";
+                letter-spacing: 0px;
+                color         : #595959;
+                opacity       : 1;
+                font-size     : 14px;
+            }
+            .common_description_1 {
+                top           : 21px;
                 position      : relative;
                 letter-spacing: 0.66px;
                 color         : #363A57;
@@ -410,6 +436,10 @@
 
     }
 }
+.mobile
+{
+    display:none;
+}
 
 .img_common {
     width: 80%;
@@ -485,7 +515,7 @@
 }
 
 .service {
-    margin-left: 0%;
+   
 
     .index_head_12 {
         margin-top      : 100px;
@@ -510,9 +540,9 @@
     }
 }
 
-.monitoring {
+.monitoring_web {
     margin-top      : 200px;
-    padding         : 100px 0px 50px 50px;
+    padding         : 100px 0px 50px 0px;
     background-color: #FFF8F4;
     height          : 600px;
 
@@ -711,7 +741,7 @@
                 padding-right: 0px;
 
                 .amin_img_1 {
-                    width   : 60%;
+                    width   : 60% ;
                     position: relative;
                     top     : 100px;
                 }
@@ -723,8 +753,8 @@
                 padding   : 0px;
                 top       : 10px;
 
-                .amin_img_2 {
-                    width: 60%;
+                .amin_img_2_2 {
+                    width: 60% ;
 
                 }
             }
@@ -912,5 +942,789 @@
         font-size: 15px;
         font-weight: bold;
     }
+    .index_head .title_web .platform_deliverables .common_description_1 {
+        top: 21px;
+        position: relative;
+        letter-spacing: 0.66px;
+        color: #363A57;
+        opacity: 1;
+        font-family: "fontGraphikSemibold";
+        font-size: 15px;
+        font-weight: bold;
+    }
     
 }
+
+@media only screen and (max-width: 427px) {
+
+    .index_head .title_web .platform_deliverables .deliverables {
+        border-left: 3px solid #F27D35;
+        line-height: 27px;
+        margin-top: 30px;
+        position: sticky;
+    }
+    .index_head .title_web .platform_deliverables .common_title_1 {
+        margin-top: 0px;
+        font-family: "fontLatoRegular";
+        letter-spacing: 0px;
+        color: #595959;
+        opacity: 1;
+        font-size: 14px;
+    }
+    .manage_availablity .img_availability {
+        width: 100%;
+        position: relative;
+        bottom: 113px !important;
+    }
+    .manage_availablity {
+        background-color: #F27D350D;
+        margin-top: 100px !important;
+        height: 200px !important;
+    }
+    .administration .main_admin .admin_img {
+        padding-top: 41px !important;
+        background: url('/images/Ellipse 258.svg');
+        background-repeat: no-repeat;
+        background-position: 42% 10%;
+        height: 477px !important;
+        background-size: 407px !important;
+    }
+    .notification {
+        margin-top: 41px !important;
+        background: url('/images/Ellipse 258.svg');
+        background-repeat: no-repeat;
+        background-position: 42% 70% !important;
+        height: 777px !important;
+        background-size: 407px !important;
+    }
+    .index_head .title_web .platform_deliverables .common_description_1 {
+        top: 3px;
+        position: relative;
+        letter-spacing: 0.66px;
+        color: #363A57;
+        opacity: 1;
+        font-family: "fontGraphikSemibold";
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .index_head {
+        margin-top: 150px;
+    }
+   
+    .blue_section .second_one .next_line {
+        margin-top: 25px;
+        padding: 0px;
+    }
+    .blue_section .second_one .planning_evegelism {
+        letter-spacing: 0px;
+        color: #FEFEFE;
+        opacity: 1;
+        font-size: 30px;
+        font-family: "fontLatoRegular";
+    }
+    .blue_section .second_one .lists_order .list_details {
+        color: #FFFFFF;
+        opacity: 0.4;
+        line-height: 2.5;
+        font-family: "fontLatoRegular";
+        font-weight: 400;
+        font-size: 1.1rem;
+    }
+    .img_1
+    {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .mobile
+{
+    display:block;
+
+}
+.web{
+display: none;
+}
+
+.blue_section .third_one .next_line_1 {
+    margin-top: 40px;
+    padding: 0px;
+    text-align: left;
+}
+.img_common {
+    width: 100%;
+}
+.blue_section .third_one .planning_evegelism {
+    letter-spacing: 0px;
+    color: #FEFEFE;
+    opacity: 1;
+    font-size: 30px;
+    font-family: "fontLatoRegular";
+}
+.blue_section .third_one .lists_order .list_details {
+    color: #FFFFFF;
+    opacity: 0.4;
+    line-height: 2.5rem;
+    font-family: "fontLatoRegular";
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+.blue_section .fourth_one .next_line {
+    margin-top: 40px;
+    padding: 0px;
+}
+.blue_section .fourth_one .planning_evegelism {
+    letter-spacing: 0px;
+    color: #FEFEFE;
+    opacity: 1;
+    font-size: 30px;
+    font-family: "fontLatoRegular";
+}
+.blue_section .fourth_one .lists_order .list_details {
+    padding-left: 2px;
+    color: #FFFFFF;
+    opacity: 0.4;
+    line-height: 2.5rem;
+    font-family: "fontLatoRegular";
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+.img_common {
+    width: 100%;
+    margin-top: 30px;
+}
+.blue_section .fifth_one .img_section .img_common_1 {
+    width: 50%;
+}
+.blue_section .fifth_one .paragraph_launch .launch_description {
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.4;
+    font-family: "fontLatoRegular";
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+.blue_section .fifth_one .paragraph_launch_1 .launch_description_1 {
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.4;
+    font-family: "fontLatoRegular";
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+.quick_onboard .image_quick_on .img_onboard {
+    width: 100%;
+}
+.manage_availablity {
+    background-color: #F27D350D;
+    margin-top: 150px;
+    height: 200px;
+}
+.man_availibility
+{
+    text-align: center;
+}
+.manage_availablity .img_availability {
+    width: 100%;
+    position: relative;
+    bottom: 120px;
+}
+.index_head_1 .title_web .managed_care_title {
+    letter-spacing: 2.22px;
+    color: #363A57;
+    opacity: 1;
+    font-size: 30px;
+    font-family: "fontGraphikSemibold";
+}
+.monitoring_web .monitoring_img_section .image_quick_on_1 .img_onboard_4 {
+    width: 90%;
+    position: relative;
+    bottom: 0px;
+}
+.monitoring_web .monitoring_img_section .image_quick_on_1 .img_onboard_3 {
+    width: 100%;
+    position: relative;
+    bottom: 0px;
+}
+.administration .main_admin {
+    padding-top: 30px;
+}
+.conversation_section .conversation_container .title_web {
+    margin-top: 0px;
+}
+.conversation_section .conversation_container {
+    padding: 0px 0px;
+}
+.administration {
+    margin-top: 46px;
+}
+.notification .main_admin .admin_img .amin_2 .amin_img_2 {
+    width: 100%;
+}
+.notification .main_admin .admin_img .amin_1 .amin_img_1 {
+    width: 100%;
+    position: relative;
+    top: 100px;
+}
+.index_head .title_web .Title_details {
+    text-align: left;
+    margin-top: 10px;
+    letter-spacing: 0px;
+    color: #595959;
+    opacity: 1;
+    font-family: "fontLatoRegular";
+    line-height: 2.1;
+    font-weight: 400;
+    font-size: 17px;
+}
+.index_head .title_web .managed_care_title {
+    letter-spacing: 2.22px;
+    color: #363A57;
+    opacity: 1;
+    font-size: 35px;
+    font-family: "fontGraphikSemibold";
+}
+.index_head_1 .title_web .Title_details_1 {
+    text-align: left;
+    margin-top: 10px;
+    letter-spacing: 0px;
+    color: #595959;
+    opacity: 1;
+    font-family: "fontLatoRegular";
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 2.1;
+}
+.amin_img_2_2 {
+    width: 70% !important;
+}
+.blue_section .first_one .our_approach {
+    margin-top: 80px;
+    text-align: center;
+    font-family: "fontGraphikSemibold";
+    letter-spacing: 2.22px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-size: 36px;
+}
+.administration .Title_details_1 {
+    text-align: left;
+    letter-spacing: 0px;
+    color: #595959;
+    opacity: 1;
+    font-family: "fontLatoRegular";
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 2.1;
+}
+.notification .Title_details_1 {
+    text-align: left;
+    margin-top: 20px;
+    letter-spacing: 0px;
+    color: #595959;
+    opacity: 1;
+    font-family: "fontLatoRegular";
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 2.1;
+}
+.index_head_5 .title_web .managed_care_title {
+    letter-spacing: 0px;
+    color: #363A57;
+    opacity: 1;
+    font-size: 35px;
+    font-family: "fontGraphikSemibold";
+}
+.index_head_5 .title_web .Title_details_1 {
+    text-align: left;
+    margin-top: 30px;
+    letter-spacing: 0px;
+    color: #595959;
+    opacity: 1;
+    font-family: "fontLatoRegular";
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 2.1;
+}
+.index_head .title_web .managed_care_title {
+    letter-spacing: 0px;
+    color: #363A57;
+    opacity: 1;
+    font-size: 35px;
+    font-family: "fontGraphikSemibold";
+}
+.index_head_1 .title_web .managed_care_title {
+    letter-spacing: 0px;
+    color: #363A57;
+    opacity: 1;
+    font-size: 35px;
+    font-family: "fontGraphikSemibold";
+}
+.blue_section .fifth_one .launch_title {
+    padding-top: 20px;
+    text-align: center;
+    font-family: "fontGraphikSemibold";
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-size: 35px;
+}
+.index_head .title_web .healthcare {
+    font-family: "fontLatoRegular";
+    letter-spacing: 0px;
+    color: #F27D35;
+    opacity: 1;
+    font-size: 18px;
+}
+.healthcare {
+    font-family: "fontLatoRegular";
+    letter-spacing: 0px;
+    color: #F27D35;
+    opacity: 1;
+    font-size: 18px;
+    font-weight: 400;
+}
+.index_head_1 .title_web .managed_care_title {
+    letter-spacing: 0px;
+    color: #363A57;
+    opacity: 1;
+    font-size: 30px;
+    font-family: "fontGraphikSemibold";
+}
+}
+
+@media only screen and (max-width: 770px) {
+
+
+    .web{
+        display:none;
+    }
+    .mobile
+    {
+        display:block;
+    }
+    .blue_section .third_one .next_line_1 {
+        margin-top: 40px;
+        padding: 0px;
+        text-align: left;
+    }
+    .blue_section .second_one .next_line {
+        margin-top: 25px;
+        padding: 0px;
+    }
+    .blue_section .second_one .planning_evegelism {
+        letter-spacing: 0px;
+        color: #FEFEFE;
+        opacity: 1;
+        font-size: 30px;
+        font-family: "fontLatoRegular";
+    }
+    .blue_section .second_one .lists_order .list_details {
+        color: #FFFFFF;
+        opacity: 0.4;
+        line-height: 2.5;
+        font-family: "fontLatoRegular";
+        font-weight: 400;
+        font-size: 1.1rem;
+    }
+    .img_1
+    {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .blue_section .third_one .next_line_1 {
+        margin-top: 40px;
+        padding: 0px;
+        text-align: left;
+    }
+    
+    .blue_section .third_one .planning_evegelism {
+        letter-spacing: 0px;
+        color: #FEFEFE;
+        opacity: 1;
+        font-size: 30px;
+        font-family: "fontLatoRegular";
+    }
+    .blue_section .third_one .lists_order .list_details {
+        color: #FFFFFF;
+        opacity: 0.4;
+        line-height: 2.5rem;
+        font-family: "fontLatoRegular";
+        font-weight: 400;
+        font-size: 1.1rem;
+    }
+    .blue_section .fourth_one .next_line {
+        margin-top: 40px;
+        padding: 0px;
+    }
+    .blue_section .fourth_one .planning_evegelism {
+        letter-spacing: 0px;
+        color: #FEFEFE;
+        opacity: 1;
+        font-size: 30px;
+        font-family: "fontLatoRegular";
+    }
+    .blue_section .fourth_one .lists_order .list_details {
+        padding-left: 2px;
+        color: #FFFFFF;
+        opacity: 0.4;
+        line-height: 2.5rem;
+        font-family: "fontLatoRegular";
+        font-weight: 400;
+        font-size: 1.1rem;
+    }
+    .img_common {
+        width: 70%;
+        margin-top: 30px;
+    }
+    .blue_section .fifth_one .img_section .img_common_1 {
+        width: 40%;
+    }
+    .blue_section .fifth_one .paragraph_launch .launch_description {
+        text-align: center;
+        color: #FFFFFF;
+        opacity: 0.4;
+        font-family: "fontLatoRegular";
+        font-weight: 400;
+        font-size: 1.1rem;
+    }
+    .blue_section .fifth_one .paragraph_launch_1 .launch_description_1 {
+        text-align: center;
+        color: #FFFFFF;
+        opacity: 0.4;
+        font-family: "fontLatoRegular";
+        font-weight: 400;
+        font-size: 1.1rem;
+    }
+    .image1
+    {
+      text-align: center;
+    }
+    .manage_availablity {
+        background-color: #F27D350D;
+        margin-top: 180px;
+        height: 360px;
+    }
+    .manage_availablity .img_availability {
+        width: 100%;
+        position: relative;
+        bottom: 200px;
+    }
+    .ing
+    {
+        text-align: end;
+    }
+    .img_onboard_3
+    {
+         width:70% !important;
+    }
+    .img_onboard_4
+    {
+        width:70% !important;
+    }
+.administration .main_admin .admin_img {
+    padding-top: 100px;
+    background: url('/images/Ellipse 258.svg');
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    height: 823px;
+    background-size: 719px;
+}
+.amin_img_2
+{
+    width: 40% !important;
+}
+.administration .main_admin {
+    padding-top: 40px;
+}
+.administration {
+   
+    margin-top: 80px;
+}
+.conversation_section .conversation_container .title_web {
+    margin-top: 0px;
+}
+.conversation_section .conversation_container {
+    padding: 0px 0px 50px 0px;
+}
+.conversation_section .conversation_container .conver_img_section .conver_img {
+    width: 45%;
+}
+.img_onboard_1_1
+{
+    width:40% !important;
+}
+.notification {
+    margin-top: 100px;
+    background: url('/images/Ellipse 258.svg');
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    height: 823px;
+    background-size: 719px;
+}
+.notification .main_admin .admin_img .amin_1 .amin_img_1 {
+    width: 79%;
+    position: relative;
+    top: 100px;
+}
+.amin_img_2_2 {
+    width: 70% !important;
+}  
+
+
+
+.index_head .title_web .managed_care_title {
+    letter-spacing: 0px;
+    color: #363A57;
+    opacity: 1;
+    font-size: 40px;
+    font-family: "fontGraphikSemibold";
+} 
+.index_head .title_web .Title_details {
+    text-align: left;
+    margin-top: 20px;
+    letter-spacing: 0px;
+    color: #595959;
+    opacity: 1;
+    font-family: "fontLatoRegular";
+    line-height: 2.1;
+    font-weight: 400;
+    font-size: 17px;
+}
+.healthcare {
+    font-family: "fontLatoRegular";
+    letter-spacing: 0px;
+    color: #F27D35;
+    opacity: 1;
+    font-size: 18px;
+    font-weight: 400;
+}
+.index_head_1 .title_web .managed_care_title {
+    letter-spacing: 0px;
+    color: #363A57;
+    opacity: 1;
+    font-size: 40px;
+    font-family: "fontGraphikSemibold";
+}
+.index_head_1 .title_web .Title_details_1 {
+    text-align: left;
+    margin-top: 10px;
+    letter-spacing: 0px;
+    color: #595959;
+    opacity: 1;
+    font-family: "fontLatoRegular";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 2.1;
+}
+.administration .Title_details_1 {
+    text-align: left;
+    letter-spacing: 0px;
+    color: #595959;
+    opacity: 1;
+    font-family: "fontLatoRegular";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 2.1;
+}
+.notification .Title_details_1 {
+    text-align: left;
+    margin-top: 20px;
+    letter-spacing: 0px;
+    color: #595959;
+    opacity: 1;
+    font-family: "fontLatoRegular";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 2.1;
+}
+.index_head_5 .title_web .managed_care_title {
+    letter-spacing: 0px;
+    color: #363A57;
+    opacity: 1;
+    font-size: 40px;
+    font-family: "fontGraphikSemibold";
+}
+    .index_head_5 .title_web .Title_details_1 {
+        text-align: left;
+        margin-top: 30px;
+        letter-spacing: 0px;
+        color: #595959;
+        opacity: 1;
+        font-family: "fontLatoRegular";
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 2.1;
+    } 
+}
+@media only screen and (max-width: 1441px) {
+
+    .amin_img_2_2 {
+        width: 60% !important;
+    } 
+    .index_head .title_web .Title_details {
+        text-align: left;
+        margin-top: 20px;
+        letter-spacing: 0px;
+        color: #595959;
+        opacity: 1;
+        font-family: "fontLatoRegular";
+        line-height: 2.1;
+        font-weight: 400;
+        font-size: 19px;
+    }
+    .index_head_1 .title_web .Title_details_1 {
+        text-align: left;
+        margin-top: 30px;
+        letter-spacing: 0px;
+        color: #595959;
+        opacity: 1;
+        font-family: "fontLatoRegular";
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 2.1;
+    }
+    .administration .Title_details_1 {
+        text-align: left;
+        letter-spacing: 0px;
+        color: #595959;
+        opacity: 1;
+        font-family: "fontLatoRegular";
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 2.1;
+    }
+    .notification .Title_details_1 {
+        text-align: left;
+        margin-top: 20px;
+        letter-spacing: 0px;
+        color: #595959;
+        opacity: 1;
+        font-family: "fontLatoRegular";
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 2.1;
+    }
+    .index_head_5 .title_web .Title_details_1 {
+        text-align: left;
+        margin-top: 30px;
+        letter-spacing: 0px;
+        color: #595959;
+        opacity: 1;
+        font-family: "fontLatoRegular";
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 2.1;
+    }
+}
+@media only screen and (max-width: 376px) {
+
+    .managed_care_title_1
+    {
+        font-size: 33px;
+    }
+}
+@media only screen and (max-width: 325px) {
+
+    .managed_care_title_1
+    {
+        font-size: 23px;
+    }
+    .index_head .title_web .managed_care_title {
+        letter-spacing: 0px;
+        color: #363A57;
+        opacity: 1;
+        font-size: 30px;
+        font-family: "fontGraphikSemibold";
+    }
+    .index_head .title_web .Title_details {
+        text-align: left;
+        margin-top: 20px;
+        letter-spacing: 0px;
+        color: #595959;
+        opacity: 1;
+        font-family: "fontLatoRegular";
+        line-height: 2.1;
+        font-weight: 400;
+        font-size: 17px;
+    }
+    .index_head_1 .title_web .managed_care_title {
+        letter-spacing: 0px;
+        color: #363A57;
+        opacity: 1;
+        font-size: 30px;
+        font-family: "fontGraphikSemibold";
+    }
+    .index_head_1 .title_web .Title_details_1 {
+        text-align: left;
+        margin-top: 7px;
+        letter-spacing: 0px;
+        color: #595959;
+        opacity: 1;
+        font-family: "fontLatoRegular";
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 2.1;
+    }
+    .manage_availablity .img_availability {
+        width: 100%;
+        position: relative;
+        bottom: 76px !important;
+    }
+    .manage_availablity {
+        background-color: #F27D350D;
+        margin-top: 100px !important;
+        height: 148px !important;
+    }
+    .ser
+    {
+        margin-top:30px !important
+    }
+    .img_onboard_4
+    {
+        bottom:100px !important;
+    }
+    .administration .main_admin .admin_img {
+        padding-top: 41px !important;
+        background: url('/images/Ellipse 258.svg');
+        background-repeat: no-repeat;
+        background-position: 44% 10%;
+        height: 377px !important;
+        background-size: 308px !important;
+    }
+    .administration .main_admin {
+        padding-top: 0px;
+    }
+    .img_onboard_1_1 {
+        width: 70% !important;
+    }
+    .notification {
+        margin-top: 41px !important;
+        background: url('/images/Ellipse 258.svg');
+        background-repeat: no-repeat;
+        background-position: 44% 70% !important;
+        height: 777px !important;
+        background-size: 308px !important;
+    }
+    .notification .Title_details_1 {
+        text-align: left;
+        margin-top: 20px;
+        letter-spacing: 0px;
+        color: #595959;
+        opacity: 1;
+        font-family: "fontLatoRegular";
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 2.1;
+    }
+    .index_head_5 .title_web .Title_details_1 {
+        text-align: left;
+        margin-top: 30px;
+        letter-spacing: 0px;
+        color: #595959;
+        opacity: 1;
+        font-family: "fontLatoRegular";
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 2.1;
+    }
+}
+
