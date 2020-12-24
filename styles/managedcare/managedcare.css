@@ -43,47 +43,70 @@
   src: url("../../plugin/fonts/graphik/GraphikRegular.otf");
 }
 
+@font-face {
+  font-family: "fontNova";
+  src: url("../plugin/fonts/HKNova-Medium.otf");
+}
+
+@font-face {
+  font-family: "fontLatoRegular";
+  src: url("../plugin/fonts/lato/Lato-Regular.ttf");
+}
+
+@font-face {
+  font-family: "fontLatoBlack";
+  src: url("../plugin/fonts/lato/Lato-Black.ttf");
+}
+
+@font-face {
+  font-family: "fontLatoBold";
+  src: url("../plugin/fonts/lato/Lato-Bold.ttf");
+}
+
 .index_head {
   margin-top: 150px;
 }
 
 .index_head .title_web .healthcare {
-  font-family: "fontavenirmedium";
+  font-family: "fontLatoRegular";
   letter-spacing: 0px;
   color: #F27D35;
   opacity: 1;
-  font-size: 28px;
+  font-size: 1.5rem;
+  font-weight: 400;
 }
 
 .index_head .title_web .managed_care_title {
   letter-spacing: 2.22px;
   color: #363A57;
   opacity: 1;
-  font-size: 60px;
-  font-family: "fontcalisto";
+  font-family: "fontGraphikSemibold";
+  font-size: 46px;
+  font-weight: 700;
 }
 
 .index_head .title_web .Title_details {
   text-align: left;
-  margin-top: 30px;
+  margin-top: 20px;
   letter-spacing: 1px;
-  color: #9297A5;
+  color: #595959;
   opacity: 1;
-  font-family: "fontavenirlight";
-  line-height: 2.2rem;
-  font-weight: 700;
+  font-family: "fontLatoRegular";
+  line-height: 2.1;
+  font-weight: 400;
+  font-size: 1.25rem;
 }
 
 .index_head .title_web .Title_details_1 {
   text-align: left;
-  margin-top: 30px;
+  margin-top: 20px;
   letter-spacing: 1px;
-  color: #9297A5;
+  color: #595959;
   opacity: 1;
-  font-family: "fontavenirlight";
-  line-height: 2.2rem;
-  font-weight: 600;
-  font-size: 16px;
+  line-height: 2.1;
+  font-family: "fontLatoRegular";
+  font-weight: 400;
+  font-size: 1.25rem;
 }
 
 .index_head .title_web .platform_deliverables {
@@ -103,11 +126,11 @@
 
 .index_head .title_web .platform_deliverables .common_title {
   margin-top: 4px;
-  font-family: "fontavenirlight";
+  font-family: "fontLatoRegular";
   letter-spacing: 0px;
-  color: #9297A5;
+  color: #595959;
   opacity: 1;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .index_head .title_web .platform_deliverables .common_description {
@@ -116,7 +139,7 @@
   letter-spacing: 0.66px;
   color: #363A57;
   opacity: 1;
-  font-family: "fontcalisto";
+  font-family: "fontGraphikSemibold";
   font-size: 16px;
   font-weight: bold;
 }
@@ -138,11 +161,11 @@
 .blue_section .first_one .our_approach {
   margin-top: 80px;
   text-align: center;
-  font-family: "fontcalisto";
+  font-family: "fontGraphikSemibold";
   letter-spacing: 2.22px;
   color: #FFFFFF;
   opacity: 1;
-  font-size: 60px;
+  font-size: 46px;
 }
 
 .blue_section .first_one .linediv {
@@ -174,7 +197,7 @@
   letter-spacing: 0px;
   color: #FF6495;
   opacity: 1;
-  font-family: "fontavenirmedium";
+  font-family: "fontLatoRegular";
   margin-bottom: 0px;
 }
 
@@ -182,7 +205,8 @@
   letter-spacing: 0px;
   color: #FEFEFE;
   opacity: 1;
-  font-size: 35px;
+  font-size: 40px;
+  font-family: "fontLatoRegular";
 }
 
 .blue_section .second_one .lists_order {
@@ -194,7 +218,10 @@
 .blue_section .second_one .lists_order .list_details {
   color: #FFFFFF;
   opacity: 0.4;
-  line-height: 2.8rem;
+  line-height: 2.1;
+  font-family: "fontLatoRegular";
+  font-weight: 400;
+  font-size: 1.25rem;
 }
 
 .blue_section .third_one {
@@ -218,7 +245,7 @@
   letter-spacing: 0px;
   color: #FF6495;
   opacity: 1;
-  font-family: "fontavenirmedium";
+  font-family: "fontLatoRegular";
   margin-bottom: 0px;
 }
 
@@ -226,7 +253,8 @@
   letter-spacing: 0px;
   color: #FEFEFE;
   opacity: 1;
-  font-size: 35px;
+  font-size: 40px;
+  font-family: "fontLatoRegular";
 }
 
 .blue_section .third_one .lists_order {
@@ -239,6 +267,9 @@
   color: #FFFFFF;
   opacity: 0.4;
   line-height: 2.8rem;
+  font-family: "fontLatoRegular";
+  font-weight: 400;
+  font-size: 1.25rem;
 }
 
 .blue_section .fourth_one {
@@ -261,7 +292,7 @@
   letter-spacing: 0px;
   color: #FF6495;
   opacity: 1;
-  font-family: "fontavenirmedium";
+  font-family: "fontLatoRegular";
   margin-bottom: 0px;
 }
 
@@ -269,7 +300,8 @@
   letter-spacing: 0px;
   color: #FEFEFE;
   opacity: 1;
-  font-size: 35px;
+  font-size: 40px;
+  font-family: "fontLatoRegular";
 }
 
 .blue_section .fourth_one .lists_order {
@@ -283,6 +315,9 @@
   color: #FFFFFF;
   opacity: 0.4;
   line-height: 2.8rem;
+  font-family: "fontLatoRegular";
+  font-weight: 400;
+  font-size: 1.25rem;
 }
 
 .blue_section .fifth_one {
@@ -311,11 +346,11 @@
 .blue_section .fifth_one .launch_title {
   padding-top: 20px;
   text-align: center;
-  font-family: "fontcalisto";
+  font-family: "fontGraphikSemibold";
   letter-spacing: 2.22px;
   color: #FFFFFF;
   opacity: 1;
-  font-size: 60px;
+  font-size: 46px;
 }
 
 .blue_section .fifth_one .paragraph_launch {
@@ -326,6 +361,9 @@
   text-align: center;
   color: #FFFFFF;
   opacity: 0.4;
+  font-family: "fontLatoRegular";
+  font-weight: 400;
+  font-size: 1.25rem;
 }
 
 .blue_section .fifth_one .paragraph_launch_1 {
@@ -336,6 +374,9 @@
   text-align: center;
   color: #FFFFFF;
   opacity: 0.4;
+  font-family: "fontLatoRegular";
+  font-weight: 400;
+  font-size: 1.25rem;
 }
 
 .blue_section .fifth_one .paragraph_launch_2 {
@@ -346,6 +387,9 @@
   text-align: center;
   color: #FFFFFF;
   opacity: 0.4;
+  font-family: "fontLatoRegular";
+  font-weight: 400;
+  font-size: 1.25rem;
 }
 
 .img_common {
@@ -360,8 +404,8 @@
   letter-spacing: 2.22px;
   color: #363A57;
   opacity: 1;
-  font-size: 60px;
-  font-family: "fontcalisto";
+  font-size: 46px;
+  font-family: "fontGraphikSemibold";
 }
 
 .index_head_1 .title_web .Title_details_1 {
@@ -370,10 +414,10 @@
   letter-spacing: 1px;
   color: #9297A5;
   opacity: 1;
-  font-family: "fontavenirlight";
-  line-height: 2.2rem;
-  font-weight: 600;
-  font-size: 16px;
+  font-family: "fontLatoRegular";
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 2.1;
 }
 
 .quick_onboard {
@@ -491,10 +535,10 @@
   letter-spacing: 1px;
   color: #9297A5;
   opacity: 1;
-  font-family: "fontavenirlight";
-  line-height: 2.2rem;
-  font-weight: 600;
-  font-size: 16px;
+  font-family: "fontLatoRegular";
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 2.1;
 }
 
 .administration .main_admin {
@@ -615,10 +659,10 @@
   letter-spacing: 1px;
   color: #9297A5;
   opacity: 1;
-  font-family: "fontavenirlight";
-  line-height: 2.2rem;
-  font-weight: 600;
-  font-size: 16px;
+  font-family: "fontLatoRegular";
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 2.1;
 }
 
 .notification .main_admin .admin_img .amin_1 {
@@ -651,19 +695,21 @@
 }
 
 .index_head_5 .title_web .healthcare {
-  font-family: "fontavenirmedium";
+  font-family: "fontLatoRegular";
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 2.1;
   letter-spacing: 0px;
   color: #F27D35;
   opacity: 1;
-  font-size: 28px;
 }
 
 .index_head_5 .title_web .managed_care_title {
   letter-spacing: 2.22px;
   color: #363A57;
   opacity: 1;
-  font-size: 60px;
-  font-family: "fontcalisto";
+  font-size: 46px;
+  font-family: "fontGraphikSemibold";
 }
 
 .index_head_5 .title_web .Title_details_1 {
@@ -672,10 +718,10 @@
   letter-spacing: 1px;
   color: #9297A5;
   opacity: 1;
-  font-family: "fontavenirlight";
-  line-height: 2.2rem;
-  font-weight: 600;
-  font-size: 16px;
+  font-family: "fontLatoRegular";
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 2.1;
 }
 
 .yellow_line {
@@ -741,25 +787,25 @@
   .blue_section .fifth_one .launch_title {
     padding-top: 20px;
     text-align: center;
-    font-family: "fontcalisto";
+    font-family: "fontGraphikSemibold";
     letter-spacing: 2.22px;
     color: #FFFFFF;
     opacity: 1;
-    font-size: 50px;
+    font-size: 46px;
   }
   .index_head_1 .title_web .managed_care_title {
     letter-spacing: 2.22px;
     color: #363A57;
     opacity: 1;
-    font-size: 50px;
-    font-family: "fontcalisto";
+    font-size: 46px;
+    font-family: "fontGraphikSemibold";
   }
   .index_head_5 .title_web .managed_care_title {
     letter-spacing: 2.22px;
     color: #363A57;
     opacity: 1;
-    font-size: 50px;
-    font-family: "fontcalisto";
+    font-size: 46px;
+    font-family: "fontGraphikSemibold";
   }
 }
 /*# sourceMappingURL=managedcare.css.map */

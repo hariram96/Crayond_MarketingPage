@@ -44,6 +44,27 @@
 }
 
 
+@font-face {
+    font-family: "fontNova";
+    src        : url("../plugin/fonts/HKNova-Medium.otf");
+}
+
+@font-face {
+    font-family: "fontLatoRegular";
+    src        : url("../plugin/fonts/lato/Lato-Regular.ttf");
+}
+
+@font-face {
+    font-family: "fontLatoBlack";
+    src        : url("../plugin/fonts/lato/Lato-Black.ttf");
+}
+
+@font-face {
+    font-family: "fontLatoBold";
+    src        : url("../plugin/fonts/lato/Lato-Bold.ttf");
+}
+
+
 
 // section 1 css starts here
 
@@ -52,11 +73,12 @@
 
     .title_web {
         .healthcare {
-            font-family   : "fontavenirmedium";
+            font-family   : "fontLatoRegular";
             letter-spacing: 0px;
             color         : #F27D35;
             opacity       : 1;
-            font-size     : 28px;
+            font-size     : 1.5rem;
+            font-weight   : 400;
 
         }
 
@@ -64,35 +86,39 @@
             letter-spacing: 2.22px;
             color         : #363A57;
             opacity       : 1;
-            font-size     : 60px;
-            font-family   : "fontcalisto";
+
+            font-family: "fontGraphikSemibold";
+            font-size  : 46px;
+            font-weight: 700;
         }
 
         .Title_details {
             text-align    : left;
-            margin-top    : 30px;
+            margin-top    : 20px;
             letter-spacing: 1px;
-            color         : #9297A5;
+            color         : #595959;
             opacity       : 1;
-            font-family   : "fontavenirlight";
-            line-height   : 2.2rem;
-            font-weight   : 700;
+            font-family   : "fontLatoRegular";
+            line-height: 2.1;
+            font-weight: 400;
+            font-size  : 1.25rem;
         }
 
         .Title_details_1 {
             text-align    : left;
-            margin-top    : 30px;
+            margin-top    : 20px;
             letter-spacing: 1px;
-            color         : #9297A5;
+            color         : #595959;
             opacity       : 1;
-            font-family   : "fontavenirlight";
-            line-height   : 2.2rem;
-            font-weight   : 600;
-            font-size     : 16px;
+            line-height   : 2.1;
+            font-family   : "fontLatoRegular";
+            font-weight   : 400;
+            font-size  : 1.25rem;
+
         }
 
         .platform_deliverables {
-            margin-top: 30px;
+            margin-top : 30px;
             margin-left: 1px;
 
             .platform {
@@ -108,11 +134,11 @@
 
             .common_title {
                 margin-top    : 4px;
-                font-family   : "fontavenirlight";
+                font-family   : "fontLatoRegular";
                 letter-spacing: 0px;
-                color         : #9297A5;
+                color         : #595959;
                 opacity       : 1;
-                font-size     : 13px;
+                font-size     : 14px;
             }
 
             .common_description {
@@ -121,7 +147,7 @@
                 letter-spacing: 0.66px;
                 color         : #363A57;
                 opacity       : 1;
-                font-family   : "fontcalisto";
+                font-family   : "fontGraphikSemibold";
                 font-size     : 16px;
                 font-weight   : bold;
 
@@ -136,19 +162,20 @@
 
 .blue_section {
     background-color: #353596;
-    padding-bottom:100px;
-    margin-top: -80px !important;
+    padding-bottom  : 100px;
+    margin-top      : -80px !important;
+
     .first_one {
         margin-top: 80px;
 
         .our_approach {
             margin-top    : 80px;
             text-align    : center;
-            font-family   : "fontcalisto";
+            font-family   : "fontGraphikSemibold";
             letter-spacing: 2.22px;
             color         : #FFFFFF;
             opacity       : 1;
-            font-size     : 60px;
+            font-size     : 46px;
         }
 
         .linediv {
@@ -180,7 +207,7 @@
             letter-spacing: 0px;
             color         : #FF6495;
             opacity       : 1;
-            font-family   : "fontavenirmedium";
+            font-family   : "fontLatoRegular";
             margin-bottom : 0px;
         }
 
@@ -188,7 +215,8 @@
             letter-spacing: 0px;
             color         : #FEFEFE;
             opacity       : 1;
-            font-size     : 35px;
+            font-size     : 40px;
+            font-family   : "fontLatoRegular";
         }
 
         .lists_order {
@@ -198,7 +226,10 @@
             .list_details {
                 color      : #FFFFFF;
                 opacity    : 0.4;
-                line-height: 2.8rem;
+                line-height   : 2.1;
+            font-family   : "fontLatoRegular";
+            font-weight   : 400;
+            font-size  : 1.25rem;
             }
 
         }
@@ -225,7 +256,7 @@
             letter-spacing: 0px;
             color         : #FF6495;
             opacity       : 1;
-            font-family   : "fontavenirmedium";
+            font-family   : "fontLatoRegular";
             margin-bottom : 0px;
         }
 
@@ -233,7 +264,8 @@
             letter-spacing: 0px;
             color         : #FEFEFE;
             opacity       : 1;
-            font-size     : 35px;
+            font-size     : 40px;
+            font-family   : "fontLatoRegular";
         }
 
         .lists_order {
@@ -244,6 +276,9 @@
                 color      : #FFFFFF;
                 opacity    : 0.4;
                 line-height: 2.8rem;
+                font-family   : "fontLatoRegular";
+                font-weight   : 400;
+                font-size  : 1.25rem;
             }
 
         }
@@ -269,7 +304,7 @@
             letter-spacing: 0px;
             color         : #FF6495;
             opacity       : 1;
-            font-family   : "fontavenirmedium";
+            font-family   : "fontLatoRegular";
             margin-bottom : 0px;
         }
 
@@ -277,7 +312,8 @@
             letter-spacing: 0px;
             color         : #FEFEFE;
             opacity       : 1;
-            font-size     : 35px;
+            font-size     : 40px;
+            font-family   : "fontLatoRegular";
         }
 
         .lists_order {
@@ -289,6 +325,9 @@
                 color       : #FFFFFF;
                 opacity     : 0.4;
                 line-height : 2.8rem;
+                font-family   : "fontLatoRegular";
+                font-weight   : 400;
+                font-size  : 1.25rem;
             }
 
         }
@@ -296,71 +335,79 @@
     }
 
     .fifth_one {
-        margin-top: 40px;
-        padding-top: 80px;
-        padding-bottom:70px;
-        background-color: rgb(49, 49, 131);
-        backdrop-filter: blur(5px) !important;
+        margin-top             : 40px;
+        padding-top            : 80px;
+        padding-bottom         : 70px;
+        background-color       : rgb(49, 49, 131);
+        backdrop-filter        : blur(5px) !important;
         -webkit-backdrop-filter: blur(9px) !important;
-        border-radius: 35px;
+        border-radius          : 35px;
 
-        .img_section
-        {
+        .img_section {
             text-align: center;
-            .img_common_1
-            {
+
+            .img_common_1 {
                 width: 30%;
             }
-           
+
         }
-        .linediv
-        {
+
+        .linediv {
             padding-top: 30px;
-            text-align: center;
+            text-align : center;
         }
 
         .launch_title {
             padding-top: 20px;
-           
+
             text-align    : center;
-            font-family   : "fontcalisto";
+            font-family   : "fontGraphikSemibold";
             letter-spacing: 2.22px;
             color         : #FFFFFF;
             opacity       : 1;
-            font-size     : 60px;
+            font-size     : 46px;
         }
-        .paragraph_launch
-        {
+
+        .paragraph_launch {
             padding-top: 30px;
-            .launch_description
-            {
+
+            .launch_description {
                 text-align: center;
-                color:#FFFFFF; 
-                opacity: 0.4;
+                color     : #FFFFFF;
+                opacity   : 0.4;
+                font-family   : "fontLatoRegular";
+                font-weight   : 400;
+                font-size  : 1.25rem;
             }
         }
-        .paragraph_launch_1
-        {
+
+        .paragraph_launch_1 {
             padding-top: 15px;
-            .launch_description_1
-            {
+
+            .launch_description_1 {
                 text-align: center;
-                color:#FFFFFF; 
-                opacity: 0.4;
+                color     : #FFFFFF;
+                opacity   : 0.4;
+                font-family   : "fontLatoRegular";
+                font-weight   : 400;
+                font-size  : 1.25rem;
             }
         }
-        .paragraph_launch_2
-        {
+
+        .paragraph_launch_2 {
             padding-top: 15px;
-            .launch_description_2
-            {
+
+            .launch_description_2 {
                 text-align: center;
-                color:#FFFFFF;
-                opacity: 0.4;
-                 
+                color     : #FFFFFF;
+                opacity   : 0.4;
+                font-family   : "fontLatoRegular";
+                font-weight   : 400;
+                font-size  : 1.25rem;
+
             }
         }
-        
+
     }
 }
 
@@ -372,17 +419,17 @@
     margin-top: 50px;
 
     .title_web {
-       
+
 
         .managed_care_title {
             letter-spacing: 2.22px;
             color         : #363A57;
             opacity       : 1;
-            font-size     : 60px;
-            font-family   : "fontcalisto";
+            font-size     : 46px;
+            font-family   : "fontGraphikSemibold";
         }
 
-      
+
 
         .Title_details_1 {
             text-align    : left;
@@ -390,453 +437,442 @@
             letter-spacing: 1px;
             color         : #9297A5;
             opacity       : 1;
-            font-family   : "fontavenirlight";
-            line-height   : 2.2rem;
-            font-weight   : 600;
-            font-size     : 16px;
+            font-family   : "fontLatoRegular";
+                font-weight   : 400;
+                font-size  : 1.25rem;
+                line-height: 2.1;
         }
     }
 }
-.quick_onboard
-{
 
- background-color:#35359608 ;
- padding-bottom:60px;
-.index_head_1
-{
-    margin-top: 70px;
-}
-    .image_quick_on
-{
-    margin-top: 40px;
-    .img_onboard
-    {
-        width:90%;
+.quick_onboard {
+
+    background-color: #35359608;
+    padding-bottom  : 60px;
+
+    .index_head_1 {
+        margin-top: 70px;
+    }
+
+    .image_quick_on {
+        margin-top: 40px;
+
+        .img_onboard {
+            width: 90%;
+        }
     }
 }
-}
 
-.img_onboard_1
-{
-    width:100%;
+.img_onboard_1 {
+    width : 100%;
     height: 100%;
 }
-.manage_availablity
-{
-     background-color: #F27D350D;
-     margin-top: 280px;
-     height: 600px;
 
-    .img_availability
-    {
-        width: 100%;
+.manage_availablity {
+    background-color: #F27D350D;
+    margin-top      : 280px;
+    height          : 600px;
+
+    .img_availability {
+        width   : 100%;
         position: relative;
-        bottom: 300px;
+        bottom  : 300px;
     }
 }
-.activities_img
-{
+
+.activities_img {
     width: 100%;
 }
-.service
-{
+
+.service {
     margin-left: 0%;
-  
-    .index_head_12
-    {
-        margin-top: 100px;
+
+    .index_head_12 {
+        margin-top      : 100px;
         background-color: #FFF8F4;
-        padding:100px 0px;
-    .sevice_1
-    {
-        text-align: end;
-    }
-    .img_onboard
-    {
-        position: relative;
-       
-        width:60%;
-    }
-    .img_onboard_2
-    {
-        position: relative;
-        bottom:200px;
-        width:60%;
-    }
-}
-}
-.monitoring
-{
-    margin-top: 200px;
-    padding: 100px 0px 50px 50px;
-    background-color: #FFF8F4;
-    height:600px;
-    .monitoring_img_section
-    {
-        .image_quick_on_1
-        {
-            .img_onboard_3
-            {
-                width:100%;
-                position: relative;
-                bottom:160px;
-            }
-            .img_onboard_4
-            {
-                width:100%;
-                position: relative;
-                bottom:60px;
-            }
-            .img_onboard_5
-            {
-                width:100%;
-                position: relative;
-                bottom:160px;
-            }
-            .img_onboard_6
-            {
-                width:100%;
-                position: relative;
-                bottom:125px;
-            }
-            .img_onboard_7
-            {
-                width:100%;
-                position: relative;
-                bottom:25px;
-            }
-            .img_onboard_8
-            {
-                width:100%;
-                position: relative;
-                bottom:125px;
-            }
-    
+        padding         : 100px 0px;
+
+        .sevice_1 {
+            text-align: end;
+        }
+
+        .img_onboard {
+            position: relative;
+
+            width: 60%;
+        }
+
+        .img_onboard_2 {
+            position: relative;
+            bottom  : 200px;
+            width   : 60%;
         }
     }
 }
 
-.administration
-{
+.monitoring {
+    margin-top      : 200px;
+    padding         : 100px 0px 50px 50px;
+    background-color: #FFF8F4;
+    height          : 600px;
+
+    .monitoring_img_section {
+        .image_quick_on_1 {
+            .img_onboard_3 {
+                width   : 100%;
+                position: relative;
+                bottom  : 160px;
+            }
+
+            .img_onboard_4 {
+                width   : 100%;
+                position: relative;
+                bottom  : 60px;
+            }
+
+            .img_onboard_5 {
+                width   : 100%;
+                position: relative;
+                bottom  : 160px;
+            }
+
+            .img_onboard_6 {
+                width   : 100%;
+                position: relative;
+                bottom  : 125px;
+            }
+
+            .img_onboard_7 {
+                width   : 100%;
+                position: relative;
+                bottom  : 25px;
+            }
+
+            .img_onboard_8 {
+                width   : 100%;
+                position: relative;
+                bottom  : 125px;
+            }
+
+        }
+    }
+}
+
+.administration {
     margin-top: 300px;
-    .Title_details_1
-    {
-        text-align    : left;
-       
+
+    .Title_details_1 {
+        text-align: left;
+
         letter-spacing: 1px;
         color         : #9297A5;
         opacity       : 1;
-        font-family   : "fontavenirlight";
-        line-height   : 2.2rem;
-        font-weight   : 600;
-        font-size     : 16px;  
+        font-family   : "fontLatoRegular";
+        font-weight   : 400;
+        font-size  : 1.25rem;
+        line-height: 2.1;
     }
-    .main_admin
-    {
+
+    .main_admin {
         padding-top: 100px;
-        .admin_img
-        {
-           padding-top: 100px;
-            background: url('/images/Ellipse\ 258.svg');
-            background-repeat: no-repeat;
-            background-position: 50% 10% ;
-            height: 900px;
-           
-            .amin_1
-            {
-                text-align: end;
-                padding-right:0px;
-                .amin_img_1
-                {
-                    width:80%;
-                    position:relative;
-                    top: 150px;
+
+        .admin_img {
+            padding-top        : 100px;
+            background         : url('/images/Ellipse\ 258.svg');
+            background-repeat  : no-repeat;
+            background-position: 50% 10%;
+            height             : 900px;
+
+            .amin_1 {
+                text-align   : end;
+                padding-right: 0px;
+
+                .amin_img_1 {
+                    width   : 80%;
+                    position: relative;
+                    top     : 150px;
                 }
             }
-    
-            .amin_2
-            {
-                text-align:center;
-                padding:0px;
-                .amin_img_2
-                {
-                    width:85%;
+
+            .amin_2 {
+                text-align: center;
+                padding   : 0px;
+
+                .amin_img_2 {
+                    width: 85%;
                 }
             }
-            .amin_3
-            {
-                text-align:left;
+
+            .amin_3 {
+                text-align  : left;
                 padding-left: 0px;
-                .amin_img_3
-                {
-                    width:80%;
-                    position:relative;
-                    top: 100px;
+
+                .amin_img_3 {
+                    width   : 80%;
+                    position: relative;
+                    top     : 100px;
                 }
             }
         }
-    }
-    }
-    .conversation_section
-    {
-        background-color:#FFF8F4; /* For browsers that do not support gradients */
-        background-image: linear-gradient(#FFF8F4, #FFFFFF);
-        .conversation_container
-        {
-            padding: 100px 0px;
-
-            .title_web
-            {
-                margin-top:150px;
-            }
-            .conver_img_section
-            {
-                .conver_img
-                {
-                    width:70%
-                }
-            }
-        }
-    }
-    
-    .quick_onboard_1
-{
-
-    background-color:#FFF8F4;
- padding-bottom:100px;
-.index_head_1
-{
-    margin-top: 100px;
-    .title_web
-    {
-        margin-top: 50px;
     }
 }
-    .image_quick_on
-{
+
+.conversation_section {
+    background-color: #FFF8F4;
+    /* For browsers that do not support gradients */
+    background-image: linear-gradient(#FFF8F4, #FFFFFF);
+
+    .conversation_container {
+        padding: 100px 0px;
+
+        .title_web {
+            margin-top: 150px;
+        }
+
+        .conver_img_section {
+            .conver_img {
+                width: 70%
+            }
+        }
+    }
+}
+
+.quick_onboard_1 {
+
+    background-color: #FFF8F4;
+    padding-bottom  : 100px;
+
+    .index_head_1 {
+        margin-top: 100px;
+
+        .title_web {
+            margin-top: 50px;
+        }
+    }
+
+    .image_quick_on {
+        margin-top: 40px;
+
+        .rec_img_1 {
+            text-align  : center;
+            padding-left: 0px;
+
+            .img_onboard_2 {
+                width: 110%;
+            }
+        }
+
+        .rec_img_2 {
+            padding-left: 0px;
+            text-align  : center;
+        }
+
+        .img_onboard_1 {
+            width: 90%;
+        }
+
+        .img_onboard_3 {
+            text-align: left;
+            width     : 100%;
+            height    : 100%;
+            margin-top: 28px;
+        }
+    }
+}
+
+.notification {
+    margin-top         : 100px;
+    background         : url('/images/Ellipse\ 258.svg');
+    background-repeat  : no-repeat;
+    background-position: 40% 10%;
+    height             : 900px;
+
+    .Title_details_1 {
+        text-align    : left;
+        margin-top    : 20px;
+        letter-spacing: 1px;
+        color         : #9297A5;
+        opacity       : 1;
+        font-family   : "fontLatoRegular";
+                font-weight   : 400;
+                font-size  : 1.25rem;
+                line-height: 2.1;
+    }
+
+    .main_admin {
+
+        .admin_img {
+
+
+
+
+            .amin_1 {
+                text-align   : end;
+                padding-right: 0px;
+
+                .amin_img_1 {
+                    width   : 60%;
+                    position: relative;
+                    top     : 100px;
+                }
+            }
+
+            .amin_2 {
+
+                text-align: left;
+                padding   : 0px;
+                top       : 10px;
+
+                .amin_img_2 {
+                    width: 60%;
+
+                }
+            }
+
+        }
+    }
+
+}
+
+.back_svg {
+    background: url('/images/Ellipse\ 259.svg');
+
+}
+
+.index_head_5 {
+    margin-top: 0px;
+
+    .title_web {
+        .healthcare {
+            font-family   : "fontLatoRegular";
+                font-weight   : 400;
+                font-size  : 1.25rem;
+                line-height: 2.1;
+            letter-spacing: 0px;
+            color         : #F27D35;
+            opacity       : 1;
+           
+
+        }
+
+        .managed_care_title {
+            letter-spacing: 2.22px;
+            color         : #363A57;
+            opacity       : 1;
+            font-size     : 46px;
+            font-family   : "fontGraphikSemibold";
+
+        }
+
+
+
+        .Title_details_1 {
+            text-align    : left;
+            margin-top    : 30px;
+            letter-spacing: 1px;
+            color         : #9297A5;
+            opacity       : 1;
+            font-family   : "fontLatoRegular";
+                font-weight   : 400;
+                font-size  : 1.25rem;
+                line-height: 2.1;
+
+        }
+
+    }
+}
+
+.yellow_line {
+    width           : 50px;
+    height          : 7px;
+    background-color: #FFCB05;
+    padding         : 0px 0px 0px 30px;
+    border-radius   : 10px;
+    margin-left     : 4px;
+
+}
+
+.image_quick_on_6 {
+    margin-top: 40px;
+}
+
+.manage_products_image_1 {
+    width     : 100%;
+    margin-top: 20px;
+}
+
+.college_section {
     margin-top: 40px;
 
-    .rec_img_1
-    {
-        text-align: center;
-        padding-left: 0px;
-        .img_onboard_2
-    {
-        width:110%;
-    }
-    }
-    .rec_img_2
-    {
-        padding-left: 0px;
-        text-align: center;
-    }
-    .img_onboard_1
-    {
-        width:90%;
-    }
-    .img_onboard_3
-    {
-        text-align:left;
-        width:100%;
-        height:100%;
-        margin-top: 28px;
+    .college_1 {
+        width : 100%;
+        height: 100%;
     }
 }
+
+@media only screen and (max-width: 1440px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
 }
-.notification
-{
-    margin-top: 100px;
-    background: url('/images/Ellipse\ 258.svg');
-    background-repeat: no-repeat;
-    background-position: 40% 10% ;
-    height: 900px;
-    
-    .Title_details_1
-    {
-        text-align    : left;
-        margin-top: 20px;
-        letter-spacing: 1px;
-        color         : #9297A5;
+
+@media only screen and (max-width: 1025px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .index_head .title_web .healthcare {
+        font-family   : "fontavenirmedium";
+        letter-spacing: 0px;
+        color         : #F27D35;
         opacity       : 1;
-        font-family   : "fontavenirlight";
-        line-height   : 2.2rem;
-        font-weight   : 600;
-        font-size     : 16px;  
-    }
-    .main_admin
-    {
-       
-        .admin_img
-        {
-           
-           
-           
-           
-            .amin_1
-            {
-                text-align: end;
-                padding-right:0px;
-                .amin_img_1
-                {
-                    width:60%;
-                    position:relative;
-                    top: 100px;
-                }
-            }
-    
-            .amin_2
-            {
-               
-                text-align:left;
-                padding:0px;
-                top: 10px;
-                .amin_img_2
-                {
-                    width:60%;
-                   
-                }
-            }
-            
-        }
-    }
-   
-    }
-    .back_svg
-    {
-        background: url('/images/Ellipse\ 259.svg');
-       
+        font-size     : 22px;
     }
 
-    .index_head_5 {
-        margin-top: 0px;
-    
-        .title_web {
-            .healthcare {
-                font-family   : "fontavenirmedium";
-                letter-spacing: 0px;
-                color         : #F27D35;
-                opacity       : 1;
-                font-size     : 28px;
-    
-            }
-    
-            .managed_care_title {
-                letter-spacing: 2.22px;
-                color         : #363A57;
-                opacity       : 1;
-                font-size     : 60px;
-                font-family   : "fontcalisto";
-               
-            }
-    
-           
-    
-            .Title_details_1 {
-                text-align    : left;
-                margin-top    : 30px;
-                letter-spacing: 1px;
-                color         : #9297A5;
-                opacity       : 1;
-                font-family   : "fontavenirlight";
-                line-height   : 2.2rem;
-                font-weight   : 600;
-                font-size     : 16px;
-                
-            }
-         
-        }
-    }
-    .yellow_line
-    {
-      width:50px;
-      height:7px;
-      background-color:#FFCB05;
-      padding: 0px 0px 0px 30px;
-      border-radius: 10px;
-      margin-left:4px;
-    
+    .index_head .title_web .managed_care_title {
+        letter-spacing: 2.22px;
+        color         : #363A57;
+        opacity       : 1;
+        font-size     : 48px;
+        font-family   : "fontcalisto";
     }
 
-    .image_quick_on_6
-    {
-        margin-top: 40px;
-    }
-    .manage_products_image_1
-    {
-        width:100%;
-        margin-top:20px;
-    }
-
-    .college_section
-    {
-        margin-top: 40px;
-        .college_1
-        {
-            width:100%;
-            height:100%;
-        }
+    .blue_section .first_one .our_approach {
+        margin-top    : 80px;
+        text-align    : center;
+        font-family   : "fontcalisto";
+        letter-spacing: 2.22px;
+        color         : #FFFFFF;
+        opacity       : 1;
+        font-size     : 50px;
     }
 
-    @media only screen and (max-width: 1440px) {
+    .blue_section .fifth_one .launch_title {
+        padding-top   : 20px;
+        text-align    : center;
+        font-family   : "fontGraphikSemibold";
+        letter-spacing: 2.22px;
+        color         : #FFFFFF;
+        opacity       : 1;
+        font-size     : 46px;
+    }
 
-body 
-{
-    overflow-x: hidden;
+    .index_head_1 .title_web .managed_care_title {
+        letter-spacing: 2.22px;
+        color         : #363A57;
+        opacity       : 1;
+        font-size     : 46px;
+        font-family   : "fontGraphikSemibold";
+    }
+
+    .index_head_5 .title_web .managed_care_title {
+        letter-spacing: 2.22px;
+        color         : #363A57;
+        opacity       : 1;
+        font-size     : 46px;
+        font-family   : "fontGraphikSemibold";
+    }
 }
-
-    }
-
-    @media only screen and (max-width: 1025px) {
-
-        body 
-        {
-            overflow-x: hidden;
-        }
-        
-        .index_head .title_web .healthcare {
-            font-family: "fontavenirmedium";
-            letter-spacing: 0px;
-            color: #F27D35;
-            opacity: 1;
-            font-size: 22px;
-        }
-        .index_head .title_web .managed_care_title {
-            letter-spacing: 2.22px;
-            color: #363A57;
-            opacity: 1;
-            font-size: 48px;
-            font-family: "fontcalisto";
-        }
-        .blue_section .first_one .our_approach {
-            margin-top: 80px;
-            text-align: center;
-            font-family: "fontcalisto";
-            letter-spacing: 2.22px;
-            color: #FFFFFF;
-            opacity: 1;
-            font-size: 50px;
-        }
-        .blue_section .fifth_one .launch_title {
-            padding-top: 20px;
-            text-align: center;
-            font-family: "fontcalisto";
-            letter-spacing: 2.22px;
-            color: #FFFFFF;
-            opacity: 1;
-            font-size: 50px;
-        }
-        .index_head_1 .title_web .managed_care_title {
-            letter-spacing: 2.22px;
-            color: #363A57;
-            opacity: 1;
-            font-size: 50px;
-            font-family: "fontcalisto";
-        }
-        .index_head_5 .title_web .managed_care_title {
-            letter-spacing: 2.22px;
-            color: #363A57;
-            opacity: 1;
-            font-size: 50px;
-            font-family: "fontcalisto";
-        }
-            }
