@@ -127,7 +127,7 @@
 .Csk_title {
   font-size: 60px;
   font-weight: bold;
-  color: #0066b3;
+  color: black;
 }
 
 .Title_details {
@@ -491,7 +491,7 @@
   .Csk_title {
     font-size: 50px;
     font-weight: bold;
-    color: #0066b3;
+    color: black;
   }
   .index_image {
     width: 140%;
@@ -710,6 +710,63 @@
 }
 
 @media only screen and (max-width: 426px) {
+  .web_component {
+    display: none;
+  }
+  .mobile_component {
+    display: block !important;
+  }
+  .bluw {
+    background: url("images/csk assets/bluedot.svg");
+    background-repeat: no-repeat !important;
+    background-position: 83% 65%;
+    background-size: 3% !important;
+  }
+  .skyl {
+    background: url("images/csk assets/skybluedot.svg");
+    background-repeat: no-repeat !important;
+    background-position: 95% 0% !important;
+    background-size: 3% !important;
+  }
+  .ry {
+    background: url("images/csk assets/reddot.svg");
+    background-repeat: no-repeat !important;
+    background-position: 96% 100% !important;
+  }
+  .yl {
+    background: url("images/csk assets/yellowdot.svg");
+    background-repeat: no-repeat !important;
+    background-position: 9% 10% !important;
+    background-size: 2% !important;
+  }
+  .se1 {
+    background: url("images/csk assets/skybluedot.svg");
+    background-repeat: no-repeat !important;
+    background-position: 100% 40% !important;
+  }
+  .blu {
+    background: url("images/csk assets/skybluedot.svg");
+    background-repeat: no-repeat !important;
+    background-position: 24% 54% !important;
+    background-size: 4% !important;
+  }
+  .title_2 {
+    font-size: 17px;
+    font-family: "fontGraphikBold";
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  .yel_ {
+    background: url("images/csk assets/yellowdot.svg");
+    background-repeat: no-repeat !important;
+    background-position: 32% 0% !important;
+  }
+  .red_ {
+    background: url("images/csk assets/reddot.svg");
+    background-repeat: no-repeat !important;
+    background-position: 92% 21% !important;
+  }
   .Title_details {
     font-size: 15px;
     line-height: 2.3rem;
@@ -735,11 +792,21 @@
   }
   .understanding_title {
     color: #0066b3;
-    text-align: center;
-    font-size: 39px;
+    text-align: left;
+    font-size: 35px;
     font-weight: bold;
-    padding: 0px 11px;
+    padding: 0px 0px;
     /* font-size: 50px; */
+  }
+  .yllll {
+    background: url("images/csk assets/yellowdot.svg");
+    background-repeat: no-repeat !important;
+    background-position: 91% 3% !important;
+  }
+  .rebranding_text {
+    color: #444444;
+    font-size: 31px;
+    text-align: left;
   }
   .first_img {
     width: 95%;
@@ -798,7 +865,7 @@
   }
   .typography_heading {
     color: #191710;
-    font-size: 30px;
+    font-size: 26px;
     letter-spacing: 0px;
     font-weight: bold;
   }
@@ -825,7 +892,7 @@
   }
   .rebranding_text {
     color: #444444;
-    font-size: 34px;
+    font-size: 31px;
     text-align: left;
   }
   .sec_1 {
@@ -1004,12 +1071,12 @@
   .rebranding_text_1 {
     color: #444444;
     font-size: 26px;
-    text-align: left;
+    text-align: center;
   }
   .rebranding_text {
     color: #444444;
     font-size: 26px;
-    text-align: center;
+    text-align: left !important;
   }
   .seveen_img {
     display: block;
