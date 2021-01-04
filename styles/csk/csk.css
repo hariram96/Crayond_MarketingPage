@@ -179,9 +179,9 @@
 }
 
 .index_image {
-  width: 100%;
+  width: 60%;
   height: 100%;
-  margin-top: 30px;
+  text-align: center;
 }
 
 .rebranding_head {
@@ -326,38 +326,38 @@
 }
 
 .first_img {
-  width: 95%;
+  width: 90%;
   position: relative;
   margin-top: 150px;
   margin-left: 0%;
 }
 
 .second_img {
-  width: 95%;
+  width: 90%;
 }
 
 .third_img {
-  width: 95%;
+  width: 90%;
   position: relative;
   margin-top: 150px;
   margin-left: 0%;
 }
 
 .fourth_img {
-  width: 95%;
+  width: 90%;
   position: relative;
   margin-top: 50px;
   margin-left: 0%;
 }
 
 .fifth_img {
-  width: 95%;
+  width: 90%;
   position: relative;
   margin-top: -100px;
 }
 
 .six_img {
-  width: 95%;
+  width: 90%;
   position: relative;
   margin-top: 50px;
   margin-left: 0%;
@@ -494,7 +494,7 @@
     color: black;
   }
   .index_image {
-    width: 140%;
+    width: 70%;
     height: 100%;
     margin-top: 0px;
   }
@@ -516,25 +516,9 @@
     font-weight: 400;
   }
   .index_image {
-    width: 100%;
+    width: 60%;
     height: 100%;
     margin-top: 20px;
-    padding-left: -60px;
-  }
-  .understanding_title {
-    color: #0066b3;
-    text-align: center;
-    font-size: 50px;
-    font-weight: bold;
-  }
-  .understanding_details {
-    padding-top: 20px;
-    font-size: 14px;
-    color: #848484;
-    text-align: center;
-    font-family: "fontNova";
-    line-height: 2.3rem;
-    padding: 0px 40px;
   }
   .understanding_details {
     padding-top: 20px;
@@ -543,7 +527,7 @@
     font-family: "fontNova";
     line-height: 2.3rem;
     padding: 0px 0px;
-    text-align: left;
+    text-align: center;
   }
   .rebranding_content {
     font-size: 14px;
