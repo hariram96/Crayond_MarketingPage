@@ -660,7 +660,24 @@ svg{
             color: #665CD7;
         }
     }
+
+    #saasmetrics{
+        margin: 0;
+        width: 100%;
+        color: black;
+        display: block;
+        padding: 0px 0px;
+        font-size: 4px;
+        border-bottom: 1px solid #6c757d1f;
+        text-align: left;
+       
+        &:hover{
+            color: #665CD7;
+        }
+    }
+
 }
+
 
 .bulletin{
     margin-bottom: 15px;

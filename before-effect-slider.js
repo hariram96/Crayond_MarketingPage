@@ -55,8 +55,8 @@
       const defaults = {
         Selector: "#beforeEffectslider", // Element that the slider will be build in
         Vertical: false, // Vertical is false as default 
-        BeforeImage: "images/csk assets/Rectangle 3219.svg",
-      	AfterImage: "images/csk assets/Intersection 3.svg", // After Image
+        BeforeImage: "images/csk assets/CSK1.png",
+      	AfterImage: "images/csk assets/CSK2.png", // After Image
         AftereAlt: "After image", // After Image Alt
         DragFrom:50, // Percent % of before Image
       	MaxDrag: 0,  //Max drag from right or bottom if vertical
