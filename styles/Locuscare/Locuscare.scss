@@ -1172,6 +1172,10 @@ svg {
     margin-top: 0px;
     position: relative;
 }
+.quickmobile
+{
+display:none;
+}
     
   @media only screen and (max-width: 1442px) {
     .section_2
@@ -1245,9 +1249,31 @@ svg {
         width:100% !important
         // user-select: none;
     }
+    .first_se {
+        padding: 0px 38px;
+    }
     .section_2
     {
-        margin-left:-15px !important;
+        margin-left:0px !important;
+    }
+    .quickweb
+    {
+        display:none;
+    }
+    .quickmobile{
+        display:block;
+        margin-top: 20px !important;
+    }
+    .phone_1 {
+        position: relative;
+        left: 0px;
+        width: 100%;
+    }
+    .phone_2 {
+        position: relative;
+        right: 10px !important;
+        width: 100%;
+        margin-top: 10px !important;
     }
     .colomn_div {
         .icon_1 {
@@ -1278,7 +1304,7 @@ svg {
             background-color: white;
             border-radius   : 50px;
             position        : absolute;
-            left            : 0px;
+            left            : 10px !important;
            
             height          : 50px;
             text-align      : center;
@@ -1312,7 +1338,7 @@ svg {
         letter-spacing: 0.3px;
         color: #767A82;
         opacity: 2;
-        font-size: 17px;
+        font-size: 16px;
         font-weight: 400;
     }
     .head_details1 .para_row {
@@ -1334,7 +1360,7 @@ svg {
     letter-spacing: 0.3px;
     color         : #767A82;
     opacity       : 2;
-    font-size     : 19px;
+    font-size     : 16px;
     font-weight   : 400;
     opacity       : 0.9; 
    
@@ -1362,7 +1388,7 @@ svg {
         letter-spacing: 0.3px;
         color: #767A82;
         opacity: 2;
-        font-size: 17px;
+        font-size: 16px;
         font-weight: 400;
         opacity: 0.9;
         padding-left: 0%;
@@ -1386,7 +1412,7 @@ svg {
         letter-spacing: 0.4px;
         color: #FFFFFF;
         opacity: 2;
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 400;
         opacity: 0.7;
     }
@@ -1413,14 +1439,14 @@ svg {
     {
         margin-top:5% !important;
         padding:2%;
-        font-size:18px !important;
+        font-size:16px !important;
     }
     .notification_content {
         font-family: "fontLatoRegular";
         letter-spacing: 0.3px;
         color: #767A82;
         opacity: 2;
-        font-size: 17px;
+        font-size: 16px;
         font-weight: 400;
         opacity: 0.9;
         padding-top: 0%;
@@ -1440,7 +1466,7 @@ svg {
     letter-spacing: 0.3px;
     color: #767A82;
     opacity: 2;
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 400;
     opacity: 0.9;
     padding-left: 3%;
@@ -1464,7 +1490,7 @@ svg {
         color         : #222C5D;
         opacity       : 1;
     }
-    .quick
+    .quickweb
     {
         margin-top: 10% !important;
     }
@@ -1519,13 +1545,16 @@ svg {
             letter-spacing: 0.3px;
             color         : #FFFFFF;
             opacity       : 2;
-            font-size     : 17px !important;
+            font-size     : 16px !important;
             font-weight   : 400;
             opacity       : 0.7;
            
     
         }
     }
+}
+.qr_code {
+    height:500px !important;
 }
 
 @media only screen and (max-width: 378px) {
