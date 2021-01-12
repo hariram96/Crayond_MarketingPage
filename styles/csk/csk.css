@@ -131,8 +131,8 @@
 }
 
 .Title_details {
-  font-size: 16px;
-  line-height: 2.5rem;
+  font-size: 18px !important;
+  line-height: 2.9rem !important;
   font-family: "fontNova";
   color: #848484;
   font-weight: 700;
@@ -144,7 +144,7 @@
 
 .understanding_details {
   padding-top: 20px;
-  font-size: 16px;
+  font-size: 18px;
   color: #848484;
   text-align: center;
   font-family: "fontNova";
@@ -153,7 +153,7 @@
 }
 
 .rebranding_content {
-  font-size: 16px;
+  font-size: 18px;
   color: #848484;
   text-align: left;
   padding: 20px 0px 0px 0px;
@@ -231,20 +231,20 @@
 
 .typography_bold_text {
   color: #191710;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bold;
   font-family: "fontNova";
 }
 
 .typography_bold_text_1 {
   color: #191710;
-  font-size: 16px;
+  font-size: 18px;
   font-family: "fontNova";
 }
 
 .typography_semibold_text {
   color: #848484;
-  font-size: 16px;
+  font-size: 18px;
   font-family: "fontNova";
 }
 
@@ -473,7 +473,7 @@
 
 .before-effect-main-div {
   margin-top: 0px !important;
-  height: 550px !important;
+  height: 100% !important;
 }
 
 @media only screen and (max-width: 1025px) {
