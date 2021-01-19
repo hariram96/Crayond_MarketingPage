@@ -647,7 +647,7 @@ svg {
   top: 50px;
   z-index: 13;
   left: -25px;
-  width: 130px;
+  width: 140px;
   border-radius: 4px;
   -webkit-box-shadow: 0px 2px 7px 0px rgba(51, 74, 192, 0.12);
           box-shadow: 0px 2px 7px 0px rgba(51, 74, 192, 0.12);
@@ -658,7 +658,7 @@ svg {
   width: 100%;
   color: black;
   display: block;
-  padding: 10px 24px;
+  padding: 10px 20px;
   border-bottom: 1px solid #6c757d1f;
   text-align: left;
 }
@@ -672,7 +672,7 @@ svg {
   width: 100%;
   color: black;
   display: block;
-  padding: 10px 25px;
+  padding: 10px 20px;
   border-bottom: 1px solid #6c757d1f;
   text-align: left;
 }
@@ -873,7 +873,7 @@ svg {
   letter-spacing: 0.3px;
   color: #FFFFFF;
   opacity: 2;
-  font-size: 21px;
+  font-size: 18px;
   font-weight: 400;
   opacity: 0.7;
 }
@@ -894,7 +894,7 @@ svg {
   letter-spacing: 0.3px;
   color: #FFFFFF;
   opacity: 2;
-  font-size: 19px;
+  font-size: 18px;
   font-weight: 400;
   opacity: 0.7;
 }
@@ -913,7 +913,7 @@ svg {
   letter-spacing: 0.3px;
   color: #767A82;
   opacity: 2;
-  font-size: 19px;
+  font-size: 18px;
   font-weight: 400;
   opacity: 0.9;
   padding-left: 20%;
@@ -932,7 +932,7 @@ svg {
 }
 
 .achieved_title {
-  font-size: 20px;
+  font-size: 18px;
   letter-spacing: 0px;
   color: #212529;
   opacity: 1;
@@ -945,7 +945,7 @@ svg {
   letter-spacing: 0.3px;
   color: #767A82;
   opacity: 2;
-  font-size: 19px;
+  font-size: 18px;
   font-weight: 400;
   opacity: 0.9;
   padding-top: 1%;
@@ -957,7 +957,7 @@ svg {
   letter-spacing: 0.3px;
   color: #767A82;
   opacity: 2;
-  font-size: 19px;
+  font-size: 18px;
   font-weight: 400;
   opacity: 0.9;
   padding-left: 25%;
@@ -971,7 +971,7 @@ svg {
   letter-spacing: 0.3px;
   color: #767A82;
   opacity: 2;
-  font-size: 19px;
+  font-size: 18px;
   font-weight: 400;
   opacity: 0.9;
   padding-top: 1%;
@@ -998,7 +998,7 @@ svg {
   letter-spacing: 0.3px;
   color: #767A82;
   opacity: 2;
-  font-size: 21px;
+  font-size: 18px;
   font-weight: 400;
   opacity: 0.9;
 }
@@ -1019,7 +1019,7 @@ svg {
   margin: 6px 0px;
   color: #fff;
   padding: 20px;
-  font-size: 17px;
+  font-size: 18px;
 }
 
 .card1 {
@@ -1098,6 +1098,9 @@ svg {
 }
 
 @media only screen and (max-width: 1030px) {
+  .family {
+    margin-top: 200px !important;
+  }
   .section_2 {
     margin-left: 2px !important;
   }

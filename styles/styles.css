@@ -647,7 +647,7 @@ svg {
   top: 50px;
   z-index: 13;
   left: -25px;
-  width: 130px;
+  width: 140px;
   border-radius: 4px;
   -webkit-box-shadow: 0px 2px 7px 0px rgba(51, 74, 192, 0.12);
           box-shadow: 0px 2px 7px 0px rgba(51, 74, 192, 0.12);
@@ -658,7 +658,7 @@ svg {
   width: 100%;
   color: black;
   display: block;
-  padding: 10px 24px;
+  padding: 10px 20px;
   border-bottom: 1px solid #6c757d1f;
   text-align: left;
 }
@@ -672,7 +672,7 @@ svg {
   width: 100%;
   color: black;
   display: block;
-  padding: 10px 25px;
+  padding: 10px 20px;
   border-bottom: 1px solid #6c757d1f;
   text-align: left;
 }
@@ -686,7 +686,7 @@ svg {
   width: 100%;
   color: black;
   display: block;
-  padding: 10px 18px;
+  padding: 10px 20px;
   font-size: 16px;
   border-bottom: 1px solid #6c757d1f;
   text-align: left;
