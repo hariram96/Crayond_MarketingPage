@@ -262,6 +262,8 @@ body{
         
         color:white;
     }
+    
+
 }
 .header_mobile ul.menu li.menu-item a {
 	display: block;
@@ -3130,8 +3132,8 @@ body{
         font-size: 10px;
         padding: 3px 4px;
         position: absolute;
-        top: 0px;
-        width: 35px;
+        top: 135px;
+        width: 65px;
         height: 17px;
         border-radius: 3px;
         background-color: #16cebc;
@@ -4076,8 +4078,10 @@ h4 {
 
 
 
-@media only screen and (max-width: 991px) and (min-width: 768px)
+@media only screen and (max-width: 991px) and (min-width: 767px)
 {
+
+   
 .header {
     display: none;
     position: fixed;
@@ -4254,4 +4258,11 @@ h4 {
     }
 }
  
+
+
+}
+.header_mobile.menu-open {
+    height: 100%;
+    background: #fff;
+    transition: all 0.45s ease-out, background 0.8s ease-out;
 }

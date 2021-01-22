@@ -3111,8 +3111,8 @@ body {
     font-size: 10px;
     padding: 3px 4px;
     position: absolute;
-    top: 0px;
-    width: 35px;
+    top: 135px;
+    width: 65px;
     height: 17px;
     border-radius: 3px;
     background-color: #16cebc;
@@ -3944,7 +3944,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 991px) and (min-width: 768px) {
+@media only screen and (max-width: 991px) and (min-width: 767px) {
   .header {
     display: none;
     position: fixed;
@@ -4078,5 +4078,12 @@ body {
   .footer_social_media .row .footer_list {
     padding: 15px 20px 15px 0px;
   }
+}
+
+.header_mobile.menu-open {
+  height: 100%;
+  background: #fff;
+  -webkit-transition: all 0.45s ease-out, background 0.8s ease-out;
+  transition: all 0.45s ease-out, background 0.8s ease-out;
 }
 /*# sourceMappingURL=styles.css.map */
