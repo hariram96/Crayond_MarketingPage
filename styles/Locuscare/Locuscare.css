@@ -843,7 +843,7 @@ svg {
   letter-spacing: 0.3px;
   color: #767A82;
   opacity: 2;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
 }
 
@@ -1090,7 +1090,7 @@ svg {
 @media only screen and (max-width: 1442px) {
   .section_2 {
     margin-left: 0px !important;
-    padding: 0px 20px !important;
+    padding: 0px 65px !important;
   }
   .web_launch {
     height: 600px !important;
@@ -1103,6 +1103,7 @@ svg {
   }
   .section_2 {
     margin-left: 2px !important;
+    padding: 0px 20px !important;
   }
   .first_se {
     padding: 0px 52px;
@@ -1147,6 +1148,9 @@ svg {
   }
   .approach_whole {
     display: none !important;
+  }
+  .first_se {
+    padding: 0px 24px;
   }
 }
 

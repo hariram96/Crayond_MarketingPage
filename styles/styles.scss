@@ -458,7 +458,7 @@ body{
         padding: 3px 4px;
         position: absolute;
         top: 0px;
-        width: 35px;
+        width: 69px;
         height: 17px;
         border-radius: 3px;
         background-color: #16cebc;
@@ -554,12 +554,13 @@ body{
             
             tag{
                 font-size: 10px;
-                padding: 3px 4px;
+                padding: 4px 6px;
                 position: absolute;
-                right: -10px;
-                top: 4px;
-                width: 35px;
-                height: 17px;
+                right: -20px;
+                
+                top: 0px;
+                width: 69px;
+                height: 19px;
                 border-radius: 3px;
                 background-color: #16cebc;
                 line-height: 1.1;
@@ -2468,7 +2469,7 @@ body{
                        font-size: 1.4rem;
                    }
                    .card--text{
-                       font-size: 1.15rem;
+                       font-size: 1.15rem; 
                    }
                }
            }
@@ -2548,12 +2549,12 @@ body{
 
 }
 // Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 767px) and (max-width: 991px) {
     .header_mobile{
         display: block !important;
       
     .header{
-        display: none;
+        display: none !important;
         position: fixed;
         top: 0;
         border-bottom: 1px solid #f1f1f1;
@@ -2623,7 +2624,7 @@ body{
                 margin-top: 8% !important;
             }
             .card--{
-                padding: 25px;
+                padding: 25px !important;
                 .card--head {
                     font-size: 1.2rem;
                 }
@@ -3098,6 +3099,7 @@ body{
         display: none !important;
     }
 
+}
 }
 // Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
@@ -4071,4 +4073,185 @@ h4 {
      
     }
 }
+
+
+
+@media only screen and (max-width: 991px) and (min-width: 768px)
+{
+.header {
+    display: none;
+    position: fixed;
+    top: 0;
+    border-bottom: 1px solid #f1f1f1;
+    padding: 10px;
+}
+.who_you_are {
+    .text {
+       h1{
+           font-size: 2rem;
+       }
+       .banner--text{
+           font-size: 1.2rem;
+       }
+    }
+    .card_div{
+       .card-div {
+           transition: none;
+           margin-top: 8% !important;
+           &:hover{
+               margin-top: 8% !important;
+           }
+           .card--{
+               padding: 25px !important;
+               .card--head {
+                   font-size: 1.2rem;
+               }
+               .card--text{
+                   font-size: 1rem;
+               }
+               .fa_icons{
+                   top: -30px;
+                   left: 44px;
+                   height: 60px;
+                   width: 60px;
+                   img{
+                       width: 25px;
+                       height: 30px;
+                   }
+               }
+           }
+       }
+     }
+   }
+
+   .why_us {
+    .text {
+       h1{
+           font-size: 2rem;
+       }
+       .banner--text{
+           font-size: 1.2rem;
+       }
+    }
+    .row{
+        .icon_div{
+            .fa_icon{
+                background-color: green;
+                height: 60px;
+                width: 60px;
+                img{
+                    width: 28px;
+                    height: 30px;
+                }
+            }
+            .flag{
+                background-color: #ffffff;
+                margin-bottom: 6%;
+                text-align: center;
+                display: flex;
+                img{
+                    width: 100px;
+                    height: 100%;
+                }
+            }
+        }
+        h1{
+            font-size: 1.7rem;
+        }
+        .text_para{
+            font-size: 1rem;
+        }
+        .coming_soon_email{
+            // padding: 0px 15px;
+            input{
+                width: 100%;
+            }
+            .desktop_btn{
+                display: none;
+            }
+            .mobile_btn{
+                width: 100% !important;
+                display: block !important;
+            }
+        }
+    }
+}
+
+.our_secrets{
+    .text{
+        h1{
+            font-size: 2rem;
+        }
+    }
+    .banner--text{
+        font-size: 1.2rem;
+    }
+    .row{
+        .card__body_div{
+            .card{
+                .card__body{
+                    padding: 14px 20px 16px 20px;
+                    .fa_icon{
+                        top: -32px;
+                        padding: 0;
+                        height: 60px;
+                        width: 60px;
+                        display: flex;
+                        img{
+                            width: 25px;
+                            margin: auto;
+                        }
+                    }
+                    .card-title{
+                        margin-top: 8%
+                    }
+                    .card-text{
+                        font-size: 1rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.crayond_ceo{
+    .row{
+        .about-crayond{
+            .details_of_crayond{
+                font-size: 1.7rem;
+            }
+        }
+        .images_ceo{
+            img{
+                width: 100%;
+
+            }
+        }
+    }
+}
+.next_billion{
+    .billion{
+        h1{
+            font-size: 2.5rem;
+        }
+        p{
+            font-size: 19px;
+        }
+    }
+    .path-3 {
+        right: 9.5%;
+        display: none !important;
+        }
+    .ovel-6{
+        display: none !important;
+    }
+}
+.footer_social_media{
+    .row{
+        .footer_list{
+            padding: 15px 20px 15px 0px;
+        }
+    }
+}
+ 
 }
