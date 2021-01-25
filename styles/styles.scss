@@ -1477,13 +1477,28 @@ body{
         }
     }
     .menu_list{
-        text-align: center;
+        text-align: left;
+        margin:0px;
+    }
+    .menu_types
+    {
+        margin-top: 20px;
     }
     .footer_menu{
+        
+        cursor: pointer;
+        margin: 0;
+        font-size: 18px; 
+        color: $text-subtext-color;
+        &:hover{
+            color: #000;
+        }
+    }
+    .footer_menu_1{
         // margin-bottom: 25px;
         cursor: pointer;
         margin: 0;
-        font-size: 16px;
+        font-size: 14px;
         color: $text-subtext-color;
         &:hover{
             color: #000;
