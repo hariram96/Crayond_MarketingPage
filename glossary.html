@@ -377,6 +377,14 @@
 </body>
 <script>
 
+$('.icon-container').click(function(){
+	$('.header_mobile').addClass('menu-open')
+});
+$("#nav-close").click(function(){
+  $('.header_mobile').removeClass('menu-open')
+});
+
+
 
     var List = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "m", "n", "l", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
     var posts = [
@@ -653,6 +661,7 @@
         // });
     });
 
+   
 
 </script>
 
