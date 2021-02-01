@@ -1225,6 +1225,7 @@ svg {
     opacity: 1;
     font-family: "fontNova";
     font-size: 13px;
+    font-weight: 400 !important;
   }
   .colomn_div .sub_heads .dtsub {
     letter-spacing: 0px;
@@ -1232,6 +1233,8 @@ svg {
     opacity: 1;
     font-family: "fontNova";
     font-size: 15px;
+    margin-top: 8px !important;
+    font-weight: 700 !important;
   }
   .head_details .para_1 {
     line-height: 2.2rem;

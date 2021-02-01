@@ -1328,6 +1328,7 @@ display:none;
                 opacity       : 1;
                 font-family   : "fontNova";
                 font-size     : 13px;
+                font-weight: 400 !important;
             }
     
             .dtsub {
@@ -1336,6 +1337,8 @@ display:none;
                 opacity       : 1;
                 font-family   : "fontNova";
                 font-size     : 15px;
+                margin-top: 8px !important;
+    font-weight: 700 !important;
             }
         }
     }
