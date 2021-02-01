@@ -507,19 +507,19 @@ $panelcount: 5; // set # of panels/sections here
     top             : 0;
     height          : 60px;
 
-    tag {
-        font-size       : 10px;
-        padding         : 3px 4px;
-        position        : absolute;
-        top             : 0px;
-        width           : 35px;
-        height          : 17px;
-        border-radius   : 3px;
+    tag{
+        font-size: 10px;
+        padding: 3px 4px;
+        position: absolute;
+        top: 0px;
+        width: 69px;
+        height: 17px;
+        border-radius: 3px;
         background-color: #16cebc;
-        line-height     : 1.1;
-        color           : #fff;
-        margin-left     : 30px;
-    }
+        line-height: 1.1;
+        color: #fff;
+        margin-left: 30px;
+      }
 
     .logo_mobile {
         display: flex;
@@ -620,18 +620,19 @@ $panelcount: 5; // set # of panels/sections here
                     }
                 }
 
-                tag {
-                    font-size       : 10px;
-                    padding         : 3px 4px;
-                    position        : absolute;
-                    right           : -10px;
-                    top             : 4px;
-                    width           : 35px;
-                    height          : 17px;
-                    border-radius   : 3px;
+                tag{
+                    font-size: 10px;
+                    padding: 4px 6px;
+                    position: absolute;
+                    right: -20px;
+                    
+                    top: 0px;
+                    width: 69px;
+                    height: 19px;
+                    border-radius: 3px;
                     background-color: #16cebc;
-                    line-height     : 1.1;
-                    color           : #fff;
+                    line-height: 1.1;
+                    color: #fff;
                 }
             }
 
@@ -741,7 +742,22 @@ svg {
             color: #665CD7;
         }
     }
+    #saasmetrics {
+        margin: 0;
+        width: 100%;
+        color: black;
+        display: block;
+        padding: 10px 20px;
+        font-size: 15px;
+        border-bottom: 1px solid #6c757d1f;
+        text-align: left;
+      }
+      
+      .dropdown #saasmetrics:hover {
+        color: #665CD7;
+      }
 }
+
 
 .bulletin {
     margin-bottom: 15px;
