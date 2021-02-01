@@ -669,7 +669,7 @@ svg {
   color: #665CD7;
 }
 
-.dropdown #blog {
+.dropdown #blogs {
   margin: 0;
   width: 100%;
   color: black;
@@ -679,7 +679,7 @@ svg {
   text-align: left;
 }
 
-.dropdown #blog:hover {
+.dropdown #blogs:hover {
   color: #665CD7;
 }
 
