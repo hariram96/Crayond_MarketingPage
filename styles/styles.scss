@@ -663,6 +663,20 @@ svg{
             color: #665CD7;
         }
     } 
+    #casestudy{
+        margin: 0;
+        width: 100%;
+        color: black;
+        display: block;
+        padding: 10px 20px;
+        font-size: 16px;
+        border-bottom: 1px solid #6c757d1f;
+        text-align: left;
+       
+        &:hover{
+            color: #665CD7;
+        }
+    }
 
     #saasmetrics{
         margin: 0;
