@@ -474,6 +474,7 @@ body {
 
 .header_mobile .logo_mobile a img {
   width: 120px;
+  height: 100%;
 }
 
 .header_mobile .header_mobile_menu {
@@ -540,6 +541,7 @@ body {
 
 .header .row .logo_area .logo img {
   width: 134px;
+  height: 100%;
 }
 
 .header .row .header_menu {
