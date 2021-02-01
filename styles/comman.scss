@@ -1054,9 +1054,7 @@ svg{
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .header_mobile{
         display: block !important;
-        .logo_mobile{
-           
-        }
+       
     }
     .header{
         display: none;
@@ -1071,10 +1069,7 @@ svg{
     .sign_btn {
         display: none !important;
     }
-    .video_player{
-        // height: 50vh;
-        // margin-bottom: 60vh;
-    }
+     
     .whe_we_are_video_player{
         top: 60px !important;
     }
@@ -1143,12 +1138,7 @@ svg{
 }
 // Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    .header_menu {
-        // display: none !important;
-    }
-    .sign_btn {
-        // display: none !important;
-    }
+    
 }
 @media only screen and (max-width: 768px) {
     .header_text{
@@ -1197,10 +1187,7 @@ svg{
   .sign_btn {
       display: none !important;
   }
-  .first_section{
-    //   height: calc(100vh - 85px);
-    //   height: 100% !important;
-  }
+ 
   .whe_we_are_video_player{
       top: 60px !important;
   }

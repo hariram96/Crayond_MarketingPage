@@ -701,61 +701,60 @@ svg {
     width      : 25px;
 }
 
-.dropdown {
-    display         : none;
-    position        : absolute;
+.dropdown{
+    display: none;
+    position: absolute;
     background-color: #fff;
-    top             : 50px;
-    z-index         : 13;
-    left            : -25px;
-    width           : 130px;
-
+    top: 50px;
+    z-index: 13;
+    left: -25px;
+    width: 140px;
+    
     border-radius: 4px;
-    box-shadow   : 0px 2px 7px 0px rgba(51, 74, 192, 0.12);
-
-    #glossary {
-        margin : 0;
-        width  : 100%;
-        color  : black;
-        display: block;
-        padding: 10px 24px;
-
-        border-bottom: 1px solid #6c757d1f;
-        text-align   : left;
-
-        &:hover {
-            color: #665CD7;
-        }
-    }
-
-    #blog {
-        margin : 0;
-        width  : 100%;
-        color  : black;
-        display: block;
-        padding: 10px 25px;
-
-        border-bottom: 1px solid #6c757d1f;
-        text-align   : left;
-
-        &:hover {
-            color: #665CD7;
-        }
-    }
-    #saasmetrics {
+    box-shadow: 0px 2px 7px 0px rgba(51, 74, 192, 0.12);
+    #glossary{
         margin: 0;
         width: 100%;
         color: black;
         display: block;
         padding: 10px 20px;
-        font-size: 15px;
+        
         border-bottom: 1px solid #6c757d1f;
         text-align: left;
-      }
-      
-      .dropdown #saasmetrics:hover {
-        color: #665CD7;
-      }
+        &:hover{
+            color: #665CD7;
+        }
+    }
+    #blog{
+        margin: 0;
+        width: 100%;
+        color: black;
+        display: block;
+        padding: 10px 20px;
+        
+        border-bottom: 1px solid #6c757d1f;
+        text-align: left;
+        
+        &:hover{
+            color: #665CD7;
+        }
+    }
+
+    #saasmetrics{
+        margin: 0;
+        width: 100%;
+        color: black;
+        display: block;
+        padding: 10px 20px;
+        font-size: 16px;
+        border-bottom: 1px solid #6c757d1f;
+        text-align: left;
+       
+        &:hover{
+            color: #665CD7;
+        }
+    }
+
 }
 
 
