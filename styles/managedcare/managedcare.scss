@@ -958,7 +958,12 @@
 @media only screen and (max-width: 427px) {
 
 
-    .index_head_1 .title_web .managed_care_title_1 {
+    .index_head_1 .title_web 
+    
+    {
+        padding:0px;
+        
+        .managed_care_title_1 {
         letter-spacing: 0px;
         color: #363A57;
         opacity: 1;
@@ -966,6 +971,7 @@
         font-family: "fontGraphikSemibold";
         padding: 0px;
     }
+}
     .index_head .title_web .platform_deliverables .deliverables {
         border-left: 3px solid #F27D35;
         line-height: 27px;
