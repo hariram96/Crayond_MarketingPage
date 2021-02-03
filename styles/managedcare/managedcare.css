@@ -881,6 +881,13 @@
 }
 
 @media only screen and (max-width: 427px) {
+  .index_head_1 .title_web .managed_care_title {
+    letter-spacing: 0px;
+    color: #363A57;
+    opacity: 1;
+    font-size: 33px;
+    font-family: "fontGraphikSemibold";
+  }
   .index_head .title_web .platform_deliverables .deliverables {
     border-left: 3px solid #F27D35;
     line-height: 27px;
@@ -1517,16 +1524,6 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 2.1;
-  }
-}
-
-@media only screen and (max-width: 376px) {
-  .index_head_1 .title_web .managed_care_title {
-    letter-spacing: 0px;
-    color: #363A57;
-    opacity: 1;
-    font-size: 33px;
-    font-family: "fontGraphikSemibold";
   }
 }
 
