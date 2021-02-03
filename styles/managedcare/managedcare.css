@@ -884,6 +884,21 @@
   .index_head_1 {
     margin-top: 50px;
   }
+  .index_head_1 .title_web_1 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .index_head_1 .title_web_1 .managed_care_title_1 {
+    letter-spacing: 0px;
+    color: #363A57;
+    opacity: 1;
+    font-size: 33px;
+    font-family: "fontGraphikSemibold";
+    padding: 0px;
+  }
+  .index_head_1 {
+    margin-top: 50px;
+  }
   .index_head_1 .title_web_12 {
     padding-left: 0px;
     padding-right: 0px;
