@@ -882,7 +882,8 @@
 
 @media only screen and (max-width: 427px) {
   .index_head_1 .title_web_12 {
-    padding: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
   .index_head_1 .title_web_12 .managed_care_title_1 {
     letter-spacing: 0px;
