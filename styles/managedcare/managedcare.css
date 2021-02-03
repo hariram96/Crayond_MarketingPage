@@ -907,14 +907,6 @@
     font-size: 18px;
     line-height: 2.1;
   }
-  .administration .main_admin .admin_img {
-    padding-top: 41px !important;
-    background: url("/images/Ellipse 258.svg");
-    background-repeat: no-repeat;
-    background-position: 42% 10%;
-    height: 477px !important;
-    background-size: 371px !important;
-  }
   .index_head .title_web .platform_deliverables .deliverables {
     border-left: 3px solid #F27D35;
     line-height: 27px;
@@ -1551,6 +1543,17 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 2.1;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .administration .main_admin .admin_img {
+    padding-top: 41px !important;
+    background: url("/images/Ellipse 258.svg");
+    background-repeat: no-repeat;
+    background-position: 42% 10%;
+    height: 477px !important;
+    background-size: 371px !important;
   }
 }
 
