@@ -887,6 +887,7 @@
     opacity: 1;
     font-size: 33px;
     font-family: "fontGraphikSemibold";
+    padding: 0px;
   }
   .index_head .title_web .platform_deliverables .deliverables {
     border-left: 3px solid #F27D35;
