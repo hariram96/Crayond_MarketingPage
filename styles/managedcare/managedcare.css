@@ -881,6 +881,9 @@
 }
 
 @media only screen and (max-width: 427px) {
+  .index_head_1 {
+    margin-top: 50px;
+  }
   .index_head_1 .title_web_12 {
     padding-left: 0px;
     padding-right: 0px;

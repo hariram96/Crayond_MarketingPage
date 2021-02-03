@@ -958,7 +958,11 @@
 @media only screen and (max-width: 427px) {
 
 
-    .index_head_1 .title_web_12
+    .index_head_1 
+    {
+        margin-top:50px ;
+
+    .title_web_12
     
     {
         padding-left:0px;
@@ -984,6 +988,7 @@
         line-height: 2.1;
     }
 }
+    }
     .index_head .title_web .platform_deliverables .deliverables {
         border-left: 3px solid #F27D35;
         line-height: 27px;
