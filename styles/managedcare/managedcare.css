@@ -1521,12 +1521,12 @@
 }
 
 @media only screen and (max-width: 376px) {
-  .quick_onboard_1.index_head_1 .title_web.managed_care_title_1 {
-    font-size: 33px !important;
-    font-family: "fontGraphikSemibold" !important;
-    letter-spacing: 0px !important;
+  .index_head_1 .title_web .managed_care_title {
+    letter-spacing: 0px;
     color: #363A57;
     opacity: 1;
+    font-size: 33px;
+    font-family: "fontGraphikSemibold";
   }
 }
 
