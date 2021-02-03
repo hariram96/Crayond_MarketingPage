@@ -1620,7 +1620,10 @@ display: none;
     .managed_care_title_1
     {
         font-size: 33px !important;
-        font-family: "fontGraphikSemibold";
+        font-family: "fontGraphikSemibold" !important;
+        letter-spacing: 0px !important;
+        color: #363A57;
+        opacity: 1;
     }
 }
 @media only screen and (max-width: 325px) {
