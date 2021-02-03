@@ -704,18 +704,6 @@ body {
   .mobile_component {
     display: block !important;
   }
-  .bluw {
-    background: url("images/csk assets/bluedot.svg");
-    background-repeat: no-repeat !important;
-    background-position: 83% 65%;
-    background-size: 3% !important;
-  }
-  .skyl {
-    background: url("images/csk assets/skybluedot.svg");
-    background-repeat: no-repeat !important;
-    background-position: 95% 0% !important;
-    background-size: 3% !important;
-  }
   .ry {
     background: url("images/csk assets/reddot.svg");
     background-repeat: no-repeat !important;
@@ -726,17 +714,6 @@ body {
     background-repeat: no-repeat !important;
     background-position: 9% 10% !important;
     background-size: 2% !important;
-  }
-  .se1 {
-    background: url("images/csk assets/skybluedot.svg");
-    background-repeat: no-repeat !important;
-    background-position: 100% 40% !important;
-  }
-  .blu {
-    background: url("images/csk assets/skybluedot.svg");
-    background-repeat: no-repeat !important;
-    background-position: 24% 54% !important;
-    background-size: 4% !important;
   }
   .title_2 {
     font-size: 17px;
