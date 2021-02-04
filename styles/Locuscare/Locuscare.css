@@ -1437,6 +1437,9 @@ svg {
     width: 100%;
     margin-left: 0px;
   }
+  .family {
+    margin-top: 9px !important;
+  }
 }
 
 @media only screen and (max-width: 378px) {
