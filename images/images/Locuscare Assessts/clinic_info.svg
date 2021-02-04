@@ -1,0 +1,246 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="763.31" height="598.335" viewBox="0 0 763.31 598.335">
+  <defs>
+    <style>
+      .cls-1, .cls-12, .cls-14, .cls-19, .cls-20, .cls-6 {
+        fill: #fff;
+      }
+
+      .cls-2, .cls-22, .cls-23, .cls-5, .cls-9 {
+        fill: #382f9c;
+      }
+
+      .cls-2 {
+        font-size: 17px;
+      }
+
+      .cls-13, .cls-18, .cls-2, .cls-22, .cls-23, .cls-4, .cls-6, .cls-9 {
+        font-family: SegoeUI-Semibold, Segoe UI;
+        font-weight: 600;
+      }
+
+      .cls-17, .cls-18, .cls-24, .cls-3, .cls-8 {
+        opacity: 0.5;
+      }
+
+      .cls-3 {
+        fill: url(#pattern);
+      }
+
+      .cls-4 {
+        fill: #6b6666;
+        font-size: 15px;
+      }
+
+      .cls-18, .cls-20, .cls-6 {
+        font-size: 13px;
+      }
+
+      .cls-10, .cls-11, .cls-27, .cls-7 {
+        fill: none;
+      }
+
+      .cls-7 {
+        stroke: #d6d6d6;
+      }
+
+      .cls-13, .cls-17, .cls-18, .cls-8 {
+        fill: #241a1a;
+      }
+
+      .cls-8, .cls-9 {
+        font-size: 16px;
+      }
+
+      .cls-20, .cls-8 {
+        font-family: SegoeUI-Bold, Segoe UI;
+        font-weight: 700;
+      }
+
+      .cls-10 {
+        stroke: #ccc;
+      }
+
+      .cls-11 {
+        stroke: #382f9c;
+        stroke-width: 2px;
+      }
+
+      .cls-12 {
+        stroke: #d2d2d2;
+      }
+
+      .cls-13 {
+        font-size: 14px;
+      }
+
+      .cls-15 {
+        fill: #8585a3;
+        font-size: 10px;
+        font-family: SegoeUI, Segoe UI;
+      }
+
+      .cls-16 {
+        fill: #fafafa;
+      }
+
+      .cls-19 {
+        stroke: #dbdbdb;
+      }
+
+      .cls-21 {
+        fill: rgba(56,47,156,0.05);
+      }
+
+      .cls-22 {
+        font-size: 12px;
+      }
+
+      .cls-23 {
+        font-size: 11px;
+      }
+
+      .cls-24 {
+        fill: url(#pattern-2);
+      }
+
+      .cls-25, .cls-26, .cls-28 {
+        stroke: none;
+      }
+
+      .cls-26 {
+        fill: rgba(0,0,0,0.1);
+      }
+
+      .cls-28 {
+        fill: #d2d2d2;
+      }
+
+      .cls-29 {
+        filter: url(#Rectangle_401);
+      }
+
+      .cls-30 {
+        filter: url(#Rectangle_54);
+      }
+
+      .cls-31 {
+        filter: url(#Path_38);
+      }
+    </style>
+    <filter id="Path_38" x="0" y="0" width="763.31" height="598.335" filterUnits="userSpaceOnUse">
+      <feOffset dy="13" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="18" result="blur"/>
+      <feFlood flood-color="#382f9c" flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <pattern id="pattern" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 100 100">
+      <image width="100" height="100" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAABmJLR0QA/wD/AP+gvaeTAAAHkElEQVR4nO2daYwURRSAvz1cYHeBZTlFBS8UgxEjGPGHgrpiojHGCEqMxsgPogmHJv7xQMEfxMSgxqiRGBWFaEQxHn+MxOARDRiBKGg4PHB3wRBdYE9YWHb98WayTU3PTHdPd7/qob/khRm2ut6rflNVXVWvqiuwm+HANcAUYHJGJgGjgbOAEUAV0JBJfxQ4BXQAJ4E2oBn4G9gP7AO2Al1xFaAcmAm8CGwH+oCBkKUP2AasBmbEVKbEUQEsAHYSvgOKyS/A3RkbUoDxwDfE7whTNgPjIi6r9TQCv6PvjKzsBUZFWmLLeRV9J5jySqQltpzd6DvAlN2RlrgI2h1ZN1CrbINJD1CnpbxSSzEwhnCcUWFIqdQi4xwVNB1ynqLuYqjZljrEndQhlpE6xDJSh1iGmm3VWorxX2ivT1D50g340JXWEMtQs01rYFgJHANqfFxTqq1+asgJYBjQX6JO32jVkPH4c0bc1KA086vlkCBNQr65p6DporCxZJLkkLhJHWIZqUMsI3WIZaQOsQwVG7VG6pNCzCvIE5QXwrTRMxoDw2rgOHIjdwGtwAEkyM1JBRIAV4cM0kYAIx3fs8FxNQyu8HUjgzoy+R3L/F87EjyX/X6UXEc2AOcgNWNaRv9QJI6rrKkH5qO4TOqBOiRWq17bkJSUFCfaUSdjgVlI2z2OwaCHLqS972Sw7e9C2v4uoBfpF8h87sl8rgWGZD6PzHyuR/qHeqRPGGmky9IBtAA7kD7tjOJaYAsym6odh+Um3wNXR1Z6y5iC/PK1b3ox6czYGisaA8NlJOPppR5YGrdSDYfMVtAZlOvjVqjRqbcjg7wk0M7gADQWNBzSh2xDSwJ9yNa52NBosnoVdAbleNwKNRzSoaAzKJ1xK9RwSKuCzqA0x61QwyF7FHQGJXZbNRyyTUFnULbHrVDDIZsVdAblK20D4qASOVlBe2qkmPyJwrBAo4b0A+sV9PplPdEtD1vHBchZJNq1IJ+cAM6PqvC28i76Nz6fvBVhua3lQmRhSfvmm9LNGVg7sixH3wGmPBFpiS2nGlmd03ZCVrYQ82SijUwG/kXfGYdQCo6zkZnoLut2I+v8KQ5mMxhRGKccQWFlMClcicywxuWM/cAVcRQsyYwGPiN6Z3yCHKCW4pF7kLWTsB3RgsQWpwSgFgkbaqF0RzQDS5DI+ZQSqQJuAdYiYZ5enXAAeBuYS0ICK7Rje4NyCXB55t9GJF4XJGynDTnMchdycHJKSnCSVEMqkGj5RuQo11EMbvrJngqR3T3VhYwvDiM1pi0+M0vDRocMBZqAy4CpSMDzuciWhaDHcRxHOvUW4A/gt4xsJVlhSZFTSe7ArJpwnqqKSR+50+xTyd03UvbUA7cDaxgcZ5h7MZ4mnoGhk2HAf8gazSbkcTsJ27cDMQoZA3yL+9KtuUJ3NtIfROmQuYbOhS5p+pEdVcuRZjPxzEBqQjeFb04PudMYG4pcU4rsIzfA46ci15xCas58ErZmUg88hhTaz0161MjnBp/X+5FHDF2zfF7fCqxE8cBlLwwBFgH/EN6vdlfAvApJN7lvQFgfMK9O4Dli3kNSjBrEEX6mNPJJk5H30hDyNOV1Q8dYZJdvKXm2ASuwYCPSbcBfhHezNhr5NyCDvDAdMt3Q8XiIeR9EaSZ5DPChT2O9yElkAOjkjRDz/87IuwpZpAq7HJ8DE7zdytJpIpzmKZ+sMPRdFWLeC4y874iwHIeAW73c0FJYRjRvTnPKQXIfK7eElK859bIp4rL0I51+6DHU1cQb+nmXof+BEPJcaeR5KfGdJPEeIY5daoCPYzI8K5sMG7LTGkHzc+ubXoq5TJ8SwjxZBTpB0f3IL9jJ8yXkt8HIqxaZmo+7XBsosflapWB0Vl4wbLkYmb4IktccI69FiuValf92F+bmEm5AGHKE3HdUfREgn1/JXff5WbFc/QR4+qojmhAcv/KgYVeQx9SHjTyus6Bcrfg84nCFBUYPAD8adlXhL7KxHXnjtJP3LSjXALLm44lh6HR4+WSmYd9TPq592bg2jnUWr+LWJLtynwXGOuVNw74JHm9qP7Iu7ySOlUg/cq+rBwzWWWCoU9wWrz7wcJ05lqnGjn7RKWvdHGCyxwJDTTEXlOZ4uOZO45p5FpTDFE/v3e2wwFBT9pH76LqzQPpmco9R/9qCcpiSPVm1INpG5pObDDuXFEj7pJF2GvaegFoUbQPzyUeGncNxr829yDuunLxmgf1l5xC3CcI1LunWGWmGI02Dtv1l55AB4BnD1ukuaWYZaRZbYHfZOsRt8eoHx993uJSnUOdvgxRF28BiYj7O3u/420LjbzdaYG/ZO+RLw94hyPr1YXKnIjZaYK8vh2i+nDgoTcjOqb2Z773AO8g4pceRbiIS1J14tH8xXmS1YfNFGXHyrAV2+q4hbht2chJZyFHkEbgnz99rkGMEY4uNKoHTfKD5+u5SaEDeEZWPeSTDGZ7QrsJeZWuBMth05JOvJssNbQP9iLl4Be6DRZvlNJLaZGV5yOX/FsduRYgktVPP0oPsAzyc+d6ITL3b/I5Ek7Lo1LPUIvsTJyJPXWtJljNy+B+fB15pJUaGxAAAAABJRU5ErkJggg=="/>
+    </pattern>
+    <filter id="Rectangle_54" x="580" y="46.936" width="126" height="86" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="8" result="blur-2"/>
+      <feFlood flood-opacity="0.078"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_401" x="92" y="451.936" width="165" height="39" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <pattern id="pattern-2" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 120 120">
+      <image width="120" height="120" xlink:href="data:image/png;base64,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"/>
+    </pattern>
+  </defs>
+  <g id="Group_2659" data-name="Group 2659" transform="translate(-477 -139)">
+    <g class="cls-31" transform="matrix(1, 0, 0, 1, 477, 139)">
+      <g id="Path_38-2" data-name="Path 38" class="cls-1" transform="translate(54 41)">
+        <path class="cls-25" d="M4.1,0H651.214a4.288,4.288,0,0,1,4.1,4.458v481.42a4.288,4.288,0,0,1-4.1,4.458H4.1A4.289,4.289,0,0,1,0,485.878V4.458A4.288,4.288,0,0,1,4.1,0Z"/>
+        <path class="cls-26" d="M 4.095703125 0.499969482421875 C 2.113037109375 0.499969482421875 0.5 2.27532958984375 0.5 4.457550048828125 L 0.5 485.8774719238281 C 0.5 488.059814453125 2.113037109375 489.8353271484375 4.095703125 489.8353271484375 L 651.2142333984375 489.8353271484375 C 653.19677734375 489.8353271484375 654.8096923828125 488.059814453125 654.8096923828125 485.8774719238281 L 654.8096923828125 4.457550048828125 C 654.8096923828125 2.27532958984375 653.19677734375 0.499969482421875 651.2142333984375 0.499969482421875 L 4.095703125 0.499969482421875 M 4.095703125 -3.0517578125e-05 L 651.2142333984375 -3.0517578125e-05 C 653.476318359375 -3.0517578125e-05 655.3096923828125 1.9957275390625 655.3096923828125 4.457550048828125 L 655.3096923828125 485.8774719238281 C 655.3096923828125 488.3390502929688 653.476318359375 490.3353271484375 651.2142333984375 490.3353271484375 L 4.095703125 490.3353271484375 C 1.83367919921875 490.3353271484375 0 488.3390502929688 0 485.8774719238281 L 0 4.457550048828125 C 0 1.9957275390625 1.83367919921875 -3.0517578125e-05 4.095703125 -3.0517578125e-05 Z"/>
+      </g>
+    </g>
+    <text id="Clinic_Info" data-name="Clinic Info" class="cls-2" transform="translate(595 237.935)"><tspan x="0" y="0">Clinic Info</tspan></text>
+    <rect id="icons8-medical-doctor-100" class="cls-3" width="19" height="18" transform="translate(569 224.936)"/>
+    <text id="Cancel" class="cls-4" transform="translate(1013 231.935)"><tspan x="0" y="0">Cancel</tspan></text>
+    <g class="cls-30" transform="matrix(1, 0, 0, 1, 477, 139)">
+      <rect id="Rectangle_54-2" data-name="Rectangle 54" class="cls-5" width="78" height="38" rx="4" transform="translate(603 69.94)"/>
+    </g>
+    <text id="Update" class="cls-6" transform="translate(1097 232.936)"><tspan x="0" y="0">Update</tspan></text>
+    <line id="Line_125" data-name="Line 125" class="cls-7" x2="655.157" transform="translate(531.382 275.942)"/>
+    <text id="Clinic_Admin_Details" data-name="Clinic Admin Details" class="cls-8" transform="translate(960 313.935)"><tspan x="0" y="0">Clinic Admin Details</tspan></text>
+    <text id="Clinic_Details" data-name="Clinic Details" class="cls-9" transform="translate(637 313.935)"><tspan x="0" y="0">Clinic Details</tspan></text>
+    <line id="Line_126" data-name="Line 126" class="cls-10" x2="573.358" transform="translate(572.664 334.042)"/>
+    <line id="Line_127" data-name="Line 127" class="cls-11" x2="278.652" transform="translate(573.428 334.042)"/>
+    <g id="Rectangle_412" data-name="Rectangle 412" class="cls-12" transform="translate(570 363.935)">
+      <rect class="cls-25" width="278" height="42" rx="5"/>
+      <rect class="cls-27" x="0.5" y="0.5" width="277" height="41" rx="4.5"/>
+    </g>
+    <text id="CMG_Clinic" data-name="CMG Clinic" class="cls-13" transform="translate(581 388.935)"><tspan x="0" y="0">CMG Clinic</tspan></text>
+    <rect id="Rectangle_413" data-name="Rectangle 413" class="cls-14" width="68" height="15" transform="translate(590 356.935)"/>
+    <text id="Clinic_Name" data-name="Clinic Name" class="cls-15" transform="translate(595 367.935)"><tspan x="0" y="0">Clinic Name</tspan></text>
+    <g id="Path_98" data-name="Path 98" class="cls-16" transform="translate(870.428 364.239)">
+      <path class="cls-25" d="M 273.6827697753906 40.78177261352539 L 3.822400093078613 40.78177261352539 C 1.990435838699341 40.78177261352539 0.5000073313713074 39.29134368896484 0.5000073313713074 37.45937728881836 L 0.5000073313713074 3.822378635406494 C 0.5000073313713074 1.990414381027222 1.990435838699341 0.4999858140945435 3.822400093078613 0.4999858140945435 L 273.6827697753906 0.4999858140945435 C 275.5147094726563 0.4999858140945435 277.0051574707031 1.990414381027222 277.0051574707031 3.822378635406494 L 277.0051574707031 37.45937728881836 C 277.0051574707031 39.29134368896484 275.5147094726563 40.78177261352539 273.6827697753906 40.78177261352539 Z"/>
+      <path class="cls-28" d="M 3.8223876953125 0.9999847412109375 C 2.26611328125 0.9999847412109375 1 2.266094207763672 1 3.822380065917969 L 1 37.45937728881836 C 1 39.01566314697266 2.26611328125 40.28177261352539 3.8223876953125 40.28177261352539 L 273.6827697753906 40.28177261352539 C 275.2390441894531 40.28177261352539 276.5051574707031 39.01566314697266 276.5051574707031 37.45937728881836 L 276.5051574707031 3.822380065917969 C 276.5051574707031 2.266094207763672 275.2390441894531 0.9999847412109375 273.6827697753906 0.9999847412109375 L 3.8223876953125 0.9999847412109375 M 3.8223876953125 -1.52587890625e-05 L 273.6827697753906 -1.52587890625e-05 C 275.7937927246094 -1.52587890625e-05 277.5051574707031 1.711341857910156 277.5051574707031 3.822380065917969 L 277.5051574707031 37.45937728881836 C 277.5051574707031 39.57041549682617 275.7937927246094 41.28177261352539 273.6827697753906 41.28177261352539 L 3.8223876953125 41.28177261352539 C 1.711334228515625 41.28177261352539 0 39.57041549682617 0 37.45937728881836 L 0 3.822380065917969 C 0 1.711341857910156 1.711334228515625 -1.52587890625e-05 3.8223876953125 -1.52587890625e-05 Z"/>
+    </g>
+    <text id="CLID1539" class="cls-13" transform="translate(882 388.935)"><tspan x="0" y="0">CLID1539</tspan></text>
+    <rect id="Rectangle_415" data-name="Rectangle 415" class="cls-14" width="50" height="15" transform="translate(890 356.935)"/>
+    <text id="Clinic_ID" data-name="Clinic ID" class="cls-15" transform="translate(895 367.935)"><tspan x="0" y="0">Clinic ID</tspan></text>
+    <ellipse id="Ellipse_15" data-name="Ellipse 15" class="cls-14" cx="1.059" cy="0.423" rx="1.059" ry="0.423" transform="translate(886.883 468.762)"/>
+    <circle id="Ellipse_16" data-name="Ellipse 16" class="cls-14" cx="0.953" cy="0.953" r="0.953" transform="translate(884.113 465.637)"/>
+    <g id="Rectangle_421" data-name="Rectangle 421" class="cls-12" transform="translate(570 434.935)">
+      <rect class="cls-25" width="578" height="42" rx="5"/>
+      <rect class="cls-27" x="0.5" y="0.5" width="577" height="41" rx="4.5"/>
+    </g>
+    <text id="_15J_3A_Karol_Bagh_New_Delhi_India." data-name="15J/3A, Karol Bagh, New Delhi, India." class="cls-13" transform="translate(581 458.936)"><tspan x="0" y="0">15J/3A, Karol Bagh, New Delhi, India.</tspan></text>
+    <rect id="Rectangle_422" data-name="Rectangle 422" class="cls-14" width="53" height="15" transform="translate(590 427.935)"/>
+    <text id="Address" class="cls-15" transform="translate(597.883 439.455)"><tspan x="0" y="0">Address</tspan></text>
+    <g id="Group_2385" data-name="Group 2385" transform="translate(569.059 499.175)">
+      <g id="Rectangle_398" data-name="Rectangle 398" class="cls-12" transform="translate(-0.059 6.761)">
+        <rect class="cls-25" width="578" height="42" rx="5"/>
+        <rect class="cls-27" x="0.5" y="0.5" width="577" height="41" rx="4.5"/>
+      </g>
+      <rect id="Rectangle_397" data-name="Rectangle 397" class="cls-14" width="62" height="15" transform="translate(19.941 -0.239)"/>
+      <text id="Speciality" class="cls-15" transform="translate(28.06 11.377)"><tspan x="0" y="0">Speciality</tspan></text>
+    </g>
+    <path id="Polygon_4" data-name="Polygon 4" class="cls-17" d="M4.905,0,9.811,8.409H0Z" transform="translate(1132.006 530.895) rotate(180)"/>
+    <g id="Group_2578" data-name="Group 2578" transform="translate(569.059 569.12)">
+      <text id="Status" class="cls-18" transform="translate(-0.059 13.816)"><tspan x="0" y="0">Status</tspan></text>
+      <g id="Group_2575" data-name="Group 2575" transform="translate(0 21.601)">
+        <g class="cls-29" transform="matrix(1, 0, 0, 1, -92.06, -451.72)">
+          <g id="Rectangle_401-2" data-name="Rectangle 401" class="cls-19" transform="translate(92 451.94)">
+            <rect class="cls-25" width="165" height="36" rx="18"/>
+            <rect class="cls-27" x="0.5" y="0.5" width="164" height="35" rx="17.5"/>
+          </g>
+        </g>
+        <rect id="Rectangle_427" data-name="Rectangle 427" class="cls-5" width="87" height="29" rx="14.5" transform="translate(73.941 4.214)"/>
+        <text id="Active" class="cls-20" transform="translate(97.941 23.214)"><tspan x="0" y="0">Active</tspan></text>
+        <text id="Inactive" class="cls-18" transform="translate(12.941 22.214)"><tspan x="0" y="0">Inactive</tspan></text>
+      </g>
+    </g>
+    <g id="Group_2649" data-name="Group 2649" transform="translate(576.869 516.37)">
+      <path id="Path_90" data-name="Path 90" class="cls-21" d="M3.816,0h87.01a3.621,3.621,0,0,1,3.816,3.388v18.3a3.621,3.621,0,0,1-3.816,3.388H3.816A3.621,3.621,0,0,1,0,21.686V3.388A3.621,3.621,0,0,1,3.816,0Z" transform="translate(0)"/>
+      <g id="Group_2323" data-name="Group 2323" transform="translate(15.848 3.377)">
+        <text id="Service_1" data-name="Service 1" class="cls-22" transform="translate(0.283 13.189)"><tspan x="0" y="0">Service 1</tspan></text>
+        <path id="close" class="cls-5" d="M4.071,3.576,6.75.9a.446.446,0,1,0-.63-.63L3.44,2.946.761.267A.446.446,0,1,0,.131.9L2.81,3.576.131,6.255a.446.446,0,1,0,.63.63L3.44,4.207,6.119,6.886a.446.446,0,0,0,.63-.63Zm0,0" transform="translate(56.012 5.661)"/>
+      </g>
+    </g>
+    <g id="Group_2650" data-name="Group 2650" transform="translate(679.309 516.37)">
+      <path id="Path_90-2" data-name="Path 90" class="cls-21" d="M3.816,0h87.01a3.621,3.621,0,0,1,3.816,3.388v18.3a3.621,3.621,0,0,1-3.816,3.388H3.816A3.621,3.621,0,0,1,0,21.686V3.388A3.621,3.621,0,0,1,3.816,0Z" transform="translate(0)"/>
+      <g id="Group_2323-2" data-name="Group 2323" transform="translate(16.269 3.377)">
+        <text id="Service_2" data-name="Service 2" class="cls-23" transform="translate(0.422 12.189)"><tspan x="0" y="0">Service 2</tspan></text>
+        <path id="close-2" data-name="close" class="cls-5" d="M4.071,3.576,6.75.9a.446.446,0,1,0-.63-.63L3.44,2.946.761.267A.446.446,0,1,0,.131.9L2.81,3.576.131,6.255a.446.446,0,1,0,.63.63L3.44,4.207,6.119,6.886a.446.446,0,0,0,.63-.63Zm0,0" transform="translate(55.591 5.661)"/>
+      </g>
+    </g>
+    <g id="Group_2651" data-name="Group 2651" transform="translate(781.748 516.37)">
+      <path id="Path_90-3" data-name="Path 90" class="cls-21" d="M3.816,0h87.01a3.621,3.621,0,0,1,3.816,3.388v18.3a3.621,3.621,0,0,1-3.816,3.388H3.816A3.621,3.621,0,0,1,0,21.686V3.388A3.621,3.621,0,0,1,3.816,0Z" transform="translate(0)"/>
+      <g id="Group_2323-3" data-name="Group 2323" transform="translate(15.662 3.377)">
+        <text id="Service_3" data-name="Service 3" class="cls-23" transform="translate(-0.41 12.189)"><tspan x="0" y="0">Service 3</tspan></text>
+        <path id="close-3" data-name="close" class="cls-5" d="M4.071,3.576,6.75.9a.446.446,0,1,0-.63-.63L3.44,2.946.761.267A.446.446,0,1,0,.131.9L2.81,3.576.131,6.255a.446.446,0,1,0,.63.63L3.44,4.207,6.119,6.886a.446.446,0,0,0,.63-.63Zm0,0" transform="translate(56.199 5.661)"/>
+      </g>
+    </g>
+    <rect id="icons8-search-120" class="cls-24" width="19" height="18" transform="translate(1118 446.936)"/>
+  </g>
+</svg>

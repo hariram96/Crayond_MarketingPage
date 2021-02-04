@@ -1,0 +1,39 @@
+<svg id="Group_6125" data-name="Group 6125" xmlns="http://www.w3.org/2000/svg" width="60" height="891" viewBox="0 0 60 891">
+  <defs>
+    <style>
+      .cls-1, .cls-5 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #f36;
+      }
+
+      .cls-1 {
+        stroke-width: 10px;
+      }
+
+      .cls-2 {
+        fill: #f36;
+        stroke-width: 5px;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <line id="Line_75" data-name="Line 75" class="cls-1" y2="891" transform="translate(30.5)"/>
+  <g id="Ellipse_169" data-name="Ellipse 169" class="cls-2" transform="translate(0 415.5)">
+    <circle class="cls-4" cx="30" cy="30" r="30"/>
+    <circle class="cls-5" cx="30" cy="30" r="27.5"/>
+  </g>
+  <g id="Group_6124" data-name="Group 6124" transform="translate(15 438.5)">
+    <path id="Polygon_1" data-name="Polygon 1" class="cls-3" d="M5.912,1.54a1,1,0,0,1,1.741,0l5.069,8.968A1,1,0,0,1,11.851,12H1.714a1,1,0,0,1-.871-1.492Z" transform="translate(31) rotate(90)"/>
+    <path id="Polygon_2" data-name="Polygon 2" class="cls-3" d="M5.912,1.54a1,1,0,0,1,1.741,0l5.069,8.968A1,1,0,0,1,11.851,12H1.714a1,1,0,0,1-.871-1.492Z" transform="translate(0 13.565) rotate(-90)"/>
+  </g>
+</svg>

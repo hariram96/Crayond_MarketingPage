@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="189" height="235" viewBox="0 0 189 235">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fafafa;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke: rgba(25,23,16,0.1);
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        fill: rgba(25,23,16,0.1);
+        font-size: 200px;
+        font-family: ProximaNova-Semibold, Proxima Nova;
+        font-weight: 600;
+      }
+
+      .cls-3, .cls-5 {
+        fill: none;
+      }
+
+      .cls-3 {
+        stroke-dasharray: 5;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_5262" data-name="Group 5262" transform="translate(-278 -6935.5)">
+    <g id="Rectangle_1076" data-name="Rectangle 1076" class="cls-1" transform="translate(321.5 6979)">
+      <rect class="cls-4" width="101" height="148"/>
+      <rect class="cls-5" x="1" y="1" width="99" height="146"/>
+    </g>
+    <text id="P" class="cls-2" transform="translate(308 7123.5)"><tspan x="0" y="0">P</tspan></text>
+    <g id="Group_5258" data-name="Group 5258" transform="translate(-139.5 69)">
+      <line id="Line_66" data-name="Line 66" class="cls-3" y2="44" transform="translate(562.5 6866.5)"/>
+      <line id="Line_67" data-name="Line 67" class="cls-3" x2="44" transform="translate(562.5 6910.5)"/>
+    </g>
+    <g id="Group_5259" data-name="Group 5259" transform="translate(278 6935.5)">
+      <line id="Line_66-2" data-name="Line 66" class="cls-3" y2="44" transform="translate(44)"/>
+      <line id="Line_67-2" data-name="Line 67" class="cls-3" x1="44" transform="translate(0 44)"/>
+    </g>
+    <g id="Group_5260" data-name="Group 5260" transform="translate(278 7126.5)">
+      <line id="Line_66-3" data-name="Line 66" class="cls-3" y1="44" transform="translate(44)"/>
+      <line id="Line_67-3" data-name="Line 67" class="cls-3" x1="44" transform="translate(0 0)"/>
+    </g>
+    <g id="Group_5261" data-name="Group 5261" transform="translate(422 7126.5)">
+      <line id="Line_66-4" data-name="Line 66" class="cls-3" y1="44" transform="translate(0 0)"/>
+      <line id="Line_67-4" data-name="Line 67" class="cls-3" x2="44" transform="translate(0 0)"/>
+    </g>
+  </g>
+</svg>

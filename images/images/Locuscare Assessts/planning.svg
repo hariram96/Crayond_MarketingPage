@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="300" height="300" viewBox="0 0 300 300">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: rgba(33,37,41,0.1);
+      }
+
+      .cls-2 {
+        fill: #212529;
+        font-size: 30px;
+        font-family: Graphik-Medium, Graphik;
+        font-weight: 500;
+      }
+
+      .cls-3, .cls-5 {
+        fill: none;
+      }
+
+      .cls-3 {
+        stroke: #665cd7;
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+
+      .cls-6 {
+        filter: url(#Rectangle_1256);
+      }
+    </style>
+    <filter id="Rectangle_1256" x="0" y="0" width="300" height="300" filterUnits="userSpaceOnUse">
+      <feOffset dy="13" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="12.5" result="blur"/>
+      <feFlood flood-color="#665cd7" flood-opacity="0.059"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_5885" data-name="Group 5885" transform="translate(2474.5 8250.5)">
+    <g class="cls-6" transform="matrix(1, 0, 0, 1, -2474.5, -8250.5)">
+      <g id="Rectangle_1256-2" data-name="Rectangle 1256" class="cls-1" transform="translate(37.5 24.5)">
+        <rect class="cls-4" width="225" height="225" rx="15"/>
+        <rect class="cls-5" x="0.5" y="0.5" width="224" height="224" rx="14.5"/>
+      </g>
+    </g>
+    <g id="Group_5880" data-name="Group 5880" transform="translate(0 -0.5)">
+      <text id="Planning" class="cls-2" transform="translate(-2387 -8057)"><tspan x="0" y="0">Planning</tspan></text>
+      <path id="icons8-floor-plan" class="cls-3" d="M40.781,4H54.156A3.345,3.345,0,0,1,57.5,7.344V54.156A3.345,3.345,0,0,1,54.156,57.5H7.344A3.345,3.345,0,0,1,4,54.156V7.344A3.345,3.345,0,0,1,7.344,4H24.062L35.043,14.981M37.437,30.75H17.375M27.406,57.5V30.75m20.062,0H57.5" transform="translate(-2355.5 -8179.5)"/>
+    </g>
+  </g>
+</svg>
