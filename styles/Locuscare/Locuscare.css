@@ -1429,15 +1429,14 @@ svg {
     font-weight: 400;
     opacity: 0.7;
   }
-}
-
-.qr_code {
-  height: 500px !important;
-  background: #2B2756;
-  padding: 30px 30px 30px 30px !important;
-  border-radius: 40px;
-  width: 100%;
-  margin-left: 0px;
+  .qr_code {
+    height: 500px !important;
+    background: #2B2756;
+    padding: 30px 30px 30px 30px !important;
+    border-radius: 40px;
+    width: 100%;
+    margin-left: 0px;
+  }
 }
 
 @media only screen and (max-width: 378px) {
