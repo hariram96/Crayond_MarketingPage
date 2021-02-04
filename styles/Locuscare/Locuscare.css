@@ -1160,6 +1160,9 @@ svg {
     overflow-x: hidden !important;
     width: 100% !important;
   }
+  .family {
+    margin-top: 9px !important;
+  }
   .first_se {
     padding: 0px 38px;
   }
@@ -1436,9 +1439,6 @@ svg {
     border-radius: 40px;
     width: 100%;
     margin-left: 0px;
-  }
-  .family {
-    margin-top: 9px !important;
   }
 }
 
