@@ -152,7 +152,7 @@
             <ul class="menu mobile_menu_close"style="padding: 0; width: 50px; border-radius: 50px; margin: auto;">
                 <li class="menu-item">
                     <a href="/"rel="noreferrer">
-                      <img src="./images/close.svg" alt="menuclose" style="padding-bottom: 4px;" />
+                      <img src="./images/close.svg" alt="menuclose"  data-toggle="collapse" data-target="#nav-close"style="padding-bottom: 4px;" />
                     </a>
                 </li>
             </ul>
@@ -1005,7 +1005,8 @@ $('.icon-container').click(function(){
 	$('.header_mobile').addClass('menu-open')
 });
 $("#nav-close").click(function(){
-  $('.header_mobile').removeClass('menu-open')
+  $('.header_mobile').collapse('hide');
+  
 });
 
 </script>
