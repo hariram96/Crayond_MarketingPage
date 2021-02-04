@@ -1479,5 +1479,11 @@ svg {
   .sub3 {
     padding-left: 26% !important;
   }
+  .dot_li {
+    padding: 10px !important;
+  }
+  .dot_des {
+    font-size: 14px !important;
+  }
 }
 /*# sourceMappingURL=Locuscare.css.map */
