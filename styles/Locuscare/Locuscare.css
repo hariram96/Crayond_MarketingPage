@@ -1434,7 +1434,7 @@ svg {
 .qr_code {
   height: 500px !important;
   background: #2B2756;
-  padding: 30px 30px 30px 30px;
+  padding: 30px 30px 30px 30px !important;
   border-radius: 40px;
   width: 100%;
   margin-left: 0px;
