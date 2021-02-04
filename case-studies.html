@@ -698,10 +698,11 @@ return `
     $('.icon-container').click(function(){
 	$('.header_mobile').addClass('menu-open')
 });
-$("#nav-close").click(function(){
+$("#nav-close").click(function(event){
   $('.header_mobile').removeClass('menu-open')
+  event.preventDefault()
+  event.stopPropagation()
 });
-
     const $link = document.querySelector('.link');
 const $arrow = document.querySelector('.arrow');
 

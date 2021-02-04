@@ -161,7 +161,7 @@
          </li> -->
             </ul>
             <ul class="menu mobile_menu_close" style="padding: 0; width: 50px; border-radius: 50px; margin: auto;">
-                <li class="menu-item">
+                <li class="menu-item" id="nav-close">
                     <a href="/">
                         <img src="./images/close.svg" alt="menuclose" style="padding-bottom: 4px;" />
                     </a>
@@ -1151,8 +1151,10 @@
     $('.icon-container').click(function(){
 	$('.header_mobile').addClass('menu-open')
 });
-$("#nav-close").click(function(){
+$("#nav-close").click(function(event){
   $('.header_mobile').removeClass('menu-open')
+  event.preventDefault()
+  event.stopPropagation()
 });
 
 
