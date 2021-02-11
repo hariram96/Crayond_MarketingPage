@@ -853,6 +853,7 @@ svg {
 }
 
 .about_head1 .title {
+  margin-bottom: 0px;
   text-align: left;
   font-size: 28px;
   letter-spacing: 0px;
@@ -889,6 +890,8 @@ svg {
 }
 
 .head_details2 .para_1 {
+  position: relative;
+  bottom: 55px;
   line-height: 2.0rem;
   text-align: left;
   font-family: "fontLatoRegular";
@@ -1091,7 +1094,7 @@ svg {
 @media only screen and (max-width: 1442px) {
   .section_2 {
     margin-left: 0px !important;
-    padding: 0px 34px !important;
+    padding: 5px !important;
   }
   .web_launch {
     height: 600px !important;
