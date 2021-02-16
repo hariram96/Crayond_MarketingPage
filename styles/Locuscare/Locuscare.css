@@ -1177,6 +1177,15 @@ svg {
     overflow-x: hidden !important;
     width: 100% !important;
   }
+  .quickmobile {
+    padding: 15px 30px;
+  }
+  .about {
+    padding: 15px 30px;
+  }
+  .notification {
+    padding: 15px 30px;
+  }
   .family {
     margin-top: 9px !important;
   }
