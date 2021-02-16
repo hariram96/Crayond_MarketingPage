@@ -1381,14 +1381,17 @@ font-family: "fontLatoRegular";
         height: 80%;
         margin-top: 30px;
     }
+   
+
     .edited2_img {
-        width: 200px;
-        margin-top: 32px;
-        height: 325px;
+        width: auto;
+        margin-top: 20px;
+      
+        height: 35%;
     }
     .edited3_img {
-        width: 80%;
-        height: 80%;
+        width: auto;
+        height: 40%;
         position: relative;
         margin-top: 20px;
     }
@@ -1425,12 +1428,20 @@ font-family: "fontLatoRegular";
         text-align: center;
     }
     .head_title {
-        font-size: 40px;
+        font-size: 35px;
         font-weight: bold;
         text-align: center;
     }
     .link {
         margin-top: 10px;
+    }
+    .view_link {
+        letter-spacing: 0px;
+        color: #665CD7;
+        opacity: 1;
+        font-size: 16px;
+        font-weight: bold;
+        font-family: "fontLatoRegular";
     }
 }
 @media only screen and (min-width: 377px) and (max-width: 412px) {
@@ -1459,7 +1470,7 @@ font-family: "fontLatoRegular";
     .section_Managed {
         margin-top: 0px;
         background-color: #F27D350D;
-        height: 830px;
+        height: 900px;
         padding: 30px 30px 30px 30px;
         border-radius: 25px;
     }
@@ -1475,6 +1486,15 @@ font-family: "fontLatoRegular";
     .footer_social_media1 {
         display: none;
     }
+    .view_link {
+        letter-spacing: 0px;
+        color: #665CD7;
+        opacity: 1;
+        font-size: 14px;
+        font-weight: bold;
+        font-family: "fontLatoRegular";
+    }
+    
     .social_icon_link{
           
         // justify-content: center !important;
@@ -1492,7 +1512,7 @@ font-family: "fontLatoRegular";
     .section_Managed {
         margin-top: 0px;
         background-color: #F27D350D;
-        height: 850px;
+        height: 930px;
         padding: 20px 20px 20px 20px;
         border-radius: 25px;
     }
@@ -1502,5 +1522,11 @@ font-family: "fontLatoRegular";
         height: 830px;
         padding: 20px 20px 20px 20px;
         border-radius: 25px;
+    }
+    .edited3_img {
+        width: auto;
+        height: 35%;
+        position: relative;
+        margin-top: 20px;
     }
 }
